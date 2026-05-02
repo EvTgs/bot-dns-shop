@@ -1,0 +1,23 @@
+{
+  "stage": "router",
+  "valid": true,
+  "reason": null,
+  "ai_input": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Ты маршрутизируешь входящее сообщение Telegram-бота DNS. Верни только JSON с полями mode, response_style, reason. mode может быть только general_chat, product_followup или product_search. response_style может быть только direct или structured. general_chat используй для обычного разговора, вопроса о боте или сообщения без запроса на подбор техники. product_followup используй только если вопрос относится к уже сохраненному shortlist товаров. product_search используй только если нужен новый поиск или новый DNS URL. Для узкого уточнения по текущим товарам используй product_followup и direct. Для нового подбора, итогового сравнения или общего вывода используй structured. Не пиши ничего кроме JSON."
+      },
+      {
+        "role": "user",
+        "content": "{\"task\": \"intent_route\", \"question\": \"Найди хороший монитор для программиста 27 дюймов, 1440p, IPS, с регулировкой высоты, до 35000 рублей\", \"history\": [], \"has_memory_context\": false, \"memory_summary\": []}"
+      }
+    ]
+  },
+  "ai_output_raw": "{\n  \"mode\": \"product_search\",\n  \"response_style\": \"structured\",\n  \"reason\": \"Пользователь запрашивает новый подбор монитора с конкретными характеристиками, что требует нового поиска.\"\n}",
+  "parsed": {
+    "mode": "product_search",
+    "response_style": "structured",
+    "reason": "Пользователь запрашивает новый подбор монитора с конкретными характеристиками, что требует нового поиска."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "Answer in Russian. The goal is to quickly normalize the query. Return only one line in format: [ProductType,price{min,max},brand{brand},wishes{comma_separated}]. No markdown, no explanations, no second line. Use English identifiers for ProductType, brand and wishes. If the query has a price range, expand both bounds by 5 percent. If the query says 'до X', use 50 percent of X as min and 105 percent of X as max. If the query says 'от X', use 95 percent of X as min and 150 percent of X as max. If the query has one exact target price, use +-5 percent. If price is absent, return price{0,0}. If brand is absent, return brand{}. If wishes are absent, return wishes{}."
+    },
+    {
+      "role": "user",
+      "content": "{\"task\": \"normalize_query\", \"question\": \"Найди ноутбук до 70 000 рублей с 16 ГБ ОЗУ и SSD\"}"
+    }
+  ]
+}

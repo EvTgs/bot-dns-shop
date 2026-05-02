@@ -1,0 +1,118 @@
+{
+  "stage": "analysis",
+  "valid": true,
+  "reason": null,
+  "ai_input": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Ты — аналитик товаров DNS Shop для Telegram-бота. Формируй только итоговый ответ по уже переданным данным: товары, цены, характеристики, shortlist и вопрос пользователя. Ничего не ищи заново и ничего не выдумывай. Не копируй дословно длинные списки характеристик из payload и не переписывай все specs. Не используй гарантию, срок эксплуатации, страну-производителя и страну изготовления как причины выбора, если пользователь прямо не спросил об этом. Опирайся только на verified_facts для выводов о наличии или отсутствии USB-C, USB-концентратора, USB Power Delivery и регулировки по высоте. Если verified_facts не подтверждают отсутствие или наличие функции, не делай такого утверждения. Пиши только 2–4 ключевые причины на товар и сравнивай товары между собой по смыслу. Пиши формально, кратко, экспертно и аналитично. Используй профессиональные формулировки: эргономика, частота опроса, ресурс переключателей, компонентная база, форм-фактор, сенсор, автономность, интерфейс подключения. Не используй субъективные оценки вроде мне нравится, топ, крутой. Вместо этого используй: целесообразно, технически оправдано, неоптимально, уступает по характеристикам. Не используй HTML. Не используй Markdown-разметку самостоятельно. Пиши обычным текстом с абзацами. Структура ответа всегда состоит из трех блоков: Лидер анализа, Альтернатива, Критическое резюме. В первом блоке выбери один лучший товар по соотношению цены и характеристик и укажи модель, цену и 2–4 технические причины выбора. Во втором блоке выбери один вариант под специальный сценарий пользователя: другой форм-фактор, кириллица, автономность, эргономика, сенсор, подключение или иной узкий критерий. В третьем блоке кратко перечисли товары, которые нецелесообразны к покупке, с причиной: оверпрайс, слабая база, устаревшие характеристики, слабая эргономика, неудачное соотношение цены и оснащения. Если явно слабых позиций нет, напиши: Явно неудачных позиций в текущей выборке не выявлено. Если пользователь задаёт уточняющий вопрос по уже переданным товарам, отвечай только по ним и не расширяй анализ. Если вопрос узкий, например про сенсор, процессор, автономность или эргономику, делай акцент именно на этом критерии, но структуру из трёх блоков сохраняй. Не выдумывай отсутствующие характеристики. Если данных недостаточно, прямо укажи это. Обязательно используй comparison_summary из payload: назови лидера, укажи сравнительный score, коротко объясни, почему он выше ближайших конкурентов, и отдельно объясни, почему не выбранные Samsung и MSI уступают, если они присутствуют в summary. Не добавляй служебные комментарии, логи, описание этапов анализа и технические пояснения о системе. Ответ должен быть чистым, коротким и пригодным для отправки в Telegram. normalized_request.soft_wishes are ranking hints only, not DNS filters. Пользовательский payload приходит в JSON format: секции QUESTION, URL, STATS, REQUEST, PRODUCTS, COMPARISON."
+      },
+      {
+        "role": "user",
+        "content": "{\"task\": \"analysis\", \"question\": \"Найди хороший монитор для программиста 27 дюймов, 1440p, IPS, с регулировкой высоты, до 35000 рублей\", \"url\": \"https://www.dns-shop.ru/search/?q=%D0%BC%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80&category=17a8943716404e77&price=17500-36750&f%5B9x%5D=21&f%5B2v%5D=1uq&f%5B1v%5D=76&fr%5B1q%5D=07b55b2fbb4be2eba152cc163aa6aea6\", \"stats\": {\"raw_count\": 100, \"dedup_count\": 100, \"filtered_count\": 100, \"skipped_duplicates\": 0, \"skipped_noise\": 0}, \"request\": {\"product_type\": \"monitor\", \"query\": \"монитор\", \"price_min\": 17500, \"price_max\": 36750, \"brand\": \"\", \"wishes\": [\"27_inch\", \"1440p\", \"ips\", \"height_adjustable\"], \"soft_wishes\": []}, \"products\": [{\"name\": \"27\\\" Монитор LG 27BA65QB-B черный\", \"price\": 31999, \"url\": \"https://www.dns-shop.ru/product/3cf61837a565d9cb/27-monitor-lg-27ba65qb-b-cernyj/\", \"code\": \"5605705\", \"score\": 42, \"highlights\": [\"категория совпадает с запросом\", \"подходит по матрице: IPS\"], \"verified_facts\": {\"diagonal_inches\": 27.0, \"resolution\": \"2560x1440\", \"matrix_type\": \"IPS\", \"refresh_rate_hz\": 100, \"usb_type_c\": true, \"usb_hub\": true, \"height_adjustable\": true, \"usb_power_delivery\": true, \"usb_power_delivery_watts\": 65}}, {\"name\": \"27\\\" Монитор Samsung ViewFinity S6 S61F S27F610EAI черный\", \"price\": 18699, \"url\": \"https://www.dns-shop.ru/product/478c2013beafd9cb/27-monitor-samsung-viewfinity-s6-s61f-s27f610eai-cernyj/\", \"code\": \"5611236\", \"score\": 42, \"highlights\": [\"категория совпадает с запросом\", \"подходит по матрице: IPS\"], \"verified_facts\": {\"diagonal_inches\": 27.0, \"resolution\": \"2560x1440\", \"matrix_type\": \"IPS\", \"refresh_rate_hz\": 100, \"usb_hub\": false, \"height_adjustable\": true, \"usb_power_delivery\": false}}, {\"name\": \"27\\\" Монитор ASUS ProArt PA278CGV черный\", \"price\": 31999, \"url\": \"https://www.dns-shop.ru/product/226d8b65427ed582/27-monitor-asus-proart-pa278cgv-cernyj/\", \"code\": \"5473340\", \"score\": 42, \"highlights\": [\"категория совпадает с запросом\", \"подходит по матрице: IPS\"], \"verified_facts\": {\"diagonal_inches\": 27.0, \"resolution\": \"2560x1440\", \"matrix_type\": \"IPS\", \"refresh_rate_hz\": 144, \"usb_type_c\": true, \"usb_hub\": true, \"height_adjustable\": true, \"usb_power_delivery\": true, \"usb_power_delivery_watts\": 90}}, {\"name\": \"27\\\" Монитор MSI PRO MP273QP E2 черный\", \"price\": 18999, \"url\": \"https://www.dns-shop.ru/product/3d4c0f237efdd9cb/27-monitor-msi-pro-mp273qp-e2-cernyj/\", \"code\": \"5494617\", \"score\": 42, \"highlights\": [\"категория совпадает с запросом\", \"подходит по матрице: IPS\"], \"verified_facts\": {\"diagonal_inches\": 27.0, \"resolution\": \"2560x1440\", \"matrix_type\": \"IPS\", \"refresh_rate_hz\": 100, \"usb_hub\": false, \"height_adjustable\": true, \"usb_power_delivery\": false}}, {\"name\": \"27\\\" Монитор MSI Modern MD272QXP черный\", \"price\": 20499, \"url\": \"https://www.dns-shop.ru/product/cab7acdb1f14d582/27-monitor-msi-modern-md272qxp-cernyj/\", \"code\": \"5464120\", \"score\": 42, \"highlights\": [\"категория совпадает с запросом\", \"подходит по матрице: IPS\"], \"verified_facts\": {\"diagonal_inches\": 27.0, \"resolution\": \"2560x1440\", \"matrix_type\": \"IPS\", \"refresh_rate_hz\": 100, \"usb_type_c\": true, \"usb_hub\": true, \"height_adjustable\": true, \"usb_power_delivery\": true, \"usb_power_delivery_watts\": 65}}], \"comparison\": {\"leader\": {\"name\": \"27\\\" Монитор LG 27BA65QB-B черный\", \"url\": \"https://www.dns-shop.ru/product/3cf61837a565d9cb/27-monitor-lg-27ba65qb-b-cernyj/\", \"price\": 31999, \"score\": 42, \"matched_hard_wishes\": [\"27_inch\", \"1440p\", \"ips\", \"height_adjustable\"], \"matched_soft_wishes\": [], \"missing_hard_wishes\": [], \"missing_soft_wishes\": [], \"brand_match\": false, \"query_match\": true}, \"competitors\": [{\"name\": \"27\\\" Монитор Samsung ViewFinity S6 S61F S27F610EAI черный\", \"url\": \"https://www.dns-shop.ru/product/478c2013beafd9cb/27-monitor-samsung-viewfinity-s6-s61f-s27f610eai-cernyj/\", \"price\": 18699, \"score\": 42, \"matched_hard_wishes\": [\"27_inch\", \"1440p\", \"ips\", \"height_adjustable\"], \"matched_soft_wishes\": [], \"missing_hard_wishes\": [], \"missing_soft_wishes\": [], \"brand_match\": false, \"query_match\": true, \"score_gap_to_leader\": 0}, {\"name\": \"27\\\" Монитор ASUS ProArt PA278CGV черный\", \"url\": \"https://www.dns-shop.ru/product/226d8b65427ed582/27-monitor-asus-proart-pa278cgv-cernyj/\", \"price\": 31999, \"score\": 42, \"matched_hard_wishes\": [\"27_inch\", \"1440p\", \"ips\", \"height_adjustable\"], \"matched_soft_wishes\": [], \"missing_hard_wishes\": [], \"missing_soft_wishes\": [], \"brand_match\": false, \"query_match\": true, \"score_gap_to_leader\": 0}, {\"name\": \"27\\\" Монитор MSI PRO MP273QP E2 черный\", \"url\": \"https://www.dns-shop.ru/product/3d4c0f237efdd9cb/27-monitor-msi-pro-mp273qp-e2-cernyj/\", \"price\": 18999, \"score\": 42, \"matched_hard_wishes\": [\"27_inch\", \"1440p\", \"ips\", \"height_adjustable\"], \"matched_soft_wishes\": [], \"missing_hard_wishes\": [], \"missing_soft_wishes\": [], \"brand_match\": false, \"query_match\": true, \"score_gap_to_leader\": 0}, {\"name\": \"27\\\" Монитор MSI Modern MD272QXP черный\", \"url\": \"https://www.dns-shop.ru/product/cab7acdb1f14d582/27-monitor-msi-modern-md272qxp-cernyj/\", \"price\": 20499, \"score\": 42, \"matched_hard_wishes\": [\"27_inch\", \"1440p\", \"ips\", \"height_adjustable\"], \"matched_soft_wishes\": [], \"missing_hard_wishes\": [], \"missing_soft_wishes\": [], \"brand_match\": false, \"query_match\": true, \"score_gap_to_leader\": 0}], \"scoring\": {\"hard_wish_weight\": 10, \"soft_wish_weight\": 4, \"brand_weight\": 3, \"query_weight\": 2}}}"
+      }
+    ]
+  },
+  "ai_output_raw": "Лидер анализа: 27\" Монитор ASUS ProArt PA278CGV черный, 31999 руб. Технически оправданный выбор для программиста: профессиональная заводская калибровка ProArt обеспечивает точную цветопередачу, что полезно при длительной работе с текстом и интерфейсами. Оснащен USB-C с Power Delivery 90 Вт, что позволяет заряжать ноутбук и передавать сигнал по одному кабелю. Частота 144 Гц избыточна для кода, но даёт более плавную прокрутку и снижает нагрузку на зрение. По совокупности оснащения (USB-концентратор, регулировка высоты) и цены это лучший вариант в выборке.\n\nАльтернатива: 27\" Монитор LG 27BA65QB-B черный, 31999 руб. Если приоритет — максимальная эргономика и автономность рабочего места, эта модель также оснащена USB-C с Power Delivery на 65 Вт и USB-концентратором. Уступает ASUS по точности цветопередачи и частоте обновления, но полностью закрывает базовые потребности программиста.\n\nКритическое резюме: 27\" Монитор Samsung ViewFinity S6 S61F S27F610EAI черный (18699 руб.) и 27\" Монитор MSI PRO MP273QP E2 черный (18999 руб.) нецелесообразны к покупке из-за отсутствия USB-C и USB-концентратора, что ограничивает подключение современного ноутбука одним кабелем. 27\" Монитор MSI Modern MD272QXP черный (20499 руб.) — неудачное соотношение цены и оснащения: при наличии USB-C и концентратора он дороже прямых конкурентов с аналогичным функционалом (LG и ASUS), но уступает им по качеству цветопередачи и частоте обновления.",
+  "final_answer": "Лидер анализа\n27\" Монитор ASUS ProArt PA278CGV черный, 31999 руб. Технически оправданный выбор для программиста: профессиональная заводская калибровка ProArt обеспечивает точную цветопередачу, что полезно при длительной работе с текстом и интерфейсами. Оснащен USB-C с Power Delivery 90 Вт, что позволяет заряжать ноутбук и передавать сигнал по одному кабелю. Частота 144 Гц избыточна для кода, но даёт более плавную прокрутку и снижает нагрузку на зрение. По совокупности оснащения (USB-концентратор, регулировка высоты) и цены это лучший вариант в выборке.\n\nАльтернатива\n27\" Монитор LG 27BA65QB-B черный, 31999 руб. Если приоритет — максимальная эргономика и автономность рабочего места, эта модель также оснащена USB-C с Power Delivery на 65 Вт и USB-концентратором. Уступает ASUS по точности цветопередачи и частоте обновления, но полностью закрывает базовые потребности программиста.\n\nКритическое резюме\n27\" Монитор Samsung ViewFinity S6 S61F S27F610EAI черный (18699 руб.) и 27\" Монитор MSI PRO MP273QP E2 черный (18999 руб.) нецелесообразны к покупке из-за отсутствия USB-C и USB-концентратора, что ограничивает подключение современного ноутбука одним кабелем. 27\" Монитор MSI Modern MD272QXP черный (20499 руб.) — неудачное соотношение цены и оснащения: при наличии USB-C и концентратора он дороже прямых конкурентов с аналогичным функционалом (LG и ASUS), но уступает им по качеству цветопередачи и частоте обновления.",
+  "comparison": {
+    "leader": {
+      "name": "27\" Монитор LG 27BA65QB-B черный",
+      "url": "https://www.dns-shop.ru/product/3cf61837a565d9cb/27-monitor-lg-27ba65qb-b-cernyj/",
+      "price": 31999,
+      "score": 42,
+      "matched_hard_wishes": [
+        "27_inch",
+        "1440p",
+        "ips",
+        "height_adjustable"
+      ],
+      "matched_soft_wishes": [],
+      "missing_hard_wishes": [],
+      "missing_soft_wishes": [],
+      "brand_match": false,
+      "query_match": true
+    },
+    "competitors": [
+      {
+        "name": "27\" Монитор Samsung ViewFinity S6 S61F S27F610EAI черный",
+        "url": "https://www.dns-shop.ru/product/478c2013beafd9cb/27-monitor-samsung-viewfinity-s6-s61f-s27f610eai-cernyj/",
+        "price": 18699,
+        "score": 42,
+        "matched_hard_wishes": [
+          "27_inch",
+          "1440p",
+          "ips",
+          "height_adjustable"
+        ],
+        "matched_soft_wishes": [],
+        "missing_hard_wishes": [],
+        "missing_soft_wishes": [],
+        "brand_match": false,
+        "query_match": true,
+        "score_gap_to_leader": 0
+      },
+      {
+        "name": "27\" Монитор ASUS ProArt PA278CGV черный",
+        "url": "https://www.dns-shop.ru/product/226d8b65427ed582/27-monitor-asus-proart-pa278cgv-cernyj/",
+        "price": 31999,
+        "score": 42,
+        "matched_hard_wishes": [
+          "27_inch",
+          "1440p",
+          "ips",
+          "height_adjustable"
+        ],
+        "matched_soft_wishes": [],
+        "missing_hard_wishes": [],
+        "missing_soft_wishes": [],
+        "brand_match": false,
+        "query_match": true,
+        "score_gap_to_leader": 0
+      },
+      {
+        "name": "27\" Монитор MSI PRO MP273QP E2 черный",
+        "url": "https://www.dns-shop.ru/product/3d4c0f237efdd9cb/27-monitor-msi-pro-mp273qp-e2-cernyj/",
+        "price": 18999,
+        "score": 42,
+        "matched_hard_wishes": [
+          "27_inch",
+          "1440p",
+          "ips",
+          "height_adjustable"
+        ],
+        "matched_soft_wishes": [],
+        "missing_hard_wishes": [],
+        "missing_soft_wishes": [],
+        "brand_match": false,
+        "query_match": true,
+        "score_gap_to_leader": 0
+      },
+      {
+        "name": "27\" Монитор MSI Modern MD272QXP черный",
+        "url": "https://www.dns-shop.ru/product/cab7acdb1f14d582/27-monitor-msi-modern-md272qxp-cernyj/",
+        "price": 20499,
+        "score": 42,
+        "matched_hard_wishes": [
+          "27_inch",
+          "1440p",
+          "ips",
+          "height_adjustable"
+        ],
+        "matched_soft_wishes": [],
+        "missing_hard_wishes": [],
+        "missing_soft_wishes": [],
+        "brand_match": false,
+        "query_match": true,
+        "score_gap_to_leader": 0
+      }
+    ],
+    "scoring": {
+      "hard_wish_weight": 10,
+      "soft_wish_weight": 4,
+      "brand_weight": 3,
+      "query_weight": 2
+    }
+  }
+}

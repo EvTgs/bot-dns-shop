@@ -1,0 +1,80 @@
+{
+  "timestamp": "2026-04-29T10:46:44",
+  "question": "Найди хороший монитор для программиста 27 дюймов, 1440p, IPS, с регулировкой высоты, до 35000 рублей",
+  "resolved_url": "https://www.dns-shop.ru/search/?q=%D0%BC%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80&category=17a8943716404e77&price=17500-36750&f%5B9x%5D=21&f%5B2v%5D=1uq&f%5B1v%5D=76&fr%5B1q%5D=07b55b2fbb4be2eba152cc163aa6aea6",
+  "built_url": "https://www.dns-shop.ru/search/?q=%D0%BC%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80&category=17a8943716404e77&price=17500-36750&f%5B9x%5D=21&f%5B2v%5D=1uq&f%5B1v%5D=76&fr%5B1q%5D=07b55b2fbb4be2eba152cc163aa6aea6",
+  "valid": true,
+  "failed_stage": null,
+  "failed_reason": null,
+  "files": [
+    "00_request.json",
+    "01_router.json",
+    "02_normalize.json",
+    "03_category_resolve.json",
+    "04_filters_map.json",
+    "05_filters_ai.json",
+    "06_built_url.json",
+    "07_parser.json",
+    "08_shortlist.json",
+    "09_details.json",
+    "10_analysis.json",
+    "99_full_request_and_answer.md"
+  ],
+  "stages": [
+    {
+      "stage": "request",
+      "valid": true,
+      "reason": null
+    },
+    {
+      "stage": "router",
+      "valid": true,
+      "reason": null
+    },
+    {
+      "stage": "normalize",
+      "valid": true,
+      "reason": null
+    },
+    {
+      "stage": "category_resolve",
+      "valid": true,
+      "reason": null
+    },
+    {
+      "stage": "filters_map",
+      "valid": true,
+      "reason": null
+    },
+    {
+      "stage": "filters_ai",
+      "valid": true,
+      "reason": null
+    },
+    {
+      "stage": "built_url",
+      "valid": true,
+      "reason": null
+    },
+    {
+      "stage": "parser",
+      "valid": true,
+      "reason": null
+    },
+    {
+      "stage": "shortlist",
+      "valid": true,
+      "reason": null
+    },
+    {
+      "stage": "details",
+      "valid": true,
+      "reason": null
+    },
+    {
+      "stage": "analysis",
+      "valid": true,
+      "reason": null
+    }
+  ]
+}

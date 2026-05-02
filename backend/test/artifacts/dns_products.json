@@ -1,0 +1,861 @@
+{
+  "mode": "browser-cookies+httpx",
+  "url": "https://www.dns-shop.ru/search/?q=%D0%BC%D1%8B%D1%88%D1%8C&price=10000-20000",
+  "resolved_url": "https://www.dns-shop.ru/search/?q=%D0%BC%D1%8B%D1%88%D1%8C&price=10000-20000&category=17a8a69116404e77",
+  "filters": {
+    "category": "17a8a69116404e77",
+    "stock": "",
+    "price": "10000-20000",
+    "unknown": {}
+  },
+  "stats": {
+    "raw_count": 120,
+    "dedup_count": 120,
+    "filtered_count": 120,
+    "skipped_duplicates": 0,
+    "skipped_noise": 0
+  },
+  "count": 120,
+  "products": [
+    {
+      "name": "Мышь беспроводная Logitech G PRO X SUPERLIGHT 2 [910-006634] черный [44000 dpi, светодиодный, USB Type-A, кнопки - 5]",
+      "price": 11999,
+      "url": "https://www.dns-shop.ru/product/cd68274f6bc2ed20/mys-besprovodnaa-logitech-g-pro-x-superlight-2-910-006634-cernyj/",
+      "code": "5435752",
+      "specs": null
+    },
+    {
+      "name": "Мышь беспроводная Logitech G PRO X SUPERLIGHT 2 [910-006642] белый [44000 dpi, светодиодный, USB Type-A, кнопки - 5]",
+      "price": 13999,
+      "url": "https://www.dns-shop.ru/product/cd682ac46bc2ed20/mys-besprovodnaa-logitech-g-pro-x-superlight-2-910-006642-belyj/",
+      "code": "5435754",
+      "specs": null
+    },
+    {
+      "name": "Трекпад беспроводной Apple Magic Trackpad белый [светодиодный, Bluetooth]",
+      "price": 13999,
+      "url": "https://www.dns-shop.ru/product/22970b349bfbd21a/trekpad-besprovodnoj-apple-magic-trackpad-belyj/",
+      "code": "5603287",
+      "specs": null
+    },
+    {
+      "name": "Мышь беспроводная Logitech MX Master 4 [910-007562] черный [8000 dpi, светодиодный, Bluetooth, USB Type-C, кнопки - 8]",
+      "price": 13999,
+      "url": "https://www.dns-shop.ru/product/cffe2df3bde1d0a4/mys-besprovodnaa-logitech-mx-master-4-910-007562-cernyj/",
+      "code": "5648175",
+      "specs": null
+    },
+    {
+      "name": "Мышь беспроводная/проводная Razer DeathAdder V4 Pro [RZ01-05330100-R3G1] черный [45000 dpi, светодиодный, USB Type-A, кнопки - 5]",
+      "price": 15499,
+      "url": "https://www.dns-shop.ru/product/34509a326cd7d0a4/mys-besprovodnaaprovodnaa-razer-deathadder-v4-pro-rz01-05330100-r3g1-cernyj/",
+      "code": "5636096",
+      "specs": null
+    },
+    {
+      "name": "Мышь беспроводная Logitech MX Master 4 [910-007569] черный [8000 dpi, светодиодный, Bluetooth, USB Type-C, кнопки - 8]",
+      "price": 13999,
+      "url": "https://www.dns-shop.ru/product/74b030fd9f4dd21a/mys-besprovodnaa-logitech-mx-master-4-910-007569-cernyj/",
+      "code": "5642863",
+      "specs": null
+    },
+    {
+      "name": "Мышь беспроводная Logitech G502 X Plus [910-006167] черный [25600 dpi, светодиодный, USB Type-A, кнопки - 10]",
+      "price": 10599,
+      "url": "https://www.dns-shop.ru/product/d42d1e7ae3f9ed20/mys-besprovodnaa-logitech-g502-x-plus-910-006167-cernyj/",
+      "code": "5412872",
+      "specs": null
+    },
+    {
+      "name": "Мышь беспроводная/проводная Razer DeathAdder V4 Pro [RZ01-05330200-R3G1] белый [45000 dpi, светодиодный, USB Type-A, кнопки - 5]",
+      "price": 15499,
+      "url": "https://www.dns-shop.ru/product/34509cd26cd7d0a4/mys-besprovodnaaprovodnaa-razer-deathadder-v4-pro-rz01-05330200-r3g1-belyj/",
+      "code": "5636097",
+      "specs": null
+    },
+    {
+      "name": "Мышь беспроводная/проводная Razer Basilisk V3 Pro [RZ01-04620100-R3G1] черный [30000 dpi, светодиодный, Bluetooth, USB Type-A, кнопки - 7]",
+      "price": 12499,
+      "url": "https://www.dns-shop.ru/product/39e593c522b7ed20/mys-besprovodnaaprovodnaa-razer-basilisk-v3-pro-rz01-04620100-r3g1-cernyj/",
+      "code": "5067003",
+      "specs": null
+    },
+    {
+      "name": "Мышь беспроводная Logitech G PRO X SUPERLIGHT 2c [910-007535] черный [44000 dpi, светодиодный, USB Type-A, кнопки - 5]",
+      "price": 11499,
+      "url": "https://www.dns-shop.ru/product/720659159f4dd21a/mys-besprovodnaa-logitech-g-pro-x-superlight-2c-910-007535-cernyj/",
+      "code": "5642860",
+      "specs": null
+    },
+    {
+      "name": "Мышь беспроводная Logitech G PRO X SUPERLIGHT 2 [910-006642] белый [44000 dpi, светодиодный, USB Type-A, кнопки - 5]",
+      "price": 12999,
+      "url": "https://www.dns-shop.ru/product/6ec645389f4dd21a/mys-besprovodnaa-logitech-g-pro-x-superlight-2-910-006642-belyj/",
+      "code": "5642858",
+      "specs": null
+    },
+    {
+      "name": "Трекпад беспроводной Apple Magic Trackpad черный [светодиодный, Bluetooth]",
+      "price": 14599,
+      "url": "https://www.dns-shop.ru/product/2297203b9bfbd21a/trekpad-besprovodnoj-apple-magic-trackpad-cernyj/",
+      "code": "5603288",
+      "specs": null
+    },
+    {
+      "name": "Мышь беспроводная/проводная Razer Viper V3 Pro [RZ01-05120200-R3G1] белый [35000 dpi, светодиодный, USB Type-A, кнопки - 5]",
+      "price": 16299,
+      "url": "https://www.dns-shop.ru/product/e0dd3f65937bd21a/mys-besprovodnaaprovodnaa-razer-viper-v3-pro-rz01-05120200-r3g1-belyj/",
+      "code": "5641353",
+      "specs": null
+    },
+    {
+      "name": "Мышь беспроводная Apple Magic Mouse черный [светодиодный, Bluetooth, кнопки - 2]",
+      "price": 10599,
+      "url": "https://www.dns-shop.ru/product/217908059bfbd21a/mys-besprovodnaa-apple-magic-mouse-cernyj/",
+      "code": "5603286",
+      "specs": null
+    },
+    {
+      "name": "Мышь беспроводная Logitech G PRO X SUPERLIGHT 2 [910-006801] розовый [44000 dpi, светодиодный, USB Type-A, кнопки - 5]",
+      "price": 11999,
+      "url": "https://www.dns-shop.ru/product/d3837e026bc2ed20/mys-besprovodnaa-logitech-g-pro-x-superlight-2-910-006801-rozovyj/",
+      "code": "5435756",
+      "specs": null
+    },
+    {
+      "name": "Мышь беспроводная Logitech G PRO X SUPERLIGHT 2c [910-007542] белый [44000 dpi, светодиодный, USB Type-A, кнопки - 5]",
+      "price": 11999,
+      "url": "https://www.dns-shop.ru/product/720665e29f4dd21a/mys-besprovodnaa-logitech-g-pro-x-superlight-2c-910-007542-belyj/",
+      "code": "5642861",
+      "specs": null
+    },
+    {
+      "name": "Мышь беспроводная Logitech G PRO X SUPERLIGHT 2 [910-006630] черный [44000 dpi, светодиодный, USB Type-A, кнопки - 5]",
+      "price": 12499,
+      "url": "https://www.dns-shop.ru/product/390026287e93a02b/mys-besprovodnaa-logitech-g-pro-x-superlight-2-910-006630-cernyj/",
+      "code": "9289926",
+      "specs": null
+    },
+    {
+      "name": "Мышь беспроводная/проводная Razer Basilisk V3 Pro [RZ01-04620200-R3G1] белый [30000 dpi, светодиодный, Bluetooth, USB Type-A, кнопки - 8]",
+      "price": 14499,
+      "url": "https://www.dns-shop.ru/product/7121fd5d423bed20/mys-besprovodnaaprovodnaa-razer-basilisk-v3-pro-rz01-04620200-r3g1-belyj/",
+      "code": "5429755",
+      "specs": null
+    },
+    {
+      "name": "Мышь беспроводная/проводная Razer Viper V3 Pro [RZ01-05120100-R3G1] черный [35000 dpi, светодиодный, USB Type-A, кнопки - 5]",
+      "price": 14299,
+      "url": "https://www.dns-shop.ru/product/367297ed6cd7d0a4/mys-besprovodnaaprovodnaa-razer-viper-v3-pro-rz01-05120100-r3g1-cernyj/",
+      "code": "5636100",
+      "specs": null
+    },
+    {
+      "name": "Мышь беспроводная/проводная Logitech G PRO X Superlight 2 Dex [910-007377] розовый [44000 dpi, светодиодный, USB Type-A, кнопки - 5]",
+      "price": 13999,
+      "url": "https://www.dns-shop.ru/product/d838547b4055d0a4/mys-besprovodnaaprovodnaa-logitech-g-pro-x-superlight-2-dex-910-007377-rozovyj/",
+      "code": "5631171",
+      "specs": null
+    },
+    {
+      "name": "Мышь беспроводная/проводная Logitech G PRO X Superlight 2 Dex [910-007361] черный [44000 dpi, светодиодный, USB Type-A, кнопки - 5]",
+      "price": 11799,
+      "url": "https://www.dns-shop.ru/product/de2ff1e64055d0a4/mys-besprovodnaaprovodnaa-logitech-g-pro-x-superlight-2-dex-910-007361-cernyj/",
+      "code": "5631172",
+      "specs": null
+    },
+    {
+      "name": "Мышь беспроводная/проводная Razer Basilisk V3 Pro 35K [RZ01-05240100-R3G1] черный [35000 dpi, светодиодный, Bluetooth, USB Type-A, кнопки - 8]",
+      "price": 13699,
+      "url": "https://www.dns-shop.ru/product/0ab1905f9111d582/mys-besprovodnaaprovodnaa-razer-basilisk-v3-pro-35k-rz01-05240100-r3g1-cernyj/",
+      "code": "5499683",
+      "specs": null
+    },
+    {
+      "name": "Мышь беспроводная/проводная Razer Naga V2 Pro [RZ01-04400100-R3G1] черный [30000 dpi, светодиодный, Bluetooth, USB Type-A, кнопки - 25]",
+      "price": 17799,
+      "url": "https://www.dns-shop.ru/product/58f6dfa32a2ad21a/mys-besprovodnaaprovodnaa-razer-naga-v2-pro-rz01-04400100-r3g1-cernyj/",
+      "code": "5466242",
+      "specs": null
+    },
+    {
+      "name": "Мышь беспроводная Logitech G PRO X SUPERLIGHT 2c [910-007549] розовый [44000 dpi, светодиодный, USB Type-A, кнопки - 5]",
+      "price": 11499,
+      "url": "https://www.dns-shop.ru/product/74b025e79f4dd21a/mys-besprovodnaa-logitech-g-pro-x-superlight-2c-910-007549-rozovyj/",
+      "code": "5642862",
+      "specs": null
+    },
+    {
+      "name": "Мышь беспроводная/проводная Logitech G PRO X Superlight 2 Dex [910-007365] белый [44000 dpi, светодиодный, USB Type-A, кнопки - 5]",
+      "price": 10399,
+      "url": "https://www.dns-shop.ru/product/b61f4ab2e2b5d21a/mys-besprovodnaaprovodnaa-logitech-g-pro-x-superlight-2-dex-910-007365-belyj/",
+      "code": "5616032",
+      "specs": null
+    },
+    {
+      "name": "Мышь беспроводная/проводная Logitech G PRO X Superlight 2 Dex [910-007357] черный [44000 dpi, светодиодный, USB Type-A, кнопки - 5]",
+      "price": 11799,
+      "url": "https://www.dns-shop.ru/product/b418afbde2b5d21a/mys-besprovodnaaprovodnaa-logitech-g-pro-x-superlight-2-dex-910-007357-cernyj/",
+      "code": "5616031",
+      "specs": null
+    },
+    {
+      "name": "Мышь беспроводная/проводная WLMOUSE Beast X Max черный [30000 dpi, светодиодный, USB Type-A, кнопки - 5]",
+      "price": 15999,
+      "url": "https://www.dns-shop.ru/product/f33a952f83bfd0a4/mys-besprovodnaaprovodnaa-wlmouse-beast-x-max-cernyj/",
+      "code": "5638727",
+      "specs": null
+    },
+    {
+      "name": "Мышь беспроводная/проводная ASUS ROG Harpe Ace Aim Lab Edition [90MP02W0-BMUA00] черный [36000 dpi, светодиодный, Bluetooth, USB Type-A, кнопки - 5]",
+      "price": 10399,
+      "url": "https://www.dns-shop.ru/product/a271b64af9f0ed20/mys-besprovodnaaprovodnaa-asus-rog-harpe-ace-aim-lab-edition-90mp02w0-bmua00-cernyj/",
+      "code": "5417133",
+      "specs": null
+    },
+    {
+      "name": "Мышь беспроводная/проводная Razer DeathAdder V3 Pro [RZ01-04630200-R3G1] белый [30000 dpi, светодиодный, USB Type-A, кнопки - 5]",
+      "price": 12299,
+      "url": "https://www.dns-shop.ru/product/39e593bc22b7ed20/mys-besprovodnaaprovodnaa-razer-deathadder-v3-pro-rz01-04630200-r3g1-belyj/",
+      "code": "5067002",
+      "specs": null
+    },
+    {
+      "name": "Мышь беспроводная Logitech G502 X Plus [910-006176] белый [25600 dpi, светодиодный, USB Type-A, кнопки - 10]",
+      "price": 10999,
+      "url": "https://www.dns-shop.ru/product/d42d1e7be3f9ed20/mys-besprovodnaa-logitech-g502-x-plus-910-006176-belyj/",
+      "code": "5412873",
+      "specs": null
+    },
+    {
+      "name": "Мышь беспроводная/проводная Razer Viper V3 Pro Sentinels Edition [RZ01-05120400-R3M1] красный [35000 dpi, светодиодный, USB Type-A, кнопки - 5]",
+      "price": 17999,
+      "url": "https://www.dns-shop.ru/product/e0dd3bbc937bd21a/mys-besprovodnaaprovodnaa-razer-viper-v3-pro-sentinels-edition-rz01-05120400-r3m1-krasnyj/",
+      "code": "5641352",
+      "specs": null
+    },
+    {
+      "name": "Мышь беспроводная/проводная Razer Cobra Pro [RZ01-04660200-R3G1] белый [30000 dpi, светодиодный, Bluetooth, USB Type-A, кнопки - 7]",
+      "price": 10999,
+      "url": "https://www.dns-shop.ru/product/d0877dce5b6dd21a/mys-besprovodnaaprovodnaa-razer-cobra-pro-rz01-04660200-r3g1-belyj/",
+      "code": "5483482",
+      "specs": null
+    },
+    {
+      "name": "Мышь беспроводная WLMOUSE Beast Mini Pro черный [30000 dpi, светодиодный, USB Type-A, кнопки - 5]",
+      "price": 15999,
+      "url": "https://www.dns-shop.ru/product/e7cfce6183bfd0a4/mys-besprovodnaa-wlmouse-beast-mini-pro-cernyj/",
+      "code": "5638711",
+      "specs": null
+    },
+    {
+      "name": "Мышь беспроводная/проводная Razer Basilisk V3 Pro 35K [RZ01-05240200-R3G1] белый [35000 dpi, светодиодный, Bluetooth, USB Type-A, кнопки - 8]",
+      "price": 14899,
+      "url": "https://www.dns-shop.ru/product/2a9fb3839111d582/mys-besprovodnaaprovodnaa-razer-basilisk-v3-pro-35k-rz01-05240200-r3g1-belyj/",
+      "code": "5499684",
+      "specs": null
+    },
+    {
+      "name": "Мышь беспроводная/проводная ASUS ROG Keris II ACE [90MP03N0-BMUA00] черный [42000 dpi, светодиодный, Bluetooth, USB Type-A, кнопки - 5]",
+      "price": 10299,
+      "url": "https://www.dns-shop.ru/product/8e3c67658f79d21a/mys-besprovodnaaprovodnaa-asus-rog-keris-ii-ace-90mp03n0-bmua00-cernyj/",
+      "code": "5499159",
+      "specs": null
+    },
+    {
+      "name": "Мышь беспроводная Razer Viper V3 Pro Faker Edition [RZ01-05120500-R3M1] красный [35000 dpi, светодиодный, USB Type-A, кнопки - 5]",
+      "price": 16999,
+      "url": "https://www.dns-shop.ru/product/1602c5694a7ad0a4/mys-besprovodnaa-razer-viper-v3-pro-faker-edition-rz01-05120500-r3m1-krasnyj/",
+      "code": "5632011",
+      "specs": null
+    },
+    {
+      "name": "Мышь беспроводная WLMOUSE Beast X Pro черный [30000 dpi, светодиодный, USB Type-A, кнопки - 5]",
+      "price": 15999,
+      "url": "https://www.dns-shop.ru/product/ed58159d83bfd0a4/mys-besprovodnaa-wlmouse-beast-x-pro-cernyj/",
+      "code": "5638719",
+      "specs": null
+    },
+    {
+      "name": "Мышь беспроводная WLMOUSE Beast X Pro белый [30000 dpi, светодиодный, USB Type-A, кнопки - 5]",
+      "price": 15999,
+      "url": "https://www.dns-shop.ru/product/eece5ad883bfd0a4/mys-besprovodnaa-wlmouse-beast-x-pro-belyj/",
+      "code": "5638721",
+      "specs": null
+    },
+    {
+      "name": "Мышь беспроводная/проводная WLMOUSE Beast X Max белый [30000 dpi, светодиодный, USB Type-A, кнопки - 5]",
+      "price": 15999,
+      "url": "https://www.dns-shop.ru/product/f3b2373b83bfd0a4/mys-besprovodnaaprovodnaa-wlmouse-beast-x-max-belyj/",
+      "code": "5638728",
+      "specs": null
+    },
+    {
+      "name": "Мышь беспроводная WLMOUSE Beast Mini Pro фиолетовый [30000 dpi, светодиодный, USB Type-A, кнопки - 5]",
+      "price": 15999,
+      "url": "https://www.dns-shop.ru/product/ea5fa63983bfd0a4/mys-besprovodnaa-wlmouse-beast-mini-pro-fioletovyj/",
+      "code": "5638715",
+      "specs": null
+    },
+    {
+      "name": "Мышь беспроводная/проводная WLMOUSE Beast Mini Pro Tempered синий [30000 dpi, светодиодный, USB Type-A, кнопки - 5]",
+      "price": 16499,
+      "url": "https://www.dns-shop.ru/product/e9c716b183bfd0a4/mys-besprovodnaaprovodnaa-wlmouse-beast-mini-pro-tempered-sinij/",
+      "code": "5638714",
+      "specs": null
+    },
+    {
+      "name": "Мышь беспроводная/проводная ASUS ROG Spatha X [90MP0220-BMUA00] черный [19000 dpi, светодиодный, USB Type-A, кнопки - 12]",
+      "price": 17199,
+      "url": "https://www.dns-shop.ru/product/870fe1b92fa8ed20/mys-besprovodnaaprovodnaa-asus-rog-spatha-x-90mp0220-bmua00-cernyj/",
+      "code": "4879123",
+      "specs": null
+    },
+    {
+      "name": "Мышь беспроводная/проводная Razer DeathAdder V3 Pro [RZ01-04630100-R3G1] черный [30000 dpi, светодиодный, USB Type-A, кнопки - 5]",
+      "price": 11999,
+      "url": "https://www.dns-shop.ru/product/39e593af22b7ed20/mys-besprovodnaaprovodnaa-razer-deathadder-v3-pro-rz01-04630100-r3g1-cernyj/",
+      "code": "5067001",
+      "specs": null
+    },
+    {
+      "name": "Мышь беспроводная/проводная ASUS ROG Harpe II Ace [90MP0490-BMUA00] черный [42000 dpi, светодиодный, Bluetooth, USB Type-A, кнопки - 5]",
+      "price": 15999,
+      "url": "https://www.dns-shop.ru/product/d6611c7d16b43ad2/mys-besprovodnaaprovodnaa-asus-rog-harpe-ii-ace-90mp0490-bmua00-cernyj/",
+      "code": "9304976",
+      "specs": null
+    },
+    {
+      "name": "Мышь беспроводная Logitech G PRO X SUPERLIGHT 2 [910-006638] белый [44000 dpi, светодиодный, USB Type-A, кнопки - 5]",
+      "price": 12999,
+      "url": "https://www.dns-shop.ru/product/c38e6d5c5b20089f/mys-besprovodnaa-logitech-g-pro-x-superlight-2-910-006638-belyj/",
+      "code": "9289925",
+      "specs": null
+    },
+    {
+      "name": "Мышь беспроводная/проводная GravaStar Mercury X Pro Special Edition Battle Worn-Yellow [80004567] желтый [32000 dpi, светодиодный, Bluetooth, USB Type-A, кнопки - 5]",
+      "price": 10999,
+      "url": "https://www.dns-shop.ru/product/15d9f9bbc302f472/mys-besprovodnaaprovodnaa-gravastar-mercury-x-pro-special-edition-battle-worn-yellow-80004567-zeltyj/",
+      "code": "9276747",
+      "specs": null
+    },
+    {
+      "name": "Мышь беспроводная WLMOUSE Beast Mini Pro белый [30000 dpi, светодиодный, USB Type-A, кнопки - 5]",
+      "price": 15999,
+      "url": "https://www.dns-shop.ru/product/e90d326d83bfd0a4/mys-besprovodnaa-wlmouse-beast-mini-pro-belyj/",
+      "code": "5638713",
+      "specs": null
+    },
+    {
+      "name": "Мышь беспроводная WLMOUSE Beast X Pro черный [30000 dpi, светодиодный, USB Type-A, кнопки - 5]",
+      "price": 15999,
+      "url": "https://www.dns-shop.ru/product/f0579d1383bfd0a4/mys-besprovodnaa-wlmouse-beast-x-pro-cernyj/",
+      "code": "5638723",
+      "specs": null
+    },
+    {
+      "name": "Мышь беспроводная/проводная WLMOUSE Beast X Max серебристый [30000 dpi, светодиодный, USB Type-A, кнопки - 5]",
+      "price": 15999,
+      "url": "https://www.dns-shop.ru/product/f2451c8d83bfd0a4/mys-besprovodnaaprovodnaa-wlmouse-beast-x-max-serebristyj/",
+      "code": "5638726",
+      "specs": null
+    },
+    {
+      "name": "Мышь беспроводная/проводная Razer DeathAdder V3 Pro + HyperPolling Wireless Dongle Bundle [RZ01-04630300-R3WL] черный [30000 dpi, светодиодный, Bluetooth, USB Type-A, кнопки - 5]",
+      "price": 12999,
+      "url": "https://www.dns-shop.ru/product/d0876b5f5b6dd21a/mys-besprovodnaaprovodnaa-razer-deathadder-v3-pro-hyperpolling-wireless-dongle-bundle-rz01-04630300-r3wl-cernyj/",
+      "code": "5483479",
+      "specs": null
+    },
+    {
+      "name": "Мышь беспроводная/проводная ASUS ROG Keris II ACE [90MP03N0-BMUA00] белый [42000 dpi, светодиодный, Bluetooth, USB Type-A, кнопки - 5]",
+      "price": 12399,
+      "url": "https://www.dns-shop.ru/product/8e3c68e58f79d21a/mys-besprovodnaaprovodnaa-asus-rog-keris-ii-ace-90mp03n0-bmua00-belyj/",
+      "code": "5499160",
+      "specs": null
+    },
+    {
+      "name": "Мышь беспроводная WLMOUSE Beast X Pro серебристый [30000 dpi, светодиодный, USB Type-A, кнопки - 5]",
+      "price": 15999,
+      "url": "https://www.dns-shop.ru/product/ee4d8c2883bfd0a4/mys-besprovodnaa-wlmouse-beast-x-pro-serebristyj/",
+      "code": "5638720",
+      "specs": null
+    },
+    {
+      "name": "Мышь беспроводная/проводная WLMOUSE DRG×Beast X Max черный [30000 dpi, светодиодный, USB Type-A, кнопки - 5]",
+      "price": 13999,
+      "url": "https://www.dns-shop.ru/product/8e7976bdbb76d21a/mys-besprovodnaaprovodnaa-wlmouse-drgbeast-x-max-cernyj/",
+      "code": "5647948",
+      "specs": null
+    },
+    {
+      "name": "Мышь беспроводная WLMOUSE Beast Mini Pro серебристый [30000 dpi, светодиодный, USB Type-A, кнопки - 5]",
+      "price": 15999,
+      "url": "https://www.dns-shop.ru/product/e90d143083bfd0a4/mys-besprovodnaa-wlmouse-beast-mini-pro-serebristyj/",
+      "code": "5638712",
+      "specs": null
+    },
+    {
+      "name": "Мышь беспроводная/проводная WLMOUSE Beast X Max фиолетовый [30000 dpi, светодиодный, USB Type-A, кнопки - 5]",
+      "price": 15999,
+      "url": "https://www.dns-shop.ru/product/f55f38b283bfd0a4/mys-besprovodnaaprovodnaa-wlmouse-beast-x-max-fioletovyj/",
+      "code": "5638731",
+      "specs": null
+    },
+    {
+      "name": "Мышь беспроводная WLMOUSE Beast Mini Pro розовый [30000 dpi, светодиодный, USB Type-A, кнопки - 5]",
+      "price": 16499,
+      "url": "https://www.dns-shop.ru/product/eb2a55ff83bfd0a4/mys-besprovodnaa-wlmouse-beast-mini-pro-rozovyj/",
+      "code": "5638716",
+      "specs": null
+    },
+    {
+      "name": "Мышь беспроводная WLMOUSE Beast Mini Pro фиолетовый [30000 dpi, светодиодный, USB Type-A, кнопки - 5]",
+      "price": 14999,
+      "url": "https://www.dns-shop.ru/product/ec5dacbe83bfd0a4/mys-besprovodnaa-wlmouse-beast-mini-pro-fioletovyj/",
+      "code": "5638717",
+      "specs": null
+    },
+    {
+      "name": "Мышь беспроводная/проводная ASUS ROG Chakram X Origin [90MP02N1-BMUA00] черный [36000 dpi, светодиодный, Bluetooth, USB Type-A, кнопки - 8]",
+      "price": 14999,
+      "url": "https://www.dns-shop.ru/product/b0ccbdf3f9f0ed20/mys-besprovodnaaprovodnaa-asus-rog-chakram-x-origin-90mp02n1-bmua00-cernyj/",
+      "code": "5417136",
+      "specs": null
+    },
+    {
+      "name": "Мышь беспроводная/проводная ASUS ROG Keris II Origin [90MP04A0-BMUA00] черный [42000 dpi, светодиодный, Bluetooth, USB Type-A, кнопки - 5]",
+      "price": 10599,
+      "url": "https://www.dns-shop.ru/product/49b14e18dfa6ee85/mys-besprovodnaaprovodnaa-asus-rog-keris-ii-origin-90mp04a0-bmua00-cernyj/",
+      "code": "9304975",
+      "specs": null
+    },
+    {
+      "name": "Мышь беспроводная Logitech MX Master 4 [910-007563] серый [8000 dpi, светодиодный, Bluetooth, USB Type-C, кнопки - 8]",
+      "price": 13999,
+      "url": "https://www.dns-shop.ru/product/d3c85569bde1d0a4/mys-besprovodnaa-logitech-mx-master-4-910-007563-seryj/",
+      "code": "5648176",
+      "specs": null
+    },
+    {
+      "name": "Мышь беспроводная/проводная WLMOUSE Beast X Max сиреневый [30000 dpi, светодиодный, USB Type-A, кнопки - 5]",
+      "price": 15999,
+      "url": "https://www.dns-shop.ru/product/f4dc16c983bfd0a4/mys-besprovodnaaprovodnaa-wlmouse-beast-x-max-sirenevyj/",
+      "code": "5638730",
+      "specs": null
+    },
+    {
+      "name": "Мышь беспроводная/проводная WLMOUSE Beast X Max красный [30000 dpi, светодиодный, USB Type-A, кнопки - 5]",
+      "price": 15999,
+      "url": "https://www.dns-shop.ru/product/f64fecdf83bfd0a4/mys-besprovodnaaprovodnaa-wlmouse-beast-x-max-krasnyj/",
+      "code": "5638732",
+      "specs": null
+    },
+    {
+      "name": "Мышь беспроводная/проводная WLMOUSE Beast X Max фиолетовый [30000 dpi, светодиодный, USB Type-A, кнопки - 5]",
+      "price": 15999,
+      "url": "https://www.dns-shop.ru/product/f4393f4a83bfd0a4/mys-besprovodnaaprovodnaa-wlmouse-beast-x-max-fioletovyj/",
+      "code": "5638729",
+      "specs": null
+    },
+    {
+      "name": "Мышь беспроводная/проводная Razer Basilisk V3 Pro 35K - Phantom Green Ed. [RZ01-05240300-R3G1] зеленый [35000 dpi, светодиодный, Bluetooth, USB Type-A, кнопки - 8]",
+      "price": 16999,
+      "url": "https://www.dns-shop.ru/product/12ce8da24a7ad0a4/mys-besprovodnaaprovodnaa-razer-basilisk-v3-pro-35k-phantom-green-ed-rz01-05240300-r3g1-zelenyj/",
+      "code": "5632010",
+      "specs": null
+    },
+    {
+      "name": "Мышь беспроводная WLMOUSE Beast Mini Pro красный [30000 dpi, светодиодный, USB Type-A, кнопки - 5]",
+      "price": 15999,
+      "url": "https://www.dns-shop.ru/product/ecdc0dc483bfd0a4/mys-besprovodnaa-wlmouse-beast-mini-pro-krasnyj/",
+      "code": "5638718",
+      "specs": null
+    },
+    {
+      "name": "Мышь беспроводная/проводная WLMOUSE DRG×Beast X Max зеленый [30000 dpi, светодиодный, USB Type-A, кнопки - 5]",
+      "price": 13999,
+      "url": "https://www.dns-shop.ru/product/8e7974afbb76d21a/mys-besprovodnaaprovodnaa-wlmouse-drgbeast-x-max-zelenyj/",
+      "code": "5647947",
+      "specs": null
+    },
+    {
+      "name": "Мышь беспроводная/проводная ASUS ROG Keris II Origin Kojima Productions [90MP04L0-BMUA10] белый [42000 dpi, светодиодный, Bluetooth, USB Type-A, кнопки - 5]",
+      "price": 15999,
+      "url": "https://www.dns-shop.ru/product/82456209e038fe18/mys-besprovodnaaprovodnaa-asus-rog-keris-ii-origin-kojima-productions-90mp04l0-bmua10-belyj/",
+      "code": "9347759",
+      "specs": null
+    },
+    {
+      "name": "Мышь беспроводная SteelSeries Aerox 9 черный [18000 dpi, светодиодный, Bluetooth, USB Type-A, кнопки - 16]",
+      "price": 13799,
+      "url": "https://www.dns-shop.ru/product/ea3b7f21d545ed20/mys-besprovodnaa-steelseries-aerox-9-cernyj/",
+      "code": "5450117",
+      "specs": null
+    },
+    {
+      "name": "Мышь беспроводная/проводная WLMOUSE DRG×Beast X Max белый [30000 dpi, светодиодный, USB Type-A, кнопки - 5]",
+      "price": 13999,
+      "url": "https://www.dns-shop.ru/product/8e796b66bb76d21a/mys-besprovodnaaprovodnaa-wlmouse-drgbeast-x-max-belyj/",
+      "code": "5647946",
+      "specs": null
+    },
+    {
+      "name": "Мышь беспроводная Logitech MX Master 4 for Mac [910-007582] серый [8000 dpi, светодиодный, Bluetooth, кнопки - 8]",
+      "price": 14999,
+      "url": "https://www.dns-shop.ru/product/f962b9c1c372d21a/mys-besprovodnaa-logitech-mx-master-4-for-mac-910-007582-seryj/",
+      "code": "5649226",
+      "specs": null
+    },
+    {
+      "name": "Мышь беспроводная WLMOUSE Beast X Pro белый [30000 dpi, светодиодный, USB Type-A, кнопки - 5]",
+      "price": 15999,
+      "url": "https://www.dns-shop.ru/product/f14fa22283bfd0a4/mys-besprovodnaa-wlmouse-beast-x-pro-belyj/",
+      "code": "5638725",
+      "specs": null
+    },
+    {
+      "name": "Трекбол беспроводная Logitech MX ERGO S [910-007263] черный [2048 dpi, светодиодный, Bluetooth, USB Type-A, кнопки - 8]",
+      "price": 11899,
+      "url": "https://www.dns-shop.ru/product/cbb98b27ff1e84b3/trekbol-besprovodnaa-logitech-mx-ergo-s-910-007263-cernyj/",
+      "code": "9310614",
+      "specs": null
+    },
+    {
+      "name": "Мышь беспроводная WLMOUSE Sword X черный [30000 dpi, светодиодный, USB Type-A, кнопки - 5]",
+      "price": 15999,
+      "url": "https://www.dns-shop.ru/product/4d5c487d86f4d0a4/mys-besprovodnaa-wlmouse-sword-x-cernyj/",
+      "code": "5638984",
+      "specs": null
+    },
+    {
+      "name": "Мышь беспроводная Logitech G PRO 2 LIGHTSPEED [910-007313] розовый [44000 dpi, светодиодный, USB Type-A, кнопки - 7]",
+      "price": 11999,
+      "url": "https://www.dns-shop.ru/product/f3fa674f65fcd0a4/mys-besprovodnaa-logitech-g-pro-2-lightspeed-910-007313-rozovyj/",
+      "code": "5635094",
+      "specs": null
+    },
+    {
+      "name": "Мышь беспроводная/проводная Razer DeathAdder V3 Pro - Fortnite Edition [RZ01-04630700-R3M1] синий [30000 dpi, светодиодный, USB Type-A, кнопки - 5]",
+      "price": 10999,
+      "url": "https://www.dns-shop.ru/product/d08775925b6dd21a/mys-besprovodnaaprovodnaa-razer-deathadder-v3-pro-fortnite-edition-rz01-04630700-r3m1-sinij/",
+      "code": "5483480",
+      "specs": null
+    },
+    {
+      "name": "Мышь беспроводная/проводная WLMOUSE Strider [Strider Lotus] белый [30000 dpi, светодиодный, Bluetooth, USB Type-A, кнопки - 5]",
+      "price": 13999,
+      "url": "https://www.dns-shop.ru/product/8ba73a92bb76d21a/mys-besprovodnaaprovodnaa-wlmouse-strider-strider-lotus-belyj/",
+      "code": "5647942",
+      "specs": null
+    },
+    {
+      "name": "Мышь беспроводная/проводная Razer Pro Click V2 Vertical Edition [RZ01-05250100-R3G1] черный [30000 dpi, светодиодный, Bluetooth, USB Type-A, кнопки - 8]",
+      "price": 11999,
+      "url": "https://www.dns-shop.ru/product/1602d26c4a7ad0a4/mys-besprovodnaaprovodnaa-razer-pro-click-v2-vertical-edition-rz01-05250100-r3g1-cernyj/",
+      "code": "5632012",
+      "specs": null
+    },
+    {
+      "name": "Мышь беспроводная/проводная SteelSeries Aerox 3 Onyx 2022 [62612] черный [18000 dpi, светодиодный, Bluetooth, USB Type-A, USB Type-C, кнопки - 6]",
+      "price": 10299,
+      "url": "https://www.dns-shop.ru/product/e2df149b5022ed20/mys-besprovodnaaprovodnaa-steelseries-aerox-3-onyx-2022-62612-cernyj/",
+      "code": "5080156",
+      "specs": null
+    },
+    {
+      "name": "Мышь беспроводная Logitech MX Master 4 for Mac [910-007583] черный [8000 dpi, светодиодный, Bluetooth, кнопки - 8]",
+      "price": 14999,
+      "url": "https://www.dns-shop.ru/product/f962a7e4c372d21a/mys-besprovodnaa-logitech-mx-master-4-for-mac-910-007583-cernyj/",
+      "code": "5649225",
+      "specs": null
+    },
+    {
+      "name": "Мышь беспроводная WLMOUSE Sword X белый [30000 dpi, светодиодный, USB Type-A, кнопки - 5]",
+      "price": 15999,
+      "url": "https://www.dns-shop.ru/product/4d5c545486f4d0a4/mys-besprovodnaa-wlmouse-sword-x-belyj/",
+      "code": "5638985",
+      "specs": null
+    },
+    {
+      "name": "Мышь беспроводная Logitech MX Master 4 for Business [910-007620] черный [8000 dpi, светодиодный, Bluetooth, кнопки - 8]",
+      "price": 15499,
+      "url": "https://www.dns-shop.ru/product/fc0090fdc372d21a/mys-besprovodnaa-logitech-mx-master-4-for-business-910-007620-cernyj/",
+      "code": "5649227",
+      "specs": null
+    },
+    {
+      "name": "Мышь беспроводная WLMOUSE Sword X голубой [30000 dpi, светодиодный, USB Type-A, кнопки - 5]",
+      "price": 15899,
+      "url": "https://www.dns-shop.ru/product/4d5c36f686f4d0a4/mys-besprovodnaa-wlmouse-sword-x-goluboj/",
+      "code": "5638982",
+      "specs": null
+    },
+    {
+      "name": "Мышь беспроводная Logitech G PRO 2 LIGHTSPEED [910-007295] черный [44000 dpi, светодиодный, USB Type-A, кнопки - 7]",
+      "price": 11999,
+      "url": "https://www.dns-shop.ru/product/c62236afdde08830/mys-besprovodnaa-logitech-g-pro-2-lightspeed-910-007295-cernyj/",
+      "code": "9180190",
+      "specs": null
+    },
+    {
+      "name": "Мышь беспроводная/проводная ASUS ROG Harpe Ace Mini [90MP03Z0-BMUA10] белый [42000 dpi, светодиодный, Bluetooth, USB Type-A, кнопки - 5]",
+      "price": 10999,
+      "url": "https://www.dns-shop.ru/product/d8a65bf400bbf150/mys-besprovodnaaprovodnaa-asus-rog-harpe-ace-mini-90mp03z0-bmua10-belyj/",
+      "code": "9304974",
+      "specs": null
+    },
+    {
+      "name": "Мышь беспроводная/проводная Ragnok 3 [MC-RAGNOK3-W] белый [26000 dpi, светодиодный, Bluetooth, USB Type-A, кнопки - 6]",
+      "price": 10899,
+      "url": "https://www.dns-shop.ru/product/f941cfd959940201/mys-besprovodnaaprovodnaa-ragnok-3-mc-ragnok3-w-belyj/",
+      "code": "9323400",
+      "specs": null
+    },
+    {
+      "name": "Мышь беспроводная WLMOUSE Strider черный [30000 dpi, светодиодный, USB Type-A, кнопки - 5]",
+      "price": 13999,
+      "url": "https://www.dns-shop.ru/product/85af3958bb76d21a/mys-besprovodnaa-wlmouse-strider-cernyj/",
+      "code": "5647933",
+      "specs": null
+    },
+    {
+      "name": "Мышь беспроводная/проводная Razer DeathAdder V3 Pro [RZ01-04630200-R3A1] белый [30000 dpi, светодиодный, USB Type-A, кнопки - 5]",
+      "price": 12299,
+      "url": "https://www.dns-shop.ru/product/1ce036d3bdf9d21a/mys-besprovodnaaprovodnaa-razer-deathadder-v3-pro-rz01-04630200-r3a1-belyj/",
+      "code": "5648283",
+      "specs": null
+    },
+    {
+      "name": "Мышь беспроводная/проводная ASUS ROG Harpe Ace Mini [90MP03Z0-BMUA00] черный [42000 dpi, светодиодный, Bluetooth, USB Type-A, кнопки - 5]",
+      "price": 10999,
+      "url": "https://www.dns-shop.ru/product/237bf45bd64a3161/mys-besprovodnaaprovodnaa-asus-rog-harpe-ace-mini-90mp03z0-bmua00-cernyj/",
+      "code": "9304973",
+      "specs": null
+    },
+    {
+      "name": "Мышь беспроводная/проводная Razer Basilisk V3 Pro [RZ01-04620100-R3A1] черный [30000 dpi, светодиодный, Bluetooth, USB Type-A, кнопки - 11]",
+      "price": 15199,
+      "url": "https://www.dns-shop.ru/product/e4da6ac6dee3d21a/mys-besprovodnaaprovodnaa-razer-basilisk-v3-pro-rz01-04620100-r3a1-cernyj/",
+      "code": "5654203",
+      "specs": null
+    },
+    {
+      "name": "Мышь беспроводная Microsoft Surface Arc Mouse [CZV-00008] серый [1000 dpi, светодиодный, Bluetooth, кнопки - 2]",
+      "price": 11199,
+      "url": "https://www.dns-shop.ru/product/a2b6306b7c84d582/mys-besprovodnaa-microsoft-surface-arc-mouse-czv-00008-seryj/",
+      "code": "5494119",
+      "specs": null
+    },
+    {
+      "name": "Мышь беспроводная/проводная WLMOUSE DRG×Beast X Pro [DRG×Beast X ProBlack (Solid sides)] черный [30000 dpi, светодиодный, Bluetooth, USB Type-A, кнопки - 5]",
+      "price": 13999,
+      "url": "https://www.dns-shop.ru/product/8e2d2062bb76d21a/mys-besprovodnaaprovodnaa-wlmouse-drgbeast-x-pro-drgbeast-x-problack-solid-sides-cernyj/",
+      "code": "5647945",
+      "specs": null
+    },
+    {
+      "name": "Мышь беспроводная Logitech G PRO 2 LIGHTSPEED [910-007302] белый [44000 dpi, светодиодный, USB Type-A, кнопки - 7]",
+      "price": 11599,
+      "url": "https://www.dns-shop.ru/product/e021d1d2b3b0d21a/mys-besprovodnaa-logitech-g-pro-2-lightspeed-910-007302-belyj/",
+      "code": "5609355",
+      "specs": null
+    },
+    {
+      "name": "Мышь беспроводная/проводная ASUS ROG Harpe II Ace [90MP0490-BMUA10] белый [42000 dpi, светодиодный, Bluetooth, USB Type-A, кнопки - 5]",
+      "price": 15999,
+      "url": "https://www.dns-shop.ru/product/c40acc40619d125a/mys-besprovodnaaprovodnaa-asus-rog-harpe-ii-ace-90mp0490-bmua10-belyj/",
+      "code": "9353000",
+      "specs": null
+    },
+    {
+      "name": "Мышь беспроводная WLMOUSE Sword X зеленый [30000 dpi, светодиодный, USB Type-A, кнопки - 5]",
+      "price": 14299,
+      "url": "https://www.dns-shop.ru/product/4d5c444186f4d0a4/mys-besprovodnaa-wlmouse-sword-x-zelenyj/",
+      "code": "5638983",
+      "specs": null
+    },
+    {
+      "name": "Мышь беспроводная/проводная Razer DeathAdder V3 Pro [RZ01-04630100-R3A1] черный [30000 dpi, светодиодный, USB Type-A, кнопки - 5]",
+      "price": 11999,
+      "url": "https://www.dns-shop.ru/product/1ce0342ebdf9d21a/mys-besprovodnaaprovodnaa-razer-deathadder-v3-pro-rz01-04630100-r3a1-cernyj/",
+      "code": "5648282",
+      "specs": null
+    },
+    {
+      "name": "Мышь беспроводная WLMOUSE Sword X серебристый [30000 dpi, светодиодный, USB Type-A, кнопки - 5]",
+      "price": 14999,
+      "url": "https://www.dns-shop.ru/product/82875aeebb76d21a/mys-besprovodnaa-wlmouse-sword-x-serebristyj/",
+      "code": "5647930",
+      "specs": null
+    },
+    {
+      "name": "Мышь беспроводная SteelSeries Aerox 3 Wireless CS2 Dragon [62614] разноцветный [18000 dpi, светодиодный, Bluetooth, USB Type-C, кнопки - 6]",
+      "price": 15299,
+      "url": "https://www.dns-shop.ru/product/682d8c13a99dd0a4/mys-besprovodnaa-steelseries-aerox-3-wireless-cs2-dragon-62614-raznocvetnyj/",
+      "code": "5643999",
+      "specs": null
+    },
+    {
+      "name": "Мышь беспроводная/проводная WLMOUSE DRG×Beast X Pro [DRG×Beast X ProWhite (Solid sides)] белый [30000 dpi, светодиодный, Bluetooth, USB Type-A, кнопки - 5]",
+      "price": 13999,
+      "url": "https://www.dns-shop.ru/product/8ba744d7bb76d21a/mys-besprovodnaaprovodnaa-wlmouse-drgbeast-x-pro-drgbeast-x-prowhite-solid-sides-belyj/",
+      "code": "5647943",
+      "specs": null
+    },
+    {
+      "name": "Мышь беспроводная/проводная WLMOUSE Beast Miao [Beast MiaoBlack&Red] черный [30000 dpi, светодиодный, Bluetooth, USB Type-A, кнопки - 5]",
+      "price": 14999,
+      "url": "https://www.dns-shop.ru/product/8ba72f1bbb76d21a/mys-besprovodnaaprovodnaa-wlmouse-beast-miao-beast-miaoblackred-cernyj/",
+      "code": "5647941",
+      "specs": null
+    },
+    {
+      "name": "Мышь беспроводная WLMOUSE Strider золотистый [30000 dpi, светодиодный, USB Type-A, кнопки - 5]",
+      "price": 14999,
+      "url": "https://www.dns-shop.ru/product/85af52c8bb76d21a/mys-besprovodnaa-wlmouse-strider-zolotistyj/",
+      "code": "5647935",
+      "specs": null
+    },
+    {
+      "name": "Мышь беспроводная WLMOUSE Strider белый [30000 dpi, светодиодный, USB Type-A, кнопки - 5]",
+      "price": 13999,
+      "url": "https://www.dns-shop.ru/product/85af442dbb76d21a/mys-besprovodnaa-wlmouse-strider-belyj/",
+      "code": "5647934",
+      "specs": null
+    },
+    {
+      "name": "Мышь беспроводная WLMOUSE Sword X фиолетовый [30000 dpi, светодиодный, USB Type-A, кнопки - 5]",
+      "price": 14999,
+      "url": "https://www.dns-shop.ru/product/828761d3bb76d21a/mys-besprovodnaa-wlmouse-sword-x-fioletovyj/",
+      "code": "5647931",
+      "specs": null
+    },
+    {
+      "name": "Мышь беспроводная/проводная WLMOUSE Strider [Strider Purple] фиолетовый [30000 dpi, светодиодный, Bluetooth, USB Type-A, кнопки - 5]",
+      "price": 13999,
+      "url": "https://www.dns-shop.ru/product/87e1cddcbb76d21a/mys-besprovodnaaprovodnaa-wlmouse-strider-strider-purple-fioletovyj/",
+      "code": "5647936",
+      "specs": null
+    },
+    {
+      "name": "Мышь беспроводная/проводная WLMOUSE DRG×Beast X Pro [DRG×Beast X ProGreen (Solid sides)] зеленый [30000 dpi, светодиодный, Bluetooth, USB Type-A, кнопки - 5]",
+      "price": 13999,
+      "url": "https://www.dns-shop.ru/product/8ba74ef8bb76d21a/mys-besprovodnaaprovodnaa-wlmouse-drgbeast-x-pro-drgbeast-x-progreen-solid-sides-zelenyj/",
+      "code": "5647944",
+      "specs": null
+    },
+    {
+      "name": "Мышь беспроводная Logitech Mouse G PRO X SUPERLIGHT 2c [910-007538] белый [44000 dpi, светодиодный, USB Type-A, кнопки - 5]",
+      "price": 15499,
+      "url": "https://www.dns-shop.ru/product/3f728367314fd0a4/mys-besprovodnaa-logitech-mouse-g-pro-x-superlight-2c-910-007538-belyj/",
+      "code": "5680440",
+      "specs": null
+    },
+    {
+      "name": "Мышь беспроводная/проводная WLMOUSE Beast Miao [Beast MiaoWhite&Purple] белый [30000 dpi, светодиодный, Bluetooth, USB Type-A, кнопки - 5]",
+      "price": 14999,
+      "url": "https://www.dns-shop.ru/product/88817eeabb76d21a/mys-besprovodnaaprovodnaa-wlmouse-beast-miao-beast-miaowhitepurple-belyj/",
+      "code": "5647937",
+      "specs": null
+    },
+    {
+      "name": "Мышь беспроводная/проводная WLMOUSE Beast Miao [Beast MiaoIce Blue] голубой [30000 dpi, светодиодный, Bluetooth, USB Type-A, кнопки - 5]",
+      "price": 14999,
+      "url": "https://www.dns-shop.ru/product/88818821bb76d21a/mys-besprovodnaaprovodnaa-wlmouse-beast-miao-beast-miaoice-blue-goluboj/",
+      "code": "5647938",
+      "specs": null
+    },
+    {
+      "name": "Мышь беспроводная WLMOUSE Sword X розовый [30000 dpi, светодиодный, USB Type-A, кнопки - 5]",
+      "price": 14999,
+      "url": "https://www.dns-shop.ru/product/85af2f13bb76d21a/mys-besprovodnaa-wlmouse-sword-x-rozovyj/",
+      "code": "5647932",
+      "specs": null
+    },
+    {
+      "name": "Мышь беспроводная SteelSeries Aerox 3 Wireless Ghost [62610] белый [18000 dpi, светодиодный, Bluetooth, USB Type-A, кнопки - 6]",
+      "price": 10299,
+      "url": "https://www.dns-shop.ru/product/6245dc3fa99dd0a4/mys-besprovodnaa-steelseries-aerox-3-wireless-ghost-62610-belyj/",
+      "code": "5643992",
+      "specs": null
+    },
+    {
+      "name": "Мышь беспроводная Logitech Mouse G PRO X SUPERLIGHT 2c [910-007531] черный [44000 dpi, светодиодный, USB Type-A, кнопки - 5]",
+      "price": 15499,
+      "url": "https://www.dns-shop.ru/product/3db97f4d314fd0a4/mys-besprovodnaa-logitech-mouse-g-pro-x-superlight-2c-910-007531-cernyj/",
+      "code": "5680439",
+      "specs": null
+    },
+    {
+      "name": "Мышь беспроводная/проводная WLMOUSE Beast Miao [Beast MiaoPink&Blue] розовый [30000 dpi, светодиодный, Bluetooth, USB Type-A, кнопки - 5]",
+      "price": 14999,
+      "url": "https://www.dns-shop.ru/product/888191a1bb76d21a/mys-besprovodnaaprovodnaa-wlmouse-beast-miao-beast-miaopinkblue-rozovyj/",
+      "code": "5647940",
+      "specs": null
+    },
+    {
+      "name": "Мышь беспроводная/проводная WLMOUSE Beast Miao [Beast Miao Pink] розовый [30000 dpi, светодиодный, Bluetooth, USB Type-A, кнопки - 5]",
+      "price": 14999,
+      "url": "https://www.dns-shop.ru/product/888189c0bb76d21a/mys-besprovodnaaprovodnaa-wlmouse-beast-miao-beast-miao-pink-rozovyj/",
+      "code": "5647939",
+      "specs": null
+    },
+    {
+      "name": "Мышь беспроводная/проводная SteelSeries Aerox 5 Black [62406] черный [18000 dpi, светодиодный, Bluetooth, USB Type-A, USB Type-C, кнопки - 8]",
+      "price": 13499,
+      "url": "https://www.dns-shop.ru/product/912540b74a9ded20/mys-besprovodnaaprovodnaa-steelseries-aerox-5-black-62406-cernyj/",
+      "code": "5078674",
+      "specs": null
+    },
+    {
+      "name": "Мышь беспроводная/проводная Mad Catz R.A.T. DWS [MR07DHINBL000-0] черный [16000 dpi, светодиодный, Bluetooth, USB Type-A, кнопки - 14]",
+      "price": 13999,
+      "url": "https://www.dns-shop.ru/product/e0a1efa407e8ed20/mys-besprovodnaaprovodnaa-mad-catz-rat-dws-mr07dhinbl000-0-cernyj/",
+      "code": "5058376",
+      "specs": null
+    },
+    {
+      "name": "Мышь беспроводная Logitech G PRO X SUPERLIGHT 2 [910-006797] розовый [44000 dpi, светодиодный, USB Type-A, кнопки - 5]",
+      "price": 13999,
+      "url": "https://www.dns-shop.ru/product/408a5528d0d45e3f/mys-besprovodnaa-logitech-g-pro-x-superlight-2-910-006797-rozovyj/",
+      "code": "9289923",
+      "specs": null
+    },
+    {
+      "name": "Мышь беспроводная WLMOUSE Beast X Pro серебристый [30000 dpi, светодиодный, USB Type-A, кнопки - 5]",
+      "price": 15999,
+      "url": "https://www.dns-shop.ru/product/f0d3a20083bfd0a4/mys-besprovodnaa-wlmouse-beast-x-pro-serebristyj/",
+      "code": "5638724",
+      "specs": null
+    },
+    {
+      "name": "Мышь беспроводная WLMOUSE Beast X Pro фиолетовый [30000 dpi, светодиодный, USB Type-A, кнопки - 5]",
+      "price": 15999,
+      "url": "https://www.dns-shop.ru/product/ef5fc69683bfd0a4/mys-besprovodnaa-wlmouse-beast-x-pro-fioletovyj/",
+      "code": "5638722",
+      "specs": null
+    },
+    {
+      "name": "Мышь беспроводная/проводная HyperX Pulsefire Haste 2 Pro [A1KY5AA] серый [32000 dpi, светодиодный, USB Type-C, кнопки - 6]",
+      "price": 11499,
+      "url": "https://www.dns-shop.ru/product/92574f26e7301453/mys-besprovodnaaprovodnaa-hyperx-pulsefire-haste-2-pro-a1ky5aa-seryj/",
+      "code": "9272312",
+      "specs": null
+    },
+    {
+      "name": "Мышь беспроводная/проводная WLMOUSE Mouse-YingBlack черный [30000 dpi, светодиодный, USB Type-A, кнопки - 5]",
+      "price": 18999,
+      "url": "https://www.dns-shop.ru/product/f6d30fe083bfd0a4/mys-besprovodnaaprovodnaa-wlmouse-mouse-yingblack-cernyj/",
+      "code": "5638733",
+      "specs": null
+    },
+    {
+      "name": "Мышь беспроводная Logitech MX Master 4 [910-007570] серый [8000 dpi, светодиодный, Bluetooth, USB Type-C, кнопки - 8]",
+      "price": 13999,
+      "url": "https://www.dns-shop.ru/product/74b03eaa9f4dd21a/mys-besprovodnaa-logitech-mx-master-4-910-007570-seryj/",
+      "code": "5642864",
+      "specs": null
+    }
+  ]
+}

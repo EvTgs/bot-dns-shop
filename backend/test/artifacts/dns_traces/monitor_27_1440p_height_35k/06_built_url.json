@@ -1,0 +1,54 @@
+{
+  "stage": "built_url",
+  "valid": true,
+  "reason": null,
+  "section_url": "https://www.dns-shop.ru/search/?q=%D0%BC%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80&price=17500-36750&category=17a8943716404e77",
+  "selected_filters": [
+    {
+      "id": "f[9x]",
+      "name": "Регулировка по высоте",
+      "values": [
+        {
+          "id": "21",
+          "name": "есть"
+        }
+      ]
+    },
+    {
+      "id": "f[2v]",
+      "name": "Тип матрицы",
+      "values": [
+        {
+          "id": "1uq",
+          "name": "IPS"
+        }
+      ]
+    },
+    {
+      "id": "f[1v]",
+      "name": "Максимальное разрешение",
+      "values": [
+        {
+          "id": "76",
+          "name": "2560x1440"
+        }
+      ]
+    },
+    {
+      "id": "fr[1q]",
+      "name": "Диагональ экрана (дюйм)",
+      "values": [
+        {
+          "id": "07b55b2fbb4be2eba152cc163aa6aea6",
+          "name": "26 - 29.99"
+        }
+      ]
+    },
+    {
+      "id": "price",
+      "min": 17500,
+      "max": 36750
+    }
+  ],
+  "built_url": "https://www.dns-shop.ru/search/?q=%D0%BC%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80&category=17a8943716404e77&price=17500-36750&f%5B9x%5D=21&f%5B2v%5D=1uq&f%5B1v%5D=76&fr%5B1q%5D=07b55b2fbb4be2eba152cc163aa6aea6"
+}

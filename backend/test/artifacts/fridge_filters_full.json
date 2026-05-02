@@ -1,0 +1,3572 @@
+{
+  "url": "https://www.dns-shop.ru/search/?q=%D1%85%D0%BE%D0%BB%D0%BE%D0%B4%D0%B8%D0%BB%D1%8C%D0%BD%D0%B8%D0%BA&category=4e2a7cdb390b7fd7",
+  "section_url": "https://www.dns-shop.ru/search/?q=%D1%85%D0%BE%D0%BB%D0%BE%D0%B4%D0%B8%D0%BB%D1%8C%D0%BD%D0%B8%D0%BA&category=4e2a7cdb390b7fd7",
+  "query": "холодильник",
+  "category": "4e2a7cdb390b7fd7",
+  "count": 75,
+  "filters": [
+    {
+      "group": "Основные",
+      "id": "shop-catalog",
+      "name": "Магазины",
+      "type": "shops",
+      "is_spec": false,
+      "values": [
+        {
+          "id": "7311",
+          "name": "Магазин-склад ТЦ РИО",
+          "count": null
+        },
+        {
+          "id": "7165",
+          "name": "На Маршала Конева",
+          "count": null
+        },
+        {
+          "id": "1497",
+          "name": "ТРЦ «Мармелад»",
+          "count": null
+        },
+        {
+          "id": "1496",
+          "name": "ТРЦ «Оазис»",
+          "count": null
+        },
+        {
+          "id": "7308",
+          "name": "ТРЦ «РИО»",
+          "count": null
+        },
+        {
+          "id": "3050",
+          "name": "ТЦ «Апельсин»",
+          "count": null
+        },
+        {
+          "id": "4057",
+          "name": "ТЦ «Магистраль»",
+          "count": null
+        },
+        {
+          "id": "7749",
+          "name": "ТЦ «Форум»",
+          "count": null
+        },
+        {
+          "id": "3768",
+          "name": "ТЦ «Мельница»",
+          "count": null
+        }
+      ],
+      "selected": []
+    },
+    {
+      "group": "Основные",
+      "id": "stock",
+      "name": "Наличие",
+      "type": "checkbox",
+      "is_spec": false,
+      "values": [
+        {
+          "id": "now",
+          "name": "В наличии",
+          "count": null
+        },
+        {
+          "id": "today",
+          "name": "Под заказ: сегодня",
+          "count": null
+        },
+        {
+          "id": "tomorrow",
+          "name": "Под заказ: завтра",
+          "count": null
+        },
+        {
+          "id": "later",
+          "name": "Под заказ: позже",
+          "count": null
+        },
+        {
+          "id": "out_of_stock",
+          "name": "Отсутствующие в продаже",
+          "count": null
+        }
+      ],
+      "selected": [],
+      "default": [
+        "now",
+        "today",
+        "tomorrow",
+        "later",
+        "out_of_stock"
+      ]
+    },
+    {
+      "group": "Основные",
+      "id": "price",
+      "name": "Цена",
+      "type": "range-checkbox",
+      "is_spec": false,
+      "values": [
+        {
+          "id": "05a260cb1c02af6a5fba32e8cbf2e715",
+          "name": "Менее 10 000 ₽",
+          "count": 39
+        },
+        {
+          "id": "06fa934ebb4f6ebd255ca21ab8a4fcfc",
+          "name": "10 001 - 15 000 ₽",
+          "count": 83
+        },
+        {
+          "id": "e5bae1e6d776681d7344858779656ef9",
+          "name": "15 001 - 30 000 ₽",
+          "count": 404
+        },
+        {
+          "id": "b9d7f16b11dd3984734b3b666bde4fe3",
+          "name": "30 001 - 50 000 ₽",
+          "count": 504
+        },
+        {
+          "id": "aa63d1605ccbd4489fec658139ec7465",
+          "name": "50 001 - 80 000 ₽",
+          "count": 356
+        },
+        {
+          "id": "6d40fdc88578c8659b11a283beca5a11",
+          "name": "80 001 ₽ и более",
+          "count": 289
+        }
+      ],
+      "selected": [],
+      "range": {
+        "min": 2999,
+        "max": 367999,
+        "min_selected": null,
+        "max_selected": null
+      }
+    },
+    {
+      "group": "Основные",
+      "id": "action",
+      "name": "Предложения брендов",
+      "type": "checkbox",
+      "is_spec": false,
+      "values": [
+        {
+          "id": "vygodnyekomplekty",
+          "name": "Выгодные комплекты",
+          "count": 103
+        },
+        {
+          "id": "tovarysoskidkoj",
+          "name": "Скидки и предложения",
+          "count": 2
+        }
+      ],
+      "selected": [],
+      "default": []
+    },
+    {
+      "group": "Основные",
+      "id": "created-in-dns",
+      "name": "Создано в DNS",
+      "type": "toggle",
+      "is_spec": false,
+      "values": [],
+      "selected": []
+    },
+    {
+      "group": "Основные",
+      "id": "brand",
+      "name": "Бренд",
+      "type": "checkbox",
+      "is_spec": false,
+      "values": [
+        {
+          "id": "aceline",
+          "name": "Aceline",
+          "count": 21
+        },
+        {
+          "id": "aeg",
+          "name": "AEG",
+          "count": 1
+        },
+        {
+          "id": "ardo",
+          "name": "ARDO",
+          "count": 18
+        },
+        {
+          "id": "ascoli",
+          "name": "Ascoli",
+          "count": 11
+        },
+        {
+          "id": "atlant",
+          "name": "ATLANT",
+          "count": 66
+        },
+        {
+          "id": "beko",
+          "name": "BEKO",
+          "count": 48
+        },
+        {
+          "id": "bomann",
+          "name": "Bomann",
+          "count": 1
+        },
+        {
+          "id": "bosch",
+          "name": "Bosch",
+          "count": 27
+        },
+        {
+          "id": "candy",
+          "name": "Candy",
+          "count": 19
+        },
+        {
+          "id": "cellarprivate",
+          "name": "Cellar Private",
+          "count": 1
+        },
+        {
+          "id": "centek",
+          "name": "Centek",
+          "count": 36
+        },
+        {
+          "id": "coldvine",
+          "name": "Cold Vine",
+          "count": 4
+        },
+        {
+          "id": "delonghi",
+          "name": "Delonghi",
+          "count": 1
+        },
+        {
+          "id": "dexp",
+          "name": "DEXP",
+          "count": 181
+        },
+        {
+          "id": "don",
+          "name": "Don",
+          "count": 69
+        },
+        {
+          "id": "eigen",
+          "name": "Eigen",
+          "count": 29
+        },
+        {
+          "id": "electrolux",
+          "name": "Electrolux",
+          "count": 1
+        },
+        {
+          "id": "eureka",
+          "name": "Eureka",
+          "count": 2
+        },
+        {
+          "id": "evelux",
+          "name": "Evelux",
+          "count": 2
+        },
+        {
+          "id": "ginzzu",
+          "name": "GiNZZU",
+          "count": 5
+        },
+        {
+          "id": "gorenje",
+          "name": "Gorenje",
+          "count": 38
+        },
+        {
+          "id": "grundig",
+          "name": "Grundig",
+          "count": 1
+        },
+        {
+          "id": "haier",
+          "name": "Haier",
+          "count": 99
+        },
+        {
+          "id": "hansa",
+          "name": "Hansa",
+          "count": 4
+        },
+        {
+          "id": "harper",
+          "name": "Harper",
+          "count": 9
+        },
+        {
+          "id": "hiberg",
+          "name": "HIBERG",
+          "count": 18
+        },
+        {
+          "id": "hisense",
+          "name": "Hisense",
+          "count": 25
+        },
+        {
+          "id": "hitachi",
+          "name": "Hitachi",
+          "count": 2
+        },
+        {
+          "id": "holberg",
+          "name": "HOLBERG",
+          "count": 15
+        },
+        {
+          "id": "hotpoint",
+          "name": "HotPoint",
+          "count": 33
+        },
+        {
+          "id": "hyundai",
+          "name": "Hyundai",
+          "count": 43
+        },
+        {
+          "id": "iffalcon",
+          "name": "iFFALCON",
+          "count": 1
+        },
+        {
+          "id": "indesit",
+          "name": "Indesit",
+          "count": 54
+        },
+        {
+          "id": "kaiser",
+          "name": "KAISER",
+          "count": 2
+        },
+        {
+          "id": "kitfort",
+          "name": "KITFORT",
+          "count": 4
+        },
+        {
+          "id": "konka",
+          "name": "Konka",
+          "count": 11
+        },
+        {
+          "id": "korting",
+          "name": "Korting",
+          "count": 12
+        },
+        {
+          "id": "kraft",
+          "name": "KRAFT",
+          "count": 31
+        },
+        {
+          "id": "kuppersbusch",
+          "name": "Kuppersbusch",
+          "count": 2
+        },
+        {
+          "id": "lex",
+          "name": "LEX",
+          "count": 22
+        },
+        {
+          "id": "lg",
+          "name": "LG",
+          "count": 98
+        },
+        {
+          "id": "liebherr",
+          "name": "LIEBHERR",
+          "count": 49
+        },
+        {
+          "id": "maunfeld",
+          "name": "MAUNFELD",
+          "count": 67
+        },
+        {
+          "id": "meyvel",
+          "name": "Meyvel",
+          "count": 6
+        },
+        {
+          "id": "midea",
+          "name": "Midea",
+          "count": 39
+        },
+        {
+          "id": "muxxed",
+          "name": "Muxxed",
+          "count": 5
+        },
+        {
+          "id": "nord",
+          "name": "NORD",
+          "count": 102
+        },
+        {
+          "id": "nordfrost",
+          "name": "Nordfrost",
+          "count": 34
+        },
+        {
+          "id": "olto",
+          "name": "Olto",
+          "count": 11
+        },
+        {
+          "id": "oursson",
+          "name": "Oursson",
+          "count": 4
+        },
+        {
+          "id": "pozis",
+          "name": "Pozis",
+          "count": 64
+        },
+        {
+          "id": "premier",
+          "name": "Premier",
+          "count": 6
+        },
+        {
+          "id": "samsung",
+          "name": "Samsung",
+          "count": 53
+        },
+        {
+          "id": "scandilux",
+          "name": "Scandilux",
+          "count": 4
+        },
+        {
+          "id": "schaublorenz",
+          "name": "Schaub Lorenz",
+          "count": 15
+        },
+        {
+          "id": "sharp",
+          "name": "Sharp",
+          "count": 29
+        },
+        {
+          "id": "simfer",
+          "name": "Simfer",
+          "count": 1
+        },
+        {
+          "id": "stinol",
+          "name": "Stinol",
+          "count": 12
+        },
+        {
+          "id": "tcl",
+          "name": "TCL",
+          "count": 5
+        },
+        {
+          "id": "tesler",
+          "name": "Tesler",
+          "count": 86
+        },
+        {
+          "id": "thomson",
+          "name": "Thomson",
+          "count": 1
+        },
+        {
+          "id": "toshiba",
+          "name": "Toshiba",
+          "count": 8
+        },
+        {
+          "id": "vestfrost",
+          "name": "Vestfrost",
+          "count": 2
+        },
+        {
+          "id": "viatto",
+          "name": "Viatto",
+          "count": 15
+        },
+        {
+          "id": "weissgauff",
+          "name": "Weissgauff",
+          "count": 17
+        },
+        {
+          "id": "willmark",
+          "name": "Willmark",
+          "count": 37
+        },
+        {
+          "id": "zarget",
+          "name": "Zarget",
+          "count": 1
+        },
+        {
+          "id": "zugel",
+          "name": "ZUGEL",
+          "count": 20
+        },
+        {
+          "id": "biryusa",
+          "name": "Бирюса",
+          "count": 177
+        },
+        {
+          "id": "orsk",
+          "name": "ОРСК",
+          "count": 20
+        },
+        {
+          "id": "saratov",
+          "name": "САРАТОВ",
+          "count": 3
+        }
+      ],
+      "selected": [],
+      "default": []
+    },
+    {
+      "group": "Основные",
+      "id": "warranty",
+      "name": "Гарантия",
+      "type": "checkbox",
+      "is_spec": false,
+      "values": [
+        {
+          "id": "12",
+          "name": "1 год",
+          "count": 802
+        },
+        {
+          "id": "24",
+          "name": "2 года",
+          "count": 368
+        },
+        {
+          "id": "36",
+          "name": "3 года",
+          "count": 700
+        },
+        {
+          "id": "60",
+          "name": "5 лет",
+          "count": 74
+        },
+        {
+          "id": "120",
+          "name": "10 лет",
+          "count": 3
+        }
+      ],
+      "selected": [],
+      "default": []
+    },
+    {
+      "group": "Основные",
+      "id": "made-in-russia",
+      "name": "Сделано в России",
+      "type": "toggle",
+      "is_spec": false,
+      "values": [],
+      "selected": []
+    },
+    {
+      "group": "Рейтинг и обзоры",
+      "id": "rating",
+      "name": "Рейтинг 4 и выше",
+      "type": "toggle",
+      "is_spec": false,
+      "values": [],
+      "selected": []
+    },
+    {
+      "group": "Рейтинг и обзоры",
+      "id": "hit",
+      "name": "Хит продаж",
+      "type": "toggle",
+      "is_spec": false,
+      "values": [],
+      "selected": []
+    },
+    {
+      "group": "Рейтинг и обзоры",
+      "id": "review",
+      "name": "Есть обзор",
+      "type": "toggle",
+      "is_spec": false,
+      "values": [],
+      "selected": []
+    },
+    {
+      "group": "Рейтинг и обзоры",
+      "id": "rely",
+      "name": "Надёжные модели",
+      "type": "toggle",
+      "is_spec": false,
+      "values": [],
+      "selected": []
+    },
+    {
+      "group": "Общие параметры",
+      "id": "f[j]",
+      "name": "Тип",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "1syg",
+          "name": "холодильник полноразмерный с морозильником",
+          "count": 1189
+        },
+        {
+          "id": "1t8f",
+          "name": "холодильник с распашными дверями (Side by Side)",
+          "count": 172
+        },
+        {
+          "id": "6b66",
+          "name": "холодильник многодверный",
+          "count": 247
+        },
+        {
+          "id": "1t8g",
+          "name": "холодильник компактный",
+          "count": 246
+        },
+        {
+          "id": "1syh",
+          "name": "холодильник полноразмерный без морозильника",
+          "count": 39
+        },
+        {
+          "id": "1wjf",
+          "name": "холодильная витрина",
+          "count": 56
+        },
+        {
+          "id": "8un1",
+          "name": "холодильник-стол",
+          "count": 2
+        },
+        {
+          "id": "do7u",
+          "name": "холодильник косметический",
+          "count": 5
+        }
+      ],
+      "selected": [],
+      "default": []
+    },
+    {
+      "group": "Общие параметры",
+      "id": "f[7c]",
+      "name": "Основной цвет",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "680",
+          "name": "бежевый",
+          "count": 185
+        },
+        {
+          "id": "29q",
+          "name": "белый",
+          "count": 627
+        },
+        {
+          "id": "7id",
+          "name": "бордовый",
+          "count": 2
+        },
+        {
+          "id": "ap5",
+          "name": "бронзовый",
+          "count": 3
+        },
+        {
+          "id": "6l1",
+          "name": "голубой",
+          "count": 3
+        },
+        {
+          "id": "6ij",
+          "name": "желтый",
+          "count": 4
+        },
+        {
+          "id": "6ii",
+          "name": "зеленый",
+          "count": 10
+        },
+        {
+          "id": "bbo",
+          "name": "зеркальный",
+          "count": 1
+        },
+        {
+          "id": "6n1",
+          "name": "золотистый",
+          "count": 25
+        },
+        {
+          "id": "67z",
+          "name": "коричневый",
+          "count": 15
+        },
+        {
+          "id": "40h",
+          "name": "красный",
+          "count": 41
+        },
+        {
+          "id": "40k",
+          "name": "оранжевый",
+          "count": 5
+        },
+        {
+          "id": "6n2",
+          "name": "розовый",
+          "count": 4
+        },
+        {
+          "id": "29r",
+          "name": "серебристый",
+          "count": 491
+        },
+        {
+          "id": "67y",
+          "name": "серый",
+          "count": 212
+        },
+        {
+          "id": "40j",
+          "name": "синий",
+          "count": 7
+        },
+        {
+          "id": "40i",
+          "name": "фиолетовый",
+          "count": 1
+        },
+        {
+          "id": "29p",
+          "name": "черный",
+          "count": 324
+        }
+      ],
+      "selected": [],
+      "default": []
+    },
+    {
+      "group": "Общие параметры",
+      "id": "f[296]",
+      "name": "Цвет, заявленный производителем",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "4hrw",
+          "name": "black",
+          "count": 1
+        },
+        {
+          "id": "9y3j",
+          "name": "gray",
+          "count": 1
+        },
+        {
+          "id": "nqao",
+          "name": "gray inox",
+          "count": 1
+        },
+        {
+          "id": "1xa8",
+          "name": "grey",
+          "count": 1
+        },
+        {
+          "id": "4nrp",
+          "name": "inox",
+          "count": 17
+        },
+        {
+          "id": "8nni",
+          "name": "marble white",
+          "count": 2
+        },
+        {
+          "id": "gmn8",
+          "name": "mirror/нержавеющая сталь",
+          "count": 1
+        },
+        {
+          "id": "g69l",
+          "name": "rock",
+          "count": 1
+        },
+        {
+          "id": "5eqm",
+          "name": "silver",
+          "count": 6
+        },
+        {
+          "id": "nq9x",
+          "name": "soft black",
+          "count": 1
+        },
+        {
+          "id": "qs60",
+          "name": "sparkling grey",
+          "count": 1
+        },
+        {
+          "id": "qs68",
+          "name": "sparkling white",
+          "count": 1
+        },
+        {
+          "id": "42ar",
+          "name": "white",
+          "count": 8
+        },
+        {
+          "id": "mjoz",
+          "name": "white+black",
+          "count": 1
+        },
+        {
+          "id": "7ihm",
+          "name": "wood",
+          "count": 2
+        },
+        {
+          "id": "qd7a",
+          "name": "бежевое матовое стекло",
+          "count": 1
+        },
+        {
+          "id": "3y04",
+          "name": "бежевое стекло",
+          "count": 9
+        },
+        {
+          "id": "46op",
+          "name": "бежевое стекло с полоской",
+          "count": 2
+        },
+        {
+          "id": "680",
+          "name": "бежевый",
+          "count": 128
+        },
+        {
+          "id": "qp1k",
+          "name": "бежевый и розовая глина",
+          "count": 1
+        },
+        {
+          "id": "46ot",
+          "name": "бежевый мрамор",
+          "count": 12
+        },
+        {
+          "id": "4uxs",
+          "name": "белая искра",
+          "count": 5
+        },
+        {
+          "id": "hby3",
+          "name": "белое матовое стекло",
+          "count": 1
+        },
+        {
+          "id": "hbjy",
+          "name": "белое мерцающее стекло",
+          "count": 4
+        },
+        {
+          "id": "3xvw",
+          "name": "белое стекло",
+          "count": 19
+        },
+        {
+          "id": "29q",
+          "name": "белый",
+          "count": 565
+        },
+        {
+          "id": "3ymw",
+          "name": "белый/серый",
+          "count": 1
+        },
+        {
+          "id": "8whp",
+          "name": "белый кварц",
+          "count": 2
+        },
+        {
+          "id": "4grj",
+          "name": "белый матовый",
+          "count": 3
+        },
+        {
+          "id": "q8v1",
+          "name": "белый металл",
+          "count": 1
+        },
+        {
+          "id": "6sd8",
+          "name": "белый под стеклом",
+          "count": 1
+        },
+        {
+          "id": "atwt",
+          "name": "белый фронт",
+          "count": 1
+        },
+        {
+          "id": "7if",
+          "name": "бирюзовый",
+          "count": 2
+        },
+        {
+          "id": "7id",
+          "name": "бордовый",
+          "count": 1
+        },
+        {
+          "id": "ap5",
+          "name": "бронзовый",
+          "count": 2
+        },
+        {
+          "id": "8px7",
+          "name": "бронзовый закат",
+          "count": 1
+        },
+        {
+          "id": "cqk4",
+          "name": "галактический серый",
+          "count": 2
+        },
+        {
+          "id": "p4xw",
+          "name": "глянцевый графит",
+          "count": 2
+        },
+        {
+          "id": "6l1",
+          "name": "голубой",
+          "count": 3
+        },
+        {
+          "id": "3y0d",
+          "name": "графит зеркальный",
+          "count": 6
+        },
+        {
+          "id": "nm76",
+          "name": "графит матовый",
+          "count": 2
+        },
+        {
+          "id": "3xsx",
+          "name": "графитовый",
+          "count": 54
+        },
+        {
+          "id": "4cbv",
+          "name": "графитовый серый",
+          "count": 2
+        },
+        {
+          "id": "5nq",
+          "name": "дерево",
+          "count": 5
+        },
+        {
+          "id": "6of1",
+          "name": "деревянный",
+          "count": 1
+        },
+        {
+          "id": "6ij",
+          "name": "желтый",
+          "count": 4
+        },
+        {
+          "id": "hcxu",
+          "name": "звездно серый",
+          "count": 2
+        },
+        {
+          "id": "6ii",
+          "name": "зеленый",
+          "count": 6
+        },
+        {
+          "id": "bbo",
+          "name": "зеркальный",
+          "count": 1
+        },
+        {
+          "id": "6n1",
+          "name": "золотистый",
+          "count": 10
+        },
+        {
+          "id": "i782",
+          "name": "золотистый песок",
+          "count": 1
+        },
+        {
+          "id": "odx1",
+          "name": "золото",
+          "count": 4
+        },
+        {
+          "id": "fqbj",
+          "name": "золотой песок",
+          "count": 3
+        },
+        {
+          "id": "fqbn",
+          "name": "золотой  песок",
+          "count": 2
+        },
+        {
+          "id": "fqbl",
+          "name": "золотой  цветок",
+          "count": 2
+        },
+        {
+          "id": "8npi",
+          "name": "изысканный черный",
+          "count": 1
+        },
+        {
+          "id": "67z",
+          "name": "коричневый",
+          "count": 3
+        },
+        {
+          "id": "67ym",
+          "name": "королева",
+          "count": 1
+        },
+        {
+          "id": "oxuj",
+          "name": "красная вишня",
+          "count": 1
+        },
+        {
+          "id": "3y03",
+          "name": "красное стекло",
+          "count": 3
+        },
+        {
+          "id": "ppxq",
+          "name": "красное стекло с полосками",
+          "count": 1
+        },
+        {
+          "id": "40h",
+          "name": "красный",
+          "count": 34
+        },
+        {
+          "id": "vww",
+          "name": "кремовый",
+          "count": 3
+        },
+        {
+          "id": "5a30",
+          "name": "лавандовый",
+          "count": 2
+        },
+        {
+          "id": "3xwn",
+          "name": "матовый графит",
+          "count": 23
+        },
+        {
+          "id": "79q",
+          "name": "металлик",
+          "count": 37
+        },
+        {
+          "id": "3y0e",
+          "name": "металлик искристый",
+          "count": 13
+        },
+        {
+          "id": "42w0",
+          "name": "металлический графит",
+          "count": 1
+        },
+        {
+          "id": "3xvt",
+          "name": "мокрый асфальт",
+          "count": 2
+        },
+        {
+          "id": "3xwk",
+          "name": "мраморно-бежевый",
+          "count": 1
+        },
+        {
+          "id": "42uw",
+          "name": "мраморный",
+          "count": 5
+        },
+        {
+          "id": "4zfj",
+          "name": "мятно-зеленый",
+          "count": 1
+        },
+        {
+          "id": "jjbu",
+          "name": "насыщенный серый",
+          "count": 5
+        },
+        {
+          "id": "c60b",
+          "name": "нежно-розовый",
+          "count": 1
+        },
+        {
+          "id": "3y6e",
+          "name": "нержавейка",
+          "count": 1
+        },
+        {
+          "id": "4ue",
+          "name": "нержавеющая сталь",
+          "count": 140
+        },
+        {
+          "id": "40k",
+          "name": "оранжевый",
+          "count": 2
+        },
+        {
+          "id": "ek76",
+          "name": "оранжевый матовый",
+          "count": 3
+        },
+        {
+          "id": "hcw2",
+          "name": "песочно-серый",
+          "count": 6
+        },
+        {
+          "id": "ngr8",
+          "name": "песочный бежевый",
+          "count": 1
+        },
+        {
+          "id": "16ma",
+          "name": "под дерево",
+          "count": 1
+        },
+        {
+          "id": "9o9l",
+          "name": "пыльно-розовый",
+          "count": 1
+        },
+        {
+          "id": "3xve",
+          "name": "рубиновый",
+          "count": 2
+        },
+        {
+          "id": "hcy1",
+          "name": "сапфир",
+          "count": 2
+        },
+        {
+          "id": "3xqz",
+          "name": "светло-коричневый",
+          "count": 1
+        },
+        {
+          "id": "8cne",
+          "name": "светло-розовый",
+          "count": 1
+        },
+        {
+          "id": "3xw1",
+          "name": "серебристое стекло",
+          "count": 2
+        },
+        {
+          "id": "29r",
+          "name": "серебристый",
+          "count": 232
+        },
+        {
+          "id": "3xw5",
+          "name": "серебристый металлик",
+          "count": 8
+        },
+        {
+          "id": "3xw6",
+          "name": "серебристый металлопласт",
+          "count": 15
+        },
+        {
+          "id": "teq",
+          "name": "серебро",
+          "count": 32
+        },
+        {
+          "id": "7kif",
+          "name": "серебрянное стекло",
+          "count": 1
+        },
+        {
+          "id": "5nh9",
+          "name": "серо-коричневый",
+          "count": 1
+        },
+        {
+          "id": "kl5j",
+          "name": "серое мраморное стекло",
+          "count": 1
+        },
+        {
+          "id": "3y2h",
+          "name": "серое стекло",
+          "count": 1
+        },
+        {
+          "id": "67y",
+          "name": "серый",
+          "count": 40
+        },
+        {
+          "id": "buto",
+          "name": "серый графит",
+          "count": 1
+        },
+        {
+          "id": "3y72",
+          "name": "серый металлик",
+          "count": 1
+        },
+        {
+          "id": "jccz",
+          "name": "серый мрамор",
+          "count": 2
+        },
+        {
+          "id": "40j",
+          "name": "синий",
+          "count": 7
+        },
+        {
+          "id": "zfb",
+          "name": "слоновая кость",
+          "count": 13
+        },
+        {
+          "id": "3xvv",
+          "name": "снежная королева",
+          "count": 4
+        },
+        {
+          "id": "28q",
+          "name": "сталь",
+          "count": 2
+        },
+        {
+          "id": "2yin",
+          "name": "стальной",
+          "count": 13
+        },
+        {
+          "id": "6syl",
+          "name": "стальной антрацит",
+          "count": 5
+        },
+        {
+          "id": "3xvx",
+          "name": "стекло шампань",
+          "count": 1
+        },
+        {
+          "id": "kocu",
+          "name": "текстурированное бежевое стекло",
+          "count": 2
+        },
+        {
+          "id": "kocs",
+          "name": "текстурированное белое стекло",
+          "count": 2
+        },
+        {
+          "id": "krob",
+          "name": "текстурированное серое стекло",
+          "count": 1
+        },
+        {
+          "id": "kocy",
+          "name": "текстурированное черное стекло",
+          "count": 2
+        },
+        {
+          "id": "45v1",
+          "name": "темная нержавеющая сталь",
+          "count": 18
+        },
+        {
+          "id": "5c4s",
+          "name": "темная сталь",
+          "count": 1
+        },
+        {
+          "id": "ucf",
+          "name": "темно-коричневый",
+          "count": 2
+        },
+        {
+          "id": "42o4",
+          "name": "темно-красный",
+          "count": 1
+        },
+        {
+          "id": "3d52",
+          "name": "темно-серебристый",
+          "count": 2
+        },
+        {
+          "id": "oi0",
+          "name": "темно-серый",
+          "count": 7
+        },
+        {
+          "id": "amg0",
+          "name": "темный графит",
+          "count": 3
+        },
+        {
+          "id": "hgas",
+          "name": "темный камень",
+          "count": 1
+        },
+        {
+          "id": "99ks",
+          "name": "темный металлик",
+          "count": 1
+        },
+        {
+          "id": "7yev",
+          "name": "темный мрамор",
+          "count": 1
+        },
+        {
+          "id": "p4qd",
+          "name": "темный титан",
+          "count": 2
+        },
+        {
+          "id": "55b",
+          "name": "титан",
+          "count": 1
+        },
+        {
+          "id": "9nhw",
+          "name": "холодный серый",
+          "count": 1
+        },
+        {
+          "id": "4yfi",
+          "name": "черная нержавеющая сталь",
+          "count": 22
+        },
+        {
+          "id": "3xwm",
+          "name": "черная сталь",
+          "count": 10
+        },
+        {
+          "id": "2x13",
+          "name": "черно-белый",
+          "count": 1
+        },
+        {
+          "id": "3xwi",
+          "name": "черное зеркало",
+          "count": 1
+        },
+        {
+          "id": "hby0",
+          "name": "черное матовое стекло",
+          "count": 2
+        },
+        {
+          "id": "hbu9",
+          "name": "черное мерцающее стекло",
+          "count": 4
+        },
+        {
+          "id": "2axo",
+          "name": "черное стекло",
+          "count": 33
+        },
+        {
+          "id": "29p",
+          "name": "черный",
+          "count": 165
+        },
+        {
+          "id": "4g26",
+          "name": "черный (стекло)",
+          "count": 2
+        },
+        {
+          "id": "e4fg",
+          "name": "черный блестящий",
+          "count": 1
+        },
+        {
+          "id": "ohy",
+          "name": "черный матовый",
+          "count": 29
+        },
+        {
+          "id": "3xwa",
+          "name": "черный металлик",
+          "count": 7
+        },
+        {
+          "id": "3xw0",
+          "name": "черный сияющий",
+          "count": 1
+        },
+        {
+          "id": "atx5",
+          "name": "черный фронт",
+          "count": 12
+        },
+        {
+          "id": "gy1",
+          "name": "чугун",
+          "count": 1
+        },
+        {
+          "id": "3xwl",
+          "name": "шампань",
+          "count": 4
+        },
+        {
+          "id": "5jn9",
+          "name": "шампань стекло",
+          "count": 3
+        }
+      ],
+      "selected": [],
+      "default": []
+    },
+    {
+      "group": "Общие параметры",
+      "id": "f[10r]",
+      "name": "Дополнительный цвет",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "29q",
+          "name": "белый",
+          "count": 13
+        },
+        {
+          "id": "bbo",
+          "name": "зеркальный",
+          "count": 2
+        },
+        {
+          "id": "67z",
+          "name": "коричневый",
+          "count": 2
+        },
+        {
+          "id": "40h",
+          "name": "красный",
+          "count": 1
+        },
+        {
+          "id": "cr",
+          "name": "нет",
+          "count": 1514
+        },
+        {
+          "id": "ab2",
+          "name": "прозрачный",
+          "count": 3
+        },
+        {
+          "id": "6n2",
+          "name": "розовый",
+          "count": 2
+        },
+        {
+          "id": "29r",
+          "name": "серебристый",
+          "count": 109
+        },
+        {
+          "id": "67y",
+          "name": "серый",
+          "count": 25
+        },
+        {
+          "id": "40j",
+          "name": "синий",
+          "count": 1
+        },
+        {
+          "id": "29p",
+          "name": "черный",
+          "count": 245
+        }
+      ],
+      "selected": [],
+      "default": []
+    },
+    {
+      "group": "Основные характеристики",
+      "id": "f[2v8]",
+      "name": "Размораживание морозильной камеры / НТО",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "5e1",
+          "name": "No Frost",
+          "count": 1192
+        },
+        {
+          "id": "1t2r",
+          "name": "без морозилки",
+          "count": 142
+        },
+        {
+          "id": "3r5",
+          "name": "ручное",
+          "count": 622
+        }
+      ],
+      "selected": [],
+      "default": []
+    },
+    {
+      "group": "Основные характеристики",
+      "id": "f[tq]",
+      "name": "Размораживание холодильной камеры",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "5e1",
+          "name": "No Frost",
+          "count": 1177
+        },
+        {
+          "id": "h5c",
+          "name": "капельная",
+          "count": 777
+        }
+      ],
+      "selected": [],
+      "default": []
+    },
+    {
+      "group": "Основные характеристики",
+      "id": "f[4zx]",
+      "name": "Инверторный компрессор",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "21",
+          "name": "есть",
+          "count": 732
+        },
+        {
+          "id": "cr",
+          "name": "нет",
+          "count": 1227
+        }
+      ],
+      "selected": [],
+      "default": []
+    },
+    {
+      "group": "Основные характеристики",
+      "id": "fr[f0]",
+      "name": "Уровень шума (дБ)",
+      "type": "range-radio",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "5f5ba6d1bcf0e0cf29395a1c84bd9870",
+          "name": "Менее 38",
+          "count": 467
+        },
+        {
+          "id": "cfb1e56eac3ce7a29f1455a365f7a1e7",
+          "name": "39 - 40",
+          "count": 641
+        },
+        {
+          "id": "1ada03395ec66337ea4ea07bc77d54ec",
+          "name": "41 - 42",
+          "count": 591
+        },
+        {
+          "id": "863e1cc769570b72488e04f4a5114df9",
+          "name": "43 и более",
+          "count": 191
+        }
+      ],
+      "selected": [],
+      "range": {
+        "min": 27,
+        "max": 69,
+        "min_selected": null,
+        "max_selected": null
+      }
+    },
+    {
+      "group": "Основные характеристики",
+      "id": "f[tv]",
+      "name": "Материал внешнего покрытия",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "kfy1",
+          "name": "ламинированная плёнка ПВХ",
+          "count": 2
+        },
+        {
+          "id": "qmjf",
+          "name": "ламинированная сталь",
+          "count": 2
+        },
+        {
+          "id": "1xo",
+          "name": "металл",
+          "count": 1589
+        },
+        {
+          "id": "4ue",
+          "name": "нержавеющая сталь",
+          "count": 1
+        },
+        {
+          "id": "1xp",
+          "name": "пластик",
+          "count": 241
+        },
+        {
+          "id": "28r",
+          "name": "стекло",
+          "count": 282
+        },
+        {
+          "id": "67i",
+          "name": "эмаль",
+          "count": 26
+        }
+      ],
+      "selected": [],
+      "default": []
+    },
+    {
+      "group": "Основные характеристики",
+      "id": "f[th]",
+      "name": "Хладагент",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "7i6c",
+          "name": "NH3",
+          "count": 6
+        },
+        {
+          "id": "gzh",
+          "name": "R134a",
+          "count": 21
+        },
+        {
+          "id": "49vo",
+          "name": "R290",
+          "count": 5
+        },
+        {
+          "id": "j7h",
+          "name": "R600a",
+          "count": 1812
+        },
+        {
+          "id": "fdtt",
+          "name": "R603a",
+          "count": 2
+        },
+        {
+          "id": "eb",
+          "name": "отсутствует",
+          "count": 6
+        }
+      ],
+      "selected": [],
+      "default": []
+    },
+    {
+      "group": "Основные характеристики",
+      "id": "f[u8]",
+      "name": "Материал полок",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "1xo",
+          "name": "металл",
+          "count": 101
+        },
+        {
+          "id": "1xp",
+          "name": "пластик",
+          "count": 115
+        },
+        {
+          "id": "28r",
+          "name": "стекло",
+          "count": 1844
+        }
+      ],
+      "selected": [],
+      "default": []
+    },
+    {
+      "group": "Основные характеристики",
+      "id": "fr[tx]",
+      "name": "Мощность замораживания (кг/сутки)",
+      "type": "range-radio",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "32ce4803e692aa12b0dd941558ed7f28",
+          "name": "Менее 2.99",
+          "count": 328
+        },
+        {
+          "id": "c5c4d387834cb8910b68402082695454",
+          "name": "3 - 6.99",
+          "count": 578
+        },
+        {
+          "id": "3ffc026ecd3b878acd5be9d8ee93df3f",
+          "name": "7 - 9.99",
+          "count": 221
+        },
+        {
+          "id": "db52476cdd080cd819c5a9b6f77962ce",
+          "name": "10 - 14.99",
+          "count": 524
+        },
+        {
+          "id": "fa628fa4555d284bd20298fdd6ff893e",
+          "name": "15 и более",
+          "count": 56
+        }
+      ],
+      "selected": [],
+      "range": {
+        "min": 0,
+        "max": 20,
+        "min_selected": null,
+        "max_selected": null
+      }
+    },
+    {
+      "group": "Основные характеристики",
+      "id": "fr[to]",
+      "name": "Энергопотребление (кВтч/год)",
+      "type": "range-radio",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "e23e97c9a54f29e699cf2b22679fa788",
+          "name": "Менее 179.99",
+          "count": 234
+        },
+        {
+          "id": "3a88301e994b6394daacc8d4d284006c",
+          "name": "180 - 239.99",
+          "count": 137
+        },
+        {
+          "id": "d6b2dcbfe4cfcdf202594e04c9e5bc6e",
+          "name": "240 - 299.99",
+          "count": 487
+        },
+        {
+          "id": "7ed268fe35cd948e52c207ec777da539",
+          "name": "300 - 359.99",
+          "count": 537
+        },
+        {
+          "id": "c4619110ca1c37d1cb1219e13d4ccf9a",
+          "name": "360 - 449.99",
+          "count": 385
+        },
+        {
+          "id": "6e49fef876c05d3154d714d3e12a35e0",
+          "name": "450 и более",
+          "count": 76
+        }
+      ],
+      "selected": [],
+      "range": {
+        "min": 72,
+        "max": 2592,
+        "min_selected": null,
+        "max_selected": null
+      }
+    },
+    {
+      "group": "Основные характеристики",
+      "id": "f[2v9]",
+      "name": "Мин. температура морозильный камеры / НТО (°C)",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "hti",
+          "name": "-32 °C",
+          "count": 11
+        },
+        {
+          "id": "69u",
+          "name": "-30 °C",
+          "count": 8
+        },
+        {
+          "id": "1958",
+          "name": "-28 °C",
+          "count": 2
+        },
+        {
+          "id": "8tx1",
+          "name": "-27 °C",
+          "count": 10
+        },
+        {
+          "id": "1a6i",
+          "name": "-26 °C",
+          "count": 48
+        },
+        {
+          "id": "7sz",
+          "name": "-25 °C",
+          "count": 33
+        },
+        {
+          "id": "5e6",
+          "name": "-24 °C",
+          "count": 590
+        },
+        {
+          "id": "16q2",
+          "name": "-23 °C",
+          "count": 218
+        },
+        {
+          "id": "1a4y",
+          "name": "-22 °C",
+          "count": 52
+        },
+        {
+          "id": "1ae5",
+          "name": "-21 °C",
+          "count": 21
+        },
+        {
+          "id": "69v",
+          "name": "-20 °C",
+          "count": 4
+        },
+        {
+          "id": "5e5",
+          "name": "-18 °C",
+          "count": 416
+        },
+        {
+          "id": "1afe",
+          "name": "-16 °C",
+          "count": 19
+        },
+        {
+          "id": "69w",
+          "name": "-15 °C",
+          "count": 10
+        },
+        {
+          "id": "68hs",
+          "name": "-14 °C",
+          "count": 6
+        },
+        {
+          "id": "1t2s",
+          "name": "-12 °C",
+          "count": 29
+        },
+        {
+          "id": "69y",
+          "name": "-10 °C",
+          "count": 11
+        },
+        {
+          "id": "hhep",
+          "name": "-8 °C",
+          "count": 2
+        },
+        {
+          "id": "1t8o",
+          "name": "-6 °C",
+          "count": 31
+        },
+        {
+          "id": "141v",
+          "name": "-5 °C",
+          "count": 15
+        },
+        {
+          "id": "5cha",
+          "name": "-3 °C",
+          "count": 2
+        },
+        {
+          "id": "1t8p",
+          "name": "-2 °C",
+          "count": 4
+        },
+        {
+          "id": "7t0",
+          "name": "0 °C",
+          "count": 4
+        }
+      ],
+      "selected": [],
+      "default": []
+    },
+    {
+      "group": "Основные характеристики",
+      "id": "fr[tz]",
+      "name": "Автономное сохранение холода (ч)",
+      "type": "range-radio",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "f45b5947ab3bbc4bf7e9333f207c4a80",
+          "name": "Менее 9.9",
+          "count": 180
+        },
+        {
+          "id": "e64f98e9fd62e0d12531bfef23ea1207",
+          "name": "10 - 14.9",
+          "count": 407
+        },
+        {
+          "id": "4deeeaf3ef0a9d8d94f14093463690b8",
+          "name": "15 - 17.9",
+          "count": 343
+        },
+        {
+          "id": "d6b2f310f3bde316d15afe57b8df2258",
+          "name": "18 - 23.9",
+          "count": 187
+        },
+        {
+          "id": "04ee7388fca42358febe111b274c3315",
+          "name": "24 и более",
+          "count": 41
+        }
+      ],
+      "selected": [],
+      "range": {
+        "min": 1,
+        "max": 48,
+        "min_selected": null,
+        "max_selected": null
+      }
+    },
+    {
+      "group": "Объем",
+      "id": "fr[2va]",
+      "name": "Полезный объем морозильной камеры / НТО (л)",
+      "type": "range-radio",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "f45b5947ab3bbc4bf7e9333f207c4a80",
+          "name": "Менее 9.9",
+          "count": 197
+        },
+        {
+          "id": "1088704dfcb6e3b47410b3e4a483c297",
+          "name": "9.91 - 39.9",
+          "count": 137
+        },
+        {
+          "id": "624aac67e7653949095af4031738539e",
+          "name": "39.91 - 79.9",
+          "count": 332
+        },
+        {
+          "id": "6c8f7e0afd21e6edeb76f6d2dece92a1",
+          "name": "79.91 - 129.9",
+          "count": 770
+        },
+        {
+          "id": "115c2ad0dfab341404a3bfed64636eac",
+          "name": "129.91 - 199.9",
+          "count": 362
+        },
+        {
+          "id": "6fb80dca136889f1d2adb6e54d3360ec",
+          "name": "199.91 и более",
+          "count": 91
+        }
+      ],
+      "selected": [],
+      "range": {
+        "min": 0,
+        "max": 350,
+        "min_selected": null,
+        "max_selected": null
+      }
+    },
+    {
+      "group": "Объем",
+      "id": "fr[tk]",
+      "name": "Общий полезный объем (л)",
+      "type": "range-radio",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "b084ba7d4c727c5ff15cbdf96e9d153c",
+          "name": "Менее 149.9",
+          "count": 267
+        },
+        {
+          "id": "4930ffb2f68eb76be4f98e821c12f1f6",
+          "name": "150 - 249.9",
+          "count": 154
+        },
+        {
+          "id": "a79e9c840ee5145aa857783d691cbdff",
+          "name": "250 - 349.9",
+          "count": 696
+        },
+        {
+          "id": "61a8d780c5d3a295ba5db24ac62aef52",
+          "name": "350 - 449.9",
+          "count": 430
+        },
+        {
+          "id": "6b9b88fcd80b06318ce4bca8f34db25b",
+          "name": "450 - 549.9",
+          "count": 246
+        },
+        {
+          "id": "bb1763f821beb3dd07f8a89ea0882eaf",
+          "name": "550 и более",
+          "count": 129
+        }
+      ],
+      "selected": [],
+      "range": {
+        "min": 4,
+        "max": 750,
+        "min_selected": null,
+        "max_selected": null
+      }
+    },
+    {
+      "group": "Объем",
+      "id": "fr[tl]",
+      "name": "Полезный объем холодильной камеры (л)",
+      "type": "range-radio",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "3a682dc9a7a0f82df0e536c802f3531f",
+          "name": "Менее 99.9",
+          "count": 221
+        },
+        {
+          "id": "4f7cdaf962fbba4d3896c1b714ecbb1b",
+          "name": "100 - 199.9",
+          "count": 274
+        },
+        {
+          "id": "f88de80a2f9fdd3d53974fe5ff9cb445",
+          "name": "200 - 299.9",
+          "count": 1004
+        },
+        {
+          "id": "8009ad5b3daa550b27a5e30493cc7aa5",
+          "name": "300 - 399.9",
+          "count": 330
+        },
+        {
+          "id": "c14e63daf5ddcbbbe91a92893213a98b",
+          "name": "400 - 499.9",
+          "count": 76
+        },
+        {
+          "id": "ef33b23d314d9987b6f72171802a85de",
+          "name": "500 и более",
+          "count": 8
+        }
+      ],
+      "selected": [],
+      "range": {
+        "min": 4,
+        "max": 619,
+        "min_selected": null,
+        "max_selected": null
+      }
+    },
+    {
+      "group": "Конструкция и комплектация",
+      "id": "f[tg]",
+      "name": "Количество камер (шт)",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "20j",
+          "name": "1 шт",
+          "count": 290
+        },
+        {
+          "id": "20d",
+          "name": "2 шт",
+          "count": 1402
+        },
+        {
+          "id": "20h",
+          "name": "3 шт",
+          "count": 220
+        },
+        {
+          "id": "20e",
+          "name": "4 шт",
+          "count": 10
+        }
+      ],
+      "selected": [],
+      "default": []
+    },
+    {
+      "group": "Конструкция и комплектация",
+      "id": "f[2vc]",
+      "name": "Расположение морозильной камеры / НТО",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "5e8",
+          "name": "сверху",
+          "count": 362
+        },
+        {
+          "id": "5e7",
+          "name": "снизу",
+          "count": 1294
+        },
+        {
+          "id": "fy4",
+          "name": "слева",
+          "count": 163
+        },
+        {
+          "id": "1jqz",
+          "name": "справа",
+          "count": 2
+        },
+        {
+          "id": "cr",
+          "name": "нет",
+          "count": 138
+        }
+      ],
+      "selected": [],
+      "default": []
+    },
+    {
+      "group": "Конструкция и комплектация",
+      "id": "f[ti]",
+      "name": "Количество дверей (шт)",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "20j",
+          "name": "1 шт",
+          "count": 298
+        },
+        {
+          "id": "20d",
+          "name": "2 шт",
+          "count": 1368
+        },
+        {
+          "id": "20h",
+          "name": "3 шт",
+          "count": 38
+        },
+        {
+          "id": "20e",
+          "name": "4 шт",
+          "count": 211
+        },
+        {
+          "id": "20f",
+          "name": "5 шт",
+          "count": 7
+        }
+      ],
+      "selected": [],
+      "default": []
+    },
+    {
+      "group": "Конструкция и комплектация",
+      "id": "f[u7]",
+      "name": "Генератор льда",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "1n8",
+          "name": "автоматический",
+          "count": 29
+        },
+        {
+          "id": "542",
+          "name": "механический",
+          "count": 118
+        },
+        {
+          "id": "cr",
+          "name": "нет",
+          "count": 1810
+        }
+      ],
+      "selected": [],
+      "default": []
+    },
+    {
+      "group": "Конструкция и комплектация",
+      "id": "f[tj]",
+      "name": "Зона свежести (нулевая камера)",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "21",
+          "name": "есть",
+          "count": 900
+        },
+        {
+          "id": "cr",
+          "name": "нет",
+          "count": 1051
+        }
+      ],
+      "selected": [],
+      "default": []
+    },
+    {
+      "group": "Конструкция и комплектация",
+      "id": "f[62w]",
+      "name": "Нулевой зазор дверцы",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "21",
+          "name": "есть",
+          "count": 721
+        },
+        {
+          "id": "cr",
+          "name": "нет",
+          "count": 993
+        }
+      ],
+      "selected": [],
+      "default": []
+    },
+    {
+      "group": "Конструкция и комплектация",
+      "id": "f[1xw]",
+      "name": "Второй компрессор",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "21",
+          "name": "есть",
+          "count": 14
+        },
+        {
+          "id": "cr",
+          "name": "нет",
+          "count": 1946
+        }
+      ],
+      "selected": [],
+      "default": []
+    },
+    {
+      "group": "Конструкция и комплектация",
+      "id": "f[901]",
+      "name": "Тип зоны свежести (нулевой камеры)",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "hm89",
+          "name": "влажная и сухая",
+          "count": 269
+        },
+        {
+          "id": "4vi",
+          "name": "влажная",
+          "count": 392
+        },
+        {
+          "id": "4vh",
+          "name": "сухая",
+          "count": 161
+        },
+        {
+          "id": "cr",
+          "name": "нет",
+          "count": 1039
+        }
+      ],
+      "selected": [],
+      "default": []
+    },
+    {
+      "group": "Конструкция и комплектация",
+      "id": "f[53b]",
+      "name": "Перенавешиваемые двери",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "21",
+          "name": "есть",
+          "count": 1343
+        },
+        {
+          "id": "cr",
+          "name": "нет",
+          "count": 591
+        }
+      ],
+      "selected": [],
+      "default": []
+    },
+    {
+      "group": "Конструкция и комплектация",
+      "id": "f[u6]",
+      "name": "Антибактериальная защита",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "5f9",
+          "name": "антибактериальное покрытие",
+          "count": 270
+        },
+        {
+          "id": "1rh3",
+          "name": "антибактериальный уплотнитель дверей",
+          "count": 131
+        },
+        {
+          "id": "dvvd",
+          "name": "деодорайзер/дезодоратор",
+          "count": 174
+        },
+        {
+          "id": "d2d",
+          "name": "ионизация",
+          "count": 135
+        },
+        {
+          "id": "c0lo",
+          "name": "озонирование",
+          "count": 6
+        },
+        {
+          "id": "a9l",
+          "name": "УФ лампа",
+          "count": 23
+        },
+        {
+          "id": "cr",
+          "name": "нет",
+          "count": 992
+        },
+        {
+          "id": "jjbv",
+          "name": "антибактериальное покрытие ручек дверей",
+          "count": 4
+        }
+      ],
+      "selected": [],
+      "default": []
+    },
+    {
+      "group": "Конструкция и комплектация",
+      "id": "f[60h]",
+      "name": "Открытие дверцы",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "592z",
+          "name": "налево",
+          "count": 401
+        },
+        {
+          "id": "58xd",
+          "name": "направо",
+          "count": 1952
+        },
+        {
+          "id": "fnoj",
+          "name": "на себя",
+          "count": 64
+        }
+      ],
+      "selected": [],
+      "default": []
+    },
+    {
+      "group": "Конструкция и комплектация",
+      "id": "f[63l]",
+      "name": "Диспенсер для подачи воды",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "21",
+          "name": "есть",
+          "count": 45
+        },
+        {
+          "id": "cr",
+          "name": "нет",
+          "count": 1912
+        }
+      ],
+      "selected": [],
+      "default": []
+    },
+    {
+      "group": "Конструкция и комплектация",
+      "id": "f[902]",
+      "name": "Ручная регулировка в зоне свежести",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "hmos",
+          "name": "регулируется влажность и температура",
+          "count": 126
+        },
+        {
+          "id": "dwjy",
+          "name": "регулируется влажность",
+          "count": 364
+        },
+        {
+          "id": "dwcx",
+          "name": "регулируется температура",
+          "count": 116
+        },
+        {
+          "id": "cr",
+          "name": "нет",
+          "count": 227
+        },
+        {
+          "id": "dwb9",
+          "name": "отсутствует зона свежести (нулевая камера)",
+          "count": 992
+        }
+      ],
+      "selected": [],
+      "default": []
+    },
+    {
+      "group": "Конструкция и комплектация",
+      "id": "f[8zu]",
+      "name": "Особенности дверной ручки",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "28s",
+          "name": "горизонтальная",
+          "count": 1169
+        },
+        {
+          "id": "28t",
+          "name": "вертикальная",
+          "count": 676
+        },
+        {
+          "id": "3d1",
+          "name": "внешняя",
+          "count": 186
+        },
+        {
+          "id": "8c0h",
+          "name": "скрытая",
+          "count": 1746
+        },
+        {
+          "id": "dutl",
+          "name": "с толкателем",
+          "count": 5
+        }
+      ],
+      "selected": [],
+      "default": []
+    },
+    {
+      "group": "Конструкция и комплектация",
+      "id": "f[5lg]",
+      "name": "Подставка для бутылок",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "21",
+          "name": "есть",
+          "count": 392
+        },
+        {
+          "id": "cr",
+          "name": "нет",
+          "count": 1556
+        }
+      ],
+      "selected": [],
+      "default": []
+    },
+    {
+      "group": "Конструкция и комплектация",
+      "id": "f[8zx]",
+      "name": "Ящики в холодильной камере (шт)",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "20r",
+          "name": "0 шт",
+          "count": 138
+        },
+        {
+          "id": "20j",
+          "name": "1 шт",
+          "count": 759
+        },
+        {
+          "id": "20d",
+          "name": "2 шт",
+          "count": 861
+        },
+        {
+          "id": "20h",
+          "name": "3 шт",
+          "count": 143
+        },
+        {
+          "id": "20e",
+          "name": "4 шт",
+          "count": 14
+        },
+        {
+          "id": "20f",
+          "name": "5 шт",
+          "count": 4
+        }
+      ],
+      "selected": [],
+      "default": []
+    },
+    {
+      "group": "Конструкция и комплектация",
+      "id": "f[900]",
+      "name": "Ящики/открытые полки в морозильной камере/НТО (шт)",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "20r",
+          "name": "0 шт",
+          "count": 139
+        },
+        {
+          "id": "20j",
+          "name": "1 шт",
+          "count": 196
+        },
+        {
+          "id": "20d",
+          "name": "2 шт",
+          "count": 262
+        },
+        {
+          "id": "20h",
+          "name": "3 шт",
+          "count": 791
+        },
+        {
+          "id": "20e",
+          "name": "4 шт",
+          "count": 180
+        },
+        {
+          "id": "20f",
+          "name": "5 шт",
+          "count": 23
+        },
+        {
+          "id": "20g",
+          "name": "6 шт",
+          "count": 284
+        },
+        {
+          "id": "20m",
+          "name": "7 шт",
+          "count": 34
+        }
+      ],
+      "selected": [],
+      "default": []
+    },
+    {
+      "group": "Конструкция и комплектация",
+      "id": "f[8zv]",
+      "name": "Складная полка",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "21",
+          "name": "есть",
+          "count": 234
+        },
+        {
+          "id": "cr",
+          "name": "нет",
+          "count": 1662
+        }
+      ],
+      "selected": [],
+      "default": []
+    },
+    {
+      "group": "Конструкция и комплектация",
+      "id": "f[8zw]",
+      "name": "Полки в холодильной камере (шт)",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "20j",
+          "name": "1 шт",
+          "count": 38
+        },
+        {
+          "id": "20d",
+          "name": "2 шт",
+          "count": 127
+        },
+        {
+          "id": "20h",
+          "name": "3 шт",
+          "count": 656
+        },
+        {
+          "id": "20e",
+          "name": "4 шт",
+          "count": 835
+        },
+        {
+          "id": "20f",
+          "name": "5 шт",
+          "count": 228
+        },
+        {
+          "id": "20g",
+          "name": "6 шт",
+          "count": 29
+        },
+        {
+          "id": "20m",
+          "name": "7 шт",
+          "count": 5
+        },
+        {
+          "id": "20n",
+          "name": "10 шт",
+          "count": 2
+        }
+      ],
+      "selected": [],
+      "default": []
+    },
+    {
+      "group": "Конструкция и комплектация",
+      "id": "f[5le]",
+      "name": "Подставка для яиц",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "21",
+          "name": "есть",
+          "count": 1578
+        },
+        {
+          "id": "cr",
+          "name": "нет",
+          "count": 291
+        }
+      ],
+      "selected": [],
+      "default": []
+    },
+    {
+      "group": "Конструкция и комплектация",
+      "id": "f[9ah]",
+      "name": "Фитоподсветка",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "21",
+          "name": "есть",
+          "count": 34
+        },
+        {
+          "id": "cr",
+          "name": "нет",
+          "count": 1887
+        }
+      ],
+      "selected": [],
+      "default": []
+    },
+    {
+      "group": "Конструкция и комплектация",
+      "id": "f[5lf]",
+      "name": "Форма для льда",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "21",
+          "name": "есть",
+          "count": 1103
+        },
+        {
+          "id": "cr",
+          "name": "нет",
+          "count": 721
+        }
+      ],
+      "selected": [],
+      "default": []
+    },
+    {
+      "group": "Конструкция и комплектация",
+      "id": "f[8yg]",
+      "name": "Возможность смены фронтальной панели",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "nklt",
+          "name": "есть (фасада нет в комплекте)",
+          "count": 2
+        },
+        {
+          "id": "nkls",
+          "name": "есть (фасад в комплекте)",
+          "count": 3
+        },
+        {
+          "id": "cr",
+          "name": "нет",
+          "count": 1938
+        }
+      ],
+      "selected": [],
+      "default": []
+    },
+    {
+      "group": "Индикация и управление",
+      "id": "f[4tk]",
+      "name": "Управление со смартфона",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "21",
+          "name": "есть",
+          "count": 177
+        },
+        {
+          "id": "cr",
+          "name": "нет",
+          "count": 1780
+        },
+        {
+          "id": "311",
+          "name": "опционально",
+          "count": 1
+        }
+      ],
+      "selected": [],
+      "default": []
+    },
+    {
+      "group": "Индикация и управление",
+      "id": "f[8u]",
+      "name": "Дисплей",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "21",
+          "name": "есть",
+          "count": 1097
+        },
+        {
+          "id": "cr",
+          "name": "нет",
+          "count": 862
+        }
+      ],
+      "selected": [],
+      "default": []
+    },
+    {
+      "group": "Индикация и управление",
+      "id": "f[sj]",
+      "name": "Тип управления",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "4ur",
+          "name": "кнопки",
+          "count": 194
+        },
+        {
+          "id": "4uq",
+          "name": "поворотный механизм",
+          "count": 763
+        },
+        {
+          "id": "4up",
+          "name": "сенсор",
+          "count": 991
+        }
+      ],
+      "selected": [],
+      "default": []
+    },
+    {
+      "group": "Индикация и управление",
+      "id": "f[tu]",
+      "name": "Суперзаморозка",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "21",
+          "name": "есть",
+          "count": 1100
+        },
+        {
+          "id": "cr",
+          "name": "нет",
+          "count": 838
+        }
+      ],
+      "selected": [],
+      "default": []
+    },
+    {
+      "group": "Индикация и управление",
+      "id": "f[ty]",
+      "name": "Индикация температуры",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "21",
+          "name": "есть",
+          "count": 1143
+        },
+        {
+          "id": "cr",
+          "name": "нет",
+          "count": 789
+        }
+      ],
+      "selected": [],
+      "default": []
+    },
+    {
+      "group": "Индикация и управление",
+      "id": "f[tw]",
+      "name": "Суперохлаждение",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "21",
+          "name": "есть",
+          "count": 1016
+        },
+        {
+          "id": "cr",
+          "name": "нет",
+          "count": 915
+        }
+      ],
+      "selected": [],
+      "default": []
+    },
+    {
+      "group": "Индикация и управление",
+      "id": "f[u2]",
+      "name": "Блокировка от детей",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "21",
+          "name": "есть",
+          "count": 737
+        },
+        {
+          "id": "cr",
+          "name": "нет",
+          "count": 1196
+        }
+      ],
+      "selected": [],
+      "default": []
+    },
+    {
+      "group": "Индикация и управление",
+      "id": "f[u4]",
+      "name": "Индикация открытой двери",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "5f8",
+          "name": "визуальная",
+          "count": 181
+        },
+        {
+          "id": "5f7",
+          "name": "звуковая",
+          "count": 1045
+        },
+        {
+          "id": "cr",
+          "name": "нет",
+          "count": 794
+        }
+      ],
+      "selected": [],
+      "default": []
+    },
+    {
+      "group": "Индикация и управление",
+      "id": "f[1bg]",
+      "name": "Вид дисплея",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "df",
+          "name": "внешний",
+          "count": 925
+        },
+        {
+          "id": "dg",
+          "name": "внутренний",
+          "count": 178
+        },
+        {
+          "id": "cr",
+          "name": "нет",
+          "count": 853
+        }
+      ],
+      "selected": [],
+      "default": []
+    },
+    {
+      "group": "Индикация и управление",
+      "id": "f[u0]",
+      "name": "Режим \"Отпуск\"",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "21",
+          "name": "есть",
+          "count": 637
+        },
+        {
+          "id": "cr",
+          "name": "нет",
+          "count": 1286
+        }
+      ],
+      "selected": [],
+      "default": []
+    },
+    {
+      "group": "Индикация и управление",
+      "id": "f[u3]",
+      "name": "Индикация отключения электропитания",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "5f8",
+          "name": "визуальная",
+          "count": 250
+        },
+        {
+          "id": "5f7",
+          "name": "звуковая",
+          "count": 53
+        },
+        {
+          "id": "cr",
+          "name": "нет",
+          "count": 1396
+        }
+      ],
+      "selected": [],
+      "default": []
+    },
+    {
+      "group": "Умный дом",
+      "id": "f[8ax]",
+      "name": "Экосистема умного дома",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "g6g",
+          "name": "AEG",
+          "count": 1
+        },
+        {
+          "id": "fcl6",
+          "name": "ConnectLife",
+          "count": 16
+        },
+        {
+          "id": "5tyq",
+          "name": "EVO",
+          "count": 44
+        },
+        {
+          "id": "6ok6",
+          "name": "Home Connect",
+          "count": 6
+        },
+        {
+          "id": "pe6i",
+          "name": "HomeWhiz Smart Home",
+          "count": 3
+        },
+        {
+          "id": "i5es",
+          "name": "Houself",
+          "count": 8
+        },
+        {
+          "id": "7qag",
+          "name": "LG ThinQ",
+          "count": 68
+        },
+        {
+          "id": "pdx5",
+          "name": "Midea SmartHome",
+          "count": 16
+        },
+        {
+          "id": "o93e",
+          "name": "Samsung SmartThings",
+          "count": 15
+        },
+        {
+          "id": "cr",
+          "name": "нет",
+          "count": 1722
+        }
+      ],
+      "selected": [],
+      "default": []
+    },
+    {
+      "group": "Умный дом",
+      "id": "f[4gk]",
+      "name": "Протокол передачи данных",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "1u",
+          "name": "Wi-Fi",
+          "count": 164
+        },
+        {
+          "id": "cr",
+          "name": "нет",
+          "count": 1722
+        }
+      ],
+      "selected": [],
+      "default": []
+    },
+    {
+      "group": "Умный дом",
+      "id": "f[5xj]",
+      "name": "Приложение для управления",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "g6g",
+          "name": "AEG",
+          "count": 1
+        },
+        {
+          "id": "fcl6",
+          "name": "ConnectLife",
+          "count": 16
+        },
+        {
+          "id": "6ok6",
+          "name": "Home Connect",
+          "count": 6
+        },
+        {
+          "id": "7qdn",
+          "name": "HomeWhiz",
+          "count": 3
+        },
+        {
+          "id": "i5es",
+          "name": "Houself",
+          "count": 8
+        },
+        {
+          "id": "7qag",
+          "name": "LG ThinQ",
+          "count": 68
+        },
+        {
+          "id": "ccjd",
+          "name": "MSmartHome",
+          "count": 16
+        },
+        {
+          "id": "7q9v",
+          "name": "SmartThings",
+          "count": 15
+        },
+        {
+          "id": "pef5",
+          "name": "evo: умный дом от Haier",
+          "count": 44
+        },
+        {
+          "id": "cr",
+          "name": "нет",
+          "count": 1771
+        }
+      ],
+      "selected": [],
+      "default": []
+    },
+    {
+      "group": "Умный дом",
+      "id": "f[37e]",
+      "name": "Голосовой помощник",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "cr",
+          "name": "нет",
+          "count": 1947
+        }
+      ],
+      "selected": [],
+      "default": []
+    },
+    {
+      "group": "Классы",
+      "id": "f[5q2]",
+      "name": "Класс энергоэффективности",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "5dc",
+          "name": "A++",
+          "count": 432
+        },
+        {
+          "id": "5db",
+          "name": "A+",
+          "count": 1021
+        },
+        {
+          "id": "54c",
+          "name": "A",
+          "count": 361
+        },
+        {
+          "id": "54d",
+          "name": "B",
+          "count": 54
+        },
+        {
+          "id": "29",
+          "name": "C",
+          "count": 9
+        },
+        {
+          "id": "3w6",
+          "name": "D",
+          "count": 8
+        },
+        {
+          "id": "5g9",
+          "name": "E",
+          "count": 8
+        },
+        {
+          "id": "l0q",
+          "name": "G",
+          "count": 2
+        }
+      ],
+      "selected": [],
+      "default": []
+    },
+    {
+      "group": "Классы",
+      "id": "f[3o9]",
+      "name": "Климатические классы",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "om6",
+          "name": "N",
+          "count": 1637
+        },
+        {
+          "id": "puc",
+          "name": "SN",
+          "count": 1044
+        },
+        {
+          "id": "szz",
+          "name": "ST",
+          "count": 1535
+        },
+        {
+          "id": "om4",
+          "name": "T",
+          "count": 844
+        }
+      ],
+      "selected": [],
+      "default": []
+    },
+    {
+      "group": "Габариты и вес",
+      "id": "fr[8i]",
+      "name": "Высота (см)",
+      "type": "range-radio",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "7fff641213940c60663d1c97ccc6f76f",
+          "name": "Менее 84.99",
+          "count": 143
+        },
+        {
+          "id": "c7f5d4ac8e8a85029853db6a41e1b4c7",
+          "name": "85 - 154.99",
+          "count": 250
+        },
+        {
+          "id": "570fed2714952aabed0788c2d0d2076f",
+          "name": "155 - 174.99",
+          "count": 125
+        },
+        {
+          "id": "00f74014b6b6251468c56c90f5662816",
+          "name": "175 - 184.99",
+          "count": 393
+        },
+        {
+          "id": "a8bc34424b201a5d6607649045dc3b17",
+          "name": "185 - 199.99",
+          "count": 637
+        },
+        {
+          "id": "498ff46ce5995ce07e4fb986f6dc4a79",
+          "name": "200 и более",
+          "count": 374
+        }
+      ],
+      "selected": [],
+      "range": {
+        "min": 26.5,
+        "max": 219.5,
+        "min_selected": null,
+        "max_selected": null
+      }
+    },
+    {
+      "group": "Габариты и вес",
+      "id": "fr[8g]",
+      "name": "Ширина (см)",
+      "type": "range-radio",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "38ed65a2b334f28deed1dd4f792250b5",
+          "name": "Менее 49.9",
+          "count": 244
+        },
+        {
+          "id": "ca6daf411d37f374c77392a93a175507",
+          "name": "50 - 54.9",
+          "count": 117
+        },
+        {
+          "id": "24fcceb386946af1dd2b302f0e3af96b",
+          "name": "55 - 59.9",
+          "count": 707
+        },
+        {
+          "id": "4e068a1e2215a72c0fa9e665096be33d",
+          "name": "60 - 69.9",
+          "count": 383
+        },
+        {
+          "id": "29ae944e12bc285125084fdb01ee930a",
+          "name": "70 - 89.9",
+          "count": 294
+        },
+        {
+          "id": "5fcf1f160825ef34da3cf2a8ede551b4",
+          "name": "90 и более",
+          "count": 177
+        }
+      ],
+      "selected": [],
+      "range": {
+        "min": 20.8,
+        "max": 105.4,
+        "min_selected": null,
+        "max_selected": null
+      }
+    },
+    {
+      "group": "Габариты и вес",
+      "id": "fr[d4]",
+      "name": "Глубина (см)",
+      "type": "range-radio",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "f608d8721053987d8f247687b90e0c53",
+          "name": "Менее 54.9",
+          "count": 245
+        },
+        {
+          "id": "3a31496cf60034b5566897ac76ad10f0",
+          "name": "54.91 - 59.9",
+          "count": 139
+        },
+        {
+          "id": "94b8db8334b03a614ce126178d108956",
+          "name": "59.91 - 64.9",
+          "count": 846
+        },
+        {
+          "id": "e52bfe082edf4e7ae427d1e8c8b7e2cb",
+          "name": "64.91 - 69.9",
+          "count": 474
+        },
+        {
+          "id": "3146b1065dbb1aeca727a545c16011f3",
+          "name": "69.91 - 74.9",
+          "count": 186
+        },
+        {
+          "id": "302f34b38c26466118f1c49d96be605c",
+          "name": "74.91 и более",
+          "count": 32
+        }
+      ],
+      "selected": [],
+      "range": {
+        "min": 25.4,
+        "max": 81,
+        "min_selected": null,
+        "max_selected": null
+      }
+    },
+    {
+      "group": "Габариты и вес",
+      "id": "fr[8o]",
+      "name": "Вес (кг)",
+      "type": "range-radio",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "03ecfe2a01d3986fc6a333a5cd2e6605",
+          "name": "Менее 39.99",
+          "count": 285
+        },
+        {
+          "id": "a7b5902b96a0f1eb49397e611ad0181c",
+          "name": "40 - 65.99",
+          "count": 541
+        },
+        {
+          "id": "831d3e0784176c2829b439ea18eac045",
+          "name": "66 - 79.99",
+          "count": 596
+        },
+        {
+          "id": "e397545ddfc5f4893ef6dddb57f6cf5e",
+          "name": "80 - 95.99",
+          "count": 291
+        },
+        {
+          "id": "c206fd6f538126f6b56abeb01a5ca8c2",
+          "name": "96 - 119.99",
+          "count": 150
+        },
+        {
+          "id": "ab88e4b01eb6b50d88ca57aac6deca19",
+          "name": "120 и более",
+          "count": 33
+        }
+      ],
+      "selected": [],
+      "range": {
+        "min": 2.3,
+        "max": 195,
+        "min_selected": null,
+        "max_selected": null
+      }
+    },
+    {
+      "group": "Габариты и вес",
+      "id": "fr[6cn]",
+      "name": "Глубина с открытой дверцей (см)",
+      "type": "range-radio",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "d4d8ace7f53a4854404a9daa8c1c6ec5",
+          "name": "Менее 99.99",
+          "count": 94
+        },
+        {
+          "id": "9c0f8a9bb74b1a39328ec4d5d0980e23",
+          "name": "100 - 119.99",
+          "count": 582
+        },
+        {
+          "id": "16bc3dee69b6f12ae1295ea9a02a7824",
+          "name": "120 - 139.99",
+          "count": 292
+        },
+        {
+          "id": "6c63cd5da71eacb8c04c9feaa5575bc4",
+          "name": "140 и более",
+          "count": 31
+        }
+      ],
+      "selected": [],
+      "range": {
+        "min": 68,
+        "max": 161,
+        "min_selected": null,
+        "max_selected": null
+      }
+    }
+  ]
+}

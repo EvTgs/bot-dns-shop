@@ -1,0 +1,99 @@
+{
+  "created_at": "2026-05-01T22:40:25.625041",
+  "rows": [
+    {
+      "query": "телефон самсунг, 2024 года выпуска, с амолед экраном",
+      "answer_preview": "Лидер анализа\nSamsung Galaxy A35 128 ГБ — 29 999 руб. Полностью соответствует фильтрам выдачи: 2024 год выпуска и AMOLED-экран подтверждены. Технически оправданный выбор благодаря процессору Samsung Exynos 1380, который обеспечивает сбалансированную производительность в среднем сегменте, и актуальной компонентной базе.\n\nАльтернатива\nЕсли приоритет — минимальная стоимость при сохранении всех жёстки",
+      "context_keys": [
+        "resolved_url",
+        "stats",
+        "products",
+        "section_url",
+        "filters_map_summary",
+        "filters_llm",
+        "normalized_request",
+        "comparison_summary"
+      ],
+      "normalized_request_keys": [
+        "product_type",
+        "query",
+        "price_min",
+        "price_max",
+        "brand",
+        "source_signal_count",
+        "intent_signals",
+        "retrieval_tokens",
+        "soft_wishes"
+      ],
+      "has_filters_llm": true,
+      "comparison_keys": [
+        "top_pick",
+        "leader",
+        "price_pick",
+        "price_leader",
+        "soft_signal_leaders",
+        "soft_wish_leaders",
+        "segment_picks",
+        "segment_leaders",
+        "budget_defined",
+        "other_candidates",
+        "competitors",
+        "all_candidates_rejected",
+        "retrieval_evidence",
+        "coverage",
+        "coverage_has_gap",
+        "evidence_ledger",
+        "fit_policy",
+        "teacher_contract",
+        "scoring"
+      ]
+    },
+    {
+      "query": "наушники до 5000 рублей с шумоподавлением",
+      "answer_preview": "Лидер анализа\nНаушники TWS HONOR Choice Earbuds X7 белый 2024 — 1 450 ₽. Технически оправданный выбор для бюджетного сегмента: самая низкая цена в выборке при базовом наборе функций TWS. Соответствует фильтрам выдачи по типу и цене. Подходит для нетребовательного использования.\n\nАльтернатива\nЕсли рассматриваешь более новую модель с минимальным повышением бюджета, целесообразно обратить внимание на",
+      "context_keys": [
+        "resolved_url",
+        "stats",
+        "products",
+        "section_url",
+        "filters_map_summary",
+        "filters_llm",
+        "normalized_request",
+        "comparison_summary"
+      ],
+      "normalized_request_keys": [
+        "product_type",
+        "query",
+        "price_min",
+        "price_max",
+        "brand",
+        "source_signal_count",
+        "intent_signals",
+        "retrieval_tokens",
+        "soft_wishes"
+      ],
+      "has_filters_llm": true,
+      "comparison_keys": [
+        "top_pick",
+        "leader",
+        "price_pick",
+        "price_leader",
+        "soft_signal_leaders",
+        "soft_wish_leaders",
+        "segment_picks",
+        "segment_leaders",
+        "budget_defined",
+        "other_candidates",
+        "competitors",
+        "all_candidates_rejected",
+        "retrieval_evidence",
+        "coverage",
+        "coverage_has_gap",
+        "evidence_ledger",
+        "fit_policy",
+        "teacher_contract",
+        "scoring"
+      ]
+    }
+  ]
+}

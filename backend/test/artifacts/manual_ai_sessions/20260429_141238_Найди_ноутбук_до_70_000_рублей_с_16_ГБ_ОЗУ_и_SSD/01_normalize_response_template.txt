@@ -1,0 +1,5 @@
+Верни только одну строку.
+Формат:
+[ProductType,price{min,max},brand{brand},wishes{comma_separated}]
+Пример:
+[laptop,price{125000,262500},brand{},wishes{rtx_4080,32gb_ram,240hz_screen}]

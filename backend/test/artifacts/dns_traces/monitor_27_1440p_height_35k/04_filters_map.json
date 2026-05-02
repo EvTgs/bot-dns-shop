@@ -1,0 +1,4623 @@
+{
+  "stage": "filters_map",
+  "valid": true,
+  "reason": null,
+  "requested": {
+    "section_url": "https://www.dns-shop.ru/search/?q=%D0%BC%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80&price=17500-36750&category=17a8943716404e77"
+  },
+  "received": {
+    "url": "https://www.dns-shop.ru/search/?q=%D0%BC%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80&price=17500-36750&category=17a8943716404e77",
+    "section_url": "https://www.dns-shop.ru/search/?q=%D0%BC%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80&category=17a8943716404e77",
+    "query": "монитор",
+    "category": "17a8943716404e77",
+    "count": 81,
+    "filters": [
+      {
+        "group": "Основные",
+        "id": "shop-catalog",
+        "name": "Магазины",
+        "type": "shops",
+        "is_spec": false,
+        "values": [
+          {
+            "id": "7311",
+            "name": "Магазин-склад ТЦ РИО",
+            "count": null
+          },
+          {
+            "id": "7165",
+            "name": "На Маршала Конева",
+            "count": null
+          },
+          {
+            "id": "1497",
+            "name": "ТРЦ «Мармелад»",
+            "count": null
+          },
+          {
+            "id": "1496",
+            "name": "ТРЦ «Оазис»",
+            "count": null
+          },
+          {
+            "id": "7308",
+            "name": "ТРЦ «РИО»",
+            "count": null
+          },
+          {
+            "id": "3050",
+            "name": "ТЦ «Апельсин»",
+            "count": null
+          },
+          {
+            "id": "4057",
+            "name": "ТЦ «Магистраль»",
+            "count": null
+          },
+          {
+            "id": "7749",
+            "name": "ТЦ «Форум»",
+            "count": null
+          },
+          {
+            "id": "3768",
+            "name": "ТЦ «Мельница»",
+            "count": null
+          }
+        ],
+        "selected": []
+      },
+      {
+        "group": "Основные",
+        "id": "stock",
+        "name": "Наличие",
+        "type": "checkbox",
+        "is_spec": false,
+        "values": [
+          {
+            "id": "now",
+            "name": "В наличии",
+            "count": null
+          },
+          {
+            "id": "today",
+            "name": "Под заказ: сегодня",
+            "count": null
+          },
+          {
+            "id": "tomorrow",
+            "name": "Под заказ: завтра",
+            "count": null
+          },
+          {
+            "id": "later",
+            "name": "Под заказ: позже",
+            "count": null
+          },
+          {
+            "id": "out_of_stock",
+            "name": "Отсутствующие в продаже",
+            "count": null
+          }
+        ],
+        "selected": [],
+        "default": [
+          "now",
+          "today",
+          "tomorrow",
+          "later",
+          "out_of_stock"
+        ]
+      },
+      {
+        "group": "Основные",
+        "id": "price",
+        "name": "Цена",
+        "type": "range-checkbox",
+        "is_spec": false,
+        "values": [
+          {
+            "id": "05a260cb1c02af6a5fba32e8cbf2e715",
+            "name": "Менее 10 000 ₽",
+            "count": 190
+          },
+          {
+            "id": "e896703f57eb3ae13b7ad88af8cf9d83",
+            "name": "10 001 - 20 000 ₽",
+            "count": 457
+          },
+          {
+            "id": "46e0c7374474076e583ac99eb5740b3a",
+            "name": "20 001 - 30 000 ₽",
+            "count": 223
+          },
+          {
+            "id": "73f12ff28cfb83572e63e5dd79ba0cea",
+            "name": "30 001 - 40 000 ₽",
+            "count": 118
+          },
+          {
+            "id": "7491f413a329d8f3e437cbc09b9a0874",
+            "name": "40 001 - 50 000 ₽",
+            "count": 72
+          },
+          {
+            "id": "992d8edbd78748225915aa1db3dc0ee0",
+            "name": "50 001 ₽ и более",
+            "count": 213
+          }
+        ],
+        "selected": [],
+        "range": {
+          "min": 4999,
+          "max": 642999,
+          "min_selected": null,
+          "max_selected": null
+        }
+      },
+      {
+        "group": "Основные",
+        "id": "action",
+        "name": "Предложения брендов",
+        "type": "checkbox",
+        "is_spec": false,
+        "values": [
+          {
+            "id": "rassrockailivygoda",
+            "name": "Рассрочка или выгода",
+            "count": 74
+          }
+        ],
+        "selected": [],
+        "default": []
+      },
+      {
+        "group": "Основные",
+        "id": "created-in-dns",
+        "name": "Создано в DNS",
+        "type": "toggle",
+        "is_spec": false,
+        "values": [],
+        "selected": []
+      },
+      {
+        "group": "Основные",
+        "id": "brand",
+        "name": "Бренд",
+        "type": "checkbox",
+        "is_spec": false,
+        "values": [
+          {
+            "id": "2e",
+            "name": "2E",
+            "count": 1
+          },
+          {
+            "id": "aceline",
+            "name": "Aceline",
+            "count": 6
+          },
+          {
+            "id": "acer",
+            "name": "Acer",
+            "count": 224
+          },
+          {
+            "id": "aiwa",
+            "name": "AIWA",
+            "count": 2
+          },
+          {
+            "id": "alienware",
+            "name": "Alienware",
+            "count": 9
+          },
+          {
+            "id": "aoc",
+            "name": "AOC",
+            "count": 147
+          },
+          {
+            "id": "aopenacergroup",
+            "name": "AOpen (Acer Group)",
+            "count": 7
+          },
+          {
+            "id": "aorus",
+            "name": "AORUS",
+            "count": 9
+          },
+          {
+            "id": "apple",
+            "name": "Apple",
+            "count": 6
+          },
+          {
+            "id": "ardorgaming",
+            "name": "ARDOR GAMING",
+            "count": 55
+          },
+          {
+            "id": "asrock",
+            "name": "Asrock",
+            "count": 18
+          },
+          {
+            "id": "asus",
+            "name": "ASUS",
+            "count": 214
+          },
+          {
+            "id": "azerty",
+            "name": "Azerty",
+            "count": 3
+          },
+          {
+            "id": "benq",
+            "name": "BenQ",
+            "count": 23
+          },
+          {
+            "id": "coolermaster",
+            "name": "CoolerMaster",
+            "count": 5
+          },
+          {
+            "id": "dahua",
+            "name": "Dahua",
+            "count": 7
+          },
+          {
+            "id": "dell",
+            "name": "Dell",
+            "count": 107
+          },
+          {
+            "id": "deltacomputers",
+            "name": "Delta Computers",
+            "count": 1
+          },
+          {
+            "id": "dexp",
+            "name": "DEXP",
+            "count": 55
+          },
+          {
+            "id": "exegate",
+            "name": "ExeGate",
+            "count": 19
+          },
+          {
+            "id": "gigabyte",
+            "name": "GIGABYTE",
+            "count": 30
+          },
+          {
+            "id": "hiper",
+            "name": "HIPER",
+            "count": 1
+          },
+          {
+            "id": "hisense",
+            "name": "Hisense",
+            "count": 15
+          },
+          {
+            "id": "hp",
+            "name": "HP",
+            "count": 9
+          },
+          {
+            "id": "huawei",
+            "name": "HUAWEI",
+            "count": 10
+          },
+          {
+            "id": "iffalcon",
+            "name": "iFFALCON",
+            "count": 2
+          },
+          {
+            "id": "iiyama",
+            "name": "IIYAMA",
+            "count": 11
+          },
+          {
+            "id": "irbis",
+            "name": "Irbis",
+            "count": 10
+          },
+          {
+            "id": "keyron",
+            "name": "KEYRON",
+            "count": 10
+          },
+          {
+            "id": "kfa2",
+            "name": "KFA2",
+            "count": 1
+          },
+          {
+            "id": "leff",
+            "name": "Leff",
+            "count": 1
+          },
+          {
+            "id": "lenovo",
+            "name": "Lenovo",
+            "count": 17
+          },
+          {
+            "id": "lg",
+            "name": "LG",
+            "count": 108
+          },
+          {
+            "id": "lime",
+            "name": "Lime",
+            "count": 7
+          },
+          {
+            "id": "machenike",
+            "name": "Machenike",
+            "count": 24
+          },
+          {
+            "id": "maibenben",
+            "name": "MAIBENBEN",
+            "count": 1
+          },
+          {
+            "id": "msi",
+            "name": "MSI",
+            "count": 154
+          },
+          {
+            "id": "npc",
+            "name": "NPC",
+            "count": 5
+          },
+          {
+            "id": "osio",
+            "name": "OSIO",
+            "count": 4
+          },
+          {
+            "id": "philips",
+            "name": "Philips",
+            "count": 79
+          },
+          {
+            "id": "raskat",
+            "name": "Raskat",
+            "count": 2
+          },
+          {
+            "id": "redmi",
+            "name": "Redmi",
+            "count": 2
+          },
+          {
+            "id": "rombica",
+            "name": "Rombica",
+            "count": 1
+          },
+          {
+            "id": "samsung",
+            "name": "Samsung",
+            "count": 96
+          },
+          {
+            "id": "sanc",
+            "name": "Sanc",
+            "count": 12
+          },
+          {
+            "id": "sunwind",
+            "name": "SunWind",
+            "count": 3
+          },
+          {
+            "id": "tcl",
+            "name": "TCL",
+            "count": 8
+          },
+          {
+            "id": "tecno",
+            "name": "Tecno",
+            "count": 2
+          },
+          {
+            "id": "titanarmy",
+            "name": "Titan Army",
+            "count": 40
+          },
+          {
+            "id": "viewsonic",
+            "name": "ViewSonic",
+            "count": 4
+          },
+          {
+            "id": "xiaomi",
+            "name": "Xiaomi",
+            "count": 22
+          },
+          {
+            "id": "zowie",
+            "name": "Zowie",
+            "count": 2
+          },
+          {
+            "id": "beshtau",
+            "name": "БЕШТАУ",
+            "count": 3
+          },
+          {
+            "id": "dns",
+            "name": "ДНС",
+            "count": 1
+          }
+        ],
+        "selected": [],
+        "default": []
+      },
+      {
+        "group": "Основные",
+        "id": "warranty",
+        "name": "Гарантия",
+        "type": "checkbox",
+        "is_spec": false,
+        "values": [
+          {
+            "id": "12",
+            "name": "1 год",
+            "count": 644
+          },
+          {
+            "id": "24",
+            "name": "2 года",
+            "count": 165
+          },
+          {
+            "id": "36",
+            "name": "3 года",
+            "count": 805
+          }
+        ],
+        "selected": [],
+        "default": []
+      },
+      {
+        "group": "Рейтинг и обзоры",
+        "id": "rating",
+        "name": "Рейтинг 4 и выше",
+        "type": "toggle",
+        "is_spec": false,
+        "values": [],
+        "selected": []
+      },
+      {
+        "group": "Рейтинг и обзоры",
+        "id": "hit",
+        "name": "Хит продаж",
+        "type": "toggle",
+        "is_spec": false,
+        "values": [],
+        "selected": []
+      },
+      {
+        "group": "Рейтинг и обзоры",
+        "id": "review",
+        "name": "Есть обзор",
+        "type": "toggle",
+        "is_spec": false,
+        "values": [],
+        "selected": []
+      },
+      {
+        "group": "Рейтинг и обзоры",
+        "id": "rely",
+        "name": "Надёжные модели",
+        "type": "toggle",
+        "is_spec": false,
+        "values": [],
+        "selected": []
+      },
+      {
+        "group": "Общие параметры",
+        "id": "f[4oq]",
+        "name": "Игровой монитор",
+        "type": "checkbox",
+        "is_spec": true,
+        "values": [
+          {
+            "id": "mzo9",
+            "name": "да",
+            "count": 834
+          },
+          {
+            "id": "cr",
+            "name": "нет",
+            "count": 780
+          }
+        ],
+        "selected": [],
+        "default": []
+      },
+      {
+        "group": "Общие параметры",
+        "id": "f[7c]",
+        "name": "Основной цвет",
+        "type": "checkbox",
+        "is_spec": true,
+        "values": [
+          {
+            "id": "29q",
+            "name": "белый",
+            "count": 133
+          },
+          {
+            "id": "6ii",
+            "name": "зеленый",
+            "count": 2
+          },
+          {
+            "id": "6n2",
+            "name": "розовый",
+            "count": 2
+          },
+          {
+            "id": "29r",
+            "name": "серебристый",
+            "count": 55
+          },
+          {
+            "id": "67y",
+            "name": "серый",
+            "count": 41
+          },
+          {
+            "id": "40j",
+            "name": "синий",
+            "count": 2
+          },
+          {
+            "id": "40i",
+            "name": "фиолетовый",
+            "count": 1
+          },
+          {
+            "id": "29p",
+            "name": "черный",
+            "count": 1378
+          }
+        ],
+        "selected": [],
+        "default": []
+      },
+      {
+        "group": "Общие параметры",
+        "id": "f[32s]",
+        "name": "Линейка",
+        "type": "checkbox",
+        "is_spec": true,
+        "values": [
+          {
+            "id": "guko",
+            "name": "AOC AGON",
+            "count": 2
+          },
+          {
+            "id": "guk1",
+            "name": "AOC AGON PRO",
+            "count": 10
+          },
+          {
+            "id": "pulu",
+            "name": "AOC Basic",
+            "count": 12
+          },
+          {
+            "id": "gvw5",
+            "name": "AOC Essential-Line",
+            "count": 1
+          },
+          {
+            "id": "87qy",
+            "name": "AOC Gaming",
+            "count": 34
+          },
+          {
+            "id": "puos",
+            "name": "AOC Pro",
+            "count": 2
+          },
+          {
+            "id": "pl23",
+            "name": "ARDOR GAMING DARKMOON",
+            "count": 1
+          },
+          {
+            "id": "pjsl",
+            "name": "ARDOR GAMING NEUTRON",
+            "count": 1
+          },
+          {
+            "id": "lzje",
+            "name": "ARDOR GAMING Portal",
+            "count": 2
+          },
+          {
+            "id": "pjfr",
+            "name": "ARDOR GAMING SUPERNOVA",
+            "count": 1
+          },
+          {
+            "id": "jx19",
+            "name": "ASUS Business",
+            "count": 7
+          },
+          {
+            "id": "3jef",
+            "name": "ASUS Eye Care",
+            "count": 4
+          },
+          {
+            "id": "byrz",
+            "name": "ASUS ProArt",
+            "count": 29
+          },
+          {
+            "id": "b8wd",
+            "name": "ASUS ROG Strix",
+            "count": 30
+          },
+          {
+            "id": "guhq",
+            "name": "ASUS ROG Swift",
+            "count": 13
+          },
+          {
+            "id": "bs6n",
+            "name": "ASUS TUF Gaming",
+            "count": 61
+          },
+          {
+            "id": "j9q4",
+            "name": "ASUS ZenScreen",
+            "count": 17
+          },
+          {
+            "id": "pbr1",
+            "name": "Acer Gaming",
+            "count": 1
+          },
+          {
+            "id": "ikyf",
+            "name": "Acer HA0",
+            "count": 1
+          },
+          {
+            "id": "ijdc",
+            "name": "Acer K2",
+            "count": 1
+          },
+          {
+            "id": "im5b",
+            "name": "Acer KA2",
+            "count": 2
+          },
+          {
+            "id": "7ter",
+            "name": "Acer Nitro",
+            "count": 95
+          },
+          {
+            "id": "pitn",
+            "name": "Acer Nitro XV3",
+            "count": 1
+          },
+          {
+            "id": "imae",
+            "name": "Acer PD3",
+            "count": 1
+          },
+          {
+            "id": "7tex",
+            "name": "Acer Predator",
+            "count": 20
+          },
+          {
+            "id": "gycp",
+            "name": "Acer Vero",
+            "count": 28
+          },
+          {
+            "id": "ikbq",
+            "name": "Acer XV2",
+            "count": 1
+          },
+          {
+            "id": "kzde",
+            "name": "AsRock Phantom Gaming",
+            "count": 8
+          },
+          {
+            "id": "jle1",
+            "name": "BenQ DesignVue",
+            "count": 3
+          },
+          {
+            "id": "jima",
+            "name": "BenQ Mobiuz",
+            "count": 5
+          },
+          {
+            "id": "jjd2",
+            "name": "BenQ Zowie",
+            "count": 3
+          },
+          {
+            "id": "guv5",
+            "name": "Dell Alienware",
+            "count": 14
+          },
+          {
+            "id": "phm7",
+            "name": "Dell Curved Gaming",
+            "count": 1
+          },
+          {
+            "id": "phm5",
+            "name": "Dell Pro",
+            "count": 5
+          },
+          {
+            "id": "gz3r",
+            "name": "Dell UltraSharp",
+            "count": 16
+          },
+          {
+            "id": "lni5",
+            "name": "ExeGate Combat",
+            "count": 4
+          },
+          {
+            "id": "lnbe",
+            "name": "ExeGate ProSmart",
+            "count": 6
+          },
+          {
+            "id": "ln6r",
+            "name": "ExeGate SmartView",
+            "count": 9
+          },
+          {
+            "id": "7puj",
+            "name": "GIGABYTE AORUS",
+            "count": 5
+          },
+          {
+            "id": "jx1c",
+            "name": "HIPER  ProView",
+            "count": 1
+          },
+          {
+            "id": "7tes",
+            "name": "HP OMEN",
+            "count": 1
+          },
+          {
+            "id": "gyik",
+            "name": "HUAWEI MateView",
+            "count": 10
+          },
+          {
+            "id": "h0qm",
+            "name": "Iiyama G-Master",
+            "count": 3
+          },
+          {
+            "id": "gyy8",
+            "name": "Iiyama ProLite",
+            "count": 7
+          },
+          {
+            "id": "jisj",
+            "name": "Irbis NobleView",
+            "count": 1
+          },
+          {
+            "id": "jx1d",
+            "name": "Irbis SMARTVIEW",
+            "count": 9
+          },
+          {
+            "id": "i0gv",
+            "name": "LG MyView",
+            "count": 6
+          },
+          {
+            "id": "h0q9",
+            "name": "LG UltraFine",
+            "count": 9
+          },
+          {
+            "id": "gujg",
+            "name": "LG UltraGear",
+            "count": 46
+          },
+          {
+            "id": "gwdy",
+            "name": "LG UltraWide",
+            "count": 15
+          },
+          {
+            "id": "7teq",
+            "name": "Lenovo Legion",
+            "count": 5
+          },
+          {
+            "id": "gwdk",
+            "name": "Lenovo ThinkVision",
+            "count": 8
+          },
+          {
+            "id": "gui9",
+            "name": "MSI MAG",
+            "count": 55
+          },
+          {
+            "id": "gve9",
+            "name": "MSI MEG",
+            "count": 1
+          },
+          {
+            "id": "gvfg",
+            "name": "MSI MPG",
+            "count": 13
+          },
+          {
+            "id": "blt0",
+            "name": "MSI Modern",
+            "count": 13
+          },
+          {
+            "id": "gv9d",
+            "name": "MSI Optix",
+            "count": 10
+          },
+          {
+            "id": "agcm",
+            "name": "MSI PRO",
+            "count": 35
+          },
+          {
+            "id": "blu4",
+            "name": "MSI Summit",
+            "count": 1
+          },
+          {
+            "id": "o8xl",
+            "name": "Philips 1000 Series",
+            "count": 8
+          },
+          {
+            "id": "hf0v",
+            "name": "Philips 3000 Series",
+            "count": 2
+          },
+          {
+            "id": "gzk7",
+            "name": "Philips 5000 Series",
+            "count": 3
+          },
+          {
+            "id": "pt42",
+            "name": "Philips B Line",
+            "count": 1
+          },
+          {
+            "id": "pkzl",
+            "name": "Philips E-Line",
+            "count": 3
+          },
+          {
+            "id": "i6e2",
+            "name": "Philips E1",
+            "count": 1
+          },
+          {
+            "id": "guno",
+            "name": "Philips Evnia",
+            "count": 27
+          },
+          {
+            "id": "pl3t",
+            "name": "Philips P Line",
+            "count": 1
+          },
+          {
+            "id": "pt24",
+            "name": "Philips S Line",
+            "count": 1
+          },
+          {
+            "id": "pm4w",
+            "name": "Philips V Line",
+            "count": 9
+          },
+          {
+            "id": "pnot",
+            "name": "Pro Display XDR",
+            "count": 1
+          },
+          {
+            "id": "gxuk",
+            "name": "Samsung Essential",
+            "count": 9
+          },
+          {
+            "id": "gv8d",
+            "name": "Samsung Odyssey",
+            "count": 54
+          },
+          {
+            "id": "gxuq",
+            "name": "Samsung Odyssey Neo",
+            "count": 3
+          },
+          {
+            "id": "gv8e",
+            "name": "Samsung Smart",
+            "count": 8
+          },
+          {
+            "id": "gv8f",
+            "name": "Samsung ViewFinity",
+            "count": 19
+          },
+          {
+            "id": "pcvq",
+            "name": "TCL R94",
+            "count": 1
+          },
+          {
+            "id": "pnpi",
+            "name": "Tecno MegaView",
+            "count": 2
+          },
+          {
+            "id": "q1ur",
+            "name": "Xiaomi G Pro",
+            "count": 1
+          }
+        ],
+        "selected": [],
+        "default": []
+      },
+      {
+        "group": "Общие параметры",
+        "id": "f[j]",
+        "name": "Тип",
+        "type": "checkbox",
+        "is_spec": true,
+        "values": [
+          {
+            "id": "395",
+            "name": "монитор",
+            "count": 1584
+          },
+          {
+            "id": "ffl6",
+            "name": "смарт-монитор",
+            "count": 30
+          }
+        ],
+        "selected": [],
+        "default": []
+      },
+      {
+        "group": "Общие параметры",
+        "id": "f[9u6]",
+        "name": "Входит в реестр российской промышленности",
+        "type": "checkbox",
+        "is_spec": true,
+        "values": [
+          {
+            "id": "mzo9",
+            "name": "да",
+            "count": 5
+          },
+          {
+            "id": "cr",
+            "name": "нет",
+            "count": 1597
+          }
+        ],
+        "selected": [],
+        "default": []
+      },
+      {
+        "group": "Экран",
+        "id": "fr[1q]",
+        "name": "Диагональ экрана (дюйм)",
+        "type": "range-radio",
+        "is_spec": true,
+        "values": [
+          {
+            "id": "2584283adea05b6d16e192d47b18480d",
+            "name": "Менее 19.99",
+            "count": 34
+          },
+          {
+            "id": "4d62fafc61e94a1b91aa7c51bf047d97",
+            "name": "20 - 22.99",
+            "count": 39
+          },
+          {
+            "id": "a4ca97a920208ea23600732ec45334da",
+            "name": "23 - 25.99",
+            "count": 430
+          },
+          {
+            "id": "07b55b2fbb4be2eba152cc163aa6aea6",
+            "name": "26 - 29.99",
+            "count": 720
+          },
+          {
+            "id": "b82cd4212a2f15dece1141dede954f91",
+            "name": "30 - 37.99",
+            "count": 315
+          },
+          {
+            "id": "f3875a36163b64bb9c9c4acc01e0a815",
+            "name": "38 и более",
+            "count": 64
+          }
+        ],
+        "selected": [],
+        "range": {
+          "min": 13.3,
+          "max": 70,
+          "min_selected": null,
+          "max_selected": null
+        }
+      },
+      {
+        "group": "Экран",
+        "id": "f[1v]",
+        "name": "Максимальное разрешение",
+        "type": "checkbox",
+        "is_spec": true,
+        "values": [
+          {
+            "id": "77",
+            "name": "3840x2160",
+            "count": 234
+          },
+          {
+            "id": "76",
+            "name": "2560x1440",
+            "count": 387
+          },
+          {
+            "id": "71",
+            "name": "1920x1080",
+            "count": 809
+          },
+          {
+            "id": "gp2f",
+            "name": "7680x2160",
+            "count": 3
+          },
+          {
+            "id": "30zg",
+            "name": "6016x3384",
+            "count": 2
+          },
+          {
+            "id": "12yp",
+            "name": "5120x2880",
+            "count": 6
+          },
+          {
+            "id": "4z4b",
+            "name": "5120x2160",
+            "count": 5
+          },
+          {
+            "id": "4nbk",
+            "name": "5120x1440",
+            "count": 25
+          },
+          {
+            "id": "9ey5",
+            "name": "3840x2560",
+            "count": 1
+          },
+          {
+            "id": "1l8i",
+            "name": "3840x1600",
+            "count": 4
+          },
+          {
+            "id": "492e",
+            "name": "3840x1200",
+            "count": 1
+          },
+          {
+            "id": "37e1",
+            "name": "3840x1080",
+            "count": 4
+          },
+          {
+            "id": "2fkw",
+            "name": "3440x1440",
+            "count": 106
+          },
+          {
+            "id": "33e",
+            "name": "2560x1920",
+            "count": 1
+          },
+          {
+            "id": "73",
+            "name": "2560x1600",
+            "count": 1
+          },
+          {
+            "id": "6v",
+            "name": "2560x1080",
+            "count": 14
+          },
+          {
+            "id": "72",
+            "name": "1920x1200",
+            "count": 9
+          },
+          {
+            "id": "70",
+            "name": "1600x900",
+            "count": 2
+          },
+          {
+            "id": "6y",
+            "name": "1366x768",
+            "count": 1
+          }
+        ],
+        "selected": [],
+        "default": []
+      },
+      {
+        "group": "Экран",
+        "id": "f[2v]",
+        "name": "Тип матрицы",
+        "type": "checkbox",
+        "is_spec": true,
+        "values": [
+          {
+            "id": "1uq",
+            "name": "IPS",
+            "count": 1076
+          },
+          {
+            "id": "ce0",
+            "name": "OLED",
+            "count": 119
+          },
+          {
+            "id": "6nv",
+            "name": "TN",
+            "count": 25
+          },
+          {
+            "id": "b2i",
+            "name": "VA",
+            "count": 394
+          }
+        ],
+        "selected": [],
+        "default": []
+      },
+      {
+        "group": "Экран",
+        "id": "f[4d1]",
+        "name": "Изогнутый экран",
+        "type": "checkbox",
+        "is_spec": true,
+        "values": [
+          {
+            "id": "mzo9",
+            "name": "да",
+            "count": 286
+          },
+          {
+            "id": "cr",
+            "name": "нет",
+            "count": 1328
+          }
+        ],
+        "selected": [],
+        "default": []
+      },
+      {
+        "group": "Экран",
+        "id": "f[1x]",
+        "name": "Соотношение сторон",
+        "type": "checkbox",
+        "is_spec": true,
+        "values": [
+          {
+            "id": "fw",
+            "name": "16:9",
+            "count": 1440
+          },
+          {
+            "id": "fv",
+            "name": "21:9",
+            "count": 129
+          },
+          {
+            "id": "37e2",
+            "name": "32:9",
+            "count": 32
+          },
+          {
+            "id": "492f",
+            "name": "32:10",
+            "count": 1
+          },
+          {
+            "id": "fx",
+            "name": "16:10",
+            "count": 10
+          },
+          {
+            "id": "1nr",
+            "name": "4:3",
+            "count": 1
+          },
+          {
+            "id": "1ns",
+            "name": "3:2",
+            "count": 1
+          }
+        ],
+        "selected": [],
+        "default": []
+      },
+      {
+        "group": "Экран",
+        "id": "f[25s]",
+        "name": "Тип матрицы (подробно)",
+        "type": "checkbox",
+        "is_spec": true,
+        "values": [
+          {
+            "id": "gtas",
+            "name": "QD-OLED",
+            "count": 82
+          },
+          {
+            "id": "ie5i",
+            "name": "WOLED",
+            "count": 25
+          },
+          {
+            "id": "gt6j",
+            "name": "Fast IPS",
+            "count": 110
+          },
+          {
+            "id": "gt7v",
+            "name": "Rapid IPS",
+            "count": 30
+          },
+          {
+            "id": "iqqa",
+            "name": "Fast VA",
+            "count": 21
+          },
+          {
+            "id": "gkxi",
+            "name": "Rapid VA",
+            "count": 13
+          },
+          {
+            "id": "oekq",
+            "name": "Fast TN",
+            "count": 1
+          },
+          {
+            "id": "o533",
+            "name": "Rapid TN",
+            "count": 1
+          },
+          {
+            "id": "gqx6",
+            "name": "A-Si IPS",
+            "count": 9
+          },
+          {
+            "id": "p3wr",
+            "name": "A-Si TN",
+            "count": 1
+          },
+          {
+            "id": "p3ws",
+            "name": "A-Si VA",
+            "count": 2
+          },
+          {
+            "id": "gs71",
+            "name": "AAS IPS",
+            "count": 6
+          },
+          {
+            "id": "110d",
+            "name": "AH-IPS",
+            "count": 7
+          },
+          {
+            "id": "ft",
+            "name": "AHVA",
+            "count": 10
+          },
+          {
+            "id": "jjpo",
+            "name": "CSOT VA",
+            "count": 1
+          },
+          {
+            "id": "ns59",
+            "name": "Fast-HVA",
+            "count": 3
+          },
+          {
+            "id": "7ser",
+            "name": "HVA",
+            "count": 3
+          },
+          {
+            "id": "18hh",
+            "name": "IPS-ADS",
+            "count": 12
+          },
+          {
+            "id": "nsyv",
+            "name": "IPS Black",
+            "count": 4
+          },
+          {
+            "id": "pw9s",
+            "name": "IPS Oxide TFT",
+            "count": 1
+          },
+          {
+            "id": "fq",
+            "name": "MVA",
+            "count": 3
+          },
+          {
+            "id": "iww5",
+            "name": "Nano IPS",
+            "count": 4
+          },
+          {
+            "id": "1ok6",
+            "name": "SVA",
+            "count": 6
+          },
+          {
+            "id": "o3z8",
+            "name": "SuperSpeed IPS",
+            "count": 5
+          },
+          {
+            "id": "nbf5",
+            "name": "Ultra-Fast TN eSports",
+            "count": 1
+          },
+          {
+            "id": "ijl1",
+            "name": "Ultra Rapid IPS",
+            "count": 1
+          }
+        ],
+        "selected": [],
+        "default": []
+      },
+      {
+        "group": "Экран",
+        "id": "f[51i]",
+        "name": "Тип подсветки экрана",
+        "type": "checkbox",
+        "is_spec": true,
+        "values": [
+          {
+            "id": "n5pn",
+            "name": "ELED",
+            "count": 4
+          },
+          {
+            "id": "4m",
+            "name": "LED",
+            "count": 1430
+          },
+          {
+            "id": "ce0",
+            "name": "OLED",
+            "count": 120
+          },
+          {
+            "id": "2jwu",
+            "name": "QLED",
+            "count": 9
+          },
+          {
+            "id": "66ga",
+            "name": "WLED",
+            "count": 10
+          },
+          {
+            "id": "asw1",
+            "name": "miniLED",
+            "count": 37
+          }
+        ],
+        "selected": [],
+        "default": []
+      },
+      {
+        "group": "Экран",
+        "id": "f[2c]",
+        "name": "Покрытие экрана",
+        "type": "checkbox",
+        "is_spec": true,
+        "values": [
+          {
+            "id": "sr",
+            "name": "глянцевое",
+            "count": 28
+          },
+          {
+            "id": "ss",
+            "name": "матовое",
+            "count": 1586
+          }
+        ],
+        "selected": [],
+        "default": []
+      },
+      {
+        "group": "Экран",
+        "id": "f[560]",
+        "name": "Безрамочный дизайн",
+        "type": "checkbox",
+        "is_spec": true,
+        "values": [
+          {
+            "id": "cr",
+            "name": "нет",
+            "count": 201
+          },
+          {
+            "id": "1wi6",
+            "name": "трехсторонний",
+            "count": 1302
+          },
+          {
+            "id": "1wif",
+            "name": "четырехсторонний",
+            "count": 29
+          }
+        ],
+        "selected": [],
+        "default": []
+      },
+      {
+        "group": "Экран",
+        "id": "f[6l9]",
+        "name": "Радиус изогнутости",
+        "type": "checkbox",
+        "is_spec": true,
+        "values": [
+          {
+            "id": "fmip",
+            "name": "800R",
+            "count": 11
+          },
+          {
+            "id": "7gcp",
+            "name": "1000R",
+            "count": 49
+          },
+          {
+            "id": "7g4t",
+            "name": "1500R",
+            "count": 158
+          },
+          {
+            "id": "j8co",
+            "name": "1700R",
+            "count": 5
+          },
+          {
+            "id": "7g4q",
+            "name": "1800R",
+            "count": 38
+          },
+          {
+            "id": "7g5b",
+            "name": "1900R",
+            "count": 3
+          },
+          {
+            "id": "7g5h",
+            "name": "2300R",
+            "count": 4
+          },
+          {
+            "id": "84qa",
+            "name": "2500R",
+            "count": 3
+          },
+          {
+            "id": "fwdw",
+            "name": "2900R",
+            "count": 1
+          },
+          {
+            "id": "7g7w",
+            "name": "3000R",
+            "count": 2
+          },
+          {
+            "id": "7g6o",
+            "name": "3800R",
+            "count": 9
+          }
+        ],
+        "selected": [],
+        "default": []
+      },
+      {
+        "group": "Экран",
+        "id": "f[1t]",
+        "name": "Угол обзора по вертикали (градус)",
+        "type": "checkbox",
+        "is_spec": true,
+        "values": [
+          {
+            "id": "fh",
+            "name": "65°",
+            "count": 6
+          },
+          {
+            "id": "6yz2",
+            "name": "89°",
+            "count": 9
+          },
+          {
+            "id": "fj",
+            "name": "120°",
+            "count": 2
+          },
+          {
+            "id": "fd",
+            "name": "160°",
+            "count": 13
+          },
+          {
+            "id": "fc",
+            "name": "170°",
+            "count": 16
+          },
+          {
+            "id": "fg",
+            "name": "176°",
+            "count": 1
+          },
+          {
+            "id": "fe",
+            "name": "178°",
+            "count": 1553
+          }
+        ],
+        "selected": [],
+        "default": []
+      },
+      {
+        "group": "Экран",
+        "id": "f[1s]",
+        "name": "Угол обзора по горизонтали (градус)",
+        "type": "checkbox",
+        "is_spec": true,
+        "values": [
+          {
+            "id": "6yz2",
+            "name": "89°",
+            "count": 9
+          },
+          {
+            "id": "ff",
+            "name": "90°",
+            "count": 6
+          },
+          {
+            "id": "fj",
+            "name": "120°",
+            "count": 2
+          },
+          {
+            "id": "fd",
+            "name": "160°",
+            "count": 3
+          },
+          {
+            "id": "fc",
+            "name": "170°",
+            "count": 23
+          },
+          {
+            "id": "fg",
+            "name": "176°",
+            "count": 4
+          },
+          {
+            "id": "fe",
+            "name": "178°",
+            "count": 1553
+          }
+        ],
+        "selected": [],
+        "default": []
+      },
+      {
+        "group": "Экран",
+        "id": "f[aj7]",
+        "name": "Широкоформатный",
+        "type": "checkbox",
+        "is_spec": true,
+        "values": [
+          {
+            "id": "mzo9",
+            "name": "да",
+            "count": 160
+          },
+          {
+            "id": "cr",
+            "name": "нет",
+            "count": 1418
+          }
+        ],
+        "selected": [],
+        "default": []
+      },
+      {
+        "group": "Технические характеристики экрана",
+        "id": "fr[520]",
+        "name": "Частота при максимальном разрешении (Гц)",
+        "type": "range-radio",
+        "is_spec": true,
+        "values": [
+          {
+            "id": "578f78455ffaa49a74c809daa6f62820",
+            "name": "Менее 120",
+            "count": 769
+          },
+          {
+            "id": "ce79e9c3ebc30de1b12452fd10716131",
+            "name": "121 - 200",
+            "count": 561
+          },
+          {
+            "id": "c5ae3f63d04dc854b3f6d898aee741ba",
+            "name": "201 - 300",
+            "count": 212
+          },
+          {
+            "id": "330b847fe93ab0a830f5ee6657bb79fe",
+            "name": "301 - 400",
+            "count": 28
+          },
+          {
+            "id": "59f9429013daedf6678f5af03f687ab8",
+            "name": "401 и более",
+            "count": 16
+          }
+        ],
+        "selected": [],
+        "range": {
+          "min": 60,
+          "max": 610,
+          "min_selected": null,
+          "max_selected": null
+        }
+      },
+      {
+        "group": "Технические характеристики экрана",
+        "id": "f[57c]",
+        "name": "Поддержка HDR",
+        "type": "checkbox",
+        "is_spec": true,
+        "values": [
+          {
+            "id": "21",
+            "name": "есть",
+            "count": 907
+          },
+          {
+            "id": "cr",
+            "name": "нет",
+            "count": 632
+          }
+        ],
+        "selected": [],
+        "default": []
+      },
+      {
+        "group": "Технические характеристики экрана",
+        "id": "f[21s]",
+        "name": "Глубина цвета",
+        "type": "checkbox",
+        "is_spec": true,
+        "values": [
+          {
+            "id": "68t2",
+            "name": "6bit",
+            "count": 8
+          },
+          {
+            "id": "68ha",
+            "name": "6bit+FRC",
+            "count": 242
+          },
+          {
+            "id": "68gn",
+            "name": "8bit",
+            "count": 635
+          },
+          {
+            "id": "68l0",
+            "name": "8bit+FRC",
+            "count": 286
+          },
+          {
+            "id": "68j4",
+            "name": "10bit",
+            "count": 221
+          }
+        ],
+        "selected": [],
+        "default": []
+      },
+      {
+        "group": "Технические характеристики экрана",
+        "id": "fr[1r]",
+        "name": "Яркость (Кд/м²)",
+        "type": "range-radio",
+        "is_spec": true,
+        "values": [
+          {
+            "id": "e8110f065dcf2ea2206553f22016d01f",
+            "name": "Менее 199",
+            "count": 1
+          },
+          {
+            "id": "e2e9c066a227e44fe0b9663713350ca2",
+            "name": "200 - 249",
+            "count": 14
+          },
+          {
+            "id": "f50c7dca68eb92e4af8ff5b282c18c16",
+            "name": "250 - 299",
+            "count": 561
+          },
+          {
+            "id": "f0741ff1bf58dea946a1c581f6833ce3",
+            "name": "300 - 349",
+            "count": 437
+          },
+          {
+            "id": "3d44ee4a9545b0366b0b0064af2fa086",
+            "name": "350 - 399",
+            "count": 197
+          },
+          {
+            "id": "d12c53d7c235541623f6d3fc1c22c9e6",
+            "name": "400 и более",
+            "count": 392
+          }
+        ],
+        "selected": [],
+        "range": {
+          "min": 190,
+          "max": 1600,
+          "min_selected": null,
+          "max_selected": null
+        }
+      },
+      {
+        "group": "Технические характеристики экрана",
+        "id": "f[4sg]",
+        "name": "Технология динамического обновления экрана",
+        "type": "checkbox",
+        "is_spec": true,
+        "values": [
+          {
+            "id": "1da1",
+            "name": "AMD FreeSync",
+            "count": 374
+          },
+          {
+            "id": "et9m",
+            "name": "AMD FreeSync Compatible",
+            "count": 69
+          },
+          {
+            "id": "69t9",
+            "name": "AMD FreeSync Premium",
+            "count": 306
+          },
+          {
+            "id": "7qxj",
+            "name": "AMD FreeSync Premium Pro",
+            "count": 104
+          },
+          {
+            "id": "69g1",
+            "name": "Adaptive-Sync",
+            "count": 416
+          },
+          {
+            "id": "1da0",
+            "name": "NVIDIA G-SYNC",
+            "count": 28
+          },
+          {
+            "id": "e1b1",
+            "name": "NVIDIA G-SYNC + NVIDIA Reflex",
+            "count": 1
+          },
+          {
+            "id": "57x3",
+            "name": "NVIDIA G-SYNC Compatible",
+            "count": 247
+          },
+          {
+            "id": "57x2",
+            "name": "NVIDIA G-SYNC Ultimate",
+            "count": 1
+          },
+          {
+            "id": "cr",
+            "name": "нет",
+            "count": 33
+          }
+        ],
+        "selected": [],
+        "default": []
+      },
+      {
+        "group": "Технические характеристики экрана",
+        "id": "fr[4jy]",
+        "name": "Плотность пикселей (ppi)",
+        "type": "range-radio",
+        "is_spec": true,
+        "values": [
+          {
+            "id": "3e18b1dade7456d55702f4dcfe6134bb",
+            "name": "Менее 50",
+            "count": 1
+          },
+          {
+            "id": "c53dfc35febce017935ad19b02eabf7c",
+            "name": "50.1 - 100",
+            "count": 862
+          },
+          {
+            "id": "edb0fac27a022a515b57580bf3168691",
+            "name": "100.1 - 150",
+            "count": 614
+          },
+          {
+            "id": "8dc6e44b400925ac57ed5ec42da1a1aa",
+            "name": "150.1 - 200",
+            "count": 116
+          },
+          {
+            "id": "a66741db0bce438e37b94ff4a11a4549",
+            "name": "200.1 и более",
+            "count": 9
+          }
+        ],
+        "selected": [],
+        "range": {
+          "min": 31,
+          "max": 282,
+          "min_selected": null,
+          "max_selected": null
+        }
+      },
+      {
+        "group": "Технические характеристики экрана",
+        "id": "f[87d]",
+        "name": "Время отклика пикселя (GtG) (мс)",
+        "type": "checkbox",
+        "is_spec": true,
+        "values": [
+          {
+            "id": "faq7",
+            "name": "0.03 мс",
+            "count": 102
+          },
+          {
+            "id": "63ds",
+            "name": "0.1 мс",
+            "count": 12
+          },
+          {
+            "id": "alku",
+            "name": "0.2 мс",
+            "count": 2
+          },
+          {
+            "id": "b0qc",
+            "name": "0.3 мс",
+            "count": 4
+          },
+          {
+            "id": "5cd3",
+            "name": "0.5 мс",
+            "count": 52
+          },
+          {
+            "id": "af",
+            "name": "1 мс",
+            "count": 319
+          },
+          {
+            "id": "nlic",
+            "name": "1.7 мс",
+            "count": 1
+          },
+          {
+            "id": "ni3x",
+            "name": "1.8 мс",
+            "count": 1
+          },
+          {
+            "id": "a8",
+            "name": "2 мс",
+            "count": 13
+          },
+          {
+            "id": "pu98",
+            "name": "2.2 мс",
+            "count": 1
+          },
+          {
+            "id": "nlh7",
+            "name": "2.3 мс",
+            "count": 3
+          },
+          {
+            "id": "ehiw",
+            "name": "2.5 мс",
+            "count": 3
+          },
+          {
+            "id": "a9",
+            "name": "3 мс",
+            "count": 15
+          },
+          {
+            "id": "pl2d",
+            "name": "3.3 мс",
+            "count": 2
+          },
+          {
+            "id": "1vph",
+            "name": "3.5 мс",
+            "count": 1
+          },
+          {
+            "id": "nlvj",
+            "name": "3.6 мс",
+            "count": 2
+          },
+          {
+            "id": "npky",
+            "name": "3.8 мс",
+            "count": 1
+          },
+          {
+            "id": "ag",
+            "name": "4 мс",
+            "count": 317
+          },
+          {
+            "id": "pjla",
+            "name": "4.3 мс",
+            "count": 1
+          },
+          {
+            "id": "npe4",
+            "name": "4.5 мс",
+            "count": 1
+          },
+          {
+            "id": "m35m",
+            "name": "4.6 мс",
+            "count": 1
+          },
+          {
+            "id": "ifad",
+            "name": "4.8 мс",
+            "count": 1
+          },
+          {
+            "id": "a7",
+            "name": "5 мс",
+            "count": 336
+          },
+          {
+            "id": "2b8",
+            "name": "5.5 мс",
+            "count": 1
+          },
+          {
+            "id": "1ofo",
+            "name": "5.6 мс",
+            "count": 2
+          },
+          {
+            "id": "aa",
+            "name": "6 мс",
+            "count": 30
+          },
+          {
+            "id": "168s",
+            "name": "6.5 мс",
+            "count": 2
+          },
+          {
+            "id": "nnil",
+            "name": "6.7 мс",
+            "count": 1
+          },
+          {
+            "id": "gmat",
+            "name": "6.9 мс",
+            "count": 1
+          },
+          {
+            "id": "16do",
+            "name": "7 мс",
+            "count": 7
+          },
+          {
+            "id": "ab",
+            "name": "8 мс",
+            "count": 16
+          },
+          {
+            "id": "2b5",
+            "name": "10 мс",
+            "count": 1
+          },
+          {
+            "id": "ac",
+            "name": "14 мс",
+            "count": 3
+          }
+        ],
+        "selected": [],
+        "default": []
+      },
+      {
+        "group": "Технические характеристики экрана",
+        "id": "f[w]",
+        "name": "Контрастность",
+        "type": "checkbox",
+        "is_spec": true,
+        "values": [
+          {
+            "id": "9r",
+            "name": "5000:1",
+            "count": 15
+          },
+          {
+            "id": "a6",
+            "name": "4000:1",
+            "count": 88
+          },
+          {
+            "id": "2d9",
+            "name": "3500:1",
+            "count": 24
+          },
+          {
+            "id": "9z",
+            "name": "3000:1",
+            "count": 245
+          },
+          {
+            "id": "1wqx",
+            "name": "2500:1",
+            "count": 17
+          },
+          {
+            "id": "2ct",
+            "name": "2000:1",
+            "count": 16
+          },
+          {
+            "id": "a4",
+            "name": "1500:1",
+            "count": 87
+          },
+          {
+            "id": "ysk",
+            "name": "1300:1",
+            "count": 85
+          },
+          {
+            "id": "a3",
+            "name": "1200:1",
+            "count": 34
+          },
+          {
+            "id": "1z6u",
+            "name": "1100:1",
+            "count": 8
+          },
+          {
+            "id": "9y",
+            "name": "1000:1",
+            "count": 834
+          },
+          {
+            "id": "a2",
+            "name": "800:1",
+            "count": 15
+          },
+          {
+            "id": "a1",
+            "name": "700:1",
+            "count": 9
+          },
+          {
+            "id": "a0",
+            "name": "600:1",
+            "count": 4
+          },
+          {
+            "id": "a5",
+            "name": "500:1",
+            "count": 1
+          },
+          {
+            "id": "9gpb",
+            "name": "135000:1",
+            "count": 2
+          },
+          {
+            "id": "9u",
+            "name": "1M:1",
+            "count": 31
+          },
+          {
+            "id": "imha",
+            "name": "1.2M:1",
+            "count": 1
+          },
+          {
+            "id": "fhuh",
+            "name": "1.5M:1",
+            "count": 85
+          },
+          {
+            "id": "24y8",
+            "name": "4500:1",
+            "count": 1
+          },
+          {
+            "id": "9j",
+            "name": "100000:1",
+            "count": 2
+          },
+          {
+            "id": "2cz",
+            "name": "150000:1",
+            "count": 4
+          }
+        ],
+        "selected": [],
+        "default": []
+      },
+      {
+        "group": "Технические характеристики экрана",
+        "id": "f[x]",
+        "name": "Время отклика пикселя (мс)",
+        "type": "checkbox",
+        "is_spec": true,
+        "values": [
+          {
+            "id": "ft5n",
+            "name": "0.01 мс",
+            "count": 5
+          },
+          {
+            "id": "63ds",
+            "name": "0.1 мс",
+            "count": 1
+          },
+          {
+            "id": "b0qc",
+            "name": "0.3 мс",
+            "count": 10
+          },
+          {
+            "id": "5cd3",
+            "name": "0.5 мс",
+            "count": 36
+          },
+          {
+            "id": "af",
+            "name": "1 мс",
+            "count": 167
+          },
+          {
+            "id": "a8",
+            "name": "2 мс",
+            "count": 3
+          },
+          {
+            "id": "a9",
+            "name": "3 мс",
+            "count": 16
+          },
+          {
+            "id": "ag",
+            "name": "4 мс",
+            "count": 39
+          },
+          {
+            "id": "a7",
+            "name": "5 мс",
+            "count": 72
+          },
+          {
+            "id": "aa",
+            "name": "6 мс",
+            "count": 7
+          },
+          {
+            "id": "16do",
+            "name": "7 мс",
+            "count": 3
+          },
+          {
+            "id": "ab",
+            "name": "8 мс",
+            "count": 3
+          },
+          {
+            "id": "2b4",
+            "name": "9.5 мс",
+            "count": 1
+          },
+          {
+            "id": "2b5",
+            "name": "10 мс",
+            "count": 1
+          },
+          {
+            "id": "ac",
+            "name": "14 мс",
+            "count": 1
+          },
+          {
+            "id": "ad",
+            "name": "20 мс",
+            "count": 1
+          }
+        ],
+        "selected": [],
+        "default": []
+      },
+      {
+        "group": "Технические характеристики экрана",
+        "id": "fr[aja]",
+        "name": "Цветовой охват sRGB (%)",
+        "type": "range-radio",
+        "is_spec": true,
+        "values": [
+          {
+            "id": "32d7e9747db6dab8112ef3e54e4f50f8",
+            "name": "Менее 99",
+            "count": 443
+          },
+          {
+            "id": "76929ef241af36d872f3245df1296c47",
+            "name": "99.1 - 109",
+            "count": 235
+          },
+          {
+            "id": "bb43ab2ac790c9a86cf011f230e52309",
+            "name": "109.1 - 119",
+            "count": 95
+          },
+          {
+            "id": "32470ced21299589991f97661607e69b",
+            "name": "119.1 - 129",
+            "count": 198
+          },
+          {
+            "id": "5b11be2a1d85c72e71679ccb4e683369",
+            "name": "129.1 - 139",
+            "count": 71
+          },
+          {
+            "id": "6d9d84d10f9fdbe81f9ec04716df7ccb",
+            "name": "139.1 и более",
+            "count": 21
+          }
+        ],
+        "selected": [],
+        "range": {
+          "min": 53,
+          "max": 159,
+          "min_selected": null,
+          "max_selected": null
+        }
+      },
+      {
+        "group": "Технические характеристики экрана",
+        "id": "f[2b]",
+        "name": "Максимальная частота обновления экрана (Гц)",
+        "type": "checkbox",
+        "is_spec": true,
+        "values": [
+          {
+            "id": "si",
+            "name": "60 Гц",
+            "count": 123
+          },
+          {
+            "id": "1m7i",
+            "name": "72 Гц",
+            "count": 1
+          },
+          {
+            "id": "sg",
+            "name": "75 Гц",
+            "count": 207
+          },
+          {
+            "id": "sh",
+            "name": "76 Гц",
+            "count": 19
+          },
+          {
+            "id": "sk",
+            "name": "77 Гц",
+            "count": 1
+          },
+          {
+            "id": "sn",
+            "name": "80 Гц",
+            "count": 1
+          },
+          {
+            "id": "3yy",
+            "name": "100 Гц",
+            "count": 261
+          },
+          {
+            "id": "sf",
+            "name": "120 Гц",
+            "count": 76
+          },
+          {
+            "id": "ft5h",
+            "name": "138 Гц",
+            "count": 2
+          },
+          {
+            "id": "sp",
+            "name": "144 Гц",
+            "count": 93
+          },
+          {
+            "id": "p5cv",
+            "name": "146 Гц",
+            "count": 1
+          },
+          {
+            "id": "76r",
+            "name": "150 Гц",
+            "count": 1
+          },
+          {
+            "id": "sm",
+            "name": "160 Гц",
+            "count": 29
+          },
+          {
+            "id": "1882",
+            "name": "165 Гц",
+            "count": 118
+          },
+          {
+            "id": "so",
+            "name": "170 Гц",
+            "count": 31
+          },
+          {
+            "id": "3ikf",
+            "name": "175 Гц",
+            "count": 7
+          },
+          {
+            "id": "sl",
+            "name": "180 Гц",
+            "count": 188
+          },
+          {
+            "id": "jd6u",
+            "name": "185 Гц",
+            "count": 1
+          },
+          {
+            "id": "76s",
+            "name": "200 Гц",
+            "count": 46
+          },
+          {
+            "id": "jn5l",
+            "name": "210 Гц",
+            "count": 3
+          },
+          {
+            "id": "772",
+            "name": "220 Гц",
+            "count": 1
+          },
+          {
+            "id": "b3o",
+            "name": "240 Гц",
+            "count": 142
+          },
+          {
+            "id": "76u",
+            "name": "250 Гц",
+            "count": 6
+          },
+          {
+            "id": "771",
+            "name": "260 Гц",
+            "count": 6
+          },
+          {
+            "id": "19xc",
+            "name": "270 Гц",
+            "count": 2
+          },
+          {
+            "id": "1uzp",
+            "name": "280 Гц",
+            "count": 27
+          },
+          {
+            "id": "nwnr",
+            "name": "288 Гц",
+            "count": 1
+          },
+          {
+            "id": "76v",
+            "name": "300 Гц",
+            "count": 15
+          },
+          {
+            "id": "ieb5",
+            "name": "310 Гц",
+            "count": 3
+          },
+          {
+            "id": "iw8h",
+            "name": "320 Гц",
+            "count": 19
+          },
+          {
+            "id": "nrgw",
+            "name": "330 Гц",
+            "count": 2
+          },
+          {
+            "id": "b3s",
+            "name": "350 Гц",
+            "count": 1
+          },
+          {
+            "id": "7oj3",
+            "name": "360 Гц",
+            "count": 15
+          },
+          {
+            "id": "1a2p",
+            "name": "380 Гц",
+            "count": 2
+          },
+          {
+            "id": "9f9s",
+            "name": "390 Гц",
+            "count": 2
+          },
+          {
+            "id": "b3p",
+            "name": "400 Гц",
+            "count": 1
+          },
+          {
+            "id": "gwdg",
+            "name": "480 Гц",
+            "count": 9
+          },
+          {
+            "id": "7i8",
+            "name": "500 Гц",
+            "count": 5
+          },
+          {
+            "id": "lpdn",
+            "name": "520 Гц",
+            "count": 3
+          },
+          {
+            "id": "hiac",
+            "name": "540 Гц",
+            "count": 3
+          },
+          {
+            "id": "krj1",
+            "name": "600 Гц",
+            "count": 1
+          },
+          {
+            "id": "oegf",
+            "name": "610 Гц",
+            "count": 2
+          }
+        ],
+        "selected": [],
+        "default": []
+      },
+      {
+        "group": "Технические характеристики экрана",
+        "id": "f[ajc]",
+        "name": "Поддерживаемые стандарты HDR",
+        "type": "checkbox",
+        "is_spec": true,
+        "values": [
+          {
+            "id": "g12c",
+            "name": "Acer HDR350",
+            "count": 1
+          },
+          {
+            "id": "586q",
+            "name": "DisplayHDR 400",
+            "count": 259
+          },
+          {
+            "id": "ng9s",
+            "name": "DisplayHDR 500 True Black",
+            "count": 4
+          },
+          {
+            "id": "586o",
+            "name": "DisplayHDR 600",
+            "count": 39
+          },
+          {
+            "id": "586y",
+            "name": "DisplayHDR 1000",
+            "count": 28
+          },
+          {
+            "id": "a011",
+            "name": "DisplayHDR 1400",
+            "count": 4
+          },
+          {
+            "id": "imss",
+            "name": "DisplayHDR True Black 400",
+            "count": 52
+          },
+          {
+            "id": "1udy",
+            "name": "HDR10",
+            "count": 436
+          },
+          {
+            "id": "626j",
+            "name": "HDR10+",
+            "count": 6
+          },
+          {
+            "id": "65es",
+            "name": "Quantum HDR 32x",
+            "count": 1
+          },
+          {
+            "id": "c23j",
+            "name": "Quantum HDR 2000",
+            "count": 3
+          },
+          {
+            "id": "21",
+            "name": "есть",
+            "count": 14
+          },
+          {
+            "id": "cr",
+            "name": "нет",
+            "count": 161
+          }
+        ],
+        "selected": [],
+        "default": []
+      },
+      {
+        "group": "Технические характеристики экрана",
+        "id": "f[1u]",
+        "name": "Максимальное количество цветов",
+        "type": "checkbox",
+        "is_spec": true,
+        "values": [
+          {
+            "id": "gv8k",
+            "name": "0.26 млн.",
+            "count": 9
+          },
+          {
+            "id": "fm",
+            "name": "16.7 млн.",
+            "count": 1040
+          },
+          {
+            "id": "fn",
+            "name": "более 1 млрд.",
+            "count": 541
+          }
+        ],
+        "selected": [],
+        "default": []
+      },
+      {
+        "group": "Технические характеристики экрана",
+        "id": "f[87e]",
+        "name": "Время отклика пикселя (MPRT) (мс)",
+        "type": "checkbox",
+        "is_spec": true,
+        "values": [
+          {
+            "id": "b0qc",
+            "name": "0.3 мс",
+            "count": 19
+          },
+          {
+            "id": "jjdp",
+            "name": "0.4 мс",
+            "count": 1
+          },
+          {
+            "id": "5cd3",
+            "name": "0.5 мс",
+            "count": 46
+          },
+          {
+            "id": "af",
+            "name": "1 мс",
+            "count": 387
+          },
+          {
+            "id": "a8",
+            "name": "2 мс",
+            "count": 1
+          },
+          {
+            "id": "a7",
+            "name": "5 мс",
+            "count": 5
+          },
+          {
+            "id": "2b5",
+            "name": "10 мс",
+            "count": 1
+          },
+          {
+            "id": "2b3",
+            "name": "13 мс",
+            "count": 1
+          }
+        ],
+        "selected": [],
+        "default": []
+      },
+      {
+        "group": "Технические характеристики экрана",
+        "id": "f[ajd]",
+        "name": "Delta E",
+        "type": "checkbox",
+        "is_spec": true,
+        "values": [
+          {
+            "id": "pl64",
+            "name": "<1",
+            "count": 10
+          },
+          {
+            "id": "pgw6",
+            "name": "<2",
+            "count": 151
+          },
+          {
+            "id": "pxun",
+            "name": "<3",
+            "count": 1
+          }
+        ],
+        "selected": [],
+        "default": []
+      },
+      {
+        "group": "Технические характеристики экрана",
+        "id": "f[v]",
+        "name": "Динамическая контрастность",
+        "type": "checkbox",
+        "is_spec": true,
+        "values": [
+          {
+            "id": "9u",
+            "name": "1M:1",
+            "count": 70
+          },
+          {
+            "id": "9w",
+            "name": "3M:1",
+            "count": 14
+          },
+          {
+            "id": "9l",
+            "name": "5M:1",
+            "count": 6
+          },
+          {
+            "id": "9n",
+            "name": "8M:1",
+            "count": 7
+          },
+          {
+            "id": "9k",
+            "name": "10M:1",
+            "count": 50
+          },
+          {
+            "id": "9q",
+            "name": "12М:1",
+            "count": 9
+          },
+          {
+            "id": "9o",
+            "name": "20M:1",
+            "count": 48
+          },
+          {
+            "id": "9p",
+            "name": "50M:1",
+            "count": 20
+          },
+          {
+            "id": "9v",
+            "name": "80M:1",
+            "count": 63
+          },
+          {
+            "id": "2fl2",
+            "name": "100M:1",
+            "count": 421
+          },
+          {
+            "id": "4any",
+            "name": "120М:1",
+            "count": 1
+          },
+          {
+            "id": "9j",
+            "name": "100000:1",
+            "count": 40
+          },
+          {
+            "id": "1cys",
+            "name": "200M:1",
+            "count": 1
+          },
+          {
+            "id": "1wbl",
+            "name": "6M:1",
+            "count": 3
+          },
+          {
+            "id": "9z",
+            "name": "3000:1",
+            "count": 4
+          },
+          {
+            "id": "fhuh",
+            "name": "1.5M:1",
+            "count": 5
+          },
+          {
+            "id": "oa36",
+            "name": "1200М",
+            "count": 1
+          },
+          {
+            "id": "67x7",
+            "name": "Mega",
+            "count": 137
+          },
+          {
+            "id": "58st",
+            "name": "Mega DCR",
+            "count": 40
+          }
+        ],
+        "selected": [],
+        "default": []
+      },
+      {
+        "group": "Интерфейсы",
+        "id": "f[1gy]",
+        "name": "Видеоразъемы",
+        "type": "checkbox",
+        "is_spec": true,
+        "values": [
+          {
+            "id": "15",
+            "name": "HDMI",
+            "count": 1561
+          },
+          {
+            "id": "5tkp",
+            "name": "microНDMI",
+            "count": 9
+          },
+          {
+            "id": "7f",
+            "name": "mini HDMI",
+            "count": 14
+          },
+          {
+            "id": "2g",
+            "name": "DisplayPort",
+            "count": 1255
+          },
+          {
+            "id": "h0",
+            "name": "mini DisplayPort",
+            "count": 5
+          },
+          {
+            "id": "18b0",
+            "name": "USB Type-C",
+            "count": 392
+          },
+          {
+            "id": "gz",
+            "name": "VGA (D-Sub)",
+            "count": 364
+          },
+          {
+            "id": "h1",
+            "name": "DVI-I",
+            "count": 5
+          },
+          {
+            "id": "2lk",
+            "name": "DVI-D",
+            "count": 22
+          },
+          {
+            "id": "2f",
+            "name": "DVI",
+            "count": 1
+          },
+          {
+            "id": "433f",
+            "name": "USB Micro-B",
+            "count": 1
+          }
+        ],
+        "selected": [],
+        "default": []
+      },
+      {
+        "group": "Интерфейсы",
+        "id": "f[1z]",
+        "name": "Тип, версия и количество видеоразъемов",
+        "type": "checkbox",
+        "is_spec": true,
+        "values": [
+          {
+            "id": "2f",
+            "name": "DVI",
+            "count": 1
+          },
+          {
+            "id": "2lk",
+            "name": "DVI-D",
+            "count": 22
+          },
+          {
+            "id": "h1",
+            "name": "DVI-I",
+            "count": 6
+          },
+          {
+            "id": "2g",
+            "name": "DisplayPort",
+            "count": 43
+          },
+          {
+            "id": "k3by",
+            "name": "DisplayPort (MST)",
+            "count": 44
+          },
+          {
+            "id": "1oxw",
+            "name": "DisplayPort 1.1",
+            "count": 2
+          },
+          {
+            "id": "1oxv",
+            "name": "DisplayPort 1.2",
+            "count": 387
+          },
+          {
+            "id": "ewup",
+            "name": "DisplayPort 1.2 x2",
+            "count": 11
+          },
+          {
+            "id": "erff",
+            "name": "DisplayPort 1.2a",
+            "count": 67
+          },
+          {
+            "id": "czel",
+            "name": "DisplayPort 1.4",
+            "count": 559
+          },
+          {
+            "id": "nzs4",
+            "name": "DisplayPort 1.4 x1",
+            "count": 10
+          },
+          {
+            "id": "eptt",
+            "name": "DisplayPort 1.4 x2",
+            "count": 100
+          },
+          {
+            "id": "dfzy",
+            "name": "DisplayPort 1.4a",
+            "count": 57
+          },
+          {
+            "id": "fk8e",
+            "name": "DisplayPort 2.1",
+            "count": 9
+          },
+          {
+            "id": "mr8b",
+            "name": "DisplayPort 2.1a",
+            "count": 4
+          },
+          {
+            "id": "phfp",
+            "name": "DisplayPort Out 1.4",
+            "count": 2
+          },
+          {
+            "id": "azw",
+            "name": "DisplayPort x1",
+            "count": 2
+          },
+          {
+            "id": "22e",
+            "name": "DisplayPort x2",
+            "count": 2
+          },
+          {
+            "id": "15",
+            "name": "HDMI",
+            "count": 38
+          },
+          {
+            "id": "3lq",
+            "name": "HDMI 1.4",
+            "count": 408
+          },
+          {
+            "id": "eod3",
+            "name": "HDMI 1.4 x2",
+            "count": 92
+          },
+          {
+            "id": "a3mo",
+            "name": "HDMI 1.4b",
+            "count": 20
+          },
+          {
+            "id": "aph4",
+            "name": "HDMI 1.4b x2",
+            "count": 6
+          },
+          {
+            "id": "17au",
+            "name": "HDMI 2.0",
+            "count": 185
+          },
+          {
+            "id": "nzs6",
+            "name": "HDMI 2.0 x1",
+            "count": 16
+          },
+          {
+            "id": "eod4",
+            "name": "HDMI 2.0 x2",
+            "count": 418
+          },
+          {
+            "id": "eqoi",
+            "name": "HDMI 2.0 x3",
+            "count": 8
+          },
+          {
+            "id": "a3mr",
+            "name": "HDMI 2.0b",
+            "count": 8
+          },
+          {
+            "id": "f159",
+            "name": "HDMI 2.0b x2",
+            "count": 57
+          },
+          {
+            "id": "57f3",
+            "name": "HDMI 2.1",
+            "count": 50
+          },
+          {
+            "id": "eone",
+            "name": "HDMI 2.1 x2",
+            "count": 245
+          },
+          {
+            "id": "eyxp",
+            "name": "HDMI 2.1 x3",
+            "count": 1
+          },
+          {
+            "id": "nfem",
+            "name": "HDMI 2.1 х2",
+            "count": 7
+          },
+          {
+            "id": "22h",
+            "name": "HDMI x2",
+            "count": 21
+          },
+          {
+            "id": "o3xl",
+            "name": "HDMI х1",
+            "count": 1
+          },
+          {
+            "id": "1rpw",
+            "name": "Thunderbolt 3",
+            "count": 1
+          },
+          {
+            "id": "1x36",
+            "name": "Thunderbolt 3 x2",
+            "count": 1
+          },
+          {
+            "id": "9tcb",
+            "name": "Thunderbolt 4",
+            "count": 1
+          },
+          {
+            "id": "9acp",
+            "name": "Thunderbolt 4 x2",
+            "count": 3
+          },
+          {
+            "id": "mtsg",
+            "name": "Thunderbolt 5 x2",
+            "count": 5
+          },
+          {
+            "id": "433f",
+            "name": "USB Micro-B",
+            "count": 1
+          },
+          {
+            "id": "18b0",
+            "name": "USB Type-C",
+            "count": 361
+          },
+          {
+            "id": "6djj",
+            "name": "USB Type-C x2",
+            "count": 20
+          },
+          {
+            "id": "9wrp",
+            "name": "USB Type-C x3",
+            "count": 1
+          },
+          {
+            "id": "gz",
+            "name": "VGA (D-Sub)",
+            "count": 362
+          },
+          {
+            "id": "4sel",
+            "name": "VGA x1",
+            "count": 4
+          },
+          {
+            "id": "5tko",
+            "name": "micro НDMI",
+            "count": 4
+          },
+          {
+            "id": "gnhc",
+            "name": "micro НDMI 2.1",
+            "count": 5
+          },
+          {
+            "id": "h0",
+            "name": "mini DisplayPort",
+            "count": 2
+          },
+          {
+            "id": "equq",
+            "name": "mini DisplayPort 1.2",
+            "count": 2
+          },
+          {
+            "id": "j8fz",
+            "name": "mini DisplayPort 2.1",
+            "count": 1
+          },
+          {
+            "id": "7f",
+            "name": "mini HDMI",
+            "count": 11
+          },
+          {
+            "id": "np70",
+            "name": "mini HDMI 2.0",
+            "count": 1
+          },
+          {
+            "id": "ga45",
+            "name": "mini HDMI 2.0b",
+            "count": 2
+          }
+        ],
+        "selected": [],
+        "default": []
+      },
+      {
+        "group": "Интерфейсы",
+        "id": "f[6gs]",
+        "name": "Разъем DisplayPort",
+        "type": "checkbox",
+        "is_spec": true,
+        "values": [
+          {
+            "id": "21",
+            "name": "есть",
+            "count": 1255
+          },
+          {
+            "id": "cr",
+            "name": "нет",
+            "count": 359
+          }
+        ],
+        "selected": [],
+        "default": []
+      },
+      {
+        "group": "Интерфейсы",
+        "id": "f[6gr]",
+        "name": "Разъем HDMI",
+        "type": "checkbox",
+        "is_spec": true,
+        "values": [
+          {
+            "id": "21",
+            "name": "есть",
+            "count": 1569
+          },
+          {
+            "id": "cr",
+            "name": "нет",
+            "count": 45
+          }
+        ],
+        "selected": [],
+        "default": []
+      },
+      {
+        "group": "Интерфейсы",
+        "id": "f[20]",
+        "name": "USB-концентратор",
+        "type": "checkbox",
+        "is_spec": true,
+        "values": [
+          {
+            "id": "21",
+            "name": "есть",
+            "count": 523
+          },
+          {
+            "id": "cr",
+            "name": "нет",
+            "count": 1088
+          }
+        ],
+        "selected": [],
+        "default": []
+      },
+      {
+        "group": "Интерфейсы",
+        "id": "f[21]",
+        "name": "Выход на наушники",
+        "type": "checkbox",
+        "is_spec": true,
+        "values": [
+          {
+            "id": "21",
+            "name": "есть",
+            "count": 1314
+          },
+          {
+            "id": "cr",
+            "name": "нет",
+            "count": 288
+          }
+        ],
+        "selected": [],
+        "default": []
+      },
+      {
+        "group": "Интерфейсы",
+        "id": "f[6gu]",
+        "name": "Разъем VGA",
+        "type": "checkbox",
+        "is_spec": true,
+        "values": [
+          {
+            "id": "21",
+            "name": "есть",
+            "count": 363
+          },
+          {
+            "id": "cr",
+            "name": "нет",
+            "count": 1251
+          }
+        ],
+        "selected": [],
+        "default": []
+      },
+      {
+        "group": "Интерфейсы",
+        "id": "f[9t]",
+        "name": "Количество USB (шт)",
+        "type": "checkbox",
+        "is_spec": true,
+        "values": [
+          {
+            "id": "20r",
+            "name": "0 шт",
+            "count": 34
+          },
+          {
+            "id": "20j",
+            "name": "1 шт",
+            "count": 18
+          },
+          {
+            "id": "20d",
+            "name": "2 шт",
+            "count": 260
+          },
+          {
+            "id": "20h",
+            "name": "3 шт",
+            "count": 78
+          },
+          {
+            "id": "20e",
+            "name": "4 шт",
+            "count": 161
+          },
+          {
+            "id": "20f",
+            "name": "5 шт",
+            "count": 10
+          },
+          {
+            "id": "20g",
+            "name": "6 шт",
+            "count": 6
+          },
+          {
+            "id": "20m",
+            "name": "7 шт",
+            "count": 5
+          },
+          {
+            "id": "20i",
+            "name": "8 шт",
+            "count": 1
+          }
+        ],
+        "selected": [],
+        "default": []
+      },
+      {
+        "group": "Интерфейсы",
+        "id": "f[7a1]",
+        "name": "Другие разъемы",
+        "type": "checkbox",
+        "is_spec": true,
+        "values": [
+          {
+            "id": "il9j",
+            "name": "Audio Out",
+            "count": 12
+          },
+          {
+            "id": "eu4b",
+            "name": "Audio in",
+            "count": 2
+          },
+          {
+            "id": "j0tf",
+            "name": "Jack 3.5",
+            "count": 201
+          },
+          {
+            "id": "3b",
+            "name": "RJ-45",
+            "count": 79
+          },
+          {
+            "id": "5b72",
+            "name": "SPDIF",
+            "count": 5
+          },
+          {
+            "id": "1rpw",
+            "name": "Thunderbolt 3",
+            "count": 3
+          },
+          {
+            "id": "9tcb",
+            "name": "Thunderbolt 4",
+            "count": 4
+          },
+          {
+            "id": "433f",
+            "name": "USB Micro-B",
+            "count": 1
+          },
+          {
+            "id": "7g9",
+            "name": "USB Type-A",
+            "count": 22
+          },
+          {
+            "id": "egax",
+            "name": "USB Type-A Service",
+            "count": 56
+          },
+          {
+            "id": "b56v",
+            "name": "USB Type-A x3",
+            "count": 1
+          },
+          {
+            "id": "mk6v",
+            "name": "USB Type-A x4",
+            "count": 3
+          },
+          {
+            "id": "45gd",
+            "name": "USB Type-B",
+            "count": 323
+          },
+          {
+            "id": "k6n6",
+            "name": "USB Type-B x2",
+            "count": 1
+          },
+          {
+            "id": "18b0",
+            "name": "USB Type-C",
+            "count": 35
+          },
+          {
+            "id": "p8io",
+            "name": "USB Type-C Service",
+            "count": 4
+          },
+          {
+            "id": "9wrp",
+            "name": "USB Type-C x3",
+            "count": 2
+          },
+          {
+            "id": "azo",
+            "name": "кард-ридер",
+            "count": 2
+          },
+          {
+            "id": "cr",
+            "name": "нет",
+            "count": 21
+          }
+        ],
+        "selected": [],
+        "default": []
+      },
+      {
+        "group": "Интерфейсы",
+        "id": "f[9fa]",
+        "name": "Направление разъемов",
+        "type": "checkbox",
+        "is_spec": true,
+        "values": [
+          {
+            "id": "cpn",
+            "name": "вертикальное",
+            "count": 1190
+          },
+          {
+            "id": "3aa",
+            "name": "горизонтальное",
+            "count": 389
+          }
+        ],
+        "selected": [],
+        "default": []
+      },
+      {
+        "group": "Интерфейсы",
+        "id": "f[6gt]",
+        "name": "Разъем DVI",
+        "type": "checkbox",
+        "is_spec": true,
+        "values": [
+          {
+            "id": "21",
+            "name": "есть",
+            "count": 31
+          },
+          {
+            "id": "cr",
+            "name": "нет",
+            "count": 1583
+          }
+        ],
+        "selected": [],
+        "default": []
+      },
+      {
+        "group": "Функции",
+        "id": "f[5px]",
+        "name": "Технология защиты зрения",
+        "type": "checkbox",
+        "is_spec": true,
+        "values": [
+          {
+            "id": "eojp",
+            "name": "Flicker Free",
+            "count": 1443
+          },
+          {
+            "id": "724g",
+            "name": "Low Blue Light",
+            "count": 1454
+          },
+          {
+            "id": "qb9y",
+            "name": "True Tone",
+            "count": 4
+          },
+          {
+            "id": "jrq3",
+            "name": "авторегулировка яркости",
+            "count": 13
+          }
+        ],
+        "selected": [],
+        "default": []
+      },
+      {
+        "group": "Функции",
+        "id": "f[29]",
+        "name": "Сенсорный экран",
+        "type": "checkbox",
+        "is_spec": true,
+        "values": [
+          {
+            "id": "mzo9",
+            "name": "да",
+            "count": 14
+          },
+          {
+            "id": "cr",
+            "name": "нет",
+            "count": 1601
+          }
+        ],
+        "selected": [],
+        "default": []
+      },
+      {
+        "group": "Функции",
+        "id": "f[aje]",
+        "name": "Dual Mode",
+        "type": "checkbox",
+        "is_spec": true,
+        "values": [
+          {
+            "id": "21",
+            "name": "есть",
+            "count": 24
+          },
+          {
+            "id": "cr",
+            "name": "нет",
+            "count": 1262
+          }
+        ],
+        "selected": [],
+        "default": []
+      },
+      {
+        "group": "Функции",
+        "id": "f[9v]",
+        "name": "Картинка в картинке",
+        "type": "checkbox",
+        "is_spec": true,
+        "values": [
+          {
+            "id": "21",
+            "name": "есть",
+            "count": 335
+          },
+          {
+            "id": "cr",
+            "name": "нет",
+            "count": 1193
+          }
+        ],
+        "selected": [],
+        "default": []
+      },
+      {
+        "group": "Функции",
+        "id": "f[ajf]",
+        "name": "Игровые функции",
+        "type": "checkbox",
+        "is_spec": true,
+        "values": [
+          {
+            "id": "phxo",
+            "name": "Game Plus",
+            "count": 74
+          },
+          {
+            "id": "pspx",
+            "name": "On-Screen Display",
+            "count": 3
+          },
+          {
+            "id": "ph3u",
+            "name": "виртуальный прицел",
+            "count": 328
+          },
+          {
+            "id": "cr",
+            "name": "нет",
+            "count": 762
+          },
+          {
+            "id": "b7e",
+            "name": "секундомер",
+            "count": 52
+          },
+          {
+            "id": "phds",
+            "name": "стабилизатор черного цвета",
+            "count": 386
+          },
+          {
+            "id": "ph4j",
+            "name": "счетчик кадров",
+            "count": 172
+          },
+          {
+            "id": "4a5",
+            "name": "таймер",
+            "count": 119
+          },
+          {
+            "id": "pl8c",
+            "name": "увеличение центральной области экрана",
+            "count": 45
+          }
+        ],
+        "selected": [],
+        "default": []
+      },
+      {
+        "group": "Конструкция",
+        "id": "f[9x]",
+        "name": "Регулировка по высоте",
+        "type": "checkbox",
+        "is_spec": true,
+        "values": [
+          {
+            "id": "21",
+            "name": "есть",
+            "count": 866
+          },
+          {
+            "id": "cr",
+            "name": "нет",
+            "count": 747
+          }
+        ],
+        "selected": [],
+        "default": []
+      },
+      {
+        "group": "Конструкция",
+        "id": "f[9w]",
+        "name": "Поворот на 90° (портретный режим)",
+        "type": "checkbox",
+        "is_spec": true,
+        "values": [
+          {
+            "id": "21",
+            "name": "есть",
+            "count": 600
+          },
+          {
+            "id": "cr",
+            "name": "нет",
+            "count": 1014
+          }
+        ],
+        "selected": [],
+        "default": []
+      },
+      {
+        "group": "Конструкция",
+        "id": "f[1a8]",
+        "name": "Регулировка наклона",
+        "type": "checkbox",
+        "is_spec": true,
+        "values": [
+          {
+            "id": "21",
+            "name": "есть",
+            "count": 1589
+          },
+          {
+            "id": "cr",
+            "name": "нет",
+            "count": 23
+          }
+        ],
+        "selected": [],
+        "default": []
+      },
+      {
+        "group": "Конструкция",
+        "id": "f[514]",
+        "name": "Поворотная подставка",
+        "type": "checkbox",
+        "is_spec": true,
+        "values": [
+          {
+            "id": "21",
+            "name": "есть",
+            "count": 741
+          },
+          {
+            "id": "cr",
+            "name": "нет",
+            "count": 866
+          }
+        ],
+        "selected": [],
+        "default": []
+      },
+      {
+        "group": "Конструкция",
+        "id": "f[ch]",
+        "name": "Размер VESA",
+        "type": "checkbox",
+        "is_spec": true,
+        "values": [
+          {
+            "id": "39k",
+            "name": "75 x 75",
+            "count": 300
+          },
+          {
+            "id": "39l",
+            "name": "100 x 100",
+            "count": 1237
+          },
+          {
+            "id": "39m",
+            "name": "200 x 100",
+            "count": 2
+          },
+          {
+            "id": "39n",
+            "name": "200 x 200",
+            "count": 9
+          },
+          {
+            "id": "6hs",
+            "name": "300 x 300",
+            "count": 2
+          },
+          {
+            "id": "6hu",
+            "name": "400 x 200",
+            "count": 1
+          },
+          {
+            "id": "6hr",
+            "name": "400 x 400",
+            "count": 2
+          },
+          {
+            "id": "cr",
+            "name": "нет",
+            "count": 19
+          }
+        ],
+        "selected": [],
+        "default": []
+      },
+      {
+        "group": "Конструкция",
+        "id": "f[12a]",
+        "name": "Подсветка корпуса",
+        "type": "checkbox",
+        "is_spec": true,
+        "values": [
+          {
+            "id": "q3o",
+            "name": "RGB",
+            "count": 169
+          },
+          {
+            "id": "1lqc",
+            "name": "многоцветная",
+            "count": 12
+          },
+          {
+            "id": "cr",
+            "name": "нет",
+            "count": 1401
+          },
+          {
+            "id": "6836",
+            "name": "одноцветная",
+            "count": 13
+          },
+          {
+            "id": "9wq2",
+            "name": "одноцветная (красная)",
+            "count": 18
+          }
+        ],
+        "selected": [],
+        "default": []
+      },
+      {
+        "group": "Конструкция",
+        "id": "f[ajg]",
+        "name": "Крепление периферии",
+        "type": "checkbox",
+        "is_spec": true,
+        "values": [
+          {
+            "id": "pv64",
+            "name": "держатель для провода мыши",
+            "count": 3
+          },
+          {
+            "id": "9vkv",
+            "name": "держатель наушников",
+            "count": 15
+          },
+          {
+            "id": "cr",
+            "name": "нет",
+            "count": 1206
+          },
+          {
+            "id": "ppah",
+            "name": "пазы для звуковой панели",
+            "count": 10
+          },
+          {
+            "id": "725",
+            "name": "подставка для телефона",
+            "count": 44
+          }
+        ],
+        "selected": [],
+        "default": []
+      },
+      {
+        "group": "Дополнительное оборудование",
+        "id": "f[24]",
+        "name": "Встроенная акустическая система",
+        "type": "checkbox",
+        "is_spec": true,
+        "values": [
+          {
+            "id": "21",
+            "name": "есть",
+            "count": 802
+          },
+          {
+            "id": "cr",
+            "name": "нет",
+            "count": 813
+          }
+        ],
+        "selected": [],
+        "default": []
+      },
+      {
+        "group": "Дополнительное оборудование",
+        "id": "f[1gu]",
+        "name": "Веб-камера",
+        "type": "checkbox",
+        "is_spec": true,
+        "values": [
+          {
+            "id": "21",
+            "name": "есть",
+            "count": 46
+          },
+          {
+            "id": "cr",
+            "name": "нет",
+            "count": 1567
+          }
+        ],
+        "selected": [],
+        "default": []
+      },
+      {
+        "group": "Дополнительное оборудование",
+        "id": "f[1gx]",
+        "name": "Беспроводной интерфейс",
+        "type": "checkbox",
+        "is_spec": true,
+        "values": [
+          {
+            "id": "d",
+            "name": "Bluetooth",
+            "count": 33
+          },
+          {
+            "id": "6ib",
+            "name": "NFC",
+            "count": 1
+          },
+          {
+            "id": "1u",
+            "name": "Wi-Fi",
+            "count": 33
+          },
+          {
+            "id": "cr",
+            "name": "нет",
+            "count": 1248
+          }
+        ],
+        "selected": [],
+        "default": []
+      },
+      {
+        "group": "Дополнительное оборудование",
+        "id": "f[ar]",
+        "name": "Пульт ДУ",
+        "type": "checkbox",
+        "is_spec": true,
+        "values": [
+          {
+            "id": "21",
+            "name": "есть",
+            "count": 50
+          },
+          {
+            "id": "cr",
+            "name": "нет",
+            "count": 1236
+          }
+        ],
+        "selected": [],
+        "default": []
+      },
+      {
+        "group": "Питание",
+        "id": "f[22]",
+        "name": "Расположение блока питания",
+        "type": "checkbox",
+        "is_spec": true,
+        "values": [
+          {
+            "id": "df",
+            "name": "внешний",
+            "count": 786
+          },
+          {
+            "id": "h3",
+            "name": "встроенный",
+            "count": 766
+          }
+        ],
+        "selected": [],
+        "default": []
+      },
+      {
+        "group": "Питание",
+        "id": "f[65h]",
+        "name": "Поддержка USB Power Delivery",
+        "type": "checkbox",
+        "is_spec": true,
+        "values": [
+          {
+            "id": "21",
+            "name": "есть",
+            "count": 358
+          },
+          {
+            "id": "cr",
+            "name": "нет",
+            "count": 1092
+          }
+        ],
+        "selected": [],
+        "default": []
+      },
+      {
+        "group": "Питание",
+        "id": "f[ae0]",
+        "name": "Мощность зарядки USB Power Delivery (Вт)",
+        "type": "checkbox",
+        "is_spec": true,
+        "values": [
+          {
+            "id": "g0z",
+            "name": "7.5 Вт",
+            "count": 6
+          },
+          {
+            "id": "hx",
+            "name": "10 Вт",
+            "count": 3
+          },
+          {
+            "id": "id",
+            "name": "15 Вт",
+            "count": 60
+          },
+          {
+            "id": "tu",
+            "name": "18 Вт",
+            "count": 14
+          },
+          {
+            "id": "dy",
+            "name": "60 Вт",
+            "count": 7
+          },
+          {
+            "id": "e6",
+            "name": "65 Вт",
+            "count": 122
+          },
+          {
+            "id": "hi",
+            "name": "75 Вт",
+            "count": 1
+          },
+          {
+            "id": "e1",
+            "name": "80 Вт",
+            "count": 3
+          },
+          {
+            "id": "e4",
+            "name": "90 Вт",
+            "count": 101
+          },
+          {
+            "id": "1wpu",
+            "name": "96 Вт",
+            "count": 17
+          },
+          {
+            "id": "vh",
+            "name": "98 Вт",
+            "count": 13
+          },
+          {
+            "id": "iw",
+            "name": "100 Вт",
+            "count": 1
+          },
+          {
+            "id": "iz",
+            "name": "140 Вт",
+            "count": 4
+          }
+        ],
+        "selected": [],
+        "default": []
+      },
+      {
+        "group": "Габариты и вес",
+        "id": "fr[2m]",
+        "name": "Ширина с подставкой (мм)",
+        "type": "range-radio",
+        "is_spec": true,
+        "values": [
+          {
+            "id": "375968c4724f02e03f785d44dcc43c90",
+            "name": "Менее 500",
+            "count": 36
+          },
+          {
+            "id": "eef063ab66bcf993cc8deca0aa14ba10",
+            "name": "500.01 - 800",
+            "count": 1312
+          },
+          {
+            "id": "1b0b21873ef0cf0349d58bf5cf875744",
+            "name": "800.01 - 1 200",
+            "count": 157
+          },
+          {
+            "id": "f21564413b589b507df57c0601c74625",
+            "name": "1 200.01 и более",
+            "count": 7
+          }
+        ],
+        "selected": [],
+        "range": {
+          "min": 212.2,
+          "max": 1584,
+          "min_selected": null,
+          "max_selected": null
+        }
+      },
+      {
+        "group": "Габариты и вес",
+        "id": "fr[30q]",
+        "name": "Минимальная высота с подставкой (мм)",
+        "type": "range-radio",
+        "is_spec": true,
+        "values": [
+          {
+            "id": "1bb1683a8cd6b458548dcf2d6dd55769",
+            "name": "Менее 300",
+            "count": 9
+          },
+          {
+            "id": "aad81a1d577c5ea85a019a0bde8d9769",
+            "name": "300.01 - 500",
+            "count": 1192
+          },
+          {
+            "id": "743fab0b2b85faa66d68010729e30a28",
+            "name": "500.01 - 700",
+            "count": 141
+          },
+          {
+            "id": "766df59f7581ae230c9f2f3d4bc829d0",
+            "name": "700.01 и более",
+            "count": 3
+          }
+        ],
+        "selected": [],
+        "range": {
+          "min": 3.5,
+          "max": 1102,
+          "min_selected": null,
+          "max_selected": null
+        }
+      },
+      {
+        "group": "Габариты и вес",
+        "id": "fr[30r]",
+        "name": "Максимальная высота с подставкой (мм)",
+        "type": "range-radio",
+        "is_spec": true,
+        "values": [
+          {
+            "id": "1bb1683a8cd6b458548dcf2d6dd55769",
+            "name": "Менее 300",
+            "count": 7
+          },
+          {
+            "id": "aad81a1d577c5ea85a019a0bde8d9769",
+            "name": "300.01 - 500",
+            "count": 704
+          },
+          {
+            "id": "743fab0b2b85faa66d68010729e30a28",
+            "name": "500.01 - 700",
+            "count": 728
+          },
+          {
+            "id": "766df59f7581ae230c9f2f3d4bc829d0",
+            "name": "700.01 и более",
+            "count": 15
+          }
+        ],
+        "selected": [],
+        "range": {
+          "min": 184.7,
+          "max": 1372,
+          "min_selected": null,
+          "max_selected": null
+        }
+      },
+      {
+        "group": "Габариты и вес",
+        "id": "fr[2o]",
+        "name": "Толщина с подставкой (мм)",
+        "type": "range-radio",
+        "is_spec": true,
+        "values": [
+          {
+            "id": "e8f97abd4326ea3257372c25fff6b578",
+            "name": "Менее 100",
+            "count": 15
+          },
+          {
+            "id": "d494b5104c4d442f9f386438454b1933",
+            "name": "100.01 - 200",
+            "count": 440
+          },
+          {
+            "id": "cbc78a6beeb11a7f58ccffed5949703d",
+            "name": "200.01 - 300",
+            "count": 971
+          },
+          {
+            "id": "40d5ce5f5ec34da60ee005438dee530b",
+            "name": "300.01 и более",
+            "count": 75
+          }
+        ],
+        "selected": [],
+        "range": {
+          "min": 11.8,
+          "max": 545.1,
+          "min_selected": null,
+          "max_selected": null
+        }
+      },
+      {
+        "group": "Габариты и вес",
+        "id": "fr[28]",
+        "name": "Вес монитора без подставки (кг)",
+        "type": "range-radio",
+        "is_spec": true,
+        "values": [
+          {
+            "id": "ed35de8d7a9b9fb8fe1392894463a58d",
+            "name": "Менее 2",
+            "count": 39
+          },
+          {
+            "id": "d1267f857d0d37379139a225fa3f706e",
+            "name": "2.01 - 4",
+            "count": 545
+          },
+          {
+            "id": "ea8912ed93e1643f014dddb799a7e4f8",
+            "name": "4.01 - 6",
+            "count": 386
+          },
+          {
+            "id": "fb3ec5a81fe8d506886b88766f88a5b8",
+            "name": "6.01 - 8",
+            "count": 154
+          },
+          {
+            "id": "2b7d059b4a703a6d3b29cb8bb67fc670",
+            "name": "8.01 и более",
+            "count": 56
+          }
+        ],
+        "selected": [],
+        "range": {
+          "min": 0.5,
+          "max": 21.1,
+          "min_selected": null,
+          "max_selected": null
+        }
+      },
+      {
+        "group": "Дополнительная информация",
+        "id": "f[3v]",
+        "name": "Дополнительно",
+        "type": "checkbox",
+        "is_spec": true,
+        "values": [
+          {
+            "id": "2mn",
+            "name": "(MHL) подключение мобильных устройств",
+            "count": 1
+          },
+          {
+            "id": "2dxc",
+            "name": "3D-дисплей",
+            "count": 2
+          },
+          {
+            "id": "951d",
+            "name": "90% DCI-P3",
+            "count": 1
+          },
+          {
+            "id": "jp6t",
+            "name": "92% DCI-P3",
+            "count": 1
+          },
+          {
+            "id": "gmlm",
+            "name": "99% DCI-P3",
+            "count": 1
+          },
+          {
+            "id": "o6zq",
+            "name": "336 локальных зон затемнения",
+            "count": 1
+          },
+          {
+            "id": "q2zn",
+            "name": "1052 локальные зоны затемнения",
+            "count": 1
+          },
+          {
+            "id": "gw05",
+            "name": "1056 локальных зон затемнения",
+            "count": 1
+          },
+          {
+            "id": "3jeh",
+            "name": "Acer ComfyView",
+            "count": 20
+          },
+          {
+            "id": "7isn",
+            "name": "Acer Flicker-Less",
+            "count": 1
+          },
+          {
+            "id": "ficw",
+            "name": "Adaptive Sound Pro",
+            "count": 1
+          },
+          {
+            "id": "qqzy",
+            "name": "Bluetooth колонка",
+            "count": 5
+          },
+          {
+            "id": "puty",
+            "name": "ClearMR 8000",
+            "count": 1
+          },
+          {
+            "id": "p6p5",
+            "name": "ClearMR 13000",
+            "count": 10
+          },
+          {
+            "id": "jrkr",
+            "name": "ComfortView Plus",
+            "count": 7
+          },
+          {
+            "id": "3mc",
+            "name": "DLNA",
+            "count": 1
+          },
+          {
+            "id": "im51",
+            "name": "Dark/Black Boost",
+            "count": 14
+          },
+          {
+            "id": "1udz",
+            "name": "Dolby Vision",
+            "count": 1
+          },
+          {
+            "id": "2mm",
+            "name": "Energy Star",
+            "count": 3
+          },
+          {
+            "id": "jp82",
+            "name": "Game+",
+            "count": 13
+          },
+          {
+            "id": "dze8",
+            "name": "Game Bar",
+            "count": 1
+          },
+          {
+            "id": "a9w4",
+            "name": "Google TV",
+            "count": 1
+          },
+          {
+            "id": "2mo",
+            "name": "HDCP",
+            "count": 42
+          },
+          {
+            "id": "3vmg",
+            "name": "HDR Ready",
+            "count": 56
+          },
+          {
+            "id": "2qc",
+            "name": "Miracast",
+            "count": 1
+          },
+          {
+            "id": "eo5i",
+            "name": "Quantum Dot",
+            "count": 1
+          },
+          {
+            "id": "j61x",
+            "name": "Shadow Boost",
+            "count": 2
+          },
+          {
+            "id": "7q9v",
+            "name": "SmartThings",
+            "count": 4
+          },
+          {
+            "id": "57xq",
+            "name": "Trace Free Technology",
+            "count": 3
+          },
+          {
+            "id": "deii",
+            "name": "Windows Hello",
+            "count": 2
+          },
+          {
+            "id": "1oyk",
+            "name": "webOS",
+            "count": 6
+          },
+          {
+            "id": "nrob",
+            "name": "автоматическое распознавание источника сигнала+",
+            "count": 2
+          },
+          {
+            "id": "nroc",
+            "name": "адаптивное изображение",
+            "count": 1
+          },
+          {
+            "id": "hqdi",
+            "name": "адаптивный звук",
+            "count": 1
+          },
+          {
+            "id": "nrod",
+            "name": "адаптивный звук+",
+            "count": 1
+          },
+          {
+            "id": "nueg",
+            "name": "антирефлексивное покрытие экрана",
+            "count": 1
+          },
+          {
+            "id": "hi85",
+            "name": "возможность крепления на штатив",
+            "count": 25
+          },
+          {
+            "id": "pv8c",
+            "name": "встроенная антенна Wi-Fi для компьютера",
+            "count": 6
+          },
+          {
+            "id": "ojyv",
+            "name": "встроенная видеокамера - 12MP",
+            "count": 1
+          },
+          {
+            "id": "7nmb",
+            "name": "встроенный KVM-переключатель",
+            "count": 113
+          },
+          {
+            "id": "5tkq",
+            "name": "встроенный аккумулятор емкостью 7800 мАч",
+            "count": 2
+          },
+          {
+            "id": "75ci",
+            "name": "встроенный датчик внешней освещенности",
+            "count": 1
+          },
+          {
+            "id": "3du",
+            "name": "встроенный микрофон",
+            "count": 25
+          },
+          {
+            "id": "2mq",
+            "name": "датчик присутствия",
+            "count": 2
+          },
+          {
+            "id": "3jya",
+            "name": "защита от воды и пыли IP65",
+            "count": 1
+          },
+          {
+            "id": "ny66",
+            "name": "интеллектуальная калибровка",
+            "count": 1
+          },
+          {
+            "id": "nnin",
+            "name": "класс защиты от поражения эл. током III",
+            "count": 1
+          },
+          {
+            "id": "nnim",
+            "name": "класс защиты от пыли и влаги IP20",
+            "count": 1
+          },
+          {
+            "id": "vz4",
+            "name": "козырек",
+            "count": 4
+          },
+          {
+            "id": "pv7z",
+            "name": "крепления для саундбара Dell",
+            "count": 1
+          },
+          {
+            "id": "64vd",
+            "name": "подставка-струбцина",
+            "count": 2
+          },
+          {
+            "id": "pv0o",
+            "name": "подставка со складными ножками",
+            "count": 1
+          },
+          {
+            "id": "jt7m",
+            "name": "режим ePaper",
+            "count": 1
+          },
+          {
+            "id": "37e4",
+            "name": "сверхбыстрая зарядка через USB",
+            "count": 15
+          },
+          {
+            "id": "jfi6",
+            "name": "сертификация CalMAN Verified",
+            "count": 19
+          },
+          {
+            "id": "n434",
+            "name": "сертификация Pantone Validated",
+            "count": 3
+          },
+          {
+            "id": "oegp",
+            "name": "синхронизациия подсветки с игрой",
+            "count": 1
+          },
+          {
+            "id": "k85o",
+            "name": "технология DyAc+",
+            "count": 1
+          },
+          {
+            "id": "3opl",
+            "name": "технология Low Dimming",
+            "count": 16
+          },
+          {
+            "id": "oqds",
+            "name": "технология PowerSensor",
+            "count": 1
+          },
+          {
+            "id": "2fwh",
+            "name": "технология Splendid",
+            "count": 2
+          },
+          {
+            "id": "cnzh",
+            "name": "функция CEC",
+            "count": 70
+          },
+          {
+            "id": "2fve",
+            "name": "функция QuickFit",
+            "count": 3
+          }
+        ],
+        "selected": [],
+        "default": []
+      }
+    ]
+  }
+}

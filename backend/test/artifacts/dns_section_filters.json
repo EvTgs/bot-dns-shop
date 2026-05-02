@@ -1,0 +1,6340 @@
+{
+  "url": "https://www.dns-shop.ru/search/?q=%D0%BF%D0%BB%D0%B0%D0%BD%D1%88%D0%B5%D1%82&category=17a8a05316404e77",
+  "section_url": "https://www.dns-shop.ru/search/?q=%D0%BF%D0%BB%D0%B0%D0%BD%D1%88%D0%B5%D1%82&category=17a8a05316404e77",
+  "query": "планшет",
+  "category": "17a8a05316404e77",
+  "count": 66,
+  "filters": [
+    {
+      "group": "Основные",
+      "id": "shop-catalog",
+      "name": "Магазины",
+      "type": "shops",
+      "is_spec": false,
+      "values": [
+        {
+          "id": "7311",
+          "name": "Магазин-склад ТЦ РИО",
+          "count": null
+        },
+        {
+          "id": "7165",
+          "name": "На Маршала Конева",
+          "count": null
+        },
+        {
+          "id": "1497",
+          "name": "ТРЦ «Мармелад»",
+          "count": null
+        },
+        {
+          "id": "1496",
+          "name": "ТРЦ «Оазис»",
+          "count": null
+        },
+        {
+          "id": "7308",
+          "name": "ТРЦ «РИО»",
+          "count": null
+        },
+        {
+          "id": "3050",
+          "name": "ТЦ «Апельсин»",
+          "count": null
+        },
+        {
+          "id": "4057",
+          "name": "ТЦ «Магистраль»",
+          "count": null
+        },
+        {
+          "id": "7749",
+          "name": "ТЦ «Форум»",
+          "count": null
+        },
+        {
+          "id": "3768",
+          "name": "ТЦ «Мельница»",
+          "count": null
+        }
+      ],
+      "selected": []
+    },
+    {
+      "group": "Основные",
+      "id": "stock",
+      "name": "Наличие",
+      "type": "checkbox",
+      "is_spec": false,
+      "values": [
+        {
+          "id": "now",
+          "name": "В наличии",
+          "count": null
+        },
+        {
+          "id": "today",
+          "name": "Под заказ: сегодня",
+          "count": null
+        },
+        {
+          "id": "tomorrow",
+          "name": "Под заказ: завтра",
+          "count": null
+        },
+        {
+          "id": "later",
+          "name": "Под заказ: позже",
+          "count": null
+        },
+        {
+          "id": "out_of_stock",
+          "name": "Отсутствующие в продаже",
+          "count": null
+        }
+      ],
+      "selected": [],
+      "default": [
+        "now",
+        "today",
+        "tomorrow",
+        "later",
+        "out_of_stock"
+      ]
+    },
+    {
+      "group": "Основные",
+      "id": "price",
+      "name": "Цена",
+      "type": "range-checkbox",
+      "is_spec": false,
+      "values": [
+        {
+          "id": "14f7913f1a3df9d542300a0b6276a71f",
+          "name": "Менее 12 000 ₽",
+          "count": 114
+        },
+        {
+          "id": "8be3df0e6aa390c0f3c4a016f1a4fde2",
+          "name": "12 001 - 18 000 ₽",
+          "count": 157
+        },
+        {
+          "id": "3f604312e1bfcadb1852815840be8c72",
+          "name": "18 001 - 40 000 ₽",
+          "count": 203
+        },
+        {
+          "id": "bc426e9694c0b86bc92ef248bd62f241",
+          "name": "40 001 - 80 000 ₽",
+          "count": 163
+        },
+        {
+          "id": "6d40fdc88578c8659b11a283beca5a11",
+          "name": "80 001 ₽ и более",
+          "count": 228
+        }
+      ],
+      "selected": [],
+      "range": {
+        "min": 2250,
+        "max": 283899,
+        "min_selected": null,
+        "max_selected": null
+      }
+    },
+    {
+      "group": "Основные",
+      "id": "action",
+      "name": "Предложения брендов",
+      "type": "checkbox",
+      "is_spec": false,
+      "values": [
+        {
+          "id": "vygodnyekomplekty",
+          "name": "Выгодные комплекты",
+          "count": 251
+        },
+        {
+          "id": "rassrockailivygoda",
+          "name": "Рассрочка или выгода",
+          "count": 136
+        },
+        {
+          "id": "tovarysoskidkoj",
+          "name": "Скидки и предложения",
+          "count": 6
+        }
+      ],
+      "selected": [],
+      "default": []
+    },
+    {
+      "group": "Основные",
+      "id": "created-in-dns",
+      "name": "Создано в DNS",
+      "type": "toggle",
+      "is_spec": false,
+      "values": [],
+      "selected": []
+    },
+    {
+      "group": "Основные",
+      "id": "brand",
+      "name": "Бренд",
+      "type": "checkbox",
+      "is_spec": false,
+      "values": [
+        {
+          "id": "acer",
+          "name": "Acer",
+          "count": 3
+        },
+        {
+          "id": "acergadget",
+          "name": "Acer Gadget",
+          "count": 2
+        },
+        {
+          "id": "apple",
+          "name": "Apple",
+          "count": 468
+        },
+        {
+          "id": "asus",
+          "name": "ASUS",
+          "count": 2
+        },
+        {
+          "id": "blackshark",
+          "name": "Black Shark",
+          "count": 2
+        },
+        {
+          "id": "blackview",
+          "name": "Blackview",
+          "count": 49
+        },
+        {
+          "id": "bq",
+          "name": "BQ",
+          "count": 3
+        },
+        {
+          "id": "chuwi",
+          "name": "Chuwi",
+          "count": 2
+        },
+        {
+          "id": "dexp",
+          "name": "DEXP",
+          "count": 64
+        },
+        {
+          "id": "digma",
+          "name": "Digma",
+          "count": 41
+        },
+        {
+          "id": "edpad",
+          "name": "EdPad",
+          "count": 1
+        },
+        {
+          "id": "google",
+          "name": "Google",
+          "count": 2
+        },
+        {
+          "id": "honor",
+          "name": "HONOR",
+          "count": 47
+        },
+        {
+          "id": "huawei",
+          "name": "HUAWEI",
+          "count": 100
+        },
+        {
+          "id": "infinix",
+          "name": "Infinix",
+          "count": 28
+        },
+        {
+          "id": "inoi",
+          "name": "INOI",
+          "count": 4
+        },
+        {
+          "id": "irbis",
+          "name": "Irbis",
+          "count": 1
+        },
+        {
+          "id": "kenshi",
+          "name": "KENSHI",
+          "count": 66
+        },
+        {
+          "id": "lenovo",
+          "name": "Lenovo",
+          "count": 43
+        },
+        {
+          "id": "maibenben",
+          "name": "MAIBENBEN",
+          "count": 4
+        },
+        {
+          "id": "oneplus",
+          "name": "OnePlus",
+          "count": 4
+        },
+        {
+          "id": "oppo",
+          "name": "OPPO",
+          "count": 2
+        },
+        {
+          "id": "oukitel",
+          "name": "Oukitel",
+          "count": 3
+        },
+        {
+          "id": "poco",
+          "name": "POCO",
+          "count": 4
+        },
+        {
+          "id": "realme",
+          "name": "realme",
+          "count": 1
+        },
+        {
+          "id": "samsung",
+          "name": "Samsung",
+          "count": 303
+        },
+        {
+          "id": "sony",
+          "name": "Sony",
+          "count": 19
+        },
+        {
+          "id": "tcl",
+          "name": "TCL",
+          "count": 4
+        },
+        {
+          "id": "teclast",
+          "name": "Teclast",
+          "count": 16
+        },
+        {
+          "id": "tecno",
+          "name": "Tecno",
+          "count": 16
+        },
+        {
+          "id": "xiaomi",
+          "name": "Xiaomi",
+          "count": 100
+        },
+        {
+          "id": "xppen",
+          "name": "XPPEN",
+          "count": 1
+        }
+      ],
+      "selected": [],
+      "default": []
+    },
+    {
+      "group": "Основные",
+      "id": "warranty",
+      "name": "Гарантия",
+      "type": "checkbox",
+      "is_spec": false,
+      "values": [
+        {
+          "id": "12",
+          "name": "1 год",
+          "count": 1399
+        },
+        {
+          "id": "24",
+          "name": "2 года",
+          "count": 5
+        }
+      ],
+      "selected": [],
+      "default": []
+    },
+    {
+      "group": "Рейтинг и обзоры",
+      "id": "rating",
+      "name": "Рейтинг 4 и выше",
+      "type": "toggle",
+      "is_spec": false,
+      "values": [],
+      "selected": []
+    },
+    {
+      "group": "Рейтинг и обзоры",
+      "id": "hit",
+      "name": "Хит продаж",
+      "type": "toggle",
+      "is_spec": false,
+      "values": [],
+      "selected": []
+    },
+    {
+      "group": "Рейтинг и обзоры",
+      "id": "review",
+      "name": "Есть обзор",
+      "type": "toggle",
+      "is_spec": false,
+      "values": [],
+      "selected": []
+    },
+    {
+      "group": "Рейтинг и обзоры",
+      "id": "rely",
+      "name": "Надёжные модели",
+      "type": "toggle",
+      "is_spec": false,
+      "values": [],
+      "selected": []
+    },
+    {
+      "group": "Общие параметры",
+      "id": "f[48j]",
+      "name": "Год релиза",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "pecj",
+          "name": "2026",
+          "count": 100
+        },
+        {
+          "id": "llst",
+          "name": "2025",
+          "count": 389
+        },
+        {
+          "id": "h9dq",
+          "name": "2024",
+          "count": 241
+        },
+        {
+          "id": "ben8",
+          "name": "2023",
+          "count": 170
+        },
+        {
+          "id": "97qs",
+          "name": "2022",
+          "count": 45
+        },
+        {
+          "id": "7rbv",
+          "name": "2021",
+          "count": 50
+        },
+        {
+          "id": "5c25",
+          "name": "2020",
+          "count": 31
+        },
+        {
+          "id": "43wg",
+          "name": "2019",
+          "count": 9
+        },
+        {
+          "id": "1ggr",
+          "name": "2017",
+          "count": 1
+        }
+      ],
+      "selected": [],
+      "default": []
+    },
+    {
+      "group": "Общие параметры",
+      "id": "f[6h]",
+      "name": "Модель",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "22m7",
+          "name": "ASUS Nexus 7",
+          "count": 1
+        },
+        {
+          "id": "npy2",
+          "name": "Acer Gadget E10 ETPad Max Wi-Fi",
+          "count": 2
+        },
+        {
+          "id": "q3xq",
+          "name": "Acer Iconia A8 Wi-Fi",
+          "count": 1
+        },
+        {
+          "id": "q4i2",
+          "name": "Acer Iconia V12 Wi-Fi",
+          "count": 1
+        },
+        {
+          "id": "q4i4",
+          "name": "Acer Iconia X12 LTE",
+          "count": 1
+        },
+        {
+          "id": "a6cm",
+          "name": "Apple iPad (9th Gen) Wi-Fi",
+          "count": 4
+        },
+        {
+          "id": "dzq2",
+          "name": "Apple iPad (10th Gen) 5G",
+          "count": 2
+        },
+        {
+          "id": "dzqk",
+          "name": "Apple iPad (10th Gen) Wi-Fi",
+          "count": 2
+        },
+        {
+          "id": "n8uv",
+          "name": "Apple iPad (11th Gen) 5G",
+          "count": 10
+        },
+        {
+          "id": "n8to",
+          "name": "Apple iPad (11th Gen) Wi-Fi",
+          "count": 12
+        },
+        {
+          "id": "8kjo",
+          "name": "Apple iPad Air (4th Gen) LTE",
+          "count": 7
+        },
+        {
+          "id": "75r4",
+          "name": "Apple iPad Air (4th Gen) Wi-Fi",
+          "count": 5
+        },
+        {
+          "id": "c26a",
+          "name": "Apple iPad Air (5th Gen) 5G",
+          "count": 1
+        },
+        {
+          "id": "c25i",
+          "name": "Apple iPad Air (5th Gen) Wi-Fi",
+          "count": 3
+        },
+        {
+          "id": "i4jb",
+          "name": "Apple iPad Air (M2) 5G",
+          "count": 2
+        },
+        {
+          "id": "i4jq",
+          "name": "Apple iPad Air (M2) Wi-Fi",
+          "count": 6
+        },
+        {
+          "id": "n8ne",
+          "name": "Apple iPad Air (M3) 5G",
+          "count": 29
+        },
+        {
+          "id": "n8ow",
+          "name": "Apple iPad Air (M3) Wi-Fi",
+          "count": 28
+        },
+        {
+          "id": "qb1t",
+          "name": "Apple iPad Air (M4) 5G",
+          "count": 32
+        },
+        {
+          "id": "qb0p",
+          "name": "Apple iPad Air (M4) Wi-Fi",
+          "count": 32
+        },
+        {
+          "id": "8kkt",
+          "name": "Apple iPad Pro (2nd Gen) LTE",
+          "count": 2
+        },
+        {
+          "id": "8psh",
+          "name": "Apple iPad Pro (3rd Gen) LTE",
+          "count": 6
+        },
+        {
+          "id": "8pt4",
+          "name": "Apple iPad Pro (3rd Gen) Wi‑Fi",
+          "count": 4
+        },
+        {
+          "id": "65rw",
+          "name": "Apple iPad Pro (4th Gen) Wi‑Fi",
+          "count": 5
+        },
+        {
+          "id": "gyiq",
+          "name": "Apple iPad Pro (5th Gen) Wi‑Fi",
+          "count": 4
+        },
+        {
+          "id": "dzrb",
+          "name": "Apple iPad Pro (6th Gen) Wi-Fi",
+          "count": 2
+        },
+        {
+          "id": "f552",
+          "name": "Apple iPad Pro (2021) Wi‑Fi",
+          "count": 8
+        },
+        {
+          "id": "i4ms",
+          "name": "Apple iPad Pro (M4) 5G",
+          "count": 12
+        },
+        {
+          "id": "i4nc",
+          "name": "Apple iPad Pro (M4) Wi-Fi",
+          "count": 19
+        },
+        {
+          "id": "p8ps",
+          "name": "Apple iPad Pro (M5) 5G",
+          "count": 20
+        },
+        {
+          "id": "p6zw",
+          "name": "Apple iPad Pro (M5) Wi-Fi",
+          "count": 22
+        },
+        {
+          "id": "a6dx",
+          "name": "Apple iPad mini (6th Gen) LTE",
+          "count": 4
+        },
+        {
+          "id": "a6d5",
+          "name": "Apple iPad mini (6th Gen) Wi-Fi",
+          "count": 5
+        },
+        {
+          "id": "fg6r",
+          "name": "Apple iPad mini (6th Gen) Wi-Fi \"Как новый\"",
+          "count": 1
+        },
+        {
+          "id": "ky7f",
+          "name": "Apple iPad mini (7th Gen) 5G",
+          "count": 9
+        },
+        {
+          "id": "kxxj",
+          "name": "Apple iPad mini (7th Gen) Wi-Fi",
+          "count": 11
+        },
+        {
+          "id": "ae0s",
+          "name": "BQ 1024L Exion Pro LTE",
+          "count": 1
+        },
+        {
+          "id": "ae0u",
+          "name": "BQ 7036L Hornet LTE",
+          "count": 1
+        },
+        {
+          "id": "acrb",
+          "name": "BQ 8077L Exion Plus LTE",
+          "count": 1
+        },
+        {
+          "id": "pck1",
+          "name": "Black Shark Pad 7 LTE",
+          "count": 1
+        },
+        {
+          "id": "pcj9",
+          "name": "Black Shark Pad 7 Pro LTE",
+          "count": 1
+        },
+        {
+          "id": "hq7r",
+          "name": "BlackView Tab 18 LTE",
+          "count": 6
+        },
+        {
+          "id": "hpik",
+          "name": "Blackview Active 8 Pro LTE",
+          "count": 2
+        },
+        {
+          "id": "kf8a",
+          "name": "Blackview MEGA 1 LTE",
+          "count": 6
+        },
+        {
+          "id": "kf8e",
+          "name": "Blackview Tab 9 Wi-Fi",
+          "count": 3
+        },
+        {
+          "id": "fywx",
+          "name": "Blackview Tab 11 SE LTE",
+          "count": 2
+        },
+        {
+          "id": "duty",
+          "name": "Blackview Tab 12 LTE",
+          "count": 2
+        },
+        {
+          "id": "duy7",
+          "name": "Blackview Tab 13 LTE",
+          "count": 3
+        },
+        {
+          "id": "e7ol",
+          "name": "Blackview Tab 15 LTE",
+          "count": 3
+        },
+        {
+          "id": "f3zr",
+          "name": "Blackview Tab 16 LTE",
+          "count": 2
+        },
+        {
+          "id": "k5gj",
+          "name": "Blackview Tab 16 Pro LTE",
+          "count": 3
+        },
+        {
+          "id": "kf8b",
+          "name": "Blackview Tab 60 Pro LTE",
+          "count": 6
+        },
+        {
+          "id": "kf86",
+          "name": "Blackview Tab 60 Wi-Fi",
+          "count": 3
+        },
+        {
+          "id": "kfnf",
+          "name": "Blackview Tab 70 Wi-Fi",
+          "count": 2
+        },
+        {
+          "id": "kf8c",
+          "name": "Blackview Tab 80 Kids LTE",
+          "count": 1
+        },
+        {
+          "id": "kfoa",
+          "name": "Blackview Tab 90 LTE",
+          "count": 3
+        },
+        {
+          "id": "kdfd",
+          "name": "Blackview Tab A5 Kids LTE",
+          "count": 2
+        },
+        {
+          "id": "nrt2",
+          "name": "Chuwi AuPad LTE",
+          "count": 1
+        },
+        {
+          "id": "kdb7",
+          "name": "Chuwi Hi10 Max Wi-Fi",
+          "count": 1
+        },
+        {
+          "id": "drqo",
+          "name": "DEXP C38 Kid's 3G",
+          "count": 1
+        },
+        {
+          "id": "egmt",
+          "name": "DEXP Ursus B18 3G",
+          "count": 1
+        },
+        {
+          "id": "egmf",
+          "name": "DEXP Ursus B21 3G",
+          "count": 1
+        },
+        {
+          "id": "dzcj",
+          "name": "DEXP Ursus B38 3G",
+          "count": 1
+        },
+        {
+          "id": "cgr6",
+          "name": "DEXP Ursus D21 LTE",
+          "count": 1
+        },
+        {
+          "id": "egmk",
+          "name": "DEXP Ursus EX111 LTE",
+          "count": 1
+        },
+        {
+          "id": "egmn",
+          "name": "DEXP Ursus H370 3G",
+          "count": 3
+        },
+        {
+          "id": "egmr",
+          "name": "DEXP Ursus K28 LTE",
+          "count": 1
+        },
+        {
+          "id": "egmi",
+          "name": "DEXP Ursus K41 LTE",
+          "count": 1
+        },
+        {
+          "id": "cqmn",
+          "name": "DEXP Ursus K61 LTE",
+          "count": 1
+        },
+        {
+          "id": "egml",
+          "name": "DEXP Ursus L470 Kid's 3G",
+          "count": 1
+        },
+        {
+          "id": "egmp",
+          "name": "DEXP Ursus M170 3G",
+          "count": 1
+        },
+        {
+          "id": "egmd",
+          "name": "DEXP Ursus N280i LTE",
+          "count": 1
+        },
+        {
+          "id": "egme",
+          "name": "DEXP Ursus Q180 LTE",
+          "count": 1
+        },
+        {
+          "id": "egmq",
+          "name": "DEXP Ursus S670 3G",
+          "count": 1
+        },
+        {
+          "id": "bowe",
+          "name": "Digma CITI 10 E402 LTE",
+          "count": 1
+        },
+        {
+          "id": "jvvf",
+          "name": "Digma CITI 1313C LTE",
+          "count": 1
+        },
+        {
+          "id": "jvup",
+          "name": "Digma CITI 1314C LTE",
+          "count": 1
+        },
+        {
+          "id": "56z1",
+          "name": "Digma CITI 7586 3G",
+          "count": 1
+        },
+        {
+          "id": "bpbe",
+          "name": "Digma CITI Octa 80 LTE",
+          "count": 1
+        },
+        {
+          "id": "p4ie",
+          "name": "Digma EVE 1496E Wi-Fi",
+          "count": 1
+        },
+        {
+          "id": "myms",
+          "name": "Digma K10 LTE",
+          "count": 1
+        },
+        {
+          "id": "myx9",
+          "name": "Digma Kids A8 LTE",
+          "count": 2
+        },
+        {
+          "id": "bpe1",
+          "name": "Digma Optima 7 A102 3G",
+          "count": 1
+        },
+        {
+          "id": "bpe9",
+          "name": "Digma Plane 7594 3G",
+          "count": 1
+        },
+        {
+          "id": "bpfu",
+          "name": "Digma Plane 8595 3G",
+          "count": 1
+        },
+        {
+          "id": "mz0b",
+          "name": "Digma Pro Eclipse LTE",
+          "count": 2
+        },
+        {
+          "id": "myon",
+          "name": "Digma Pro Edge LTE",
+          "count": 2
+        },
+        {
+          "id": "myz6",
+          "name": "Digma Pro Empire LTE",
+          "count": 1
+        },
+        {
+          "id": "p2v3",
+          "name": "Digma Pro Evolution G99 LTE",
+          "count": 1
+        },
+        {
+          "id": "jvh4",
+          "name": "Digma Pro HIT 16 LTE",
+          "count": 1
+        },
+        {
+          "id": "jvij",
+          "name": "Digma Pro HIT 18 LTE",
+          "count": 3
+        },
+        {
+          "id": "myq7",
+          "name": "Digma Pro Infinity LTE",
+          "count": 4
+        },
+        {
+          "id": "p2v5",
+          "name": "Digma Pro Odyssey G99 LTE",
+          "count": 1
+        },
+        {
+          "id": "myuf",
+          "name": "Digma Pro Pulse LTE",
+          "count": 3
+        },
+        {
+          "id": "myzv",
+          "name": "Digma Pro Quantum LTE",
+          "count": 1
+        },
+        {
+          "id": "myog",
+          "name": "Digma Pro Spark LTE",
+          "count": 1
+        },
+        {
+          "id": "mywr",
+          "name": "Digma Pro Spectrum LTE",
+          "count": 1
+        },
+        {
+          "id": "p2z3",
+          "name": "Digma Pro Wave T615 8C LTE",
+          "count": 3
+        },
+        {
+          "id": "myyr",
+          "name": "Digma Pro Zenith LTE",
+          "count": 2
+        },
+        {
+          "id": "myzg",
+          "name": "Digma Pro Zoom LTE",
+          "count": 2
+        },
+        {
+          "id": "myxz",
+          "name": "Digma Q8 LTE",
+          "count": 1
+        },
+        {
+          "id": "kf4u",
+          "name": "EdPad Wi-Fi",
+          "count": 1
+        },
+        {
+          "id": "gbjx",
+          "name": "Google Pixel Tablet",
+          "count": 2
+        },
+        {
+          "id": "k4xu",
+          "name": "HONOR MagicPad 2 12.3 Wi-Fi",
+          "count": 3
+        },
+        {
+          "id": "e2fq",
+          "name": "HONOR Pad 8 Wi-Fi",
+          "count": 2
+        },
+        {
+          "id": "hbvn",
+          "name": "HONOR Pad 9 5G",
+          "count": 2
+        },
+        {
+          "id": "hbv2",
+          "name": "HONOR Pad 9 Wi-Fi",
+          "count": 4
+        },
+        {
+          "id": "o0l4",
+          "name": "HONOR Pad 10 5G",
+          "count": 3
+        },
+        {
+          "id": "o0mg",
+          "name": "HONOR Pad 10 Wi-Fi",
+          "count": 3
+        },
+        {
+          "id": "mrxy",
+          "name": "HONOR Pad V9 Wi-Fi",
+          "count": 3
+        },
+        {
+          "id": "oaye",
+          "name": "HONOR Pad X7",
+          "count": 1
+        },
+        {
+          "id": "os9c",
+          "name": "HONOR Pad X7 LTE",
+          "count": 2
+        },
+        {
+          "id": "os8g",
+          "name": "HONOR Pad X7 Wi-Fi",
+          "count": 2
+        },
+        {
+          "id": "lmd1",
+          "name": "HONOR Pad X8a Kids Edition Wi-Fi",
+          "count": 1
+        },
+        {
+          "id": "klu1",
+          "name": "HONOR Pad X8a LTE",
+          "count": 2
+        },
+        {
+          "id": "k2j8",
+          "name": "HONOR Pad X8a Wi-Fi",
+          "count": 2
+        },
+        {
+          "id": "gm32",
+          "name": "HONOR Pad X9 LTE",
+          "count": 3
+        },
+        {
+          "id": "gbbq",
+          "name": "HONOR Pad X9 Wi-Fi",
+          "count": 2
+        },
+        {
+          "id": "nlma",
+          "name": "HONOR Pad X9a LTE",
+          "count": 3
+        },
+        {
+          "id": "nlnt",
+          "name": "HONOR Pad X9a Wi-Fi",
+          "count": 3
+        },
+        {
+          "id": "6iak",
+          "name": "HUAWEI MatePad (2020) LTE",
+          "count": 1
+        },
+        {
+          "id": "ehbe",
+          "name": "HUAWEI MatePad (2022) LTE",
+          "count": 2
+        },
+        {
+          "id": "ek4t",
+          "name": "HUAWEI MatePad (2022) Wi-Fi",
+          "count": 2
+        },
+        {
+          "id": "liq8",
+          "name": "HUAWEI MatePad (2023) Wi-Fi",
+          "count": 3
+        },
+        {
+          "id": "9kwo",
+          "name": "HUAWEI MatePad 11 (2021) Wi-Fi",
+          "count": 3
+        },
+        {
+          "id": "q1um",
+          "name": "HUAWEI MatePad 11.5 (2023) LTE",
+          "count": 1
+        },
+        {
+          "id": "q1uj",
+          "name": "HUAWEI MatePad 11.5 (2023) Wi-Fi",
+          "count": 1
+        },
+        {
+          "id": "q1sv",
+          "name": "HUAWEI MatePad 11.5 (2025) Wi-Fi",
+          "count": 7
+        },
+        {
+          "id": "q1uo",
+          "name": "HUAWEI MatePad 11.5 PaperMatte Edition (2023) Wi-Fi",
+          "count": 1
+        },
+        {
+          "id": "q1td",
+          "name": "HUAWEI MatePad 11.5 PaperMatte Edition (2025) Wi-Fi",
+          "count": 3
+        },
+        {
+          "id": "px5a",
+          "name": "HUAWEI MatePad 11.5 S (2026) Wi-Fi",
+          "count": 1
+        },
+        {
+          "id": "pxe0",
+          "name": "HUAWEI MatePad 11.5 S PaperMatte (2026) Wi-Fi",
+          "count": 3
+        },
+        {
+          "id": "ie3b",
+          "name": "HUAWEI MatePad 11.5”S PaperMatte Edition Wi-Fi",
+          "count": 5
+        },
+        {
+          "id": "iehs",
+          "name": "HUAWEI MatePad 11.5”S Wi-Fi",
+          "count": 2
+        },
+        {
+          "id": "q1u4",
+          "name": "HUAWEI MatePad 12 X (2024) Wi-Fi",
+          "count": 1
+        },
+        {
+          "id": "p3z9",
+          "name": "HUAWEI MatePad 12 X  (2025) Wi-Fi",
+          "count": 1
+        },
+        {
+          "id": "q1u6",
+          "name": "HUAWEI MatePad 12 X PaperMatte Edition (2024) Wi-Fi",
+          "count": 2
+        },
+        {
+          "id": "p3zp",
+          "name": "HUAWEI MatePad 12 X PaperMatte Edition (2025) Wi-Fi",
+          "count": 2
+        },
+        {
+          "id": "g2bl",
+          "name": "HUAWEI MatePad Air LTE",
+          "count": 1
+        },
+        {
+          "id": "h6ot",
+          "name": "HUAWEI MatePad Air PaperMatte Edition Wi-Fi",
+          "count": 1
+        },
+        {
+          "id": "g2l1",
+          "name": "HUAWEI MatePad Air Wi-Fi",
+          "count": 2
+        },
+        {
+          "id": "q1us",
+          "name": "HUAWEI MatePad PaperMatte Edition (2023) Wi-Fi",
+          "count": 1
+        },
+        {
+          "id": "ek4w",
+          "name": "HUAWEI MatePad Pro (2019) Wi-Fi",
+          "count": 1
+        },
+        {
+          "id": "ehc1",
+          "name": "HUAWEI MatePad Pro (2021) Wi-Fi",
+          "count": 2
+        },
+        {
+          "id": "lipx",
+          "name": "HUAWEI MatePad Pro (2023) Wi-Fi",
+          "count": 2
+        },
+        {
+          "id": "lipw",
+          "name": "HUAWEI MatePad Pro (2024) Wi-Fi",
+          "count": 1
+        },
+        {
+          "id": "mx4v",
+          "name": "HUAWEI MatePad Pro (2025) Wi-Fi",
+          "count": 3
+        },
+        {
+          "id": "np0b",
+          "name": "HUAWEI MatePad Pro PaperMatte Edition (2024) Wi-Fi",
+          "count": 2
+        },
+        {
+          "id": "o8qt",
+          "name": "HUAWEI MatePad Pro PaperMatte Edition (2025) Wi-Fi",
+          "count": 2
+        },
+        {
+          "id": "ie4s",
+          "name": "HUAWEI MatePad SE 11 Kids Edition Wi-Fi",
+          "count": 2
+        },
+        {
+          "id": "ie3q",
+          "name": "HUAWEI MatePad SE 11 LTE",
+          "count": 4
+        },
+        {
+          "id": "ie3i",
+          "name": "HUAWEI MatePad SE 11 Wi-Fi",
+          "count": 9
+        },
+        {
+          "id": "ek55",
+          "name": "HUAWEI MatePad T 8 (2020) Wi-Fi",
+          "count": 1
+        },
+        {
+          "id": "7nbf",
+          "name": "HUAWEI MatePad T 10 (2020) LTE",
+          "count": 1
+        },
+        {
+          "id": "9lec",
+          "name": "HUAWEI MatePad T 10 Kids Edition Wi-Fi",
+          "count": 1
+        },
+        {
+          "id": "77ap",
+          "name": "HUAWEI MatePad T 10s (2020) LTE",
+          "count": 2
+        },
+        {
+          "id": "ehi7",
+          "name": "HUAWEI MatePad T 10s (2021) LTE",
+          "count": 2
+        },
+        {
+          "id": "462y",
+          "name": "HUAWEI MediaPad M5 lite LTE",
+          "count": 3
+        },
+        {
+          "id": "1v5r",
+          "name": "HUAWEI MediaPad T3 10 LTE",
+          "count": 1
+        },
+        {
+          "id": "qa10",
+          "name": "Honor pad X8b LTE",
+          "count": 2
+        },
+        {
+          "id": "q7v3",
+          "name": "Honor pad X8b Wi-Fi",
+          "count": 3
+        },
+        {
+          "id": "bwy9",
+          "name": "INOI inoiPad 3G",
+          "count": 1
+        },
+        {
+          "id": "iyyg",
+          "name": "INOI inoiPad Max LTE",
+          "count": 1
+        },
+        {
+          "id": "fml4",
+          "name": "INOI inoiPad Pro LTE",
+          "count": 1
+        },
+        {
+          "id": "bwyw",
+          "name": "INOI inoiPad mini 3G",
+          "count": 1
+        },
+        {
+          "id": "o3od",
+          "name": "Infinix XPAD 20 LTE",
+          "count": 9
+        },
+        {
+          "id": "pb9o",
+          "name": "Infinix XPAD 20 Pro LTE",
+          "count": 4
+        },
+        {
+          "id": "qabd",
+          "name": "Infinix XPAD 30E LTE",
+          "count": 8
+        },
+        {
+          "id": "o954",
+          "name": "Infinix XPAD GT Wi-Fi",
+          "count": 1
+        },
+        {
+          "id": "jsu5",
+          "name": "Infinix XPAD LTE",
+          "count": 2
+        },
+        {
+          "id": "jqgv",
+          "name": "Infinix XPAD Wi-Fi",
+          "count": 3
+        },
+        {
+          "id": "q80x",
+          "name": "Infinix Xpad Edge LTE",
+          "count": 1
+        },
+        {
+          "id": "goeq",
+          "name": "Irbis TW100 Wi-Fi",
+          "count": 1
+        },
+        {
+          "id": "hbn7",
+          "name": "KENSHI Armor O8 LTE",
+          "count": 1
+        },
+        {
+          "id": "jwfp",
+          "name": "KENSHI E10 LTE",
+          "count": 1
+        },
+        {
+          "id": "hfwo",
+          "name": "KENSHI E11 LTE",
+          "count": 1
+        },
+        {
+          "id": "hfwt",
+          "name": "KENSHI E12 LTE",
+          "count": 1
+        },
+        {
+          "id": "hfwp",
+          "name": "KENSHI E28 LTE",
+          "count": 1
+        },
+        {
+          "id": "gz34",
+          "name": "KENSHI E38 3G",
+          "count": 2
+        },
+        {
+          "id": "hegs",
+          "name": "KENSHI H10 LTE",
+          "count": 1
+        },
+        {
+          "id": "hcx6",
+          "name": "KENSHI H11 LTE",
+          "count": 1
+        },
+        {
+          "id": "hegv",
+          "name": "KENSHI H21 LTE",
+          "count": 1
+        },
+        {
+          "id": "h26m",
+          "name": "KENSHI H38 LTE",
+          "count": 1
+        },
+        {
+          "id": "n6t1",
+          "name": "KENSHI K10 LTE",
+          "count": 4
+        },
+        {
+          "id": "kwzt",
+          "name": "KENSHI KP10 LTE",
+          "count": 1
+        },
+        {
+          "id": "kwzm",
+          "name": "KENSHI KP11 LTE",
+          "count": 1
+        },
+        {
+          "id": "gyz9",
+          "name": "KENSHI Kids E17 LTE",
+          "count": 2
+        },
+        {
+          "id": "gxp3",
+          "name": "KENSHI Kids E18 LTE",
+          "count": 4
+        },
+        {
+          "id": "moq1",
+          "name": "KENSHI Kids H14 LTE",
+          "count": 2
+        },
+        {
+          "id": "gwo9",
+          "name": "KENSHI Kids H18 3G",
+          "count": 1
+        },
+        {
+          "id": "h6my",
+          "name": "KENSHI Kids H19 LTE",
+          "count": 2
+        },
+        {
+          "id": "h6n3",
+          "name": "KENSHI Kids H20 LTE",
+          "count": 4
+        },
+        {
+          "id": "n6t9",
+          "name": "KENSHI Kids H24 LTE",
+          "count": 4
+        },
+        {
+          "id": "lo47",
+          "name": "KENSHI Kids H34 LTE",
+          "count": 2
+        },
+        {
+          "id": "lpxs",
+          "name": "KENSHI Kids H44 LTE",
+          "count": 4
+        },
+        {
+          "id": "nnmx",
+          "name": "KENSHI Pad H15 LTE",
+          "count": 1
+        },
+        {
+          "id": "nnn3",
+          "name": "KENSHI Pad H16 LTE",
+          "count": 1
+        },
+        {
+          "id": "nnn7",
+          "name": "KENSHI Pad Lite E48 LTE",
+          "count": 6
+        },
+        {
+          "id": "nnnj",
+          "name": "KENSHI Pad Lite E58 LTE",
+          "count": 2
+        },
+        {
+          "id": "oi7e",
+          "name": "KENSHI Pad Pro E90 LTE",
+          "count": 3
+        },
+        {
+          "id": "nmmm",
+          "name": "KENSHI Pad Pro E110 LTE",
+          "count": 3
+        },
+        {
+          "id": "nmmp",
+          "name": "KENSHI Pad Pro E111 LTE",
+          "count": 3
+        },
+        {
+          "id": "nw5e",
+          "name": "KENSHI Pad Pro E112 LTE",
+          "count": 3
+        },
+        {
+          "id": "oi81",
+          "name": "KENSHI Pad Pro E113+ LTE",
+          "count": 2
+        },
+        {
+          "id": "h1ae",
+          "name": "Lenovo Legion Y700 2023 Wi-Fi",
+          "count": 2
+        },
+        {
+          "id": "h1db",
+          "name": "Lenovo Legion Y900 Wi-Fi",
+          "count": 1
+        },
+        {
+          "id": "qsjo",
+          "name": "Lenovo P11 Pro 2nd Gen Wi-Fi",
+          "count": 2
+        },
+        {
+          "id": "ikx2",
+          "name": "Lenovo QITIAN K10 Pro LTE",
+          "count": 1
+        },
+        {
+          "id": "ikvm",
+          "name": "Lenovo Tab K12 Wi-Fi",
+          "count": 1
+        },
+        {
+          "id": "ekk7",
+          "name": "Lenovo Tab M7 (2nd Gen) 3G",
+          "count": 1
+        },
+        {
+          "id": "ekk9",
+          "name": "Lenovo Tab M8 (3rd Gen) Wi-Fi",
+          "count": 1
+        },
+        {
+          "id": "5sb6",
+          "name": "Lenovo Tab M8 HD LTE",
+          "count": 1
+        },
+        {
+          "id": "ii8b",
+          "name": "Lenovo Tab M9 LTE",
+          "count": 1
+        },
+        {
+          "id": "ii7x",
+          "name": "Lenovo Tab M9 Wi-Fi",
+          "count": 1
+        },
+        {
+          "id": "e1iv",
+          "name": "Lenovo Tab M10 FHD Plus (2nd Gen) LTE",
+          "count": 3
+        },
+        {
+          "id": "e1im",
+          "name": "Lenovo Tab M10 HD (2nd Gen) LTE",
+          "count": 1
+        },
+        {
+          "id": "ekk3",
+          "name": "Lenovo Tab M10 HD (2nd Gen) Wi-Fi",
+          "count": 1
+        },
+        {
+          "id": "ekk4",
+          "name": "Lenovo Tab M10 Plus (3rd Gen) Wi-Fi",
+          "count": 1
+        },
+        {
+          "id": "al7x",
+          "name": "Lenovo Tab P11 LTE",
+          "count": 1
+        },
+        {
+          "id": "ekka",
+          "name": "Lenovo Tab P11 Wi-Fi",
+          "count": 1
+        },
+        {
+          "id": "ii9c",
+          "name": "Lenovo Tab P12 Wi-Fi",
+          "count": 2
+        },
+        {
+          "id": "ftih",
+          "name": "Lenovo Xiaoxin Pad 2022 Wi-Fi",
+          "count": 3
+        },
+        {
+          "id": "h1bv",
+          "name": "Lenovo Xiaoxin Pad 2024 Wi-Fi",
+          "count": 4
+        },
+        {
+          "id": "h1bc",
+          "name": "Lenovo Xiaoxin PadPlus 2023 Wi-Fi",
+          "count": 3
+        },
+        {
+          "id": "hvot",
+          "name": "Lenovo Xiaoxin Pad Pro 12.7 Wi-Fi",
+          "count": 3
+        },
+        {
+          "id": "nwny",
+          "name": "MAIBENBEN Pad 5 LTE",
+          "count": 2
+        },
+        {
+          "id": "nw8y",
+          "name": "MAIBENBEN Pad 5 Wi-Fi",
+          "count": 2
+        },
+        {
+          "id": "gh43",
+          "name": "OPPO Pad Air Wi-Fi",
+          "count": 2
+        },
+        {
+          "id": "pvl1",
+          "name": "OnePlus Pad 3 Wi-Fi",
+          "count": 2
+        },
+        {
+          "id": "pyyc",
+          "name": "OnePlus Pad Lite LTE",
+          "count": 1
+        },
+        {
+          "id": "pwcq",
+          "name": "OnePlus Pad Lite Wi-Fi",
+          "count": 1
+        },
+        {
+          "id": "kkhh",
+          "name": "Oukitel RT3 LTE",
+          "count": 2
+        },
+        {
+          "id": "kkhq",
+          "name": "Oukitel RT6 LTE",
+          "count": 1
+        },
+        {
+          "id": "pkt6",
+          "name": "POCO Pad M1 Wi-Fi",
+          "count": 2
+        },
+        {
+          "id": "j9ee",
+          "name": "POCO Pad Wi-Fi",
+          "count": 2
+        },
+        {
+          "id": "90lt",
+          "name": "Samsung Galaxy Tab A7 Lite LTE",
+          "count": 4
+        },
+        {
+          "id": "ei4e",
+          "name": "Samsung Galaxy Tab A7 Lite Wi-Fi",
+          "count": 4
+        },
+        {
+          "id": "atdy",
+          "name": "Samsung Galaxy Tab A8 LTE",
+          "count": 1
+        },
+        {
+          "id": "mi2u",
+          "name": "Samsung Galaxy Tab A9 Kids Edition Wi-Fi",
+          "count": 1
+        },
+        {
+          "id": "gr0w",
+          "name": "Samsung Galaxy Tab A9 LTE",
+          "count": 8
+        },
+        {
+          "id": "gqxm",
+          "name": "Samsung Galaxy Tab A9 Wi-Fi",
+          "count": 7
+        },
+        {
+          "id": "gr1i",
+          "name": "Samsung Galaxy Tab A9+ 5G",
+          "count": 8
+        },
+        {
+          "id": "gr1j",
+          "name": "Samsung Galaxy Tab A9+ Wi-Fi",
+          "count": 6
+        },
+        {
+          "id": "p807",
+          "name": "Samsung Galaxy Tab A11 LTE",
+          "count": 4
+        },
+        {
+          "id": "oz9e",
+          "name": "Samsung Galaxy Tab A11 Wi-Fi",
+          "count": 4
+        },
+        {
+          "id": "pp46",
+          "name": "Samsung Galaxy Tab A11+ 5G",
+          "count": 4
+        },
+        {
+          "id": "pp34",
+          "name": "Samsung Galaxy Tab A11+ Wi-Fi",
+          "count": 4
+        },
+        {
+          "id": "i1hu",
+          "name": "Samsung Galaxy Tab S6 Lite (2024) LTE",
+          "count": 6
+        },
+        {
+          "id": "i1gn",
+          "name": "Samsung Galaxy Tab S6 Lite (2024) Wi-Fi",
+          "count": 5
+        },
+        {
+          "id": "691t",
+          "name": "Samsung Galaxy Tab S6 Lite LTE",
+          "count": 9
+        },
+        {
+          "id": "cur5",
+          "name": "Samsung Galaxy Tab S6 Lite Wi-Fi",
+          "count": 1
+        },
+        {
+          "id": "97fi",
+          "name": "Samsung Galaxy Tab S7 FE LTE",
+          "count": 5
+        },
+        {
+          "id": "9b92",
+          "name": "Samsung Galaxy Tab S7 FE Wi-Fi",
+          "count": 2
+        },
+        {
+          "id": "6y7h",
+          "name": "Samsung Galaxy Tab S7+ LTE",
+          "count": 2
+        },
+        {
+          "id": "ei4j",
+          "name": "Samsung Galaxy Tab S7+ Wi-Fi",
+          "count": 3
+        },
+        {
+          "id": "bcmh",
+          "name": "Samsung Galaxy Tab S8 Ultra 5G",
+          "count": 3
+        },
+        {
+          "id": "ei4s",
+          "name": "Samsung Galaxy Tab S8+ 5G",
+          "count": 1
+        },
+        {
+          "id": "g72v",
+          "name": "Samsung Galaxy Tab S9 5G",
+          "count": 5
+        },
+        {
+          "id": "gpru",
+          "name": "Samsung Galaxy Tab S9 FE+ 5G",
+          "count": 6
+        },
+        {
+          "id": "gprs",
+          "name": "Samsung Galaxy Tab S9 FE+ Wi-Fi",
+          "count": 10
+        },
+        {
+          "id": "gpqg",
+          "name": "Samsung Galaxy Tab S9 FE 5G",
+          "count": 6
+        },
+        {
+          "id": "gpr2",
+          "name": "Samsung Galaxy Tab S9 FE Wi-Fi",
+          "count": 6
+        },
+        {
+          "id": "g73r",
+          "name": "Samsung Galaxy Tab S9 Ultra 5G",
+          "count": 6
+        },
+        {
+          "id": "g74a",
+          "name": "Samsung Galaxy Tab S9 Ultra Wi-Fi",
+          "count": 6
+        },
+        {
+          "id": "g74d",
+          "name": "Samsung Galaxy Tab S9 Wi-Fi",
+          "count": 6
+        },
+        {
+          "id": "g73l",
+          "name": "Samsung Galaxy Tab S9+ 5G",
+          "count": 4
+        },
+        {
+          "id": "g749",
+          "name": "Samsung Galaxy Tab S9+ Wi-Fi",
+          "count": 4
+        },
+        {
+          "id": "nm8x",
+          "name": "Samsung Galaxy Tab S10 FE+ 5G",
+          "count": 6
+        },
+        {
+          "id": "nm7p",
+          "name": "Samsung Galaxy Tab S10 FE+ Wi-Fi",
+          "count": 12
+        },
+        {
+          "id": "nm69",
+          "name": "Samsung Galaxy Tab S10 FE 5G",
+          "count": 6
+        },
+        {
+          "id": "nm5g",
+          "name": "Samsung Galaxy Tab S10 FE Wi-Fi",
+          "count": 9
+        },
+        {
+          "id": "osp5",
+          "name": "Samsung Galaxy Tab S10 Lite 5G",
+          "count": 6
+        },
+        {
+          "id": "osmh",
+          "name": "Samsung Galaxy Tab S10 Lite Wi-Fi",
+          "count": 6
+        },
+        {
+          "id": "kiie",
+          "name": "Samsung Galaxy Tab S10 Ultra 5G",
+          "count": 6
+        },
+        {
+          "id": "kij8",
+          "name": "Samsung Galaxy Tab S10 Ultra Wi-Fi",
+          "count": 6
+        },
+        {
+          "id": "kim3",
+          "name": "Samsung Galaxy Tab S10+ 5G",
+          "count": 4
+        },
+        {
+          "id": "kijy",
+          "name": "Samsung Galaxy Tab S10+ Wi-Fi",
+          "count": 4
+        },
+        {
+          "id": "osjm",
+          "name": "Samsung Galaxy Tab S11 5G",
+          "count": 6
+        },
+        {
+          "id": "oslz",
+          "name": "Samsung Galaxy Tab S11 Ultra 5G",
+          "count": 9
+        },
+        {
+          "id": "osl8",
+          "name": "Samsung Galaxy Tab S11 Ultra Wi-Fi",
+          "count": 11
+        },
+        {
+          "id": "osje",
+          "name": "Samsung Galaxy Tab S11 Wi-Fi",
+          "count": 6
+        },
+        {
+          "id": "22nm",
+          "name": "Sony Xperia Tablet Z",
+          "count": 2
+        },
+        {
+          "id": "22z1",
+          "name": "Sony Xperia Tablet Z2",
+          "count": 3
+        },
+        {
+          "id": "22yd",
+          "name": "Sony Xperia Tablet Z3 Compact",
+          "count": 5
+        },
+        {
+          "id": "231y",
+          "name": "Sony Xperia Z4 Tablet",
+          "count": 3
+        },
+        {
+          "id": "ohtv",
+          "name": "TCL NXTPAPER 11 GEN 2 Wi-Fi",
+          "count": 1
+        },
+        {
+          "id": "o45k",
+          "name": "TCL NXTPAPER 11 Plus Wi-Fi",
+          "count": 1
+        },
+        {
+          "id": "ohtd",
+          "name": "TCL TAB 11 FE LTE",
+          "count": 1
+        },
+        {
+          "id": "ms01",
+          "name": "TCL TAB 11 Gen 2 Wi-Fi",
+          "count": 1
+        },
+        {
+          "id": "ps96",
+          "name": "Teclast ArtPad Air",
+          "count": 1
+        },
+        {
+          "id": "p5hn",
+          "name": "Teclast ArtPad Pro LTE",
+          "count": 1
+        },
+        {
+          "id": "nhwq",
+          "name": "Teclast M50 Plus LTE",
+          "count": 1
+        },
+        {
+          "id": "p7nk",
+          "name": "Teclast P30T Case Wi-Fi",
+          "count": 1
+        },
+        {
+          "id": "encp",
+          "name": "Teclast P40HD LTE",
+          "count": 1
+        },
+        {
+          "id": "nhvs",
+          "name": "Teclast P50 LTE",
+          "count": 1
+        },
+        {
+          "id": "fe3j",
+          "name": "Teclast T40 Pro 2023 LTE",
+          "count": 1
+        },
+        {
+          "id": "p5lo",
+          "name": "Teclast T50 Mini LTE",
+          "count": 1
+        },
+        {
+          "id": "nhwj",
+          "name": "Teclast T50 Plus LTE",
+          "count": 1
+        },
+        {
+          "id": "p5nj",
+          "name": "Teclast T60 (AI Edition) Wi-Fi",
+          "count": 1
+        },
+        {
+          "id": "nhwn",
+          "name": "Teclast T60 Plus LTE",
+          "count": 1
+        },
+        {
+          "id": "p5kj",
+          "name": "Teclast T60 Pro LTE",
+          "count": 1
+        },
+        {
+          "id": "p7k7",
+          "name": "Teclast T65 LTE",
+          "count": 1
+        },
+        {
+          "id": "nhu9",
+          "name": "Teclast T65 Max LTE",
+          "count": 1
+        },
+        {
+          "id": "p5oe",
+          "name": "Teclast T65 Plus LTE",
+          "count": 1
+        },
+        {
+          "id": "nhwd",
+          "name": "Teclast T70 LTE",
+          "count": 1
+        },
+        {
+          "id": "phyv",
+          "name": "Tecno MEGAPAD Pro LTE",
+          "count": 4
+        },
+        {
+          "id": "pi02",
+          "name": "Tecno MEGAPAD SE LTE",
+          "count": 6
+        },
+        {
+          "id": "phzp",
+          "name": "Tecno MEGAPAD SE Wi-Fi",
+          "count": 2
+        },
+        {
+          "id": "lez5",
+          "name": "Tecno Megapad 11 LTE",
+          "count": 4
+        },
+        {
+          "id": "p9ib",
+          "name": "XPPen Magic Note Pad",
+          "count": 1
+        },
+        {
+          "id": "am3m",
+          "name": "Xiaomi Pad 5 Wi-Fi",
+          "count": 2
+        },
+        {
+          "id": "fyju",
+          "name": "Xiaomi Pad 6 Wi-Fi",
+          "count": 6
+        },
+        {
+          "id": "hvhh",
+          "name": "Xiaomi Pad 6S Pro Wi-Fi",
+          "count": 2
+        },
+        {
+          "id": "n2j4",
+          "name": "Xiaomi Pad 7 Pro Soft Light Edition Wi-Fi",
+          "count": 1
+        },
+        {
+          "id": "n2id",
+          "name": "Xiaomi Pad 7 Pro Wi-Fi",
+          "count": 9
+        },
+        {
+          "id": "n0tl",
+          "name": "Xiaomi Pad 7 Wi-Fi",
+          "count": 6
+        },
+        {
+          "id": "q4i7",
+          "name": "Xiaomi Pad 8 Pro Wi-Fi",
+          "count": 9
+        },
+        {
+          "id": "q40k",
+          "name": "Xiaomi Pad 8 Wi-Fi",
+          "count": 6
+        },
+        {
+          "id": "oy41",
+          "name": "Xiaomi REDMI Pad 2 LTE",
+          "count": 6
+        },
+        {
+          "id": "ozm2",
+          "name": "Xiaomi REDMI Pad 2 Pro 5G",
+          "count": 4
+        },
+        {
+          "id": "p47r",
+          "name": "Xiaomi REDMI Pad 2 Pro Wi-Fi",
+          "count": 6
+        },
+        {
+          "id": "oy42",
+          "name": "Xiaomi REDMI Pad 2 Wi-Fi",
+          "count": 11
+        },
+        {
+          "id": "is4q",
+          "name": "Xiaomi Redmi Pad Pro 5G",
+          "count": 4
+        },
+        {
+          "id": "lled",
+          "name": "Xiaomi Redmi Pad Pro Wi-Fi",
+          "count": 6
+        },
+        {
+          "id": "jjlb",
+          "name": "Xiaomi Redmi Pad SE 8.7 LTE",
+          "count": 4
+        },
+        {
+          "id": "jjm1",
+          "name": "Xiaomi Redmi Pad SE 8.7 Wi-Fi",
+          "count": 6
+        },
+        {
+          "id": "ggny",
+          "name": "Xiaomi Redmi Pad SE Wi-Fi",
+          "count": 9
+        },
+        {
+          "id": "dp9l",
+          "name": "Xiaomi Redmi Pad Wi-Fi",
+          "count": 3
+        },
+        {
+          "id": "d505",
+          "name": "realme Pad Wi-Fi",
+          "count": 1
+        }
+      ],
+      "selected": [],
+      "default": []
+    },
+    {
+      "group": "Внешний вид",
+      "id": "f[850]",
+      "name": "Детский дизайн",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "21",
+          "name": "есть",
+          "count": 38
+        },
+        {
+          "id": "cr",
+          "name": "нет",
+          "count": 1121
+        }
+      ],
+      "selected": [],
+      "default": []
+    },
+    {
+      "group": "Внешний вид",
+      "id": "f[223]",
+      "name": "Цвет задней панели",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "680",
+          "name": "бежевый",
+          "count": 66
+        },
+        {
+          "id": "29q",
+          "name": "белый",
+          "count": 23
+        },
+        {
+          "id": "6l1",
+          "name": "голубой",
+          "count": 122
+        },
+        {
+          "id": "6ij",
+          "name": "желтый",
+          "count": 9
+        },
+        {
+          "id": "6ii",
+          "name": "зеленый",
+          "count": 73
+        },
+        {
+          "id": "6n1",
+          "name": "золотистый",
+          "count": 45
+        },
+        {
+          "id": "67z",
+          "name": "коричневый",
+          "count": 10
+        },
+        {
+          "id": "40h",
+          "name": "красный",
+          "count": 7
+        },
+        {
+          "id": "40k",
+          "name": "оранжевый",
+          "count": 10
+        },
+        {
+          "id": "6n2",
+          "name": "розовый",
+          "count": 60
+        },
+        {
+          "id": "29r",
+          "name": "серебристый",
+          "count": 221
+        },
+        {
+          "id": "67y",
+          "name": "серый",
+          "count": 487
+        },
+        {
+          "id": "40j",
+          "name": "синий",
+          "count": 56
+        },
+        {
+          "id": "40i",
+          "name": "фиолетовый",
+          "count": 73
+        },
+        {
+          "id": "29p",
+          "name": "черный",
+          "count": 143
+        }
+      ],
+      "selected": [],
+      "default": []
+    },
+    {
+      "group": "Экран",
+      "id": "fr[1q]",
+      "name": "Диагональ экрана (дюйм)",
+      "type": "range-radio",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "8a91c449525e53a30d3b638fe9652cc3",
+          "name": "Менее 8.49",
+          "count": 89
+        },
+        {
+          "id": "d90bd3dd0031db35661644cd2ceea246",
+          "name": "8.5 - 9.49",
+          "count": 51
+        },
+        {
+          "id": "0c2608da8a8fbe09de0402526c401094",
+          "name": "9.5 - 10.49",
+          "count": 111
+        },
+        {
+          "id": "cb78acaf2f2fcfb4ae251119dd800b25",
+          "name": "10.5 - 11.49",
+          "count": 428
+        },
+        {
+          "id": "1548abd6bc12d10c5eee78efbc6b82ab",
+          "name": "11.5 - 12.49",
+          "count": 166
+        },
+        {
+          "id": "e84f46b73906f93e594e5bdfc291ca76",
+          "name": "12.5 и более",
+          "count": 196
+        }
+      ],
+      "selected": [],
+      "range": {
+        "min": 7,
+        "max": 14.6,
+        "min_selected": null,
+        "max_selected": null
+      }
+    },
+    {
+      "group": "Экран",
+      "id": "f[2ft]",
+      "name": "Частота обновления экрана (Гц)",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "3ji",
+          "name": "50 Гц",
+          "count": 4
+        },
+        {
+          "id": "si",
+          "name": "60 Гц",
+          "count": 485
+        },
+        {
+          "id": "4ms",
+          "name": "90 Гц",
+          "count": 211
+        },
+        {
+          "id": "sf",
+          "name": "120 Гц",
+          "count": 253
+        },
+        {
+          "id": "sp",
+          "name": "144 Гц",
+          "count": 84
+        }
+      ],
+      "selected": [],
+      "default": []
+    },
+    {
+      "group": "Экран",
+      "id": "f[4j]",
+      "name": "Технология изготовления экрана",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "2ir",
+          "name": "AMOLED",
+          "count": 2
+        },
+        {
+          "id": "6ydt",
+          "name": "Dynamic AMOLED 2X",
+          "count": 83
+        },
+        {
+          "id": "1uq",
+          "name": "IPS",
+          "count": 1021
+        },
+        {
+          "id": "1mgd",
+          "name": "LTPS",
+          "count": 6
+        },
+        {
+          "id": "ce0",
+          "name": "OLED",
+          "count": 17
+        },
+        {
+          "id": "fr",
+          "name": "PLS",
+          "count": 110
+        },
+        {
+          "id": "1ur",
+          "name": "Super AMOLED",
+          "count": 41
+        },
+        {
+          "id": "4n",
+          "name": "TFT",
+          "count": 28
+        },
+        {
+          "id": "8gle",
+          "name": "TFT PLS",
+          "count": 17
+        },
+        {
+          "id": "ysd",
+          "name": "TN+Film",
+          "count": 7
+        },
+        {
+          "id": "i4mu",
+          "name": "Tandem OLED",
+          "count": 73
+        }
+      ],
+      "selected": [],
+      "default": []
+    },
+    {
+      "group": "Экран",
+      "id": "f[2d]",
+      "name": "Разрешение экрана",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "1m91",
+          "name": "2880x1920",
+          "count": 7
+        },
+        {
+          "id": "18fh",
+          "name": "2732x2048",
+          "count": 110
+        },
+        {
+          "id": "73",
+          "name": "2560x1600",
+          "count": 173
+        },
+        {
+          "id": "72",
+          "name": "1920x1200",
+          "count": 189
+        },
+        {
+          "id": "71",
+          "name": "1920x1080",
+          "count": 1
+        },
+        {
+          "id": "6y",
+          "name": "1366x768",
+          "count": 1
+        },
+        {
+          "id": "79",
+          "name": "1280x800",
+          "count": 104
+        },
+        {
+          "id": "78",
+          "name": "1280x720",
+          "count": 1
+        },
+        {
+          "id": "6u",
+          "name": "1024x600",
+          "count": 35
+        },
+        {
+          "id": "90lx",
+          "name": "1340x800",
+          "count": 52
+        },
+        {
+          "id": "691u",
+          "name": "2000x1200",
+          "count": 110
+        },
+        {
+          "id": "6w17",
+          "name": "2160x1350",
+          "count": 1
+        },
+        {
+          "id": "5nad",
+          "name": "2160x1620",
+          "count": 29
+        },
+        {
+          "id": "d0so",
+          "name": "2176x1600",
+          "count": 1
+        },
+        {
+          "id": "a6d7",
+          "name": "2266x1488",
+          "count": 46
+        },
+        {
+          "id": "75qq",
+          "name": "2360x1640",
+          "count": 111
+        },
+        {
+          "id": "4g7c",
+          "name": "2388x1668",
+          "count": 33
+        },
+        {
+          "id": "6y7k",
+          "name": "2800x1752",
+          "count": 34
+        },
+        {
+          "id": "bcmj",
+          "name": "2960x1848",
+          "count": 47
+        },
+        {
+          "id": "1up",
+          "name": "2560x1536",
+          "count": 2
+        },
+        {
+          "id": "pz3g",
+          "name": "1200x1920",
+          "count": 10
+        },
+        {
+          "id": "ps98",
+          "name": "1280х1840",
+          "count": 1
+        },
+        {
+          "id": "osmj",
+          "name": "2112x1320",
+          "count": 12
+        },
+        {
+          "id": "mi4v",
+          "name": "2200x1440",
+          "count": 11
+        },
+        {
+          "id": "2iai",
+          "name": "2304x1440",
+          "count": 27
+        },
+        {
+          "id": "h8es",
+          "name": "2400x1600",
+          "count": 1
+        },
+        {
+          "id": "mi4w",
+          "name": "2420x1668",
+          "count": 38
+        },
+        {
+          "id": "opzz",
+          "name": "2456x1600",
+          "count": 5
+        },
+        {
+          "id": "nlmc",
+          "name": "2508x1504",
+          "count": 6
+        },
+        {
+          "id": "76",
+          "name": "2560x1440",
+          "count": 1
+        },
+        {
+          "id": "mi4x",
+          "name": "2752x2064",
+          "count": 35
+        },
+        {
+          "id": "mi4y",
+          "name": "2800x1840",
+          "count": 30
+        },
+        {
+          "id": "api",
+          "name": "2880x1800",
+          "count": 24
+        },
+        {
+          "id": "o956",
+          "name": "2880x1840",
+          "count": 1
+        },
+        {
+          "id": "mi4z",
+          "name": "2944x1840",
+          "count": 6
+        },
+        {
+          "id": "mi50",
+          "name": "3000x1876",
+          "count": 1
+        },
+        {
+          "id": "mi51",
+          "name": "3000x1920",
+          "count": 3
+        },
+        {
+          "id": "mi52",
+          "name": "3048x2032",
+          "count": 2
+        },
+        {
+          "id": "n0tn",
+          "name": "3200x2136",
+          "count": 31
+        },
+        {
+          "id": "pypz",
+          "name": "3392x2400",
+          "count": 2
+        }
+      ],
+      "selected": [],
+      "default": []
+    },
+    {
+      "group": "Экран",
+      "id": "fr[4jy]",
+      "name": "Плотность пикселей (ppi)",
+      "type": "range-radio",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "91d0c5be249bbf6953204c06565e0ff7",
+          "name": "Менее 149",
+          "count": 37
+        },
+        {
+          "id": "2a8c9f899d4cfb81bb7241bf674f3195",
+          "name": "150 - 199",
+          "count": 117
+        },
+        {
+          "id": "e2e9c066a227e44fe0b9663713350ca2",
+          "name": "200 - 249",
+          "count": 374
+        },
+        {
+          "id": "f50c7dca68eb92e4af8ff5b282c18c16",
+          "name": "250 - 299",
+          "count": 434
+        },
+        {
+          "id": "013b06ee79aab4115b9e38469c909eb1",
+          "name": "300 и более",
+          "count": 71
+        }
+      ],
+      "selected": [],
+      "range": {
+        "min": 135,
+        "max": 345,
+        "min_selected": null,
+        "max_selected": null
+      }
+    },
+    {
+      "group": "Экран",
+      "id": "f[2c]",
+      "name": "Покрытие экрана",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "sr",
+          "name": "глянцевое",
+          "count": 958
+        },
+        {
+          "id": "ss",
+          "name": "матовое",
+          "count": 44
+        }
+      ],
+      "selected": [],
+      "default": []
+    },
+    {
+      "group": "Экран",
+      "id": "f[nt]",
+      "name": "Защитное покрытие экрана",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "21",
+          "name": "есть",
+          "count": 807
+        },
+        {
+          "id": "cr",
+          "name": "нет",
+          "count": 127
+        }
+      ],
+      "selected": [],
+      "default": []
+    },
+    {
+      "group": "Система",
+      "id": "f[44]",
+      "name": "Объем оперативной памяти (ГБ)",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "ct",
+          "name": "1 ГБ",
+          "count": 9
+        },
+        {
+          "id": "cu",
+          "name": "2 ГБ",
+          "count": 24
+        },
+        {
+          "id": "1ua",
+          "name": "3 ГБ",
+          "count": 30
+        },
+        {
+          "id": "cv",
+          "name": "4 ГБ",
+          "count": 182
+        },
+        {
+          "id": "d1",
+          "name": "6 ГБ",
+          "count": 130
+        },
+        {
+          "id": "cw",
+          "name": "8 ГБ",
+          "count": 389
+        },
+        {
+          "id": "d2",
+          "name": "12 ГБ",
+          "count": 214
+        },
+        {
+          "id": "cx",
+          "name": "16 ГБ",
+          "count": 63
+        }
+      ],
+      "selected": [],
+      "default": []
+    },
+    {
+      "group": "Система",
+      "id": "f[3u]",
+      "name": "Объем встроенной памяти (ГБ)",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "cx",
+          "name": "16 ГБ",
+          "count": 9
+        },
+        {
+          "id": "1qx",
+          "name": "32 ГБ",
+          "count": 32
+        },
+        {
+          "id": "1qw",
+          "name": "64 ГБ",
+          "count": 126
+        },
+        {
+          "id": "1qz",
+          "name": "128 ГБ",
+          "count": 358
+        },
+        {
+          "id": "1qy",
+          "name": "256 ГБ",
+          "count": 318
+        },
+        {
+          "id": "aqz",
+          "name": "512 ГБ",
+          "count": 113
+        },
+        {
+          "id": "ghg",
+          "name": "1024 ГБ",
+          "count": 59
+        },
+        {
+          "id": "135j",
+          "name": "2048 ГБ",
+          "count": 26
+        }
+      ],
+      "selected": [],
+      "default": []
+    },
+    {
+      "group": "Система",
+      "id": "f[al]",
+      "name": "Операционная система",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "3db",
+          "name": "Android",
+          "count": 709
+        },
+        {
+          "id": "ei94",
+          "name": "iPadOS / iOS",
+          "count": 368
+        },
+        {
+          "id": "8z67",
+          "name": "HarmonyOS",
+          "count": 72
+        },
+        {
+          "id": "9dj",
+          "name": "Windows",
+          "count": 5
+        },
+        {
+          "id": "q86f",
+          "name": "MagicOS",
+          "count": 5
+        }
+      ],
+      "selected": [],
+      "default": []
+    },
+    {
+      "group": "Система",
+      "id": "f[4h]",
+      "name": "Количество ядер",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "bm",
+          "name": "2",
+          "count": 1
+        },
+        {
+          "id": "bn",
+          "name": "4",
+          "count": 49
+        },
+        {
+          "id": "1oy",
+          "name": "5",
+          "count": 22
+        },
+        {
+          "id": "bo",
+          "name": "6",
+          "count": 50
+        },
+        {
+          "id": "bq",
+          "name": "8",
+          "count": 843
+        },
+        {
+          "id": "1p1",
+          "name": "9",
+          "count": 31
+        },
+        {
+          "id": "1ox",
+          "name": "10",
+          "count": 42
+        }
+      ],
+      "selected": [],
+      "default": []
+    },
+    {
+      "group": "Система",
+      "id": "f[r]",
+      "name": "Модель процессора",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "5qc7",
+          "name": "A10 Fusion",
+          "count": 10
+        },
+        {
+          "id": "7gwn",
+          "name": "A12 Bionic",
+          "count": 18
+        },
+        {
+          "id": "8uv7",
+          "name": "A12Z Bionic",
+          "count": 12
+        },
+        {
+          "id": "22cm",
+          "name": "Allwinner A33",
+          "count": 1
+        },
+        {
+          "id": "kf84",
+          "name": "Allwinner A523",
+          "count": 4
+        },
+        {
+          "id": "nhw9",
+          "name": "Allwinner A733",
+          "count": 1
+        },
+        {
+          "id": "22dg",
+          "name": "Apple A9X",
+          "count": 23
+        },
+        {
+          "id": "4ak7",
+          "name": "Apple A12 Bionic",
+          "count": 17
+        },
+        {
+          "id": "65rb",
+          "name": "Apple A12Z Bionic",
+          "count": 21
+        },
+        {
+          "id": "5n9r",
+          "name": "Apple A13 Bionic",
+          "count": 12
+        },
+        {
+          "id": "75qr",
+          "name": "Apple A14 Bionic",
+          "count": 22
+        },
+        {
+          "id": "a67t",
+          "name": "Apple A15 Bionic",
+          "count": 26
+        },
+        {
+          "id": "djx6",
+          "name": "Apple A16 Bionic",
+          "count": 22
+        },
+        {
+          "id": "gm0h",
+          "name": "Apple A17 Pro",
+          "count": 20
+        },
+        {
+          "id": "7mvd",
+          "name": "Apple M1",
+          "count": 40
+        },
+        {
+          "id": "d3kk",
+          "name": "Apple M2",
+          "count": 10
+        },
+        {
+          "id": "gxu6",
+          "name": "Apple M3",
+          "count": 57
+        },
+        {
+          "id": "i4mv",
+          "name": "Apple M4",
+          "count": 95
+        },
+        {
+          "id": "p6zs",
+          "name": "Apple M5",
+          "count": 42
+        },
+        {
+          "id": "7x45",
+          "name": "Exynos 9611",
+          "count": 2
+        },
+        {
+          "id": "euo4",
+          "name": "Google Tensor G2",
+          "count": 2
+        },
+        {
+          "id": "pb89",
+          "name": "HiSilicon Kirin-T92B",
+          "count": 3
+        },
+        {
+          "id": "54ok",
+          "name": "HiSilicon Kirin 710",
+          "count": 1
+        },
+        {
+          "id": "68c9",
+          "name": "HiSilicon Kirin 710A",
+          "count": 25
+        },
+        {
+          "id": "5n8s",
+          "name": "HiSilicon Kirin 810",
+          "count": 2
+        },
+        {
+          "id": "85ba",
+          "name": "HiSilicon Kirin 820",
+          "count": 1
+        },
+        {
+          "id": "65kw",
+          "name": "HiSilicon Kirin 990",
+          "count": 2
+        },
+        {
+          "id": "9l6b",
+          "name": "HiSilicon Kirin 9000E",
+          "count": 1
+        },
+        {
+          "id": "o8u0",
+          "name": "HiSilicon Kirin 9000S",
+          "count": 1
+        },
+        {
+          "id": "hb7w",
+          "name": "HiSilicon Kirin 9000W",
+          "count": 2
+        },
+        {
+          "id": "m43d",
+          "name": "HiSilicon Kirin 9000WE",
+          "count": 2
+        },
+        {
+          "id": "k4mq",
+          "name": "HiSilicon Kirin 9000WL",
+          "count": 3
+        },
+        {
+          "id": "m43k",
+          "name": "HiSilicon Kirin 9000WM",
+          "count": 2
+        },
+        {
+          "id": "mjh4",
+          "name": "HiSilicon Kirin T80",
+          "count": 5
+        },
+        {
+          "id": "oq00",
+          "name": "HiSilicon Kirin T82B",
+          "count": 5
+        },
+        {
+          "id": "kfrb",
+          "name": "HiSilicon Kirin T90A",
+          "count": 3
+        },
+        {
+          "id": "kfra",
+          "name": "HiSilicon Kirin T91",
+          "count": 3
+        },
+        {
+          "id": "mx4y",
+          "name": "HiSilicon Kirin T92",
+          "count": 2
+        },
+        {
+          "id": "pthn",
+          "name": "HiSilicon Kirin T92A",
+          "count": 2
+        },
+        {
+          "id": "q2cu",
+          "name": "HiSilicon Kirin T92C",
+          "count": 3
+        },
+        {
+          "id": "q2cv",
+          "name": "HiSilicon Kirin T92D",
+          "count": 1
+        },
+        {
+          "id": "12b7",
+          "name": "Intel Atom Z3735F",
+          "count": 1
+        },
+        {
+          "id": "52yv",
+          "name": "Intel Atom x5-Z8550",
+          "count": 1
+        },
+        {
+          "id": "45dv",
+          "name": "Intel Celeron N3350",
+          "count": 1
+        },
+        {
+          "id": "6br2",
+          "name": "Intel Celeron N4020",
+          "count": 1
+        },
+        {
+          "id": "dagx",
+          "name": "Intel Core i3-1215U",
+          "count": 1
+        },
+        {
+          "id": "fdyu",
+          "name": "Intel Core i3-1315U",
+          "count": 1
+        },
+        {
+          "id": "nrt0",
+          "name": "Intel Processor N150",
+          "count": 1
+        },
+        {
+          "id": "fq7d",
+          "name": "MediaTek Dimensity 7050",
+          "count": 3
+        },
+        {
+          "id": "je2w",
+          "name": "MediaTek Dimensity 7300",
+          "count": 8
+        },
+        {
+          "id": "mry1",
+          "name": "MediaTek Dimensity 8350 Elite",
+          "count": 3
+        },
+        {
+          "id": "ednp",
+          "name": "MediaTek Dimensity 9000",
+          "count": 1
+        },
+        {
+          "id": "kdq5",
+          "name": "MediaTek Dimensity 9300+",
+          "count": 20
+        },
+        {
+          "id": "osjg",
+          "name": "MediaTek Dimensity 9400+",
+          "count": 32
+        },
+        {
+          "id": "4zdu",
+          "name": "MediaTek Helio A22",
+          "count": 1
+        },
+        {
+          "id": "68qz",
+          "name": "MediaTek Helio G80",
+          "count": 13
+        },
+        {
+          "id": "6emg",
+          "name": "MediaTek Helio G85",
+          "count": 21
+        },
+        {
+          "id": "9yhu",
+          "name": "MediaTek Helio G88",
+          "count": 11
+        },
+        {
+          "id": "div7",
+          "name": "MediaTek Helio G99",
+          "count": 85
+        },
+        {
+          "id": "k1cw",
+          "name": "MediaTek Helio G100",
+          "count": 5
+        },
+        {
+          "id": "nlp3",
+          "name": "MediaTek Helio G100 Ultimate",
+          "count": 8
+        },
+        {
+          "id": "mck9",
+          "name": "MediaTek Helio G100 Ultra",
+          "count": 17
+        },
+        {
+          "id": "45hx",
+          "name": "MediaTek Helio P22",
+          "count": 3
+        },
+        {
+          "id": "alii",
+          "name": "MediaTek Helio P22T",
+          "count": 14
+        },
+        {
+          "id": "hvnl",
+          "name": "MediaTek Kompanio 1300T",
+          "count": 2
+        },
+        {
+          "id": "10b0",
+          "name": "MediaTek MT8312",
+          "count": 3
+        },
+        {
+          "id": "18lm",
+          "name": "MediaTek MT8321",
+          "count": 3
+        },
+        {
+          "id": "150b",
+          "name": "MediaTek MT8735",
+          "count": 1
+        },
+        {
+          "id": "6ih3",
+          "name": "MediaTek MT8768",
+          "count": 2
+        },
+        {
+          "id": "m8qz",
+          "name": "MediaTek MT8781V",
+          "count": 2
+        },
+        {
+          "id": "ecul",
+          "name": "MediaTek MT8786",
+          "count": 1
+        },
+        {
+          "id": "kkhe",
+          "name": "MediaTek MT8788",
+          "count": 1
+        },
+        {
+          "id": "gw2g",
+          "name": "Qualcomm Snapdragon 6 Gen 1",
+          "count": 6
+        },
+        {
+          "id": "epuj",
+          "name": "Qualcomm Snapdragon 7 Gen 1",
+          "count": 4
+        },
+        {
+          "id": "hnju",
+          "name": "Qualcomm Snapdragon 7 Gen 3",
+          "count": 6
+        },
+        {
+          "id": "if06",
+          "name": "Qualcomm Snapdragon 7+ Gen 3",
+          "count": 6
+        },
+        {
+          "id": "hc8j",
+          "name": "Qualcomm Snapdragon 7s Gen 2",
+          "count": 12
+        },
+        {
+          "id": "ozoi",
+          "name": "Qualcomm Snapdragon 7s Gen 4",
+          "count": 12
+        },
+        {
+          "id": "liix",
+          "name": "Qualcomm Snapdragon 8 Elite",
+          "count": 11
+        },
+        {
+          "id": "bcmo",
+          "name": "Qualcomm Snapdragon 8 Gen 1",
+          "count": 4
+        },
+        {
+          "id": "em9d",
+          "name": "Qualcomm Snapdragon 8 Gen 2",
+          "count": 2
+        },
+        {
+          "id": "g761",
+          "name": "Qualcomm Snapdragon 8 Gen 2 for Galaxy",
+          "count": 31
+        },
+        {
+          "id": "dcqx",
+          "name": "Qualcomm Snapdragon 8+ Gen 1",
+          "count": 2
+        },
+        {
+          "id": "iey5",
+          "name": "Qualcomm Snapdragon 8s Gen 3",
+          "count": 13
+        },
+        {
+          "id": "o87c",
+          "name": "Qualcomm Snapdragon 8s Gen 4",
+          "count": 6
+        },
+        {
+          "id": "1uhz",
+          "name": "Qualcomm Snapdragon 425",
+          "count": 1
+        },
+        {
+          "id": "75c3",
+          "name": "Qualcomm Snapdragon 662",
+          "count": 2
+        },
+        {
+          "id": "55hf",
+          "name": "Qualcomm Snapdragon 670",
+          "count": 1
+        },
+        {
+          "id": "b2vn",
+          "name": "Qualcomm Snapdragon 680",
+          "count": 28
+        },
+        {
+          "id": "q86g",
+          "name": "Qualcomm Snapdragon 680 4G",
+          "count": 5
+        },
+        {
+          "id": "f82y",
+          "name": "Qualcomm Snapdragon 685",
+          "count": 25
+        },
+        {
+          "id": "b2au",
+          "name": "Qualcomm Snapdragon 695",
+          "count": 15
+        },
+        {
+          "id": "915c",
+          "name": "Qualcomm Snapdragon 750G",
+          "count": 10
+        },
+        {
+          "id": "8j61",
+          "name": "Qualcomm Snapdragon 860",
+          "count": 2
+        },
+        {
+          "id": "63gi",
+          "name": "Qualcomm Snapdragon 865",
+          "count": 5
+        },
+        {
+          "id": "6y5q",
+          "name": "Qualcomm Snapdragon 865 Plus",
+          "count": 10
+        },
+        {
+          "id": "8hkg",
+          "name": "Qualcomm Snapdragon 870",
+          "count": 12
+        },
+        {
+          "id": "8n6a",
+          "name": "Qualcomm Snapdragon 888",
+          "count": 5
+        },
+        {
+          "id": "hioq",
+          "name": "Rockchip RK3562",
+          "count": 2
+        },
+        {
+          "id": "c79g",
+          "name": "Samsung Exynos 1280",
+          "count": 11
+        },
+        {
+          "id": "f2ca",
+          "name": "Samsung Exynos 1380",
+          "count": 40
+        },
+        {
+          "id": "nakr",
+          "name": "Samsung Exynos 1580",
+          "count": 33
+        },
+        {
+          "id": "22bi",
+          "name": "Samsung Exynos 5420",
+          "count": 5
+        },
+        {
+          "id": "691v",
+          "name": "Samsung Exynos 9611",
+          "count": 10
+        },
+        {
+          "id": "dqnj",
+          "name": "Snapdragon 8 Gen 1",
+          "count": 26
+        },
+        {
+          "id": "3lfv",
+          "name": "Snapdragon 625",
+          "count": 1
+        },
+        {
+          "id": "2dtc",
+          "name": "Snapdragon 625 MSM8953",
+          "count": 1
+        },
+        {
+          "id": "be91",
+          "name": "Snapdragon 670",
+          "count": 2
+        },
+        {
+          "id": "22bo",
+          "name": "Snapdragon 801 MSM8974AB",
+          "count": 3
+        },
+        {
+          "id": "22cn",
+          "name": "Snapdragon 801 MSM8974AC",
+          "count": 5
+        },
+        {
+          "id": "22cx",
+          "name": "Snapdragon 810 MSM8994",
+          "count": 3
+        },
+        {
+          "id": "62xe",
+          "name": "Snapdragon 835 MSM8998",
+          "count": 2
+        },
+        {
+          "id": "8v5x",
+          "name": "Snapdragon 865 Plus",
+          "count": 2
+        },
+        {
+          "id": "22ah",
+          "name": "Snapdragon S4 Pro APQ8064",
+          "count": 3
+        },
+        {
+          "id": "22cz",
+          "name": "Spreadtrum SC5735",
+          "count": 1
+        },
+        {
+          "id": "15mv",
+          "name": "Spreadtrum SC7730A",
+          "count": 2
+        },
+        {
+          "id": "13y2",
+          "name": "Spreadtrum SC7731",
+          "count": 6
+        },
+        {
+          "id": "482n",
+          "name": "Spreadtrum SC7731E",
+          "count": 1
+        },
+        {
+          "id": "2dse",
+          "name": "Spreadtrum SC7731G",
+          "count": 1
+        },
+        {
+          "id": "ae0w",
+          "name": "Unisoc (Spreadtrum) SC7731E",
+          "count": 17
+        },
+        {
+          "id": "4fg6",
+          "name": "Unisoc (Spreadtrum) SC9832E",
+          "count": 2
+        },
+        {
+          "id": "7qyn",
+          "name": "Unisoc (Spreadtrum) SC9863",
+          "count": 2
+        },
+        {
+          "id": "a525",
+          "name": "Unisoc (Spreadtrum) SC9863A",
+          "count": 14
+        },
+        {
+          "id": "jvvh",
+          "name": "Unisoc (Spreadtrum) SC9863A1",
+          "count": 1
+        },
+        {
+          "id": "nffy",
+          "name": "Unisoc T7200",
+          "count": 1
+        },
+        {
+          "id": "nfiz",
+          "name": "Unisoc T7200 (T606)",
+          "count": 1
+        },
+        {
+          "id": "nfj1",
+          "name": "Unisoc T7250 (T615)",
+          "count": 3
+        },
+        {
+          "id": "nhwm",
+          "name": "Unisoc T7280 (T620)",
+          "count": 2
+        },
+        {
+          "id": "ar1e",
+          "name": "Unisoc Tiger T310",
+          "count": 23
+        },
+        {
+          "id": "arpp",
+          "name": "Unisoc Tiger T606",
+          "count": 43
+        },
+        {
+          "id": "9ydl",
+          "name": "Unisoc Tiger T610",
+          "count": 4
+        },
+        {
+          "id": "cwcp",
+          "name": "Unisoc Tiger T616",
+          "count": 17
+        },
+        {
+          "id": "atdl",
+          "name": "Unisoc Tiger T618",
+          "count": 5
+        }
+      ],
+      "selected": [],
+      "default": []
+    },
+    {
+      "group": "Система",
+      "id": "f[4i]",
+      "name": "Слот для карты памяти",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "21",
+          "name": "есть",
+          "count": 796
+        },
+        {
+          "id": "cr",
+          "name": "нет",
+          "count": 606
+        }
+      ],
+      "selected": [],
+      "default": []
+    },
+    {
+      "group": "Система",
+      "id": "f[1gg]",
+      "name": "Производитель процессора",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "tu3",
+          "name": "Allwinner",
+          "count": 6
+        },
+        {
+          "id": "3vek",
+          "name": "Apple",
+          "count": 468
+        },
+        {
+          "id": "7i",
+          "name": "Celeron",
+          "count": 1
+        },
+        {
+          "id": "14ti",
+          "name": "Google",
+          "count": 2
+        },
+        {
+          "id": "tu6",
+          "name": "HiSilicon",
+          "count": 82
+        },
+        {
+          "id": "dc",
+          "name": "Intel",
+          "count": 16
+        },
+        {
+          "id": "tu4",
+          "name": "MediaTek",
+          "count": 271
+        },
+        {
+          "id": "tu2",
+          "name": "Qualcomm",
+          "count": 293
+        },
+        {
+          "id": "d8b",
+          "name": "Rockchip",
+          "count": 3
+        },
+        {
+          "id": "4qh",
+          "name": "Samsung",
+          "count": 104
+        },
+        {
+          "id": "tu7",
+          "name": "Spreadtrum",
+          "count": 4
+        },
+        {
+          "id": "11q5",
+          "name": "Unisoc (Spreadtrum)",
+          "count": 149
+        }
+      ],
+      "selected": [],
+      "default": []
+    },
+    {
+      "group": "Система",
+      "id": "f[4f]",
+      "name": "Версия ОС",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "1368",
+          "name": "Android 4.x",
+          "count": 24
+        },
+        {
+          "id": "136a",
+          "name": "Android 5.x",
+          "count": 19
+        },
+        {
+          "id": "1biu",
+          "name": "Android 6.x",
+          "count": 2
+        },
+        {
+          "id": "1teu",
+          "name": "Android 7.x",
+          "count": 1
+        },
+        {
+          "id": "3srp",
+          "name": "Android 8.x",
+          "count": 14
+        },
+        {
+          "id": "54lk",
+          "name": "Android 9.x+",
+          "count": 15
+        },
+        {
+          "id": "60l1",
+          "name": "Android 10.x",
+          "count": 56
+        },
+        {
+          "id": "8ulc",
+          "name": "Android 11 Go",
+          "count": 3
+        },
+        {
+          "id": "90lv",
+          "name": "Android 11.x",
+          "count": 26
+        },
+        {
+          "id": "au5p",
+          "name": "Android 12",
+          "count": 2
+        },
+        {
+          "id": "bcmi",
+          "name": "Android 12.x",
+          "count": 34
+        },
+        {
+          "id": "ej7q",
+          "name": "Android 13",
+          "count": 8
+        },
+        {
+          "id": "ft6n",
+          "name": "Android 13.x",
+          "count": 179
+        },
+        {
+          "id": "h6r4",
+          "name": "Android 14",
+          "count": 37
+        },
+        {
+          "id": "hjed",
+          "name": "Android 14.x",
+          "count": 122
+        },
+        {
+          "id": "mry0",
+          "name": "Android 15.x",
+          "count": 221
+        },
+        {
+          "id": "odkp",
+          "name": "Android 16",
+          "count": 16
+        },
+        {
+          "id": "9l4x",
+          "name": "HarmonyOS 2",
+          "count": 24
+        },
+        {
+          "id": "dckx",
+          "name": "HarmonyOS 3",
+          "count": 5
+        },
+        {
+          "id": "g70b",
+          "name": "HarmonyOS 3.1",
+          "count": 6
+        },
+        {
+          "id": "h6on",
+          "name": "HarmonyOS 4",
+          "count": 2
+        },
+        {
+          "id": "ie3d",
+          "name": "HarmonyOS 4.2",
+          "count": 18
+        },
+        {
+          "id": "mx4x",
+          "name": "HarmonyOS 4.3",
+          "count": 17
+        },
+        {
+          "id": "pp5l",
+          "name": "MagicOS 10",
+          "count": 5
+        },
+        {
+          "id": "10b6",
+          "name": "Windows 10",
+          "count": 7
+        },
+        {
+          "id": "ah6m",
+          "name": "Windows 11",
+          "count": 4
+        },
+        {
+          "id": "59gs",
+          "name": "iOS 12",
+          "count": 3
+        },
+        {
+          "id": "enwo",
+          "name": "iPadOS 13",
+          "count": 14
+        },
+        {
+          "id": "envn",
+          "name": "iPadOS 14",
+          "count": 43
+        },
+        {
+          "id": "epe9",
+          "name": "iPadOS 15",
+          "count": 58
+        },
+        {
+          "id": "epel",
+          "name": "iPadOS 16",
+          "count": 6
+        },
+        {
+          "id": "i4jc",
+          "name": "iPadOS 17",
+          "count": 39
+        },
+        {
+          "id": "kxze",
+          "name": "iPadOS 18",
+          "count": 99
+        },
+        {
+          "id": "p6zz",
+          "name": "iPadOS 26",
+          "count": 106
+        }
+      ],
+      "selected": [],
+      "default": []
+    },
+    {
+      "group": "Система",
+      "id": "f[5q]",
+      "name": "Техпроцесс (нм)",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "gk83",
+          "name": "3 нм",
+          "count": 257
+        },
+        {
+          "id": "bano",
+          "name": "4 нм",
+          "count": 188
+        },
+        {
+          "id": "75qs",
+          "name": "5 нм",
+          "count": 103
+        },
+        {
+          "id": "9ym3",
+          "name": "6 нм",
+          "count": 194
+        },
+        {
+          "id": "4ak8",
+          "name": "7 нм",
+          "count": 53
+        },
+        {
+          "id": "50ma",
+          "name": "8 нм",
+          "count": 2
+        },
+        {
+          "id": "3ulz",
+          "name": "10 нм",
+          "count": 3
+        },
+        {
+          "id": "55vo",
+          "name": "11 нм",
+          "count": 2
+        },
+        {
+          "id": "45g9",
+          "name": "12 нм",
+          "count": 164
+        },
+        {
+          "id": "1f2t",
+          "name": "14 нм",
+          "count": 16
+        },
+        {
+          "id": "3v7f",
+          "name": "22 нм",
+          "count": 6
+        },
+        {
+          "id": "3u18",
+          "name": "28 нм",
+          "count": 37
+        }
+      ],
+      "selected": [],
+      "default": []
+    },
+    {
+      "group": "Система",
+      "id": "f[550]",
+      "name": "Поддержка Google Mobile Services",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "21",
+          "name": "есть",
+          "count": 705
+        },
+        {
+          "id": "cr",
+          "name": "нет",
+          "count": 282
+        }
+      ],
+      "selected": [],
+      "default": []
+    },
+    {
+      "group": "Система",
+      "id": "fr[4g]",
+      "name": "Частота работы процессора (ГГц)",
+      "type": "range-radio",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "363e6667d6965d20fbbe07979f0bcf8f",
+          "name": "Менее 1.49",
+          "count": 24
+        },
+        {
+          "id": "eec2bf7b2b5c84e89fbd72357621f838",
+          "name": "1.5 - 1.99",
+          "count": 71
+        },
+        {
+          "id": "e27559a722413005d33612bcc08ea6ee",
+          "name": "2 - 2.49",
+          "count": 408
+        },
+        {
+          "id": "1228b281b388a769f40d5908c7d82345",
+          "name": "2.5 - 2.99",
+          "count": 120
+        },
+        {
+          "id": "112f8d950225d3047373415691535fbd",
+          "name": "3 и более",
+          "count": 349
+        }
+      ],
+      "selected": [],
+      "range": {
+        "min": 1.1,
+        "max": 4.6,
+        "min_selected": null,
+        "max_selected": null
+      }
+    },
+    {
+      "group": "Система",
+      "id": "f[4k]",
+      "name": "Графический ускоритель",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "1n5r",
+          "name": "Adreno 308",
+          "count": 1
+        },
+        {
+          "id": "55vp",
+          "name": "Adreno 610",
+          "count": 55
+        },
+        {
+          "id": "55hg",
+          "name": "Adreno 615",
+          "count": 1
+        },
+        {
+          "id": "8pls",
+          "name": "Adreno 619",
+          "count": 22
+        },
+        {
+          "id": "55og",
+          "name": "Adreno 640",
+          "count": 2
+        },
+        {
+          "id": "filp",
+          "name": "Adreno 644",
+          "count": 3
+        },
+        {
+          "id": "63gj",
+          "name": "Adreno 650",
+          "count": 28
+        },
+        {
+          "id": "8n6b",
+          "name": "Adreno 660",
+          "count": 5
+        },
+        {
+          "id": "g4qq",
+          "name": "Adreno 662",
+          "count": 1
+        },
+        {
+          "id": "gw2j",
+          "name": "Adreno 710",
+          "count": 18
+        },
+        {
+          "id": "hnjy",
+          "name": "Adreno 720",
+          "count": 6
+        },
+        {
+          "id": "bcms",
+          "name": "Adreno 730",
+          "count": 6
+        },
+        {
+          "id": "if0a",
+          "name": "Adreno 732",
+          "count": 6
+        },
+        {
+          "id": "iey9",
+          "name": "Adreno 735",
+          "count": 13
+        },
+        {
+          "id": "em9g",
+          "name": "Adreno 740",
+          "count": 33
+        },
+        {
+          "id": "mg5b",
+          "name": "Adreno 810",
+          "count": 12
+        },
+        {
+          "id": "o87i",
+          "name": "Adreno 825",
+          "count": 6
+        },
+        {
+          "id": "lij1",
+          "name": "Adreno 830",
+          "count": 11
+        },
+        {
+          "id": "53wi",
+          "name": "Apple GPU",
+          "count": 384
+        },
+        {
+          "id": "nhwb",
+          "name": "IMG BXM-4-64",
+          "count": 1
+        },
+        {
+          "id": "ke39",
+          "name": "Immortalis-G720 MC12",
+          "count": 20
+        },
+        {
+          "id": "mgjb",
+          "name": "Immortalis-G925 MC12",
+          "count": 32
+        },
+        {
+          "id": "1uv",
+          "name": "Intel HD Graphics",
+          "count": 8
+        },
+        {
+          "id": "5rrt",
+          "name": "Intel UHD Graphics",
+          "count": 3
+        },
+        {
+          "id": "k4mu",
+          "name": "Maleoon-910",
+          "count": 12
+        },
+        {
+          "id": "i2t9",
+          "name": "Maleoon-910 MP4",
+          "count": 8
+        },
+        {
+          "id": "m610",
+          "name": "Maleoon 920",
+          "count": 7
+        },
+        {
+          "id": "qk9u",
+          "name": "Maleoon 920C",
+          "count": 5
+        },
+        {
+          "id": "1uu",
+          "name": "Mali-400",
+          "count": 7
+        },
+        {
+          "id": "1us",
+          "name": "Mali-400 MP",
+          "count": 3
+        },
+        {
+          "id": "1ut",
+          "name": "Mali-400 MP2",
+          "count": 15
+        },
+        {
+          "id": "59h0",
+          "name": "Mali-G51",
+          "count": 15
+        },
+        {
+          "id": "4aqg",
+          "name": "Mali-G51 MP4",
+          "count": 11
+        },
+        {
+          "id": "gnxq",
+          "name": "Mali-G52 2EEMC2",
+          "count": 4
+        },
+        {
+          "id": "6emh",
+          "name": "Mali-G52 MC2",
+          "count": 30
+        },
+        {
+          "id": "9d4o",
+          "name": "Mali-G52 MP2",
+          "count": 13
+        },
+        {
+          "id": "elm0",
+          "name": "Mali-G52 MP6",
+          "count": 2
+        },
+        {
+          "id": "kfkz",
+          "name": "Mali-G52-2EE",
+          "count": 2
+        },
+        {
+          "id": "85bc",
+          "name": "Mali-G57",
+          "count": 52
+        },
+        {
+          "id": "g1hm",
+          "name": "Mali-G57 MC1",
+          "count": 6
+        },
+        {
+          "id": "bokr",
+          "name": "Mali-G57 MC2",
+          "count": 113
+        },
+        {
+          "id": "emah",
+          "name": "Mali-G57 MP1",
+          "count": 13
+        },
+        {
+          "id": "8vuz",
+          "name": "Mali-G57 MP2",
+          "count": 2
+        },
+        {
+          "id": "elm2",
+          "name": "Mali-G57 MP6",
+          "count": 1
+        },
+        {
+          "id": "dk5z",
+          "name": "Mali-G68",
+          "count": 11
+        },
+        {
+          "id": "boks",
+          "name": "Mali-G68 MC4",
+          "count": 3
+        },
+        {
+          "id": "f2cb",
+          "name": "Mali-G68 MP5",
+          "count": 40
+        },
+        {
+          "id": "4qyp",
+          "name": "Mali-G72 MP3",
+          "count": 11
+        },
+        {
+          "id": "662t",
+          "name": "Mali-G76 MP16",
+          "count": 2
+        },
+        {
+          "id": "c7hm",
+          "name": "Mali-G77 MC9",
+          "count": 2
+        },
+        {
+          "id": "9l6e",
+          "name": "Mali-G78 MP22",
+          "count": 1
+        },
+        {
+          "id": "je2y",
+          "name": "Mali-G615 MC2",
+          "count": 8
+        },
+        {
+          "id": "kdxi",
+          "name": "Mali-G615 MC6",
+          "count": 3
+        },
+        {
+          "id": "gbk1",
+          "name": "Mali-G710",
+          "count": 2
+        },
+        {
+          "id": "ft6p",
+          "name": "Mali-G710 MC10",
+          "count": 1
+        },
+        {
+          "id": "3viy",
+          "name": "Mali-T820 MP1",
+          "count": 19
+        },
+        {
+          "id": "pyy9",
+          "name": "Mali G57 MC2",
+          "count": 2
+        },
+        {
+          "id": "45hy",
+          "name": "PowerVR GE8320",
+          "count": 20
+        },
+        {
+          "id": "57zl",
+          "name": "PowerVR GE8322",
+          "count": 16
+        },
+        {
+          "id": "ar1h",
+          "name": "PowerVR GT7200",
+          "count": 23
+        },
+        {
+          "id": "nakt",
+          "name": "Xclipse 540",
+          "count": 33
+        }
+      ],
+      "selected": [],
+      "default": []
+    },
+    {
+      "group": "Система",
+      "id": "f[93u]",
+      "name": "Оболочка ОС",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "gh45",
+          "name": "ColorOS 12.1",
+          "count": 2
+        },
+        {
+          "id": "euvw",
+          "name": "Doke OS_P 3.0",
+          "count": 9
+        },
+        {
+          "id": "hq7t",
+          "name": "Doke OS_P 4.0",
+          "count": 30
+        },
+        {
+          "id": "fywy",
+          "name": "Doke OS_P V 3.0",
+          "count": 2
+        },
+        {
+          "id": "emqg",
+          "name": "EMUI 5.1",
+          "count": 1
+        },
+        {
+          "id": "elz1",
+          "name": "EMUI 9.0",
+          "count": 1
+        },
+        {
+          "id": "elyz",
+          "name": "EMUI 10",
+          "count": 2
+        },
+        {
+          "id": "elz5",
+          "name": "EMUI 10.0.1",
+          "count": 4
+        },
+        {
+          "id": "ei99",
+          "name": "EMUI 10.1",
+          "count": 5
+        },
+        {
+          "id": "hcch",
+          "name": "HyperOS",
+          "count": 14
+        },
+        {
+          "id": "mj9p",
+          "name": "HyperOS 2",
+          "count": 45
+        },
+        {
+          "id": "phvu",
+          "name": "HyperOS 3",
+          "count": 15
+        },
+        {
+          "id": "bq41",
+          "name": "MIUI 12.5",
+          "count": 2
+        },
+        {
+          "id": "ejoe",
+          "name": "MIUI 13",
+          "count": 3
+        },
+        {
+          "id": "fyjv",
+          "name": "MIUI 14",
+          "count": 15
+        },
+        {
+          "id": "gbbt",
+          "name": "MagicOS 7.1",
+          "count": 5
+        },
+        {
+          "id": "h57y",
+          "name": "MagicOS 7.2",
+          "count": 6
+        },
+        {
+          "id": "hqka",
+          "name": "MagicOS 8.0",
+          "count": 5
+        },
+        {
+          "id": "k4xy",
+          "name": "MagicOS 8.1",
+          "count": 3
+        },
+        {
+          "id": "m4po",
+          "name": "MagicOS 9.0",
+          "count": 15
+        },
+        {
+          "id": "em7f",
+          "name": "Magic UI 6.1",
+          "count": 2
+        },
+        {
+          "id": "prqg",
+          "name": "One UI",
+          "count": 2
+        },
+        {
+          "id": "eihd",
+          "name": "One UI 1.1",
+          "count": 1
+        },
+        {
+          "id": "eihn",
+          "name": "One UI 2",
+          "count": 3
+        },
+        {
+          "id": "eifx",
+          "name": "One UI 2.5",
+          "count": 11
+        },
+        {
+          "id": "eigl",
+          "name": "One UI 3.1",
+          "count": 15
+        },
+        {
+          "id": "eijd",
+          "name": "One UI 4.1",
+          "count": 2
+        },
+        {
+          "id": "g760",
+          "name": "One UI 5.1",
+          "count": 75
+        },
+        {
+          "id": "hamp",
+          "name": "One UI 6.1",
+          "count": 31
+        },
+        {
+          "id": "nm5i",
+          "name": "One UI 7.0",
+          "count": 77
+        },
+        {
+          "id": "qc98",
+          "name": "One UI 7.1",
+          "count": 6
+        },
+        {
+          "id": "mq14",
+          "name": "OxygenOS 15",
+          "count": 4
+        },
+        {
+          "id": "hstl",
+          "name": "XOS 14",
+          "count": 5
+        },
+        {
+          "id": "hpan",
+          "name": "ZUI 15",
+          "count": 5
+        }
+      ],
+      "selected": [],
+      "default": []
+    },
+    {
+      "group": "Беспроводная связь",
+      "id": "f[9b]",
+      "name": "Поддержка стандартов сотовой связи",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "2lf",
+          "name": "3G",
+          "count": 679
+        },
+        {
+          "id": "4p8",
+          "name": "4G",
+          "count": 656
+        },
+        {
+          "id": "6qga",
+          "name": "5G",
+          "count": 226
+        },
+        {
+          "id": "cr",
+          "name": "нет",
+          "count": 665
+        }
+      ],
+      "selected": [],
+      "default": []
+    },
+    {
+      "group": "Беспроводная связь",
+      "id": "f[4un]",
+      "name": "Количество физических SIM-карт",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "26p",
+          "name": "0",
+          "count": 663
+        },
+        {
+          "id": "bp",
+          "name": "1",
+          "count": 277
+        },
+        {
+          "id": "bm",
+          "name": "2",
+          "count": 164
+        }
+      ],
+      "selected": [],
+      "default": []
+    },
+    {
+      "group": "Беспроводная связь",
+      "id": "f[26c]",
+      "name": "Системы навигации",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "1crn",
+          "name": "A-GPS",
+          "count": 265
+        },
+        {
+          "id": "ps99",
+          "name": "BDS",
+          "count": 15
+        },
+        {
+          "id": "6sh4",
+          "name": "Beidou",
+          "count": 395
+        },
+        {
+          "id": "e3e",
+          "name": "GPS",
+          "count": 768
+        },
+        {
+          "id": "4zei",
+          "name": "Galileo",
+          "count": 385
+        },
+        {
+          "id": "4zel",
+          "name": "QZSS",
+          "count": 214
+        },
+        {
+          "id": "14bi",
+          "name": "ГЛОНАСС",
+          "count": 737
+        },
+        {
+          "id": "cr",
+          "name": "нет",
+          "count": 309
+        }
+      ],
+      "selected": [],
+      "default": []
+    },
+    {
+      "group": "Беспроводная связь",
+      "id": "f[9]",
+      "name": "Стандарт Wi-Fi",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "8cvq",
+          "name": "1 (802.11b)",
+          "count": 21
+        },
+        {
+          "id": "eoqq",
+          "name": "2 (802.11a)",
+          "count": 20
+        },
+        {
+          "id": "8cvr",
+          "name": "3 (802.11g)",
+          "count": 21
+        },
+        {
+          "id": "2lc",
+          "name": "4 (802.11n)",
+          "count": 1143
+        },
+        {
+          "id": "dye",
+          "name": "5 (802.11ac)",
+          "count": 1129
+        },
+        {
+          "id": "5an0",
+          "name": "6 (802.11ax)",
+          "count": 712
+        },
+        {
+          "id": "eyqd",
+          "name": "7 (802.11be)",
+          "count": 116
+        },
+        {
+          "id": "pcyt",
+          "name": "802.11 a/b/g/n/ac/ax",
+          "count": 15
+        },
+        {
+          "id": "22gr",
+          "name": "802.11a/b/g/n",
+          "count": 8
+        },
+        {
+          "id": "22gq",
+          "name": "802.11a/b/g/n/ac",
+          "count": 36
+        },
+        {
+          "id": "q4lv",
+          "name": "802.11a/b/g/n/ac/ax/be",
+          "count": 3
+        },
+        {
+          "id": "1y",
+          "name": "802.11ac",
+          "count": 7
+        },
+        {
+          "id": "ar7",
+          "name": "802.11b/g/n",
+          "count": 8
+        }
+      ],
+      "selected": [],
+      "default": []
+    },
+    {
+      "group": "Беспроводная связь",
+      "id": "f[93x]",
+      "name": "Поддержка звонков (GSM)",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "21",
+          "name": "есть",
+          "count": 345
+        },
+        {
+          "id": "cr",
+          "name": "нет",
+          "count": 217
+        }
+      ],
+      "selected": [],
+      "default": []
+    },
+    {
+      "group": "Беспроводная связь",
+      "id": "f[9f1]",
+      "name": "Количество eSIM",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "26p",
+          "name": "0",
+          "count": 667
+        },
+        {
+          "id": "bp",
+          "name": "1",
+          "count": 178
+        }
+      ],
+      "selected": [],
+      "default": []
+    },
+    {
+      "group": "Беспроводная связь",
+      "id": "f[9a]",
+      "name": "Версия Bluetooth",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "4",
+          "name": "2.1",
+          "count": 1
+        },
+        {
+          "id": "1s4b",
+          "name": "2.1 + EDR",
+          "count": 3
+        },
+        {
+          "id": "2ld",
+          "name": "4.0",
+          "count": 71
+        },
+        {
+          "id": "233",
+          "name": "4.1",
+          "count": 6
+        },
+        {
+          "id": "15b5",
+          "name": "4.2",
+          "count": 116
+        },
+        {
+          "id": "6",
+          "name": "5.0",
+          "count": 348
+        },
+        {
+          "id": "7",
+          "name": "5.1",
+          "count": 87
+        },
+        {
+          "id": "ga6",
+          "name": "5.2",
+          "count": 174
+        },
+        {
+          "id": "20e4",
+          "name": "5.3",
+          "count": 353
+        },
+        {
+          "id": "bdkj",
+          "name": "5.4",
+          "count": 82
+        },
+        {
+          "id": "3bzi",
+          "name": "6.0",
+          "count": 106
+        }
+      ],
+      "selected": [],
+      "default": []
+    },
+    {
+      "group": "Камера",
+      "id": "f[5yq]",
+      "name": "Количество мегапикселей основной камеры",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "31e",
+          "name": "2 Мп",
+          "count": 32
+        },
+        {
+          "id": "31b",
+          "name": "5 Мп",
+          "count": 67
+        },
+        {
+          "id": "4zdk",
+          "name": "5+0.3 Мп",
+          "count": 1
+        },
+        {
+          "id": "1n",
+          "name": "8",
+          "count": 1
+        },
+        {
+          "id": "31n",
+          "name": "8 Мп",
+          "count": 289
+        },
+        {
+          "id": "4zdn",
+          "name": "8+8 Мп",
+          "count": 16
+        },
+        {
+          "id": "31c",
+          "name": "12 Мп",
+          "count": 308
+        },
+        {
+          "id": "enwp",
+          "name": "12+10 Мп",
+          "count": 52
+        },
+        {
+          "id": "17r8",
+          "name": "13 Мп",
+          "count": 221
+        },
+        {
+          "id": "dlri",
+          "name": "13+0.08 Мп",
+          "count": 4
+        },
+        {
+          "id": "nhud",
+          "name": "13+0.1 Мп",
+          "count": 2
+        },
+        {
+          "id": "46cs",
+          "name": "13+0.3 Мп",
+          "count": 3
+        },
+        {
+          "id": "4top",
+          "name": "13+2 Мп",
+          "count": 7
+        },
+        {
+          "id": "4edr",
+          "name": "13+5 Мп",
+          "count": 12
+        },
+        {
+          "id": "ek6h",
+          "name": "13+6 Мп",
+          "count": 2
+        },
+        {
+          "id": "4zde",
+          "name": "13+8 Мп",
+          "count": 68
+        },
+        {
+          "id": "1857",
+          "name": "16 Мп",
+          "count": 13
+        },
+        {
+          "id": "691r",
+          "name": "16+0.3 Мп",
+          "count": 2
+        },
+        {
+          "id": "5xp2",
+          "name": "20+2 Мп",
+          "count": 2
+        },
+        {
+          "id": "ftpt",
+          "name": "48 Мп",
+          "count": 2
+        },
+        {
+          "id": "b4xd",
+          "name": "50 Мп",
+          "count": 28
+        },
+        {
+          "id": "dm1p",
+          "name": "50+2 Мп",
+          "count": 2
+        },
+        {
+          "id": "b4yj",
+          "name": "50+8 Мп",
+          "count": 5
+        }
+      ],
+      "selected": [],
+      "default": []
+    },
+    {
+      "group": "Камера",
+      "id": "f[93y]",
+      "name": "Количество основных камер",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "26p",
+          "name": "0",
+          "count": 1
+        },
+        {
+          "id": "bp",
+          "name": "1",
+          "count": 873
+        },
+        {
+          "id": "bm",
+          "name": "2",
+          "count": 148
+        }
+      ],
+      "selected": [],
+      "default": []
+    },
+    {
+      "group": "Камера",
+      "id": "f[5ir]",
+      "name": "Вспышка основной камеры",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "21",
+          "name": "есть",
+          "count": 681
+        },
+        {
+          "id": "cr",
+          "name": "нет",
+          "count": 557
+        }
+      ],
+      "selected": [],
+      "default": []
+    },
+    {
+      "group": "Камера",
+      "id": "f[3yi]",
+      "name": "Количество мегапикселей фронтальной камеры",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "31f",
+          "name": "0.3 Мп",
+          "count": 43
+        },
+        {
+          "id": "31j",
+          "name": "1.2 Мп",
+          "count": 4
+        },
+        {
+          "id": "31e",
+          "name": "2 Мп",
+          "count": 91
+        },
+        {
+          "id": "31b",
+          "name": "5 Мп",
+          "count": 284
+        },
+        {
+          "id": "1kcl",
+          "name": "7 Мп",
+          "count": 35
+        },
+        {
+          "id": "31n",
+          "name": "8 Мп",
+          "count": 236
+        },
+        {
+          "id": "k4xz",
+          "name": "9 Мп",
+          "count": 4
+        },
+        {
+          "id": "31c",
+          "name": "12 Мп",
+          "count": 453
+        },
+        {
+          "id": "4tom",
+          "name": "12+12 Мп",
+          "count": 25
+        },
+        {
+          "id": "17r8",
+          "name": "13 Мп",
+          "count": 14
+        },
+        {
+          "id": "1857",
+          "name": "16 Мп",
+          "count": 7
+        },
+        {
+          "id": "522m",
+          "name": "32 Мп",
+          "count": 21
+        }
+      ],
+      "selected": [],
+      "default": []
+    },
+    {
+      "group": "Конструкция",
+      "id": "f[3o0]",
+      "name": "Защищенный корпус",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "21",
+          "name": "есть",
+          "count": 36
+        },
+        {
+          "id": "cr",
+          "name": "нет",
+          "count": 1112
+        }
+      ],
+      "selected": [],
+      "default": []
+    },
+    {
+      "group": "Конструкция",
+      "id": "f[jd]",
+      "name": "Количество встроенных динамиков (шт)",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "20j",
+          "name": "1 шт",
+          "count": 28
+        },
+        {
+          "id": "20d",
+          "name": "2 шт",
+          "count": 477
+        },
+        {
+          "id": "20e",
+          "name": "4 шт",
+          "count": 465
+        },
+        {
+          "id": "20g",
+          "name": "6 шт",
+          "count": 23
+        },
+        {
+          "id": "20i",
+          "name": "8 шт",
+          "count": 19
+        }
+      ],
+      "selected": [],
+      "default": []
+    },
+    {
+      "group": "Конструкция",
+      "id": "f[4n]",
+      "name": "Материал корпуса",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "1xo",
+          "name": "металл",
+          "count": 1206
+        },
+        {
+          "id": "1pfe",
+          "name": "металл/пластик",
+          "count": 7
+        },
+        {
+          "id": "1xp",
+          "name": "пластик",
+          "count": 219
+        },
+        {
+          "id": "28r",
+          "name": "стекло",
+          "count": 4
+        }
+      ],
+      "selected": [],
+      "default": []
+    },
+    {
+      "group": "Конструкция",
+      "id": "f[941]",
+      "name": "Количество встроенных микрофонов",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "bp",
+          "name": "1",
+          "count": 296
+        },
+        {
+          "id": "bm",
+          "name": "2",
+          "count": 401
+        },
+        {
+          "id": "24f",
+          "name": "3",
+          "count": 114
+        },
+        {
+          "id": "bn",
+          "name": "4",
+          "count": 123
+        },
+        {
+          "id": "1oy",
+          "name": "5",
+          "count": 10
+        }
+      ],
+      "selected": [],
+      "default": []
+    },
+    {
+      "group": "Проводные интерфейсы",
+      "id": "f[9c]",
+      "name": "Разъем для наушников",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "18b0",
+          "name": "USB Type-C",
+          "count": 809
+        },
+        {
+          "id": "40a",
+          "name": "jack 3.5 мм",
+          "count": 441
+        }
+      ],
+      "selected": [],
+      "default": []
+    },
+    {
+      "group": "Проводные интерфейсы",
+      "id": "f[1i]",
+      "name": "Интерфейс",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "19zb",
+          "name": "DC",
+          "count": 2
+        },
+        {
+          "id": "7ko",
+          "name": "Lightning 8-pin",
+          "count": 57
+        },
+        {
+          "id": "18b0",
+          "name": "USB Type-C",
+          "count": 1191
+        },
+        {
+          "id": "1ny",
+          "name": "micro USB",
+          "count": 31
+        }
+      ],
+      "selected": [],
+      "default": []
+    },
+    {
+      "group": "Проводные интерфейсы",
+      "id": "f[4m]",
+      "name": "Поддержка OTG",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "21",
+          "name": "есть",
+          "count": 1018
+        },
+        {
+          "id": "cr",
+          "name": "нет",
+          "count": 28
+        }
+      ],
+      "selected": [],
+      "default": []
+    },
+    {
+      "group": "Питание",
+      "id": "fr[4a]",
+      "name": "Емкость аккумулятора (мА*ч)",
+      "type": "range-radio",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "ca063bd4c64048c4c46bf00d9ebf1ffd",
+          "name": "Менее 3 999",
+          "count": 12
+        },
+        {
+          "id": "2ca1ba42e76e450f5cf52e9520278230",
+          "name": "4 000 - 5 999",
+          "count": 141
+        },
+        {
+          "id": "d1b428d1731d72b2a194998a3cdbd2f7",
+          "name": "6 000 - 7 999",
+          "count": 324
+        },
+        {
+          "id": "3ad0d56236cf5a02a232ea83624f0bdf",
+          "name": "8 000 - 9 999",
+          "count": 321
+        },
+        {
+          "id": "1b3451b6131aa5904c9aae023ec3e2a5",
+          "name": "10 000 и более",
+          "count": 205
+        }
+      ],
+      "selected": [],
+      "range": {
+        "min": 2000,
+        "max": 22000,
+        "min_selected": null,
+        "max_selected": null
+      }
+    },
+    {
+      "group": "Питание",
+      "id": "f[pz]",
+      "name": "Быстрая зарядка",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "21",
+          "name": "есть",
+          "count": 936
+        },
+        {
+          "id": "cr",
+          "name": "нет",
+          "count": 205
+        }
+      ],
+      "selected": [],
+      "default": []
+    },
+    {
+      "group": "Комплектация",
+      "id": "f[64h]",
+      "name": "Стилус в комплекте",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "21",
+          "name": "есть",
+          "count": 286
+        },
+        {
+          "id": "cr",
+          "name": "нет",
+          "count": 960
+        }
+      ],
+      "selected": [],
+      "default": []
+    },
+    {
+      "group": "Комплектация",
+      "id": "f[3z4]",
+      "name": "Клавиатура в комплекте",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "21",
+          "name": "есть",
+          "count": 62
+        },
+        {
+          "id": "cr",
+          "name": "нет",
+          "count": 1339
+        }
+      ],
+      "selected": [],
+      "default": []
+    },
+    {
+      "group": "Комплектация",
+      "id": "f[4kq]",
+      "name": "Чехол в комплекте",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "21",
+          "name": "есть",
+          "count": 157
+        },
+        {
+          "id": "cr",
+          "name": "нет",
+          "count": 837
+        }
+      ],
+      "selected": [],
+      "default": []
+    },
+    {
+      "group": "Комплектация",
+      "id": "f[5dk]",
+      "name": "Зарядное устройство в комплекте",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "21",
+          "name": "есть",
+          "count": 1066
+        },
+        {
+          "id": "cr",
+          "name": "нет",
+          "count": 218
+        }
+      ],
+      "selected": [],
+      "default": []
+    },
+    {
+      "group": "Комплектация",
+      "id": "f[117]",
+      "name": "Дополнительная комплектация",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "2r2",
+          "name": "адаптер питания",
+          "count": 33
+        },
+        {
+          "id": "aqql",
+          "name": "адаптер питания USB‑C",
+          "count": 3
+        },
+        {
+          "id": "72t",
+          "name": "гарантийный талон",
+          "count": 3
+        },
+        {
+          "id": "71a",
+          "name": "гарнитура",
+          "count": 2
+        },
+        {
+          "id": "22hn",
+          "name": "диск ПО",
+          "count": 1
+        },
+        {
+          "id": "7h6",
+          "name": "док-станция",
+          "count": 2
+        },
+        {
+          "id": "22hk",
+          "name": "док-станция с клавиатурой",
+          "count": 2
+        },
+        {
+          "id": "1xq",
+          "name": "документация",
+          "count": 1354
+        },
+        {
+          "id": "ko7",
+          "name": "зарядная станция",
+          "count": 1
+        },
+        {
+          "id": "1xr",
+          "name": "зарядное устройство",
+          "count": 581
+        },
+        {
+          "id": "kqc",
+          "name": "защитное стекло",
+          "count": 9
+        },
+        {
+          "id": "22i6",
+          "name": "инструкция пользователя",
+          "count": 3
+        },
+        {
+          "id": "1xu",
+          "name": "кабель HDMI",
+          "count": 1
+        },
+        {
+          "id": "1xw",
+          "name": "кабель Lightning",
+          "count": 86
+        },
+        {
+          "id": "2mr",
+          "name": "кабель USB",
+          "count": 35
+        },
+        {
+          "id": "3e0",
+          "name": "кабель USB",
+          "count": 6
+        },
+        {
+          "id": "3jej",
+          "name": "кабель USB-C",
+          "count": 1130
+        },
+        {
+          "id": "9vbm",
+          "name": "кабель USB‑C/Lightning",
+          "count": 3
+        },
+        {
+          "id": "8uv9",
+          "name": "кабель USB‑C для зарядки (1 м)",
+          "count": 12
+        },
+        {
+          "id": "1xv",
+          "name": "кабель micro USB",
+          "count": 25
+        },
+        {
+          "id": "1xy",
+          "name": "клавиатура",
+          "count": 45
+        },
+        {
+          "id": "p9e9",
+          "name": "мягкий наконечник для стилуса",
+          "count": 1
+        },
+        {
+          "id": "3ne",
+          "name": "наушники",
+          "count": 1
+        },
+        {
+          "id": "7bg",
+          "name": "отвертка",
+          "count": 2
+        },
+        {
+          "id": "4dj5",
+          "name": "переходник 3.5 Jack – USB-C",
+          "count": 17
+        },
+        {
+          "id": "hpin",
+          "name": "переходник USB-C – USB-A",
+          "count": 2
+        },
+        {
+          "id": "3e1",
+          "name": "ремешок",
+          "count": 2
+        },
+        {
+          "id": "49da",
+          "name": "салфетка для протирки экрана",
+          "count": 34
+        },
+        {
+          "id": "clw",
+          "name": "сетевое зарядное устройство",
+          "count": 3
+        },
+        {
+          "id": "22hz",
+          "name": "скрепка для извлечения сим карты",
+          "count": 26
+        },
+        {
+          "id": "1xx",
+          "name": "скрепка для извлечения слота SIM-карты / карты памяти",
+          "count": 368
+        },
+        {
+          "id": "1xs",
+          "name": "стилус",
+          "count": 127
+        },
+        {
+          "id": "p9ea",
+          "name": "съемник для наконечников",
+          "count": 1
+        },
+        {
+          "id": "1xt",
+          "name": "чехол",
+          "count": 80
+        }
+      ],
+      "selected": [],
+      "default": []
+    },
+    {
+      "group": "Дополнительная информация",
+      "id": "f[59w]",
+      "name": "Биометрическая защита",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "cr",
+          "name": "нет",
+          "count": 25
+        },
+        {
+          "id": "2qb",
+          "name": "распознавание лица",
+          "count": 575
+        },
+        {
+          "id": "1n0q",
+          "name": "сканер отпечатков пальцев",
+          "count": 462
+        }
+      ],
+      "selected": [],
+      "default": []
+    },
+    {
+      "group": "Дополнительная информация",
+      "id": "f[4c]",
+      "name": "Особенности, дополнительно",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "21t8",
+          "name": "3 микрофона",
+          "count": 26
+        },
+        {
+          "id": "22ky",
+          "name": "4 динамика",
+          "count": 64
+        },
+        {
+          "id": "8uva",
+          "name": "5 микрофонов",
+          "count": 12
+        },
+        {
+          "id": "p5kp",
+          "name": "120 Гц дискретизация касания",
+          "count": 2
+        },
+        {
+          "id": "p7ji",
+          "name": "180 Гц дискретизация касания",
+          "count": 5
+        },
+        {
+          "id": "p5l6",
+          "name": "240 Гц дискретизация касания",
+          "count": 3
+        },
+        {
+          "id": "p5y2",
+          "name": "360 Гц дискретизация касания",
+          "count": 10
+        },
+        {
+          "id": "p9ef",
+          "name": "16384 уровня нажатия",
+          "count": 1
+        },
+        {
+          "id": "1of3",
+          "name": "Apple Pay",
+          "count": 100
+        },
+        {
+          "id": "3mc",
+          "name": "DLNA",
+          "count": 3
+        },
+        {
+          "id": "1ul2",
+          "name": "Dolby Atmos",
+          "count": 42
+        },
+        {
+          "id": "2e4",
+          "name": "FM-тюнер",
+          "count": 1
+        },
+        {
+          "id": "4zei",
+          "name": "Galileo",
+          "count": 3
+        },
+        {
+          "id": "p5o7",
+          "name": "HyperEngine 2.0",
+          "count": 1
+        },
+        {
+          "id": "2qc",
+          "name": "Miracast",
+          "count": 3
+        },
+        {
+          "id": "2qi",
+          "name": "Wi-Fi Direct",
+          "count": 3
+        },
+        {
+          "id": "64qm",
+          "name": "sRGB 95%",
+          "count": 1
+        },
+        {
+          "id": "dl0v",
+          "name": "ЗУ в комплекте может иметь нестандартную вилку",
+          "count": 5
+        },
+        {
+          "id": "18ue",
+          "name": "антибликовое покрытие дисплея",
+          "count": 1
+        },
+        {
+          "id": "e2fs",
+          "name": "аудиокодек DTS:X Ultra",
+          "count": 2
+        },
+        {
+          "id": "e2fr",
+          "name": "аудиоэффекты HONOR Histen",
+          "count": 18
+        },
+        {
+          "id": "d8ed",
+          "name": "аудиоэффекты HUAWEI Histen",
+          "count": 7
+        },
+        {
+          "id": "elz6",
+          "name": "аудиоэффекты HUAWEI Histen 6.0",
+          "count": 4
+        },
+        {
+          "id": "eyip",
+          "name": "аудиоэффекты HUAWEI Histen 6.1",
+          "count": 1
+        },
+        {
+          "id": "9kwq",
+          "name": "аудиоэффекты HUAWEI Histen 7.0",
+          "count": 10
+        },
+        {
+          "id": "dxhz",
+          "name": "аудиоэффекты HUAWEI Histen 8.0",
+          "count": 7
+        },
+        {
+          "id": "g4qr",
+          "name": "аудиоэффекты HUAWEI Histen 8.1",
+          "count": 4
+        },
+        {
+          "id": "ie3e",
+          "name": "аудиоэффекты HUAWEI Histen 9.0",
+          "count": 32
+        },
+        {
+          "id": "2dxm",
+          "name": "беспроводная зарядка",
+          "count": 3
+        },
+        {
+          "id": "p5km",
+          "name": "быстрая зарядка 18 В",
+          "count": 2
+        },
+        {
+          "id": "qc96",
+          "name": "быстрая зарядка 25 Вт",
+          "count": 8
+        },
+        {
+          "id": "p5io",
+          "name": "быстрая зарядка 30 В",
+          "count": 1
+        },
+        {
+          "id": "p7kj",
+          "name": "виртуальное расширение ОЗУ - 4 Гб",
+          "count": 1
+        },
+        {
+          "id": "p9j1",
+          "name": "виртуальное расширение ОЗУ - 6 Гб",
+          "count": 1
+        },
+        {
+          "id": "p7nn",
+          "name": "виртуальное расширение ОЗУ - 8 Гб",
+          "count": 7
+        },
+        {
+          "id": "p5no",
+          "name": "виртуальное расширение ОЗУ - 10 Гб",
+          "count": 1
+        },
+        {
+          "id": "p5hq",
+          "name": "виртуальное расширение ОЗУ - 12 Гб",
+          "count": 7
+        },
+        {
+          "id": "nlp5",
+          "name": "виртуальный ассистент Folax",
+          "count": 5
+        },
+        {
+          "id": "opg",
+          "name": "влагозащищенный корпус",
+          "count": 5
+        },
+        {
+          "id": "22kb",
+          "name": "влаго и пыле защищенный корпус",
+          "count": 6
+        },
+        {
+          "id": "22j0",
+          "name": "возможность беспроводной зарядки",
+          "count": 1
+        },
+        {
+          "id": "sc7",
+          "name": "встроенная подставка",
+          "count": 1
+        },
+        {
+          "id": "n4sk",
+          "name": "гибридный слот для SIM-карт и карты памяти",
+          "count": 2
+        },
+        {
+          "id": "bugw",
+          "name": "голосовой помощник Google Ассистент",
+          "count": 2
+        },
+        {
+          "id": "1558",
+          "name": "голосовой помощник Siri",
+          "count": 368
+        },
+        {
+          "id": "h1al",
+          "name": "два разъема USB Type-C",
+          "count": 5
+        },
+        {
+          "id": "dsai",
+          "name": "двойная фронтальная камера 12+12 Мп",
+          "count": 3
+        },
+        {
+          "id": "akwt",
+          "name": "двунаправленные микрофоны",
+          "count": 2
+        },
+        {
+          "id": "22iz",
+          "name": "двухдиапазонный адаптер Wi-Fi",
+          "count": 24
+        },
+        {
+          "id": "5oj",
+          "name": "детский режим",
+          "count": 7
+        },
+        {
+          "id": "esou",
+          "name": "динамик Dolby Audio",
+          "count": 2
+        },
+        {
+          "id": "691y",
+          "name": "динамики AKG",
+          "count": 97
+        },
+        {
+          "id": "81zs",
+          "name": "динамики JBL",
+          "count": 10
+        },
+        {
+          "id": "c7g8",
+          "name": "динамики от AKG",
+          "count": 3
+        },
+        {
+          "id": "3vg",
+          "name": "закаленное стекло",
+          "count": 4
+        },
+        {
+          "id": "jjle",
+          "name": "защита от воды и пыли IP53",
+          "count": 10
+        },
+        {
+          "id": "6qk2",
+          "name": "защита от воды и пыли IP68",
+          "count": 136
+        },
+        {
+          "id": "hpim",
+          "name": "защита от воды и пыли IP68/69K",
+          "count": 5
+        },
+        {
+          "id": "2oj",
+          "name": "защита от пыли",
+          "count": 3
+        },
+        {
+          "id": "1go0",
+          "name": "звук Hi-Res Audio",
+          "count": 16
+        },
+        {
+          "id": "elz7",
+          "name": "звук от Harman Kardon",
+          "count": 16
+        },
+        {
+          "id": "qf8d",
+          "name": "интерфейс USB Type-C 3.2 Gen 1",
+          "count": 3
+        },
+        {
+          "id": "22jj",
+          "name": "инфракрасный порт",
+          "count": 3
+        },
+        {
+          "id": "hlqo",
+          "name": "матовый дисплей",
+          "count": 20
+        },
+        {
+          "id": "22jk",
+          "name": "мультитач - до 10 точек касания",
+          "count": 1
+        },
+        {
+          "id": "mco6",
+          "name": "на базе Samsung Tab A9+ 4/64 WiFi",
+          "count": 1
+        },
+        {
+          "id": "5q07",
+          "name": "оболочка One UI",
+          "count": 26
+        },
+        {
+          "id": "22kw",
+          "name": "олеофобное покрытие дисплея",
+          "count": 46
+        },
+        {
+          "id": "k7jk",
+          "name": "платформа искусственного интеллекта Apple Intelligence",
+          "count": 114
+        },
+        {
+          "id": "evsl",
+          "name": "поддержка Apple Pencil (1‑го поколения)",
+          "count": 37
+        },
+        {
+          "id": "ea5q",
+          "name": "поддержка Apple Pencil (2‑го поколения)",
+          "count": 52
+        },
+        {
+          "id": "ellu",
+          "name": "поддержка Dolby Atmos",
+          "count": 245
+        },
+        {
+          "id": "7ycx",
+          "name": "поддержка Dolby Vision",
+          "count": 112
+        },
+        {
+          "id": "4g53",
+          "name": "поддержка HDR10",
+          "count": 68
+        },
+        {
+          "id": "2e5",
+          "name": "поддержка NFC",
+          "count": 15
+        },
+        {
+          "id": "22ip",
+          "name": "поддержка OTG",
+          "count": 10
+        },
+        {
+          "id": "p7zk",
+          "name": "поддержка SmartThings",
+          "count": 8
+        },
+        {
+          "id": "ejv6",
+          "name": "поддержка активного стилуса",
+          "count": 5
+        },
+        {
+          "id": "a6cp",
+          "name": "поддержка клавиатуры Smart Keyboard",
+          "count": 12
+        },
+        {
+          "id": "p708",
+          "name": "поддержка стилуса Apple Pencil (USB‑C)",
+          "count": 42
+        },
+        {
+          "id": "i4jg",
+          "name": "поддержка стилуса Apple Pencil Pro",
+          "count": 81
+        },
+        {
+          "id": "22kx",
+          "name": "полностью ламинированный дисплей",
+          "count": 23
+        },
+        {
+          "id": "22k7",
+          "name": "попеременная работа ядер (4/4)",
+          "count": 5
+        },
+        {
+          "id": "p9ed",
+          "name": "преобразование рукописного ввода в текст",
+          "count": 1
+        },
+        {
+          "id": "kdba",
+          "name": "разъем USB 3.2 Gen1 Type-A",
+          "count": 1
+        },
+        {
+          "id": "au13",
+          "name": "разъем micro HDMI",
+          "count": 4
+        },
+        {
+          "id": "6d97",
+          "name": "реверсивная зарядка",
+          "count": 51
+        },
+        {
+          "id": "2e6",
+          "name": "родительский контроль",
+          "count": 5
+        },
+        {
+          "id": "d506",
+          "name": "сертификат Hi-Res Audio",
+          "count": 10
+        },
+        {
+          "id": "akwu",
+          "name": "сертификат TÜV Rheinland Low Blue Light",
+          "count": 2
+        },
+        {
+          "id": "pq4m",
+          "name": "синхронизация звука и текста",
+          "count": 1
+        },
+        {
+          "id": "atdi",
+          "name": "система безопасности Samsung Knox",
+          "count": 1
+        },
+        {
+          "id": "22lb",
+          "name": "система навигации Beidou",
+          "count": 3
+        },
+        {
+          "id": "1n0q",
+          "name": "сканер отпечатков пальцев",
+          "count": 3
+        },
+        {
+          "id": "kdbb",
+          "name": "стекло Corning Gorilla Glass",
+          "count": 1
+        },
+        {
+          "id": "3no4",
+          "name": "стекло Corning Gorilla Glass 3",
+          "count": 33
+        },
+        {
+          "id": "ax05",
+          "name": "стекло Corning Gorilla Glass 5",
+          "count": 3
+        },
+        {
+          "id": "i4mx",
+          "name": "стекло дисплея с нанотекстурой",
+          "count": 24
+        },
+        {
+          "id": "3gx0",
+          "name": "степень защиты IP54",
+          "count": 1
+        },
+        {
+          "id": "1xx9",
+          "name": "стерео динамики",
+          "count": 7
+        },
+        {
+          "id": "p9ee",
+          "name": "стилус  X3 Pro Pencil 2",
+          "count": 1
+        },
+        {
+          "id": "nptx",
+          "name": "технология HONOR Spatial Audio",
+          "count": 6
+        },
+        {
+          "id": "oxt0",
+          "name": "технология NearLink",
+          "count": 4
+        },
+        {
+          "id": "hvnh",
+          "name": "технология ProMotion",
+          "count": 42
+        },
+        {
+          "id": "bty4",
+          "name": "технология Sunlight Display",
+          "count": 2
+        },
+        {
+          "id": "p7jh",
+          "name": "технология T-Colour 3.0",
+          "count": 1
+        },
+        {
+          "id": "p5lr",
+          "name": "технология T-Colour 6.0",
+          "count": 3
+        },
+        {
+          "id": "ozon",
+          "name": "технология Wet Touch",
+          "count": 11
+        },
+        {
+          "id": "a6co",
+          "name": "технология iBeacon",
+          "count": 212
+        },
+        {
+          "id": "22j2",
+          "name": "трансляция видео по интерфейсу Miracast",
+          "count": 3
+        },
+        {
+          "id": "p9eb",
+          "name": "три цветовых режима",
+          "count": 1
+        },
+        {
+          "id": "22iy",
+          "name": "ударопрочный",
+          "count": 3
+        },
+        {
+          "id": "2rc",
+          "name": "управление жестами",
+          "count": 1
+        },
+        {
+          "id": "hhlk",
+          "name": "функция проводной обратной зарядки",
+          "count": 5
+        },
+        {
+          "id": "22iw",
+          "name": "функция пульта ДУ",
+          "count": 5
+        },
+        {
+          "id": "155r",
+          "name": "функция точного определения местоположения iBeacon",
+          "count": 23
+        },
+        {
+          "id": "22ja",
+          "name": "экран с олеофобным покрытием",
+          "count": 23
+        },
+        {
+          "id": "p5in",
+          "name": "яркость 280 кд/м²",
+          "count": 1
+        },
+        {
+          "id": "p5fd",
+          "name": "яркость 300 кд/м²",
+          "count": 1
+        },
+        {
+          "id": "ppqb",
+          "name": "яркость 340 кд/м²",
+          "count": 1
+        },
+        {
+          "id": "p5kq",
+          "name": "яркость 350 кд/м²",
+          "count": 9
+        },
+        {
+          "id": "p9ec",
+          "name": "яркость 400 кд/м²",
+          "count": 4
+        },
+        {
+          "id": "pcjb",
+          "name": "яркость 420 кд/м²",
+          "count": 2
+        },
+        {
+          "id": "pba8",
+          "name": "яркость 450 кд/м²",
+          "count": 4
+        },
+        {
+          "id": "gmc7",
+          "name": "яркость 500 кд/м²",
+          "count": 39
+        },
+        {
+          "id": "p5y3",
+          "name": "яркость 600 кд/м²",
+          "count": 46
+        },
+        {
+          "id": "pvl4",
+          "name": "яркость 900 кд/м²",
+          "count": 2
+        },
+        {
+          "id": "p73d",
+          "name": "яркость 1600 кд/м²",
+          "count": 54
+        }
+      ],
+      "selected": [],
+      "default": []
+    },
+    {
+      "group": "Габариты и вес",
+      "id": "fr[8o]",
+      "name": "Вес (г)",
+      "type": "range-radio",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "2d353497309ef66790a23b3cbd3b0e0c",
+          "name": "Менее 299",
+          "count": 38
+        },
+        {
+          "id": "f249bd3585d6f671323825521b792874",
+          "name": "299.01 - 399",
+          "count": 83
+        },
+        {
+          "id": "787da7969a04fc3d43d54fb0cc087b8e",
+          "name": "399.01 - 499",
+          "count": 432
+        },
+        {
+          "id": "d5b04c05051ec557e944e68659a62dd5",
+          "name": "499.01 - 599",
+          "count": 282
+        },
+        {
+          "id": "b1d0b4749ca870dda804429de0846ab7",
+          "name": "599.01 и более",
+          "count": 202
+        }
+      ],
+      "selected": [],
+      "range": {
+        "min": 236,
+        "max": 1060,
+        "min_selected": null,
+        "max_selected": null
+      }
+    },
+    {
+      "group": "Габариты и вес",
+      "id": "fr[8g]",
+      "name": "Ширина (мм)",
+      "type": "range-radio",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "a44477a7e0d9d2259370224106404e10",
+          "name": "Менее 139.9",
+          "count": 105
+        },
+        {
+          "id": "f6c8eebdece42ff41824c6ea0b4957dc",
+          "name": "139.91 - 179.9",
+          "count": 161
+        },
+        {
+          "id": "52cfd3672ca8c641775b7236713c33f6",
+          "name": "179.91 - 219.9",
+          "count": 108
+        },
+        {
+          "id": "2ce8cefba094b976e370aab6e02f5499",
+          "name": "219.91 - 259.9",
+          "count": 371
+        },
+        {
+          "id": "5276483af4603556f96901c20808124e",
+          "name": "259.91 - 299.9",
+          "count": 217
+        },
+        {
+          "id": "ed4ff84877976d2ecfe70d1d1676b4ea",
+          "name": "299.91 и более",
+          "count": 67
+        }
+      ],
+      "selected": [],
+      "range": {
+        "min": 100,
+        "max": 327.8,
+        "min_selected": null,
+        "max_selected": null
+      }
+    },
+    {
+      "group": "Габариты и вес",
+      "id": "fr[8i]",
+      "name": "Высота (мм)",
+      "type": "range-radio",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "afbf30e702c2abb68051de971e3f39c5",
+          "name": "Менее 159.9",
+          "count": 83
+        },
+        {
+          "id": "9642a2102358dbdd44774ae39cc84458",
+          "name": "159.91 - 199.9",
+          "count": 542
+        },
+        {
+          "id": "ce09b9c755fd54d8299549f1211ca167",
+          "name": "199.91 - 239.9",
+          "count": 158
+        },
+        {
+          "id": "2b01adcffbac820e16f868e1ab572574",
+          "name": "239.91 и более",
+          "count": 246
+        }
+      ],
+      "selected": [],
+      "range": {
+        "min": 108,
+        "max": 281.6,
+        "min_selected": null,
+        "max_selected": null
+      }
+    },
+    {
+      "group": "Габариты и вес",
+      "id": "fr[14d]",
+      "name": "Толщина (мм)",
+      "type": "range-radio",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "6bf88992fb81897ed644041a1f9cd30e",
+          "name": "Менее 5.9",
+          "count": 190
+        },
+        {
+          "id": "acf2a97d24e1f36b8c5a459ed955b528",
+          "name": "5.91 - 6.9",
+          "count": 390
+        },
+        {
+          "id": "b566f9dd24bfb6020f1611e286e3a4a8",
+          "name": "6.91 - 7.9",
+          "count": 262
+        },
+        {
+          "id": "507090be4b0cce279a337c98c78356d4",
+          "name": "7.91 - 8.9",
+          "count": 105
+        },
+        {
+          "id": "bf5ca0138538f78144fef509e6e2c8d6",
+          "name": "8.91 - 9.9",
+          "count": 32
+        },
+        {
+          "id": "1119c9a367d155a07931082426dffb42",
+          "name": "9.91 и более",
+          "count": 50
+        }
+      ],
+      "selected": [],
+      "range": {
+        "min": 5.1,
+        "max": 79,
+        "min_selected": null,
+        "max_selected": null
+      }
+    }
+  ]
+}

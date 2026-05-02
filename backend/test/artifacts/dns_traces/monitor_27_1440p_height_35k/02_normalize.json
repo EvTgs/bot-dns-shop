@@ -1,0 +1,32 @@
+{
+  "stage": "normalize",
+  "valid": true,
+  "reason": null,
+  "ai_input": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Answer in Russian. The goal is to quickly normalize the query. Return only one line in format: [ProductType,price{min,max},brand{brand},wishes{comma_separated}]. No markdown, no explanations, no second line. Use English identifiers for ProductType, brand and wishes. If the query has a price range, expand both bounds by 5 percent. If the query says 'до X', use 50 percent of X as min and 105 percent of X as max. If the query says 'от X', use 95 percent of X as min and 150 percent of X as max. If the query has one exact target price, use +-5 percent. If price is absent, return price{0,0}. If brand is absent, return brand{}. If wishes are absent, return wishes{}."
+      },
+      {
+        "role": "user",
+        "content": "{\"task\": \"normalize_query\", \"question\": \"Найди хороший монитор для программиста 27 дюймов, 1440p, IPS, с регулировкой высоты, до 35000 рублей\"}"
+      }
+    ]
+  },
+  "ai_output_raw": "[Monitor,price{17500,36750},brand{},wishes{27inch,1440p,IPS,heightadjustable}]",
+  "parsed": {
+    "product_type": "monitor",
+    "query": "монитор",
+    "price_min": 17500,
+    "price_max": 36750,
+    "brand": "",
+    "wishes": [
+      "27_inch",
+      "1440p",
+      "ips",
+      "height_adjustable"
+    ],
+    "soft_wishes": []
+  }
+}

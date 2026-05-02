@@ -1,0 +1,54 @@
+{
+  "stage": "filters_ai",
+  "valid": true,
+  "reason": null,
+  "skipped": true,
+  "reason_detail": "preselected_hard_wishes_covered",
+  "preselected_filters": [
+    {
+      "id": "f[9x]",
+      "name": "Регулировка по высоте",
+      "values": [
+        {
+          "id": "21",
+          "name": "есть"
+        }
+      ]
+    },
+    {
+      "id": "f[2v]",
+      "name": "Тип матрицы",
+      "values": [
+        {
+          "id": "1uq",
+          "name": "IPS"
+        }
+      ]
+    },
+    {
+      "id": "f[1v]",
+      "name": "Максимальное разрешение",
+      "values": [
+        {
+          "id": "76",
+          "name": "2560x1440"
+        }
+      ]
+    },
+    {
+      "id": "fr[1q]",
+      "name": "Диагональ экрана (дюйм)",
+      "values": [
+        {
+          "id": "07b55b2fbb4be2eba152cc163aa6aea6",
+          "name": "26 - 29.99"
+        }
+      ]
+    },
+    {
+      "id": "price",
+      "min": 17500,
+      "max": 36750
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "stage": "parser",
+  "valid": true,
+  "reason": null,
+  "mode": "httpx",
+  "requested_url": "https://www.dns-shop.ru/search/?q=%D0%BC%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80&category=17a8943716404e77&price=17500-36750&f%5B9x%5D=21&f%5B2v%5D=1uq&f%5B1v%5D=76&fr%5B1q%5D=07b55b2fbb4be2eba152cc163aa6aea6",
+  "resolved_url": "https://www.dns-shop.ru/search/?q=%D0%BC%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80&category=17a8943716404e77&price=17500-36750&f%5B9x%5D=21&f%5B2v%5D=1uq&f%5B1v%5D=76&fr%5B1q%5D=07b55b2fbb4be2eba152cc163aa6aea6",
+  "products_count": 100,
+  "sample": [
+    {
+      "name": "27\" Монитор LG 27GS75Q-B черный",
+      "price": 23699,
+      "url": "https://www.dns-shop.ru/product/de14b564f4b9d582/27-monitor-lg-27gs75q-b-cernyj/",
+      "code": "5619192"
+    },
+    {
+      "name": "27\" Монитор MSI MAG 274QRFW X32 белый",
+      "price": 25999,
+      "url": "https://www.dns-shop.ru/product/0928223a23dfd582/27-monitor-msi-mag-274qrfw-x32-belyj/",
+      "code": "5626543"
+    },
+    {
+      "name": "31.5\" Монитор ARDOR GAMING SUPERNOVA PRO AQ32H1UE черный",
+      "price": 25999,
+      "url": "https://www.dns-shop.ru/product/65da2dbc7ba0264e/315-monitor-ardor-gaming-supernova-pro-aq32h1ue-cernyj/",
+      "code": "9032358"
+    },
+    {
+      "name": "27\" Монитор LG 27BA65QB-B черный",
+      "price": 31999,
+      "url": "https://www.dns-shop.ru/product/3cf61837a565d9cb/27-monitor-lg-27ba65qb-b-cernyj/",
+      "code": "5605705"
+    },
+    {
+      "name": "27\" Монитор Samsung ViewFinity S6 S61F S27F610EAI черный",
+      "price": 18699,
+      "url": "https://www.dns-shop.ru/product/478c2013beafd9cb/27-monitor-samsung-viewfinity-s6-s61f-s27f610eai-cernyj/",
+      "code": "5611236"
+    }
+  ]
+}

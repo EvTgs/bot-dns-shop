@@ -1,0 +1,5061 @@
+{
+  "created_at": "2026-05-01T22:23:11.115272",
+  "project": "DNSpars_v1_tgbot",
+  "stage": "pre_migration_baseline",
+  "rows": [
+    {
+      "query": "телефон самсунг, 2024 года выпуска, с амолед экраном",
+      "status": "ok",
+      "resolved_url": "https://www.dns-shop.ru/search/?q=%D1%81%D0%BC%D0%B0%D1%80%D1%82%D1%84%D0%BE%D0%BD&category=17a8a01d16404e77&f%5B25s%5D=2ir-ifen-50p6-6ydt-hru7-mno4-ptb5-mpyg-1ur-dyd-ogj0&f%5B48j%5D=h9dq&brand=samsung",
+      "products_count": 5,
+      "answer_preview": "Лидер анализа\nSamsung Galaxy A35 128 ГБ, 29 999 руб. Полностью соответствует всем жёстким требованиям. Технически оправданный выбор благодаря процессору Samsung Exynos 1380, который обеспечивает уверенную производительность в среднем сегменте. Сбалансированное оснащение без переплаты за флагманские функции.\n\nАльтернатива\nЕсли приоритет — максимальная экономия, целесообразно рассмотреть Samsung Galaxy A16 4G 128 ГБ за 15 999 руб. Это самый доступный вариант в выборке, соответствующий фильтрам выдачи. Однако уступает лидеру по производительности и объёму памяти.\n\nКритическое резюме\nSamsung Galax",
+      "normalized_request": {
+        "product_type": "smartphone",
+        "query": "смартфон",
+        "price_min": null,
+        "price_max": null,
+        "brand": "samsung",
+        "source_hard_wishes_count": 1,
+        "constraints": [
+          {
+            "key": "year",
+            "op": "==",
+            "value": "2024",
+            "unit": "",
+            "source_text": "2024 года выпуска"
+          },
+          {
+            "key": "matrix_type",
+            "op": "==",
+            "value": "amoled",
+            "unit": "",
+            "source_text": "с амолед экраном"
+          }
+        ],
+        "wishes": [
+          "2024_year",
+          "matrix_type_amoled"
+        ],
+        "soft_wishes": []
+      },
+      "filters_map_summary": {
+        "count": 137,
+        "filters": [
+          {
+            "id": "shop-catalog",
+            "name": "Магазины",
+            "type": "shops",
+            "values_count": 9
+          },
+          {
+            "id": "stock",
+            "name": "Наличие",
+            "type": "checkbox",
+            "values_count": 5
+          },
+          {
+            "id": "price",
+            "name": "Цена",
+            "type": "range-checkbox",
+            "values_count": 6
+          },
+          {
+            "id": "action",
+            "name": "Предложения брендов",
+            "type": "checkbox",
+            "values_count": 3
+          },
+          {
+            "id": "created-in-dns",
+            "name": "Создано в DNS",
+            "type": "toggle",
+            "values_count": 0
+          },
+          {
+            "id": "brand",
+            "name": "Бренд",
+            "type": "checkbox",
+            "values_count": 44
+          },
+          {
+            "id": "warranty",
+            "name": "Гарантия",
+            "type": "checkbox",
+            "values_count": 4
+          },
+          {
+            "id": "rating",
+            "name": "Рейтинг 4 и выше",
+            "type": "toggle",
+            "values_count": 0
+          },
+          {
+            "id": "hit",
+            "name": "Хит продаж",
+            "type": "toggle",
+            "values_count": 0
+          },
+          {
+            "id": "review",
+            "name": "Есть обзор",
+            "type": "toggle",
+            "values_count": 0
+          },
+          {
+            "id": "rely",
+            "name": "Надёжные модели",
+            "type": "toggle",
+            "values_count": 0
+          },
+          {
+            "id": "f[48j]",
+            "name": "Год релиза",
+            "type": "checkbox",
+            "values_count": 9
+          },
+          {
+            "id": "f[6h]",
+            "name": "Модель",
+            "type": "checkbox",
+            "values_count": 706
+          },
+          {
+            "id": "f[223]",
+            "name": "Цвет задней панели",
+            "type": "checkbox",
+            "values_count": 21
+          },
+          {
+            "id": "f[296]",
+            "name": "Цвет, заявленный производителем",
+            "type": "checkbox",
+            "values_count": 661
+          },
+          {
+            "id": "f[4d7]",
+            "name": "Цвет граней",
+            "type": "checkbox",
+            "values_count": 18
+          },
+          {
+            "id": "f[2dw]",
+            "name": "Формат SIM-карт",
+            "type": "checkbox",
+            "values_count": 4
+          },
+          {
+            "id": "f[9b]",
+            "name": "Поддержка стандартов сотовой связи",
+            "type": "checkbox",
+            "values_count": 4
+          },
+          {
+            "id": "f[9f1]",
+            "name": "Количество eSIM",
+            "type": "checkbox",
+            "values_count": 3
+          },
+          {
+            "id": "f[4un]",
+            "name": "Количество физических SIM-карт",
+            "type": "checkbox",
+            "values_count": 3
+          },
+          {
+            "id": "f[84d]",
+            "name": "Диапазоны частот 5G",
+            "type": "checkbox",
+            "values_count": 29
+          },
+          {
+            "id": "f[6qg]",
+            "name": "Поддержка 4G LTE-Advanced",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[6qf]",
+            "name": "Поддержка VoLTE",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[4kj]",
+            "name": "Диапазоны частот 4G (LTE)",
+            "type": "checkbox",
+            "values_count": 36
+          },
+          {
+            "id": "f[6qh]",
+            "name": "Категории скорости LTE-Advanced",
+            "type": "checkbox",
+            "values_count": 15
+          },
+          {
+            "id": "f[265]",
+            "name": "Режим работы нескольких SIM-карт",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[2he]",
+            "name": "Диапазоны частот 3G",
+            "type": "checkbox",
+            "values_count": 7
+          },
+          {
+            "id": "f[2hg]",
+            "name": "Диапазоны частот 2G",
+            "type": "checkbox",
+            "values_count": 4
+          },
+          {
+            "id": "fr[1q]",
+            "name": "Диагональ экрана (дюйм)",
+            "type": "range-radio",
+            "values_count": 6
+          },
+          {
+            "id": "f[2ft]",
+            "name": "Частота обновления экрана (Гц)",
+            "type": "checkbox",
+            "values_count": 6
+          },
+          {
+            "id": "f[1ge]",
+            "name": "Технология изготовления матрицы",
+            "type": "checkbox",
+            "values_count": 3
+          },
+          {
+            "id": "f[25s]",
+            "name": "Тип матрицы (подробно)",
+            "type": "checkbox",
+            "values_count": 21
+          },
+          {
+            "id": "f[2d]",
+            "name": "Разрешение экрана",
+            "type": "checkbox",
+            "values_count": 139
+          },
+          {
+            "id": "fr[4jy]",
+            "name": "Плотность пикселей (ppi)",
+            "type": "range-radio",
+            "values_count": 6
+          },
+          {
+            "id": "f[1r]",
+            "name": "Яркость (Кд/м²)",
+            "type": "checkbox",
+            "values_count": 85
+          },
+          {
+            "id": "f[25t]",
+            "name": "Количество цветов экрана",
+            "type": "checkbox",
+            "values_count": 7
+          },
+          {
+            "id": "f[9f4]",
+            "name": "Частота дискретизации сенсора (Гц)",
+            "type": "checkbox",
+            "values_count": 18
+          },
+          {
+            "id": "f[1x]",
+            "name": "Соотношение сторон",
+            "type": "checkbox",
+            "values_count": 42
+          },
+          {
+            "id": "f[9f5]",
+            "name": "Диагональ дополнительного экрана (дюйм)",
+            "type": "checkbox",
+            "values_count": 23
+          },
+          {
+            "id": "f[9f6]",
+            "name": "Разрешение дополнительного экрана",
+            "type": "checkbox",
+            "values_count": 28
+          },
+          {
+            "id": "f[2ex]",
+            "name": "Степень защиты IP",
+            "type": "checkbox",
+            "values_count": 18
+          },
+          {
+            "id": "f[262]",
+            "name": "Тип корпуса",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[4d1]",
+            "name": "Изогнутый экран",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[2ey]",
+            "name": "Укрепленный корпус",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[9j4]",
+            "name": "Материал граней",
+            "type": "checkbox",
+            "values_count": 6
+          },
+          {
+            "id": "f[9j3]",
+            "name": "Материал задней панели",
+            "type": "checkbox",
+            "values_count": 8
+          },
+          {
+            "id": "f[5n5]",
+            "name": "Безрамочный экран",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[nt]",
+            "name": "Защитное покрытие экрана",
+            "type": "checkbox",
+            "values_count": 49
+          },
+          {
+            "id": "f[9j9]",
+            "name": "Тип выреза на экране",
+            "type": "checkbox",
+            "values_count": 4
+          },
+          {
+            "id": "f[al]",
+            "name": "Операционная система",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[r]",
+            "name": "Модель процессора",
+            "type": "checkbox",
+            "values_count": 204
+          },
+          {
+            "id": "f[7bt]",
+            "name": "Игровой",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[1gg]",
+            "name": "Производитель процессора",
+            "type": "checkbox",
+            "values_count": 10
+          },
+          {
+            "id": "f[4f]",
+            "name": "Версия ОС",
+            "type": "checkbox",
+            "values_count": 34
+          },
+          {
+            "id": "f[5q]",
+            "name": "Техпроцесс (нм)",
+            "type": "checkbox",
+            "values_count": 12
+          },
+          {
+            "id": "f[4h]",
+            "name": "Количество ядер",
+            "type": "checkbox",
+            "values_count": 5
+          },
+          {
+            "id": "f[550]",
+            "name": "Поддержка Google Mobile Services",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "fr[260]",
+            "name": "Максимальная частота процессора (ГГц)",
+            "type": "range-radio",
+            "values_count": 6
+          },
+          {
+            "id": "fr[9jh]",
+            "name": "Рейтинг AnTuTu",
+            "type": "range-radio",
+            "values_count": 5
+          },
+          {
+            "id": "f[4k]",
+            "name": "Графический ускоритель",
+            "type": "checkbox",
+            "values_count": 145
+          },
+          {
+            "id": "f[93u]",
+            "name": "Оболочка ОС",
+            "type": "checkbox",
+            "values_count": 131
+          },
+          {
+            "id": "f[4jr]",
+            "name": "Конфигурация процессора",
+            "type": "checkbox",
+            "values_count": 377
+          },
+          {
+            "id": "f[3u]",
+            "name": "Объем встроенной памяти (ГБ)",
+            "type": "checkbox",
+            "values_count": 9
+          },
+          {
+            "id": "f[44]",
+            "name": "Объем оперативной памяти (ГБ)",
+            "type": "checkbox",
+            "values_count": 9
+          },
+          {
+            "id": "f[4i]",
+            "name": "Слот для карты памяти",
+            "type": "checkbox",
+            "values_count": 3
+          },
+          {
+            "id": "f[968]",
+            "name": "Тип встроенной памяти",
+            "type": "checkbox",
+            "values_count": 12
+          },
+          {
+            "id": "f[1gi]",
+            "name": "Тип оперативной памяти",
+            "type": "checkbox",
+            "values_count": 8
+          },
+          {
+            "id": "f[45]",
+            "name": "Типы поддерживаемых карт памяти",
+            "type": "checkbox",
+            "values_count": 5
+          },
+          {
+            "id": "f[46]",
+            "name": "Максимальный объем карты памяти (ГБ)",
+            "type": "checkbox",
+            "values_count": 8
+          },
+          {
+            "id": "f[9ji]",
+            "name": "Виртуальное расширение ОЗУ (Б)",
+            "type": "checkbox",
+            "values_count": 16
+          },
+          {
+            "id": "f[5x1]",
+            "name": "Оптическая стабилизация",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[26h]",
+            "name": "Количество мегапикселей основной камеры (Мп)",
+            "type": "checkbox",
+            "values_count": 18
+          },
+          {
+            "id": "fr[7x0]",
+            "name": "Рейтинг DxOMark (основная камера)",
+            "type": "range-radio",
+            "values_count": 5
+          },
+          {
+            "id": "f[57w]",
+            "name": "Количество основных (тыловых) камер",
+            "type": "checkbox",
+            "values_count": 4
+          },
+          {
+            "id": "f[9js]",
+            "name": "Оптический зум (фото) (x)",
+            "type": "checkbox",
+            "values_count": 21
+          },
+          {
+            "id": "f[9jr]",
+            "name": "Тип модулей камеры",
+            "type": "checkbox",
+            "values_count": 15
+          },
+          {
+            "id": "f[25x]",
+            "name": "Автофокусировка основной камеры",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[7wz]",
+            "name": "Модель сенсора основной камеры",
+            "type": "checkbox",
+            "values_count": 225
+          },
+          {
+            "id": "fr[4p7]",
+            "name": "Апертура основной камеры",
+            "type": "range-radio",
+            "values_count": 6
+          },
+          {
+            "id": "f[5x2]",
+            "name": "Цифровой зум (фото) (x)",
+            "type": "checkbox",
+            "values_count": 20
+          },
+          {
+            "id": "f[2hc]",
+            "name": "Особенности и технологии тыловой оптики",
+            "type": "checkbox",
+            "values_count": 168
+          },
+          {
+            "id": "f[2hd]",
+            "name": "Режимы и функции фотосъемки",
+            "type": "checkbox",
+            "values_count": 339
+          },
+          {
+            "id": "f[25w]",
+            "name": "Разрешение снимков основной камеры",
+            "type": "checkbox",
+            "values_count": 133
+          },
+          {
+            "id": "f[4mu]",
+            "name": "Угол обзора объектива (градус)",
+            "type": "checkbox",
+            "values_count": 62
+          },
+          {
+            "id": "f[gv]",
+            "name": "Тип вспышки",
+            "type": "checkbox",
+            "values_count": 5
+          },
+          {
+            "id": "f[25y]",
+            "name": "Разрешение видео и частота кадров",
+            "type": "checkbox",
+            "values_count": 29
+          },
+          {
+            "id": "f[4m4]",
+            "name": "Формат видеосъемки",
+            "type": "checkbox",
+            "values_count": 5
+          },
+          {
+            "id": "f[5wy]",
+            "name": "Замедленная видеосъемка",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[5x0]",
+            "name": "Особенности и функции видеосъемки",
+            "type": "checkbox",
+            "values_count": 120
+          },
+          {
+            "id": "f[5wz]",
+            "name": "Зум (видео)",
+            "type": "checkbox",
+            "values_count": 22
+          },
+          {
+            "id": "f[6qe]",
+            "name": "Форматы воспроизведения видео",
+            "type": "checkbox",
+            "values_count": 46
+          },
+          {
+            "id": "f[3yi]",
+            "name": "Количество мегапикселей фронтальной камеры",
+            "type": "checkbox",
+            "values_count": 27
+          },
+          {
+            "id": "f[5bi]",
+            "name": "Автофокусировка",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[5wv]",
+            "name": "Разрешение видеосъемки",
+            "type": "checkbox",
+            "values_count": 18
+          },
+          {
+            "id": "f[2z]",
+            "name": "Встроенная вспышка",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[5wt]",
+            "name": "Апертура фронтальной камеры",
+            "type": "checkbox",
+            "values_count": 17
+          },
+          {
+            "id": "f[5ww]",
+            "name": "Особенности и технологии фронтальной оптики",
+            "type": "checkbox",
+            "values_count": 66
+          },
+          {
+            "id": "f[5wx]",
+            "name": "Режимы и функции съемки",
+            "type": "checkbox",
+            "values_count": 190
+          },
+          {
+            "id": "f[7x1]",
+            "name": "Модель сенсора фронтальной камеры",
+            "type": "checkbox",
+            "values_count": 97
+          },
+          {
+            "id": "f[5p1]",
+            "name": "Двойная фронтальная камера",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[9k2]",
+            "name": "Угол обзора фронтальной камеры (градус)",
+            "type": "checkbox",
+            "values_count": 53
+          },
+          {
+            "id": "f[5wu]",
+            "name": "Разрешение снимков фронтальной камеры",
+            "type": "checkbox",
+            "values_count": 119
+          },
+          {
+            "id": "f[7x2]",
+            "name": "Рейтинг DxOMark (селфи-камера)",
+            "type": "checkbox",
+            "values_count": 21
+          },
+          {
+            "id": "f[6qb]",
+            "name": "Стереодинамики",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[25z]",
+            "name": "FM радио",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[6qc]",
+            "name": "Поддержка кодеков Bluetooth",
+            "type": "checkbox",
+            "values_count": 18
+          },
+          {
+            "id": "f[42]",
+            "name": "Форматы аудиофайлов",
+            "type": "checkbox",
+            "values_count": 59
+          },
+          {
+            "id": "f[2dx]",
+            "name": "NFC",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[4jx]",
+            "name": "ИК-порт",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[9]",
+            "name": "Стандарт Wi-Fi",
+            "type": "checkbox",
+            "values_count": 4
+          },
+          {
+            "id": "f[9a]",
+            "name": "Версия Bluetooth",
+            "type": "checkbox",
+            "values_count": 11
+          },
+          {
+            "id": "f[26c]",
+            "name": "Системы навигации",
+            "type": "checkbox",
+            "values_count": 8
+          },
+          {
+            "id": "f[6qd]",
+            "name": "Прочие технологии передачи данных",
+            "type": "checkbox",
+            "values_count": 17
+          },
+          {
+            "id": "f[9c]",
+            "name": "Разъем для наушников",
+            "type": "checkbox",
+            "values_count": 3
+          },
+          {
+            "id": "f[25u]",
+            "name": "Интерфейс для зарядки",
+            "type": "checkbox",
+            "values_count": 3
+          },
+          {
+            "id": "f[4m]",
+            "name": "Поддержка OTG",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[4l]",
+            "name": "Датчики",
+            "type": "checkbox",
+            "values_count": 17
+          },
+          {
+            "id": "fr[4a]",
+            "name": "Емкость аккумулятора (мА*ч)",
+            "type": "range-radio",
+            "values_count": 6
+          },
+          {
+            "id": "f[4tj]",
+            "name": "Поддержка беспроводной зарядки",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[pz]",
+            "name": "Быстрая зарядка",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[bo]",
+            "name": "Тип аккумулятора",
+            "type": "checkbox",
+            "values_count": 3
+          },
+          {
+            "id": "f[9k3]",
+            "name": "Поддержка беспроводной реверсивной зарядки",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "fr[6u1]",
+            "name": "Выходная мощность ЗУ (Вт)",
+            "type": "range-radio",
+            "values_count": 5
+          },
+          {
+            "id": "f[4ry]",
+            "name": "Стандарты быстрой зарядки",
+            "type": "checkbox",
+            "values_count": 82
+          },
+          {
+            "id": "f[6s4]",
+            "name": "Напряжение питания ЗУ",
+            "type": "checkbox",
+            "values_count": 4
+          },
+          {
+            "id": "fr[anw]",
+            "name": "Макс. время работы при воспроизведении видео (ч)",
+            "type": "range-radio",
+            "values_count": 6
+          },
+          {
+            "id": "fr[anu]",
+            "name": "Макс. время работы в режиме ожидания (ч)",
+            "type": "range-radio",
+            "values_count": 6
+          },
+          {
+            "id": "fr[anv]",
+            "name": "Макс. время работы в режиме разговора (ч)",
+            "type": "range-radio",
+            "values_count": 6
+          },
+          {
+            "id": "fr[anx]",
+            "name": "Макс. время работы при прослушивании музыки (ч)",
+            "type": "range-radio",
+            "values_count": 4
+          },
+          {
+            "id": "f[59w]",
+            "name": "Биометрическая защита",
+            "type": "checkbox",
+            "values_count": 7
+          },
+          {
+            "id": "f[4c]",
+            "name": "Особенности, дополнительно",
+            "type": "checkbox",
+            "values_count": 224
+          },
+          {
+            "id": "f[4o]",
+            "name": "Комплектация",
+            "type": "checkbox",
+            "values_count": 22
+          },
+          {
+            "id": "f[5dk]",
+            "name": "Зарядное устройство в комплекте",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "fr[8i]",
+            "name": "Высота (мм)",
+            "type": "range-radio",
+            "values_count": 6
+          },
+          {
+            "id": "fr[261]",
+            "name": "Вес смартфона (г)",
+            "type": "range-radio",
+            "values_count": 6
+          },
+          {
+            "id": "fr[8g]",
+            "name": "Ширина (мм)",
+            "type": "range-radio",
+            "values_count": 6
+          },
+          {
+            "id": "fr[14d]",
+            "name": "Толщина (мм)",
+            "type": "range-radio",
+            "values_count": 6
+          }
+        ]
+      },
+      "comparison_summary_keys": [
+        "leader",
+        "price_leader",
+        "soft_wish_leaders",
+        "segment_leaders",
+        "budget_defined",
+        "competitors",
+        "all_candidates_rejected",
+        "coverage",
+        "coverage_has_gap",
+        "teacher_contract",
+        "scoring"
+      ],
+      "leader": {
+        "name": "6.6\" Смартфон Samsung Galaxy A35 128 ГБ синий",
+        "match_status": "exact",
+        "matched_hard_wishes": [
+          "2024_year",
+          "matrix_type_amoled"
+        ],
+        "missing_hard_wishes": []
+      }
+    },
+    {
+      "query": "смартфон 120 Гц 256 ГБ 12 ГБ 5G NFC IP68",
+      "status": "ok",
+      "resolved_url": "https://www.dns-shop.ru/search/?q=%D1%81%D0%BC%D0%B0%D1%80%D1%82%D1%84%D0%BE%D0%BD&category=17a8a01d16404e77&f%5B2dx%5D=21",
+      "products_count": 5,
+      "answer_preview": "Лидер анализа\nSamsung Galaxy A56 256 ГБ, 32 999 руб. Технически оправданный выбор: процессор Exynos 1580 обеспечивает высокую производительность в среднем сегменте, 120-герцевый Super AMOLED дисплей даёт плавную картинку, а поддержка NFC подтверждена. По совокупности характеристик и цене это наиболее сбалансированное предложение.\n\nАльтернатива\nXiaomi Redmi Note 14 256 ГБ, 13 799 руб. Целесообразен как самый доступный вариант с NFC. Уступает лидеру по производительности процессора и качеству дисплея, но полностью соответствует фильтрам выдачи при минимальном бюджете.\n\nКритическое резюме\nSamsung",
+      "normalized_request": {
+        "product_type": "smartphone",
+        "query": "смартфон",
+        "price_min": null,
+        "price_max": null,
+        "brand": "",
+        "source_hard_wishes_count": 1,
+        "constraints": [
+          {
+            "key": "nfc",
+            "op": "==",
+            "value": "true",
+            "unit": "",
+            "source_text": "nfc"
+          }
+        ],
+        "wishes": [
+          "nfc"
+        ],
+        "soft_wishes": []
+      },
+      "filters_map_summary": {
+        "count": 137,
+        "filters": [
+          {
+            "id": "shop-catalog",
+            "name": "Магазины",
+            "type": "shops",
+            "values_count": 9
+          },
+          {
+            "id": "stock",
+            "name": "Наличие",
+            "type": "checkbox",
+            "values_count": 5
+          },
+          {
+            "id": "price",
+            "name": "Цена",
+            "type": "range-checkbox",
+            "values_count": 6
+          },
+          {
+            "id": "action",
+            "name": "Предложения брендов",
+            "type": "checkbox",
+            "values_count": 3
+          },
+          {
+            "id": "created-in-dns",
+            "name": "Создано в DNS",
+            "type": "toggle",
+            "values_count": 0
+          },
+          {
+            "id": "brand",
+            "name": "Бренд",
+            "type": "checkbox",
+            "values_count": 44
+          },
+          {
+            "id": "warranty",
+            "name": "Гарантия",
+            "type": "checkbox",
+            "values_count": 4
+          },
+          {
+            "id": "rating",
+            "name": "Рейтинг 4 и выше",
+            "type": "toggle",
+            "values_count": 0
+          },
+          {
+            "id": "hit",
+            "name": "Хит продаж",
+            "type": "toggle",
+            "values_count": 0
+          },
+          {
+            "id": "review",
+            "name": "Есть обзор",
+            "type": "toggle",
+            "values_count": 0
+          },
+          {
+            "id": "rely",
+            "name": "Надёжные модели",
+            "type": "toggle",
+            "values_count": 0
+          },
+          {
+            "id": "f[48j]",
+            "name": "Год релиза",
+            "type": "checkbox",
+            "values_count": 9
+          },
+          {
+            "id": "f[6h]",
+            "name": "Модель",
+            "type": "checkbox",
+            "values_count": 706
+          },
+          {
+            "id": "f[223]",
+            "name": "Цвет задней панели",
+            "type": "checkbox",
+            "values_count": 21
+          },
+          {
+            "id": "f[296]",
+            "name": "Цвет, заявленный производителем",
+            "type": "checkbox",
+            "values_count": 661
+          },
+          {
+            "id": "f[4d7]",
+            "name": "Цвет граней",
+            "type": "checkbox",
+            "values_count": 18
+          },
+          {
+            "id": "f[2dw]",
+            "name": "Формат SIM-карт",
+            "type": "checkbox",
+            "values_count": 4
+          },
+          {
+            "id": "f[9b]",
+            "name": "Поддержка стандартов сотовой связи",
+            "type": "checkbox",
+            "values_count": 4
+          },
+          {
+            "id": "f[9f1]",
+            "name": "Количество eSIM",
+            "type": "checkbox",
+            "values_count": 3
+          },
+          {
+            "id": "f[4un]",
+            "name": "Количество физических SIM-карт",
+            "type": "checkbox",
+            "values_count": 3
+          },
+          {
+            "id": "f[84d]",
+            "name": "Диапазоны частот 5G",
+            "type": "checkbox",
+            "values_count": 29
+          },
+          {
+            "id": "f[6qg]",
+            "name": "Поддержка 4G LTE-Advanced",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[6qf]",
+            "name": "Поддержка VoLTE",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[4kj]",
+            "name": "Диапазоны частот 4G (LTE)",
+            "type": "checkbox",
+            "values_count": 36
+          },
+          {
+            "id": "f[6qh]",
+            "name": "Категории скорости LTE-Advanced",
+            "type": "checkbox",
+            "values_count": 15
+          },
+          {
+            "id": "f[265]",
+            "name": "Режим работы нескольких SIM-карт",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[2he]",
+            "name": "Диапазоны частот 3G",
+            "type": "checkbox",
+            "values_count": 7
+          },
+          {
+            "id": "f[2hg]",
+            "name": "Диапазоны частот 2G",
+            "type": "checkbox",
+            "values_count": 4
+          },
+          {
+            "id": "fr[1q]",
+            "name": "Диагональ экрана (дюйм)",
+            "type": "range-radio",
+            "values_count": 6
+          },
+          {
+            "id": "f[2ft]",
+            "name": "Частота обновления экрана (Гц)",
+            "type": "checkbox",
+            "values_count": 6
+          },
+          {
+            "id": "f[1ge]",
+            "name": "Технология изготовления матрицы",
+            "type": "checkbox",
+            "values_count": 3
+          },
+          {
+            "id": "f[25s]",
+            "name": "Тип матрицы (подробно)",
+            "type": "checkbox",
+            "values_count": 21
+          },
+          {
+            "id": "f[2d]",
+            "name": "Разрешение экрана",
+            "type": "checkbox",
+            "values_count": 139
+          },
+          {
+            "id": "fr[4jy]",
+            "name": "Плотность пикселей (ppi)",
+            "type": "range-radio",
+            "values_count": 6
+          },
+          {
+            "id": "f[1r]",
+            "name": "Яркость (Кд/м²)",
+            "type": "checkbox",
+            "values_count": 85
+          },
+          {
+            "id": "f[25t]",
+            "name": "Количество цветов экрана",
+            "type": "checkbox",
+            "values_count": 7
+          },
+          {
+            "id": "f[9f4]",
+            "name": "Частота дискретизации сенсора (Гц)",
+            "type": "checkbox",
+            "values_count": 18
+          },
+          {
+            "id": "f[1x]",
+            "name": "Соотношение сторон",
+            "type": "checkbox",
+            "values_count": 42
+          },
+          {
+            "id": "f[9f5]",
+            "name": "Диагональ дополнительного экрана (дюйм)",
+            "type": "checkbox",
+            "values_count": 23
+          },
+          {
+            "id": "f[9f6]",
+            "name": "Разрешение дополнительного экрана",
+            "type": "checkbox",
+            "values_count": 28
+          },
+          {
+            "id": "f[2ex]",
+            "name": "Степень защиты IP",
+            "type": "checkbox",
+            "values_count": 18
+          },
+          {
+            "id": "f[262]",
+            "name": "Тип корпуса",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[4d1]",
+            "name": "Изогнутый экран",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[2ey]",
+            "name": "Укрепленный корпус",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[9j4]",
+            "name": "Материал граней",
+            "type": "checkbox",
+            "values_count": 6
+          },
+          {
+            "id": "f[9j3]",
+            "name": "Материал задней панели",
+            "type": "checkbox",
+            "values_count": 8
+          },
+          {
+            "id": "f[5n5]",
+            "name": "Безрамочный экран",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[nt]",
+            "name": "Защитное покрытие экрана",
+            "type": "checkbox",
+            "values_count": 49
+          },
+          {
+            "id": "f[9j9]",
+            "name": "Тип выреза на экране",
+            "type": "checkbox",
+            "values_count": 4
+          },
+          {
+            "id": "f[al]",
+            "name": "Операционная система",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[r]",
+            "name": "Модель процессора",
+            "type": "checkbox",
+            "values_count": 204
+          },
+          {
+            "id": "f[7bt]",
+            "name": "Игровой",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[1gg]",
+            "name": "Производитель процессора",
+            "type": "checkbox",
+            "values_count": 10
+          },
+          {
+            "id": "f[4f]",
+            "name": "Версия ОС",
+            "type": "checkbox",
+            "values_count": 34
+          },
+          {
+            "id": "f[5q]",
+            "name": "Техпроцесс (нм)",
+            "type": "checkbox",
+            "values_count": 12
+          },
+          {
+            "id": "f[4h]",
+            "name": "Количество ядер",
+            "type": "checkbox",
+            "values_count": 5
+          },
+          {
+            "id": "f[550]",
+            "name": "Поддержка Google Mobile Services",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "fr[260]",
+            "name": "Максимальная частота процессора (ГГц)",
+            "type": "range-radio",
+            "values_count": 6
+          },
+          {
+            "id": "fr[9jh]",
+            "name": "Рейтинг AnTuTu",
+            "type": "range-radio",
+            "values_count": 5
+          },
+          {
+            "id": "f[4k]",
+            "name": "Графический ускоритель",
+            "type": "checkbox",
+            "values_count": 145
+          },
+          {
+            "id": "f[93u]",
+            "name": "Оболочка ОС",
+            "type": "checkbox",
+            "values_count": 131
+          },
+          {
+            "id": "f[4jr]",
+            "name": "Конфигурация процессора",
+            "type": "checkbox",
+            "values_count": 377
+          },
+          {
+            "id": "f[3u]",
+            "name": "Объем встроенной памяти (ГБ)",
+            "type": "checkbox",
+            "values_count": 9
+          },
+          {
+            "id": "f[44]",
+            "name": "Объем оперативной памяти (ГБ)",
+            "type": "checkbox",
+            "values_count": 9
+          },
+          {
+            "id": "f[4i]",
+            "name": "Слот для карты памяти",
+            "type": "checkbox",
+            "values_count": 3
+          },
+          {
+            "id": "f[968]",
+            "name": "Тип встроенной памяти",
+            "type": "checkbox",
+            "values_count": 12
+          },
+          {
+            "id": "f[1gi]",
+            "name": "Тип оперативной памяти",
+            "type": "checkbox",
+            "values_count": 8
+          },
+          {
+            "id": "f[45]",
+            "name": "Типы поддерживаемых карт памяти",
+            "type": "checkbox",
+            "values_count": 5
+          },
+          {
+            "id": "f[46]",
+            "name": "Максимальный объем карты памяти (ГБ)",
+            "type": "checkbox",
+            "values_count": 8
+          },
+          {
+            "id": "f[9ji]",
+            "name": "Виртуальное расширение ОЗУ (Б)",
+            "type": "checkbox",
+            "values_count": 16
+          },
+          {
+            "id": "f[5x1]",
+            "name": "Оптическая стабилизация",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[26h]",
+            "name": "Количество мегапикселей основной камеры (Мп)",
+            "type": "checkbox",
+            "values_count": 18
+          },
+          {
+            "id": "fr[7x0]",
+            "name": "Рейтинг DxOMark (основная камера)",
+            "type": "range-radio",
+            "values_count": 5
+          },
+          {
+            "id": "f[57w]",
+            "name": "Количество основных (тыловых) камер",
+            "type": "checkbox",
+            "values_count": 4
+          },
+          {
+            "id": "f[9js]",
+            "name": "Оптический зум (фото) (x)",
+            "type": "checkbox",
+            "values_count": 21
+          },
+          {
+            "id": "f[9jr]",
+            "name": "Тип модулей камеры",
+            "type": "checkbox",
+            "values_count": 15
+          },
+          {
+            "id": "f[25x]",
+            "name": "Автофокусировка основной камеры",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[7wz]",
+            "name": "Модель сенсора основной камеры",
+            "type": "checkbox",
+            "values_count": 225
+          },
+          {
+            "id": "fr[4p7]",
+            "name": "Апертура основной камеры",
+            "type": "range-radio",
+            "values_count": 6
+          },
+          {
+            "id": "f[5x2]",
+            "name": "Цифровой зум (фото) (x)",
+            "type": "checkbox",
+            "values_count": 20
+          },
+          {
+            "id": "f[2hc]",
+            "name": "Особенности и технологии тыловой оптики",
+            "type": "checkbox",
+            "values_count": 168
+          },
+          {
+            "id": "f[2hd]",
+            "name": "Режимы и функции фотосъемки",
+            "type": "checkbox",
+            "values_count": 339
+          },
+          {
+            "id": "f[25w]",
+            "name": "Разрешение снимков основной камеры",
+            "type": "checkbox",
+            "values_count": 133
+          },
+          {
+            "id": "f[4mu]",
+            "name": "Угол обзора объектива (градус)",
+            "type": "checkbox",
+            "values_count": 62
+          },
+          {
+            "id": "f[gv]",
+            "name": "Тип вспышки",
+            "type": "checkbox",
+            "values_count": 5
+          },
+          {
+            "id": "f[25y]",
+            "name": "Разрешение видео и частота кадров",
+            "type": "checkbox",
+            "values_count": 29
+          },
+          {
+            "id": "f[4m4]",
+            "name": "Формат видеосъемки",
+            "type": "checkbox",
+            "values_count": 5
+          },
+          {
+            "id": "f[5wy]",
+            "name": "Замедленная видеосъемка",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[5x0]",
+            "name": "Особенности и функции видеосъемки",
+            "type": "checkbox",
+            "values_count": 120
+          },
+          {
+            "id": "f[5wz]",
+            "name": "Зум (видео)",
+            "type": "checkbox",
+            "values_count": 22
+          },
+          {
+            "id": "f[6qe]",
+            "name": "Форматы воспроизведения видео",
+            "type": "checkbox",
+            "values_count": 46
+          },
+          {
+            "id": "f[3yi]",
+            "name": "Количество мегапикселей фронтальной камеры",
+            "type": "checkbox",
+            "values_count": 27
+          },
+          {
+            "id": "f[5bi]",
+            "name": "Автофокусировка",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[5wv]",
+            "name": "Разрешение видеосъемки",
+            "type": "checkbox",
+            "values_count": 18
+          },
+          {
+            "id": "f[2z]",
+            "name": "Встроенная вспышка",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[5wt]",
+            "name": "Апертура фронтальной камеры",
+            "type": "checkbox",
+            "values_count": 17
+          },
+          {
+            "id": "f[5ww]",
+            "name": "Особенности и технологии фронтальной оптики",
+            "type": "checkbox",
+            "values_count": 66
+          },
+          {
+            "id": "f[5wx]",
+            "name": "Режимы и функции съемки",
+            "type": "checkbox",
+            "values_count": 190
+          },
+          {
+            "id": "f[7x1]",
+            "name": "Модель сенсора фронтальной камеры",
+            "type": "checkbox",
+            "values_count": 97
+          },
+          {
+            "id": "f[5p1]",
+            "name": "Двойная фронтальная камера",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[9k2]",
+            "name": "Угол обзора фронтальной камеры (градус)",
+            "type": "checkbox",
+            "values_count": 53
+          },
+          {
+            "id": "f[5wu]",
+            "name": "Разрешение снимков фронтальной камеры",
+            "type": "checkbox",
+            "values_count": 119
+          },
+          {
+            "id": "f[7x2]",
+            "name": "Рейтинг DxOMark (селфи-камера)",
+            "type": "checkbox",
+            "values_count": 21
+          },
+          {
+            "id": "f[6qb]",
+            "name": "Стереодинамики",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[25z]",
+            "name": "FM радио",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[6qc]",
+            "name": "Поддержка кодеков Bluetooth",
+            "type": "checkbox",
+            "values_count": 18
+          },
+          {
+            "id": "f[42]",
+            "name": "Форматы аудиофайлов",
+            "type": "checkbox",
+            "values_count": 59
+          },
+          {
+            "id": "f[2dx]",
+            "name": "NFC",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[4jx]",
+            "name": "ИК-порт",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[9]",
+            "name": "Стандарт Wi-Fi",
+            "type": "checkbox",
+            "values_count": 4
+          },
+          {
+            "id": "f[9a]",
+            "name": "Версия Bluetooth",
+            "type": "checkbox",
+            "values_count": 11
+          },
+          {
+            "id": "f[26c]",
+            "name": "Системы навигации",
+            "type": "checkbox",
+            "values_count": 8
+          },
+          {
+            "id": "f[6qd]",
+            "name": "Прочие технологии передачи данных",
+            "type": "checkbox",
+            "values_count": 17
+          },
+          {
+            "id": "f[9c]",
+            "name": "Разъем для наушников",
+            "type": "checkbox",
+            "values_count": 3
+          },
+          {
+            "id": "f[25u]",
+            "name": "Интерфейс для зарядки",
+            "type": "checkbox",
+            "values_count": 3
+          },
+          {
+            "id": "f[4m]",
+            "name": "Поддержка OTG",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[4l]",
+            "name": "Датчики",
+            "type": "checkbox",
+            "values_count": 17
+          },
+          {
+            "id": "fr[4a]",
+            "name": "Емкость аккумулятора (мА*ч)",
+            "type": "range-radio",
+            "values_count": 6
+          },
+          {
+            "id": "f[4tj]",
+            "name": "Поддержка беспроводной зарядки",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[pz]",
+            "name": "Быстрая зарядка",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[bo]",
+            "name": "Тип аккумулятора",
+            "type": "checkbox",
+            "values_count": 3
+          },
+          {
+            "id": "f[9k3]",
+            "name": "Поддержка беспроводной реверсивной зарядки",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "fr[6u1]",
+            "name": "Выходная мощность ЗУ (Вт)",
+            "type": "range-radio",
+            "values_count": 5
+          },
+          {
+            "id": "f[4ry]",
+            "name": "Стандарты быстрой зарядки",
+            "type": "checkbox",
+            "values_count": 82
+          },
+          {
+            "id": "f[6s4]",
+            "name": "Напряжение питания ЗУ",
+            "type": "checkbox",
+            "values_count": 4
+          },
+          {
+            "id": "fr[anw]",
+            "name": "Макс. время работы при воспроизведении видео (ч)",
+            "type": "range-radio",
+            "values_count": 6
+          },
+          {
+            "id": "fr[anu]",
+            "name": "Макс. время работы в режиме ожидания (ч)",
+            "type": "range-radio",
+            "values_count": 6
+          },
+          {
+            "id": "fr[anv]",
+            "name": "Макс. время работы в режиме разговора (ч)",
+            "type": "range-radio",
+            "values_count": 6
+          },
+          {
+            "id": "fr[anx]",
+            "name": "Макс. время работы при прослушивании музыки (ч)",
+            "type": "range-radio",
+            "values_count": 4
+          },
+          {
+            "id": "f[59w]",
+            "name": "Биометрическая защита",
+            "type": "checkbox",
+            "values_count": 7
+          },
+          {
+            "id": "f[4c]",
+            "name": "Особенности, дополнительно",
+            "type": "checkbox",
+            "values_count": 224
+          },
+          {
+            "id": "f[4o]",
+            "name": "Комплектация",
+            "type": "checkbox",
+            "values_count": 22
+          },
+          {
+            "id": "f[5dk]",
+            "name": "Зарядное устройство в комплекте",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "fr[8i]",
+            "name": "Высота (мм)",
+            "type": "range-radio",
+            "values_count": 6
+          },
+          {
+            "id": "fr[261]",
+            "name": "Вес смартфона (г)",
+            "type": "range-radio",
+            "values_count": 6
+          },
+          {
+            "id": "fr[8g]",
+            "name": "Ширина (мм)",
+            "type": "range-radio",
+            "values_count": 6
+          },
+          {
+            "id": "fr[14d]",
+            "name": "Толщина (мм)",
+            "type": "range-radio",
+            "values_count": 6
+          }
+        ]
+      },
+      "comparison_summary_keys": [
+        "leader",
+        "price_leader",
+        "soft_wish_leaders",
+        "segment_leaders",
+        "budget_defined",
+        "competitors",
+        "all_candidates_rejected",
+        "coverage",
+        "coverage_has_gap",
+        "teacher_contract",
+        "scoring"
+      ],
+      "leader": {
+        "name": "6.7\" Смартфон Samsung Galaxy A56 256 ГБ черный",
+        "match_status": "exact",
+        "matched_hard_wishes": [
+          "nfc"
+        ],
+        "missing_hard_wishes": []
+      }
+    },
+    {
+      "query": "игровой ноутбук RTX 4070",
+      "status": "ok",
+      "resolved_url": "https://www.dns-shop.ru/search/?q=%D0%BD%D0%BE%D1%83%D1%82%D0%B1%D1%83%D0%BA&category=17a892f816404e77&f%5B1go%5D=eif4-eig9-eih3",
+      "products_count": 5,
+      "answer_preview": "Лидер анализа\n16\" Ноутбук ASUS ROG Zephyrus G16 GU605MI-QR077 серый, 229 999 руб. Технически оправданный выбор: OLED-матрица с частотой 240 Гц обеспечивает максимальную плавность и контрастность в играх. Поддержка USB-C с Power Delivery позволяет заряжать ноутбук и подключать периферию одним кабелем. По карточке подтверждены все основные требования.\n\nАльтернатива\nЕсли приоритет — максимальная экономия при сохранении RTX 4070, целесообразно рассмотреть 17.3\" Ноутбук MSI Crosshair 17 C12VG-287XRU черный, 110 999 руб. Это самый доступный вариант в выборке. Однако стоит учитывать, что частота обно",
+      "normalized_request": {
+        "product_type": "laptop",
+        "query": "ноутбук",
+        "price_min": null,
+        "price_max": null,
+        "brand": "",
+        "source_hard_wishes_count": 1,
+        "constraints": [
+          {
+            "key": "gpu",
+            "op": ">=",
+            "value": "rtx 4070",
+            "unit": "",
+            "source_text": "RTX 4070"
+          },
+          {
+            "key": "gpu",
+            "op": "==",
+            "value": "rtx 4070",
+            "unit": "",
+            "source_text": "rtx_4070"
+          }
+        ],
+        "wishes": [
+          "rtx_4070_or_higher"
+        ],
+        "soft_wishes": []
+      },
+      "filters_map_summary": {
+        "count": 91,
+        "filters": [
+          {
+            "id": "shop-catalog",
+            "name": "Магазины",
+            "type": "shops",
+            "values_count": 9
+          },
+          {
+            "id": "stock",
+            "name": "Наличие",
+            "type": "checkbox",
+            "values_count": 5
+          },
+          {
+            "id": "price",
+            "name": "Цена",
+            "type": "range-checkbox",
+            "values_count": 6
+          },
+          {
+            "id": "action",
+            "name": "Предложения брендов",
+            "type": "checkbox",
+            "values_count": 3
+          },
+          {
+            "id": "created-in-dns",
+            "name": "Создано в DNS",
+            "type": "toggle",
+            "values_count": 0
+          },
+          {
+            "id": "brand",
+            "name": "Бренд",
+            "type": "checkbox",
+            "values_count": 36
+          },
+          {
+            "id": "warranty",
+            "name": "Гарантия",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "rating",
+            "name": "Рейтинг 4 и выше",
+            "type": "toggle",
+            "values_count": 0
+          },
+          {
+            "id": "hit",
+            "name": "Хит продаж",
+            "type": "toggle",
+            "values_count": 0
+          },
+          {
+            "id": "review",
+            "name": "Есть обзор",
+            "type": "toggle",
+            "values_count": 0
+          },
+          {
+            "id": "rely",
+            "name": "Надёжные модели",
+            "type": "toggle",
+            "values_count": 0
+          },
+          {
+            "id": "f[4op]",
+            "name": "Игровой ноутбук",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[32s]",
+            "name": "Линейка",
+            "type": "checkbox",
+            "values_count": 218
+          },
+          {
+            "id": "f[48j]",
+            "name": "Год релиза",
+            "type": "checkbox",
+            "values_count": 7
+          },
+          {
+            "id": "f[al]",
+            "name": "Операционная система",
+            "type": "checkbox",
+            "values_count": 13
+          },
+          {
+            "id": "f[54a]",
+            "name": "Семейство предустановленной операционной системы",
+            "type": "checkbox",
+            "values_count": 4
+          },
+          {
+            "id": "f[4n]",
+            "name": "Материал корпуса",
+            "type": "checkbox",
+            "values_count": 6
+          },
+          {
+            "id": "f[1gb]",
+            "name": "Конструктивное исполнение",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[4d6]",
+            "name": "Цвет верхней крышки",
+            "type": "checkbox",
+            "values_count": 15
+          },
+          {
+            "id": "f[1ka]",
+            "name": "Материал крышки",
+            "type": "checkbox",
+            "values_count": 4
+          },
+          {
+            "id": "f[99b]",
+            "name": "Раскрытие крышки",
+            "type": "checkbox",
+            "values_count": 5
+          },
+          {
+            "id": "f[1h3]",
+            "name": "Подсветка клавиш",
+            "type": "checkbox",
+            "values_count": 9
+          },
+          {
+            "id": "f[1gc]",
+            "name": "Цифровой блок клавиатуры",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[4ez]",
+            "name": "Сканер отпечатка пальца",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[7re]",
+            "name": "Раскладка клавиатуры",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[470]",
+            "name": "Тачпад",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[99a]",
+            "name": "Влагозащищенная клавиатура",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[7og]",
+            "name": "Механическая клавиатура",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "fr[1q]",
+            "name": "Диагональ экрана (дюйм)",
+            "type": "range-radio",
+            "values_count": 5
+          },
+          {
+            "id": "f[2d]",
+            "name": "Разрешение экрана",
+            "type": "checkbox",
+            "values_count": 30
+          },
+          {
+            "id": "f[1gd]",
+            "name": "Тип экрана",
+            "type": "checkbox",
+            "values_count": 7
+          },
+          {
+            "id": "f[2b]",
+            "name": "Максимальная частота обновления экрана (Гц)",
+            "type": "checkbox",
+            "values_count": 10
+          },
+          {
+            "id": "f[29]",
+            "name": "Сенсорный экран",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[65i]",
+            "name": "Цветовой охват",
+            "type": "checkbox",
+            "values_count": 31
+          },
+          {
+            "id": "f[2c]",
+            "name": "Покрытие экрана",
+            "type": "checkbox",
+            "values_count": 3
+          },
+          {
+            "id": "f[1r]",
+            "name": "Яркость (Кд/м²)",
+            "type": "checkbox",
+            "values_count": 27
+          },
+          {
+            "id": "f[1x]",
+            "name": "Соотношение сторон",
+            "type": "checkbox",
+            "values_count": 5
+          },
+          {
+            "id": "fr[4jy]",
+            "name": "Плотность пикселей (ppi)",
+            "type": "range-radio",
+            "values_count": 6
+          },
+          {
+            "id": "f[7oh]",
+            "name": "Дополнительный дисплей",
+            "type": "checkbox",
+            "values_count": 4
+          },
+          {
+            "id": "f[61m]",
+            "name": "HDR",
+            "type": "checkbox",
+            "values_count": 14
+          },
+          {
+            "id": "f[4sg]",
+            "name": "Технология динамического обновления экрана",
+            "type": "checkbox",
+            "values_count": 4
+          },
+          {
+            "id": "f[1gf]",
+            "name": "Линейка процессора",
+            "type": "checkbox",
+            "values_count": 40
+          },
+          {
+            "id": "f[1gg]",
+            "name": "Производитель процессора",
+            "type": "checkbox",
+            "values_count": 4
+          },
+          {
+            "id": "f[r]",
+            "name": "Модель процессора",
+            "type": "checkbox",
+            "values_count": 248
+          },
+          {
+            "id": "f[3au]",
+            "name": "Максимальное число потоков",
+            "type": "checkbox",
+            "values_count": 16
+          },
+          {
+            "id": "f[8g8]",
+            "name": "Общее количество ядер",
+            "type": "checkbox",
+            "values_count": 14
+          },
+          {
+            "id": "f[13]",
+            "name": "Количество производительных ядер",
+            "type": "checkbox",
+            "values_count": 11
+          },
+          {
+            "id": "fr[a5f]",
+            "name": "Базовая частота производительных ядер (ГГц)",
+            "type": "range-radio",
+            "values_count": 6
+          },
+          {
+            "id": "f[6ig]",
+            "name": "Поколение процессоров",
+            "type": "checkbox",
+            "values_count": 33
+          },
+          {
+            "id": "fr[a5g]",
+            "name": "Максимальная частота производительных ядер (ГГц)",
+            "type": "range-radio",
+            "values_count": 6
+          },
+          {
+            "id": "f[7xa]",
+            "name": "Количество энергоэффективных ядер",
+            "type": "checkbox",
+            "values_count": 9
+          },
+          {
+            "id": "f[44]",
+            "name": "Объем оперативной памяти (ГБ)",
+            "type": "checkbox",
+            "values_count": 12
+          },
+          {
+            "id": "f[1gi]",
+            "name": "Тип оперативной памяти",
+            "type": "checkbox",
+            "values_count": 8
+          },
+          {
+            "id": "f[1gl]",
+            "name": "Количество слотов под модули памяти",
+            "type": "checkbox",
+            "values_count": 5
+          },
+          {
+            "id": "f[4w]",
+            "name": "Максимальный объем памяти (ГБ)",
+            "type": "checkbox",
+            "values_count": 14
+          },
+          {
+            "id": "f[7oi]",
+            "name": "Свободные слоты для оперативной памяти",
+            "type": "checkbox",
+            "values_count": 3
+          },
+          {
+            "id": "f[1gj]",
+            "name": "Частота оперативной памяти (МГц)",
+            "type": "checkbox",
+            "values_count": 22
+          },
+          {
+            "id": "f[1go]",
+            "name": "Модель дискретной видеокарты",
+            "type": "checkbox",
+            "values_count": 43
+          },
+          {
+            "id": "f[1a]",
+            "name": "Объем видеопамяти (ГБ)",
+            "type": "checkbox",
+            "values_count": 7
+          },
+          {
+            "id": "f[1gm]",
+            "name": "Вид графического ускорителя",
+            "type": "checkbox",
+            "values_count": 3
+          },
+          {
+            "id": "f[1gp]",
+            "name": "Модель встроенной видеокарты",
+            "type": "checkbox",
+            "values_count": 76
+          },
+          {
+            "id": "f[2sz]",
+            "name": "Максимальное энергопотребление (Вт)",
+            "type": "checkbox",
+            "values_count": 22
+          },
+          {
+            "id": "f[1gn]",
+            "name": "Производитель видеочипа",
+            "type": "checkbox",
+            "values_count": 3
+          },
+          {
+            "id": "f[1gq]",
+            "name": "Тип видеопамяти",
+            "type": "checkbox",
+            "values_count": 4
+          },
+          {
+            "id": "f[1gt]",
+            "name": "Общий объем твердотельных накопителей (SSD) (ГБ)",
+            "type": "checkbox",
+            "values_count": 8
+          },
+          {
+            "id": "f[7ok]",
+            "name": "Свободные слоты для накопителей",
+            "type": "checkbox",
+            "values_count": 11
+          },
+          {
+            "id": "f[7oj]",
+            "name": "Тип SSD диска",
+            "type": "checkbox",
+            "values_count": 8
+          },
+          {
+            "id": "f[272]",
+            "name": "Встроенный HDD",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[6vq]",
+            "name": "Объем интегрированной памяти",
+            "type": "checkbox",
+            "values_count": 5
+          },
+          {
+            "id": "f[1gu]",
+            "name": "Веб-камера",
+            "type": "checkbox",
+            "values_count": 9
+          },
+          {
+            "id": "f[99c]",
+            "name": "Шторка веб-камеры",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[99d]",
+            "name": "Распознавание лица",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[1gv]",
+            "name": "Поддержка карт памяти кард-ридером",
+            "type": "checkbox",
+            "values_count": 4
+          },
+          {
+            "id": "f[4l]",
+            "name": "Датчики",
+            "type": "checkbox",
+            "values_count": 10
+          },
+          {
+            "id": "f[fn]",
+            "name": "Порт Ethernet",
+            "type": "checkbox",
+            "values_count": 5
+          },
+          {
+            "id": "f[1gx]",
+            "name": "Беспроводной интерфейс",
+            "type": "checkbox",
+            "values_count": 16
+          },
+          {
+            "id": "f[76u]",
+            "name": "Thunderbolt",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[1gy]",
+            "name": "Видеоразъемы",
+            "type": "checkbox",
+            "values_count": 11
+          },
+          {
+            "id": "f[7om]",
+            "name": "Разъемы USB Type-C",
+            "type": "checkbox",
+            "values_count": 24
+          },
+          {
+            "id": "f[7ol]",
+            "name": "Разъемы USB Type-A",
+            "type": "checkbox",
+            "values_count": 10
+          },
+          {
+            "id": "f[7rm]",
+            "name": "Версия видеоразъема",
+            "type": "checkbox",
+            "values_count": 21
+          },
+          {
+            "id": "f[1gz]",
+            "name": "Аудиоразъемы",
+            "type": "checkbox",
+            "values_count": 5
+          },
+          {
+            "id": "fr[1h1]",
+            "name": "Приблизительное время автономной работы (ч)",
+            "type": "range-radio",
+            "values_count": 4
+          },
+          {
+            "id": "fr[4qj]",
+            "name": "Емкость аккумулятора (Вт*ч)",
+            "type": "range-radio",
+            "values_count": 4
+          },
+          {
+            "id": "f[65h]",
+            "name": "Поддержка USB Power Delivery",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[bo]",
+            "name": "Тип аккумулятора",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[6we]",
+            "name": "Расширенные возможности",
+            "type": "checkbox",
+            "values_count": 9
+          },
+          {
+            "id": "fr[14d]",
+            "name": "Толщина (мм)",
+            "type": "range-radio",
+            "values_count": 4
+          },
+          {
+            "id": "fr[8o]",
+            "name": "Вес (кг)",
+            "type": "range-radio",
+            "values_count": 6
+          },
+          {
+            "id": "fr[8g]",
+            "name": "Ширина (мм)",
+            "type": "range-radio",
+            "values_count": 5
+          },
+          {
+            "id": "fr[d4]",
+            "name": "Глубина (мм)",
+            "type": "range-radio",
+            "values_count": 4
+          }
+        ]
+      },
+      "comparison_summary_keys": [
+        "leader",
+        "price_leader",
+        "soft_wish_leaders",
+        "segment_leaders",
+        "budget_defined",
+        "competitors",
+        "all_candidates_rejected",
+        "coverage",
+        "coverage_has_gap",
+        "teacher_contract",
+        "scoring"
+      ],
+      "leader": {
+        "name": "16\" Ноутбук ASUS ROG Zephyrus G16 GU605MI-QR077 серый",
+        "match_status": "exact",
+        "matched_hard_wishes": [
+          "rtx_4070_or_higher"
+        ],
+        "missing_hard_wishes": []
+      }
+    },
+    {
+      "query": "холодильник No Frost",
+      "status": "ok",
+      "resolved_url": "https://www.dns-shop.ru/search/?q=%D1%85%D0%BE%D0%BB%D0%BE%D0%B4%D0%B8%D0%BB%D1%8C%D0%BD%D0%B8%D0%BA&category=4e2a7cdb390b7fd7&f%5B2v8%5D=5e1&f%5Btq%5D=5e1",
+      "products_count": 5,
+      "answer_preview": "Лидер анализа\nХолодильник с морозильником Gorenje NRK41814W4I белый, 37 999 руб. Технически оправданный выбор: соответствует фильтрам выдачи по системе No Frost, предлагает сбалансированное оснащение за адекватную цену без переплаты за бренд. По карточке подтверждены основные требования.\n\nАльтернатива\nЕсли приоритет — минимальная стоимость при сохранении No Frost, целесообразно рассмотреть Indesit ITS 4160 W белый, 25 799 руб. Это ценовой лидер выборки, полностью соответствующий жёсткому требованию по системе охлаждения. Однако по общему оснащению и надёжности компонентной базы уступает лидеру",
+      "normalized_request": {
+        "product_type": "refrigerator",
+        "query": "холодильник",
+        "price_min": null,
+        "price_max": null,
+        "brand": "",
+        "source_hard_wishes_count": 1,
+        "constraints": [
+          {
+            "key": "cooling_system",
+            "op": "==",
+            "value": "no_frost",
+            "unit": "",
+            "source_text": "No Frost"
+          }
+        ],
+        "wishes": [
+          "cooling_system_no_frost"
+        ],
+        "soft_wishes": []
+      },
+      "filters_map_summary": {
+        "count": 75,
+        "filters": [
+          {
+            "id": "shop-catalog",
+            "name": "Магазины",
+            "type": "shops",
+            "values_count": 9
+          },
+          {
+            "id": "stock",
+            "name": "Наличие",
+            "type": "checkbox",
+            "values_count": 5
+          },
+          {
+            "id": "price",
+            "name": "Цена",
+            "type": "range-checkbox",
+            "values_count": 6
+          },
+          {
+            "id": "action",
+            "name": "Предложения брендов",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "created-in-dns",
+            "name": "Создано в DNS",
+            "type": "toggle",
+            "values_count": 0
+          },
+          {
+            "id": "brand",
+            "name": "Бренд",
+            "type": "checkbox",
+            "values_count": 71
+          },
+          {
+            "id": "warranty",
+            "name": "Гарантия",
+            "type": "checkbox",
+            "values_count": 5
+          },
+          {
+            "id": "made-in-russia",
+            "name": "Сделано в России",
+            "type": "toggle",
+            "values_count": 0
+          },
+          {
+            "id": "rating",
+            "name": "Рейтинг 4 и выше",
+            "type": "toggle",
+            "values_count": 0
+          },
+          {
+            "id": "hit",
+            "name": "Хит продаж",
+            "type": "toggle",
+            "values_count": 0
+          },
+          {
+            "id": "review",
+            "name": "Есть обзор",
+            "type": "toggle",
+            "values_count": 0
+          },
+          {
+            "id": "rely",
+            "name": "Надёжные модели",
+            "type": "toggle",
+            "values_count": 0
+          },
+          {
+            "id": "f[j]",
+            "name": "Тип",
+            "type": "checkbox",
+            "values_count": 8
+          },
+          {
+            "id": "f[7c]",
+            "name": "Основной цвет",
+            "type": "checkbox",
+            "values_count": 18
+          },
+          {
+            "id": "f[296]",
+            "name": "Цвет, заявленный производителем",
+            "type": "checkbox",
+            "values_count": 140
+          },
+          {
+            "id": "f[10r]",
+            "name": "Дополнительный цвет",
+            "type": "checkbox",
+            "values_count": 11
+          },
+          {
+            "id": "f[2v8]",
+            "name": "Размораживание морозильной камеры / НТО",
+            "type": "checkbox",
+            "values_count": 3
+          },
+          {
+            "id": "f[tq]",
+            "name": "Размораживание холодильной камеры",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[4zx]",
+            "name": "Инверторный компрессор",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "fr[f0]",
+            "name": "Уровень шума (дБ)",
+            "type": "range-radio",
+            "values_count": 4
+          },
+          {
+            "id": "f[tv]",
+            "name": "Материал внешнего покрытия",
+            "type": "checkbox",
+            "values_count": 7
+          },
+          {
+            "id": "f[th]",
+            "name": "Хладагент",
+            "type": "checkbox",
+            "values_count": 6
+          },
+          {
+            "id": "f[u8]",
+            "name": "Материал полок",
+            "type": "checkbox",
+            "values_count": 3
+          },
+          {
+            "id": "fr[tx]",
+            "name": "Мощность замораживания (кг/сутки)",
+            "type": "range-radio",
+            "values_count": 5
+          },
+          {
+            "id": "fr[to]",
+            "name": "Энергопотребление (кВтч/год)",
+            "type": "range-radio",
+            "values_count": 6
+          },
+          {
+            "id": "f[2v9]",
+            "name": "Мин. температура морозильный камеры / НТО (°C)",
+            "type": "checkbox",
+            "values_count": 23
+          },
+          {
+            "id": "fr[tz]",
+            "name": "Автономное сохранение холода (ч)",
+            "type": "range-radio",
+            "values_count": 5
+          },
+          {
+            "id": "fr[2va]",
+            "name": "Полезный объем морозильной камеры / НТО (л)",
+            "type": "range-radio",
+            "values_count": 6
+          },
+          {
+            "id": "fr[tk]",
+            "name": "Общий полезный объем (л)",
+            "type": "range-radio",
+            "values_count": 6
+          },
+          {
+            "id": "fr[tl]",
+            "name": "Полезный объем холодильной камеры (л)",
+            "type": "range-radio",
+            "values_count": 6
+          },
+          {
+            "id": "f[tg]",
+            "name": "Количество камер (шт)",
+            "type": "checkbox",
+            "values_count": 4
+          },
+          {
+            "id": "f[2vc]",
+            "name": "Расположение морозильной камеры / НТО",
+            "type": "checkbox",
+            "values_count": 5
+          },
+          {
+            "id": "f[ti]",
+            "name": "Количество дверей (шт)",
+            "type": "checkbox",
+            "values_count": 5
+          },
+          {
+            "id": "f[u7]",
+            "name": "Генератор льда",
+            "type": "checkbox",
+            "values_count": 3
+          },
+          {
+            "id": "f[tj]",
+            "name": "Зона свежести (нулевая камера)",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[62w]",
+            "name": "Нулевой зазор дверцы",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[1xw]",
+            "name": "Второй компрессор",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[901]",
+            "name": "Тип зоны свежести (нулевой камеры)",
+            "type": "checkbox",
+            "values_count": 4
+          },
+          {
+            "id": "f[53b]",
+            "name": "Перенавешиваемые двери",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[u6]",
+            "name": "Антибактериальная защита",
+            "type": "checkbox",
+            "values_count": 8
+          },
+          {
+            "id": "f[60h]",
+            "name": "Открытие дверцы",
+            "type": "checkbox",
+            "values_count": 3
+          },
+          {
+            "id": "f[63l]",
+            "name": "Диспенсер для подачи воды",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[902]",
+            "name": "Ручная регулировка в зоне свежести",
+            "type": "checkbox",
+            "values_count": 5
+          },
+          {
+            "id": "f[8zu]",
+            "name": "Особенности дверной ручки",
+            "type": "checkbox",
+            "values_count": 5
+          },
+          {
+            "id": "f[5lg]",
+            "name": "Подставка для бутылок",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[8zx]",
+            "name": "Ящики в холодильной камере (шт)",
+            "type": "checkbox",
+            "values_count": 6
+          },
+          {
+            "id": "f[900]",
+            "name": "Ящики/открытые полки в морозильной камере/НТО (шт)",
+            "type": "checkbox",
+            "values_count": 8
+          },
+          {
+            "id": "f[8zv]",
+            "name": "Складная полка",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[8zw]",
+            "name": "Полки в холодильной камере (шт)",
+            "type": "checkbox",
+            "values_count": 8
+          },
+          {
+            "id": "f[5le]",
+            "name": "Подставка для яиц",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[9ah]",
+            "name": "Фитоподсветка",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[5lf]",
+            "name": "Форма для льда",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[8yg]",
+            "name": "Возможность смены фронтальной панели",
+            "type": "checkbox",
+            "values_count": 3
+          },
+          {
+            "id": "f[4tk]",
+            "name": "Управление со смартфона",
+            "type": "checkbox",
+            "values_count": 3
+          },
+          {
+            "id": "f[8u]",
+            "name": "Дисплей",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[sj]",
+            "name": "Тип управления",
+            "type": "checkbox",
+            "values_count": 3
+          },
+          {
+            "id": "f[tu]",
+            "name": "Суперзаморозка",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[ty]",
+            "name": "Индикация температуры",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[tw]",
+            "name": "Суперохлаждение",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[u2]",
+            "name": "Блокировка от детей",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[u4]",
+            "name": "Индикация открытой двери",
+            "type": "checkbox",
+            "values_count": 3
+          },
+          {
+            "id": "f[1bg]",
+            "name": "Вид дисплея",
+            "type": "checkbox",
+            "values_count": 3
+          },
+          {
+            "id": "f[u0]",
+            "name": "Режим \"Отпуск\"",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[u3]",
+            "name": "Индикация отключения электропитания",
+            "type": "checkbox",
+            "values_count": 3
+          },
+          {
+            "id": "f[8ax]",
+            "name": "Экосистема умного дома",
+            "type": "checkbox",
+            "values_count": 10
+          },
+          {
+            "id": "f[4gk]",
+            "name": "Протокол передачи данных",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[5xj]",
+            "name": "Приложение для управления",
+            "type": "checkbox",
+            "values_count": 10
+          },
+          {
+            "id": "f[37e]",
+            "name": "Голосовой помощник",
+            "type": "checkbox",
+            "values_count": 1
+          },
+          {
+            "id": "f[5q2]",
+            "name": "Класс энергоэффективности",
+            "type": "checkbox",
+            "values_count": 8
+          },
+          {
+            "id": "f[3o9]",
+            "name": "Климатические классы",
+            "type": "checkbox",
+            "values_count": 4
+          },
+          {
+            "id": "fr[8i]",
+            "name": "Высота (см)",
+            "type": "range-radio",
+            "values_count": 6
+          },
+          {
+            "id": "fr[8g]",
+            "name": "Ширина (см)",
+            "type": "range-radio",
+            "values_count": 6
+          },
+          {
+            "id": "fr[d4]",
+            "name": "Глубина (см)",
+            "type": "range-radio",
+            "values_count": 6
+          },
+          {
+            "id": "fr[8o]",
+            "name": "Вес (кг)",
+            "type": "range-radio",
+            "values_count": 6
+          },
+          {
+            "id": "fr[6cn]",
+            "name": "Глубина с открытой дверцей (см)",
+            "type": "range-radio",
+            "values_count": 4
+          }
+        ]
+      },
+      "comparison_summary_keys": [
+        "leader",
+        "price_leader",
+        "soft_wish_leaders",
+        "segment_leaders",
+        "budget_defined",
+        "competitors",
+        "all_candidates_rejected",
+        "coverage",
+        "coverage_has_gap",
+        "teacher_contract",
+        "scoring"
+      ],
+      "leader": {
+        "name": "Холодильник с морозильником Gorenje NRK41814W4I белый",
+        "match_status": "exact",
+        "matched_hard_wishes": [
+          "cooling_system_no_frost"
+        ],
+        "missing_hard_wishes": []
+      }
+    },
+    {
+      "query": "наушники до 5000 рублей с шумоподавлением",
+      "status": "ok",
+      "resolved_url": "https://www.dns-shop.ru/search/?q=%D0%BD%D0%B0%D1%83%D1%88%D0%BD%D0%B8%D0%BA%D0%B8&category=17a9ef1716404e77&price=0-5000",
+      "products_count": 5,
+      "answer_preview": "Лидер анализа\nНаушники TWS HONOR Choice Earbuds X7 белый 2024 — 1 450 ₽. Технически оправданный выбор для бюджетного сегмента: минимальная цена в выборке при базовом наборе функций TWS. Подходят для нетребовательного использования.\n\nАльтернатива\nНаушники TWS HONOR Choice Earbuds X5 Pro белый 2023 — 2 699 ₽. Целесообразны, если приоритет — более высокая компонентная база и оснащение в рамках той же экосистемы HONOR. Уступают лидеру по цене в 1,9 раза, но являются spec-лидером выборки.\n\nКритическое резюме\nЯвно неудачных позиций в текущей выборке не выявлено. Однако стоит учесть: ни один из предс",
+      "normalized_request": {
+        "product_type": "headphones",
+        "query": "наушники",
+        "price_min": 0,
+        "price_max": 5000,
+        "brand": "",
+        "source_hard_wishes_count": 0,
+        "constraints": [],
+        "wishes": [],
+        "soft_wishes": []
+      },
+      "filters_map_summary": {
+        "count": 78,
+        "filters": [
+          {
+            "id": "shop-catalog",
+            "name": "Магазины",
+            "type": "shops",
+            "values_count": 9
+          },
+          {
+            "id": "stock",
+            "name": "Наличие",
+            "type": "checkbox",
+            "values_count": 5
+          },
+          {
+            "id": "price",
+            "name": "Цена",
+            "type": "range-checkbox",
+            "values_count": 6
+          },
+          {
+            "id": "action",
+            "name": "Предложения брендов",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "created-in-dns",
+            "name": "Создано в DNS",
+            "type": "toggle",
+            "values_count": 0
+          },
+          {
+            "id": "brand",
+            "name": "Бренд",
+            "type": "checkbox",
+            "values_count": 241
+          },
+          {
+            "id": "warranty",
+            "name": "Гарантия",
+            "type": "checkbox",
+            "values_count": 6
+          },
+          {
+            "id": "made-in-russia",
+            "name": "Сделано в России",
+            "type": "toggle",
+            "values_count": 0
+          },
+          {
+            "id": "rating",
+            "name": "Рейтинг 4 и выше",
+            "type": "toggle",
+            "values_count": 0
+          },
+          {
+            "id": "hit",
+            "name": "Хит продаж",
+            "type": "toggle",
+            "values_count": 0
+          },
+          {
+            "id": "review",
+            "name": "Есть обзор",
+            "type": "toggle",
+            "values_count": 0
+          },
+          {
+            "id": "rely",
+            "name": "Надёжные модели",
+            "type": "toggle",
+            "values_count": 0
+          },
+          {
+            "id": "f[j]",
+            "name": "Тип",
+            "type": "checkbox",
+            "values_count": 6
+          },
+          {
+            "id": "f[4v1]",
+            "name": "Способ передачи сигнала",
+            "type": "checkbox",
+            "values_count": 3
+          },
+          {
+            "id": "f[35c]",
+            "name": "Игровые наушники",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[639]",
+            "name": "Дата начала производства",
+            "type": "checkbox",
+            "values_count": 18
+          },
+          {
+            "id": "f[235]",
+            "name": "Тип конструкции",
+            "type": "checkbox",
+            "values_count": 5
+          },
+          {
+            "id": "f[4uy]",
+            "name": "Метод крепления",
+            "type": "checkbox",
+            "values_count": 8
+          },
+          {
+            "id": "f[1x3]",
+            "name": "Влагозащищенный корпус",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[7c]",
+            "name": "Основной цвет",
+            "type": "checkbox",
+            "values_count": 19
+          },
+          {
+            "id": "f[9ro]",
+            "name": "Наушники для мониторинга",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[5wn]",
+            "name": "Наушники для спорта",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[8nx]",
+            "name": "Материал амбушюр",
+            "type": "checkbox",
+            "values_count": 20
+          },
+          {
+            "id": "f[9tp]",
+            "name": "Костная проводимость",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[850]",
+            "name": "Детский дизайн",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[4el]",
+            "name": "Степень пылевлагозащиты IP",
+            "type": "checkbox",
+            "values_count": 18
+          },
+          {
+            "id": "f[1qk]",
+            "name": "Особенности конструкции",
+            "type": "checkbox",
+            "values_count": 31
+          },
+          {
+            "id": "f[6w]",
+            "name": "Подсветка",
+            "type": "checkbox",
+            "values_count": 9
+          },
+          {
+            "id": "f[8o0]",
+            "name": "Складные",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[9rn]",
+            "name": "Расположение в кейсе",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[61b]",
+            "name": "Диаметр амбушюр (мм)",
+            "type": "checkbox",
+            "values_count": 36
+          },
+          {
+            "id": "f[3g4]",
+            "name": "Формат звуковой схемы",
+            "type": "checkbox",
+            "values_count": 3
+          },
+          {
+            "id": "fr[id]",
+            "name": "Сопротивление (импеданс) (Ом)",
+            "type": "range-radio",
+            "values_count": 5
+          },
+          {
+            "id": "f[4uz]",
+            "name": "Тип акустического оформления",
+            "type": "checkbox",
+            "values_count": 3
+          },
+          {
+            "id": "f[ay]",
+            "name": "Тип излучателей",
+            "type": "checkbox",
+            "values_count": 7
+          },
+          {
+            "id": "fr[4vt]",
+            "name": "Диаметр мембраны излучателей (мм)",
+            "type": "range-radio",
+            "values_count": 6
+          },
+          {
+            "id": "fr[1ba]",
+            "name": "Максимальная воспроизводимая частота (Гц)",
+            "type": "range-radio",
+            "values_count": 5
+          },
+          {
+            "id": "fr[ie]",
+            "name": "Чувствительность (дБ)",
+            "type": "range-radio",
+            "values_count": 6
+          },
+          {
+            "id": "fr[1b9]",
+            "name": "Минимальная воспроизводимая частота (Гц)",
+            "type": "range-radio",
+            "values_count": 5
+          },
+          {
+            "id": "f[4v0]",
+            "name": "Количество излучателей с каждой стороны",
+            "type": "checkbox",
+            "values_count": 13
+          },
+          {
+            "id": "fr[4zl]",
+            "name": "Мощность (мВт)",
+            "type": "range-radio",
+            "values_count": 6
+          },
+          {
+            "id": "f[9c2]",
+            "name": "Ограничитель громкости (для детских наушников)",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[cy]",
+            "name": "Микрофон",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[9rp]",
+            "name": "Шумоподавление микрофона",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[alo]",
+            "name": "Тип крепления микрофона",
+            "type": "checkbox",
+            "values_count": 6
+          },
+          {
+            "id": "f[4vo]",
+            "name": "Чувствительность микрофона (дБ)",
+            "type": "checkbox",
+            "values_count": 62
+          },
+          {
+            "id": "f[alp]",
+            "name": "Гибкая ножка микрофона",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[4vr]",
+            "name": "Разъем для подключения к устройству",
+            "type": "checkbox",
+            "values_count": 15
+          },
+          {
+            "id": "f[9a]",
+            "name": "Версия Bluetooth",
+            "type": "checkbox",
+            "values_count": 14
+          },
+          {
+            "id": "f[1yn]",
+            "name": "Поддержка кодеков",
+            "type": "checkbox",
+            "values_count": 16
+          },
+          {
+            "id": "fr[ec]",
+            "name": "Длина кабеля (м)",
+            "type": "range-radio",
+            "values_count": 6
+          },
+          {
+            "id": "f[4vq]",
+            "name": "Отсоединяемый кабель",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[4vs]",
+            "name": "Форма штекера кабеля",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[47w]",
+            "name": "Радиус беспроводной связи (м)",
+            "type": "checkbox",
+            "values_count": 20
+          },
+          {
+            "id": "f[4v2]",
+            "name": "Профили Bluetooth",
+            "type": "checkbox",
+            "values_count": 61
+          },
+          {
+            "id": "f[az]",
+            "name": "Система активного шумоподавления",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[84h]",
+            "name": "Заявленная совместимость с консолями",
+            "type": "checkbox",
+            "values_count": 6
+          },
+          {
+            "id": "f[7vz]",
+            "name": "Прозрачный режим (Talk Through)",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[167]",
+            "name": "Функциональные особенности",
+            "type": "checkbox",
+            "values_count": 10
+          },
+          {
+            "id": "f[b1]",
+            "name": "Регулятор громкости",
+            "type": "checkbox",
+            "values_count": 5
+          },
+          {
+            "id": "f[9rq]",
+            "name": "Режим низкой задержки",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[4vp]",
+            "name": "Функции клавиш",
+            "type": "checkbox",
+            "values_count": 72
+          },
+          {
+            "id": "f[o2]",
+            "name": "Вид управления",
+            "type": "checkbox",
+            "values_count": 4
+          },
+          {
+            "id": "f[9rs]",
+            "name": "Максимальное количество аудиоисточников (шт)",
+            "type": "checkbox",
+            "values_count": 6
+          },
+          {
+            "id": "f[4tk]",
+            "name": "Управление со смартфона",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[an]",
+            "name": "Поддержка карт памяти",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[5xj]",
+            "name": "Приложение для управления",
+            "type": "checkbox",
+            "values_count": 98
+          },
+          {
+            "id": "fr[4v3]",
+            "name": "Время работы на одном заряде (ч)",
+            "type": "range-radio",
+            "values_count": 5
+          },
+          {
+            "id": "f[65o]",
+            "name": "Разъем для зарядки",
+            "type": "checkbox",
+            "values_count": 5
+          },
+          {
+            "id": "f[4tj]",
+            "name": "Поддержка беспроводной зарядки",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[pz]",
+            "name": "Быстрая зарядка",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "fr[607]",
+            "name": "Емкость аккумулятора наушников (мА*ч)",
+            "type": "range-radio",
+            "values_count": 6
+          },
+          {
+            "id": "fr[6nf]",
+            "name": "Время работы (с зарядным кейсом) (ч)",
+            "type": "range-radio",
+            "values_count": 6
+          },
+          {
+            "id": "f[994]",
+            "name": "Наличие кабеля для зарядки",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[6ng]",
+            "name": "Емкость аккумулятора кейса (мА*ч)",
+            "type": "checkbox",
+            "values_count": 70
+          },
+          {
+            "id": "fr[8o]",
+            "name": "Вес (г)",
+            "type": "range-radio",
+            "values_count": 6
+          },
+          {
+            "id": "f[4c]",
+            "name": "Особенности, дополнительно",
+            "type": "checkbox",
+            "values_count": 118
+          },
+          {
+            "id": "f[4o]",
+            "name": "Комплектация",
+            "type": "checkbox",
+            "values_count": 195
+          }
+        ]
+      },
+      "comparison_summary_keys": [
+        "leader",
+        "price_leader",
+        "soft_wish_leaders",
+        "segment_leaders",
+        "budget_defined",
+        "competitors",
+        "all_candidates_rejected",
+        "coverage",
+        "coverage_has_gap",
+        "teacher_contract",
+        "scoring"
+      ],
+      "leader": {
+        "name": "Наушники TWS HONOR Choice Earbuds X7 белый 2024",
+        "match_status": "exact",
+        "matched_hard_wishes": [],
+        "missing_hard_wishes": []
+      }
+    },
+    {
+      "query": "швейная машина для дома с горизонтальным челноком",
+      "status": "ok",
+      "resolved_url": "https://www.dns-shop.ru/search/?q=%D1%88%D0%B2%D0%B5%D0%B9%D0%BD%D0%B0%D1%8F%20%D0%BC%D0%B0%D1%88%D0%B8%D0%BD%D0%B0&category=17a8cda216404e77&f%5Buw%5D=5i1",
+      "products_count": 5,
+      "answer_preview": "Лидер анализа\nШвейная машина Brother GS2700, 15 999 руб. Полностью соответствует всем жёстким требованиям. Технически оправданный выбор для дома: горизонтальный челнок обеспечивает стабильную работу и лёгкую замену шпульки без снятия игольной пластины. Целесообразна как базовая модель с достаточным набором строчек для повседневных задач.\n\nАльтернатива\nШвейная машина Kitfort КТ-6044, 4 999 руб. Оптимальный вариант при ограниченном бюджете. Горизонтальный челнок подтверждён, цена минимальна среди релевантных моделей. Уступает лидеру по оснащению и ресурсу, но для редкого использования технически",
+      "normalized_request": {
+        "product_type": "sewingmachine",
+        "query": "швейная машина",
+        "price_min": null,
+        "price_max": null,
+        "brand": "",
+        "source_hard_wishes_count": 1,
+        "constraints": [
+          {
+            "key": "shuttle_type",
+            "op": "==",
+            "value": "horizontal",
+            "unit": "",
+            "source_text": "горизонтальным челноком"
+          }
+        ],
+        "wishes": [
+          "shuttle_type_horizontal"
+        ],
+        "soft_wishes": []
+      },
+      "filters_map_summary": {
+        "count": 61,
+        "filters": [
+          {
+            "id": "shop-catalog",
+            "name": "Магазины",
+            "type": "shops",
+            "values_count": 9
+          },
+          {
+            "id": "stock",
+            "name": "Наличие",
+            "type": "checkbox",
+            "values_count": 5
+          },
+          {
+            "id": "price",
+            "name": "Цена",
+            "type": "range-checkbox",
+            "values_count": 6
+          },
+          {
+            "id": "created-in-dns",
+            "name": "Создано в DNS",
+            "type": "toggle",
+            "values_count": 0
+          },
+          {
+            "id": "brand",
+            "name": "Бренд",
+            "type": "checkbox",
+            "values_count": 19
+          },
+          {
+            "id": "warranty",
+            "name": "Гарантия",
+            "type": "checkbox",
+            "values_count": 4
+          },
+          {
+            "id": "rating",
+            "name": "Рейтинг 4 и выше",
+            "type": "toggle",
+            "values_count": 0
+          },
+          {
+            "id": "hit",
+            "name": "Хит продаж",
+            "type": "toggle",
+            "values_count": 0
+          },
+          {
+            "id": "review",
+            "name": "Есть обзор",
+            "type": "toggle",
+            "values_count": 0
+          },
+          {
+            "id": "rely",
+            "name": "Надёжные модели",
+            "type": "toggle",
+            "values_count": 0
+          },
+          {
+            "id": "f[7c]",
+            "name": "Основной цвет",
+            "type": "checkbox",
+            "values_count": 11
+          },
+          {
+            "id": "f[uv]",
+            "name": "Вид машины",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[uw]",
+            "name": "Тип челнока",
+            "type": "checkbox",
+            "values_count": 3
+          },
+          {
+            "id": "fr[1vp]",
+            "name": "Мощность двигателя (Вт)",
+            "type": "range-radio",
+            "values_count": 5
+          },
+          {
+            "id": "f[1w0]",
+            "name": "Максимальная скорость шитья (ст/мин)",
+            "type": "checkbox",
+            "values_count": 22
+          },
+          {
+            "id": "f[v0]",
+            "name": "Максимальная длина стежка (мм)",
+            "type": "checkbox",
+            "values_count": 10
+          },
+          {
+            "id": "f[v1]",
+            "name": "Максимальная ширина строчки (мм)",
+            "type": "checkbox",
+            "values_count": 10
+          },
+          {
+            "id": "f[vk]",
+            "name": "Максимальная высота подъема лапки (мм)",
+            "type": "checkbox",
+            "values_count": 17
+          },
+          {
+            "id": "f[8vs]",
+            "name": "Возможность шитья без педали",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[v8]",
+            "name": "Регулировка макс. скорости шитья с педалью",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[v6]",
+            "name": "Регулировка давления лапки на ткань",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[vn]",
+            "name": "Отключение нижнего транспортера ткани",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[8v7]",
+            "name": "Шитье в обратном направлении (реверс)",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[95d]",
+            "name": "Регулировка длины стежка в мм",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[95e]",
+            "name": "Регулировка ширины строчки в мм",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[v5]",
+            "name": "Автоматическое закрепление строчки",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[9ma]",
+            "name": "Дополнительный подъем лапки",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[v7]",
+            "name": "Электронный стабилизатор усилия прокола",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[vo]",
+            "name": "Автоматическая обрезка нити",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[vd]",
+            "name": "Позиционирование иглы (вверх/вниз)",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[vi]",
+            "name": "Шитье в нескольких направлениях (макси-узоры)",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[9ns]",
+            "name": "Регулировка скорости шитья без педали",
+            "type": "checkbox",
+            "values_count": 3
+          },
+          {
+            "id": "f[vj]",
+            "name": "Автоматический нитевдеватель",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[vh]",
+            "name": "Стол для расширения рабочей поверхности",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[v9]",
+            "name": "Верхний транспортер ткани",
+            "type": "checkbox",
+            "values_count": 3
+          },
+          {
+            "id": "f[6jx]",
+            "name": "Источник подсветки",
+            "type": "checkbox",
+            "values_count": 4
+          },
+          {
+            "id": "f[vg]",
+            "name": "Рукавная платформа",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[vf]",
+            "name": "Цифровой дисплей",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[24t]",
+            "name": "Ручка для переноски",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[vb]",
+            "name": "Отсек для аксессуаров",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[9ci]",
+            "name": "Линейка на корпусе",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[8v1]",
+            "name": "Расположение катушечных стержней",
+            "type": "checkbox",
+            "values_count": 3
+          },
+          {
+            "id": "f[ve]",
+            "name": "Коленный рычаг подъема лапки",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[v2]",
+            "name": "Оверлочная строчка",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[v4]",
+            "name": "Эластичная (трикотажная) строчка",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[uy]",
+            "name": "Выполнение петли",
+            "type": "checkbox",
+            "values_count": 3
+          },
+          {
+            "id": "fr[ux]",
+            "name": "Количество швейных операций",
+            "type": "range-radio",
+            "values_count": 6
+          },
+          {
+            "id": "f[9np]",
+            "name": "Вышивка алфавита",
+            "type": "checkbox",
+            "values_count": 3
+          },
+          {
+            "id": "f[v3]",
+            "name": "Потайная строчка",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[8v2]",
+            "name": "Декоративные строчки",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[uz]",
+            "name": "Количество петель",
+            "type": "checkbox",
+            "values_count": 11
+          },
+          {
+            "id": "f[8v3]",
+            "name": "Лапка универсальная для зиг-зага",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[vm]",
+            "name": "Лапка для оверлочных строчек",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[vq]",
+            "name": "Лапка для вшивания молнии",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[8v4]",
+            "name": "Лапка для выметывания петли",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[8v5]",
+            "name": "Лапка для потайного шва",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[vl]",
+            "name": "Лапка для пришивания пуговиц",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[va]",
+            "name": "Лапка для подгибки",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[vp]",
+            "name": "Лапка для квилтинга и вышивки",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[vc]",
+            "name": "Чехол",
+            "type": "checkbox",
+            "values_count": 4
+          },
+          {
+            "id": "fr[1v0]",
+            "name": "Вес швейной машины (кг)",
+            "type": "range-radio",
+            "values_count": 6
+          }
+        ]
+      },
+      "comparison_summary_keys": [
+        "leader",
+        "price_leader",
+        "soft_wish_leaders",
+        "segment_leaders",
+        "budget_defined",
+        "competitors",
+        "all_candidates_rejected",
+        "coverage",
+        "coverage_has_gap",
+        "teacher_contract",
+        "scoring"
+      ],
+      "leader": {
+        "name": "Швейная машина Brother GS2700",
+        "match_status": "exact",
+        "matched_hard_wishes": [
+          "shuttle_type_horizontal"
+        ],
+        "missing_hard_wishes": []
+      }
+    },
+    {
+      "query": "лазерное МФУ с Wi-Fi и двусторонней печатью",
+      "status": "ok",
+      "resolved_url": "https://www.dns-shop.ru/search/?q=%D0%BC%D1%84%D1%83&category=17a8df6816404e77",
+      "products_count": 5,
+      "answer_preview": "Ближайшие аналоги\n\nТочного совпадения по запросу \"лазерное МФУ с Wi-Fi и двусторонней печатью\" в текущей выборке нет. У всех кандидатов не подтверждено наличие Wi-Fi и двусторонней печати. Наиболее близкий вариант по оснащению и цене — Canon i-SENSYS MF237w за 29 399 руб. Причины: 256 МБ оперативной памяти, что оптимально для офисных задач; компактный форм-фактор; цена ниже, чем у прямого конкурента HP с аналогичным объёмом памяти.\n\nАльтернатива\n\nЕсли приоритет — минимальная стоимость при сохранении лазерной технологии, технически оправдан выбор Pantum BM2302W за 12 999 руб. Это самый дешёвый ",
+      "normalized_request": {
+        "product_type": "mfp",
+        "query": "мфу",
+        "price_min": null,
+        "price_max": null,
+        "brand": "",
+        "source_hard_wishes_count": 2,
+        "constraints": [
+          {
+            "key": "wifi",
+            "op": "==",
+            "value": "true",
+            "unit": "",
+            "source_text": "с Wi-Fi"
+          },
+          {
+            "key": "duplex_print",
+            "op": "==",
+            "value": "true",
+            "unit": "",
+            "source_text": "duplex_print"
+          }
+        ],
+        "wishes": [
+          "wifi",
+          "duplex_print"
+        ],
+        "soft_wishes": []
+      },
+      "filters_map_summary": {
+        "count": 52,
+        "filters": [
+          {
+            "id": "shop-catalog",
+            "name": "Магазины",
+            "type": "shops",
+            "values_count": 9
+          },
+          {
+            "id": "stock",
+            "name": "Наличие",
+            "type": "checkbox",
+            "values_count": 5
+          },
+          {
+            "id": "price",
+            "name": "Цена",
+            "type": "range-checkbox",
+            "values_count": 6
+          },
+          {
+            "id": "brand",
+            "name": "Бренд",
+            "type": "checkbox",
+            "values_count": 15
+          },
+          {
+            "id": "warranty",
+            "name": "Гарантия",
+            "type": "checkbox",
+            "values_count": 4
+          },
+          {
+            "id": "rating",
+            "name": "Рейтинг 4 и выше",
+            "type": "toggle",
+            "values_count": 0
+          },
+          {
+            "id": "hit",
+            "name": "Хит продаж",
+            "type": "toggle",
+            "values_count": 0
+          },
+          {
+            "id": "review",
+            "name": "Есть обзор",
+            "type": "toggle",
+            "values_count": 0
+          },
+          {
+            "id": "rely",
+            "name": "Надёжные модели",
+            "type": "toggle",
+            "values_count": 0
+          },
+          {
+            "id": "f[3p3]",
+            "name": "Функции устройства",
+            "type": "checkbox",
+            "values_count": 5
+          },
+          {
+            "id": "f[c1]",
+            "name": "Область применения",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[7c]",
+            "name": "Основной цвет",
+            "type": "checkbox",
+            "values_count": 4
+          },
+          {
+            "id": "f[1g]",
+            "name": "Размещение",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[2jn]",
+            "name": "Оперативная память (МБ)",
+            "type": "checkbox",
+            "values_count": 15
+          },
+          {
+            "id": "f[211]",
+            "name": "Цветность печати",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[3p4]",
+            "name": "Автоматическая двусторонняя печать",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[3rf]",
+            "name": "Максимальный формат печати",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "fr[2hy]",
+            "name": "Скорость черно-белой печати (стр/мин)",
+            "type": "range-radio",
+            "values_count": 4
+          },
+          {
+            "id": "f[2hx]",
+            "name": "Максимальное разрешение черно-белой печати",
+            "type": "checkbox",
+            "values_count": 9
+          },
+          {
+            "id": "fr[2iv]",
+            "name": "Максимальный месячный объем печати",
+            "type": "range-radio",
+            "values_count": 5
+          },
+          {
+            "id": "f[212]",
+            "name": "Технология печати",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "fr[21f]",
+            "name": "Время выхода первого черно-белого отпечатка (сек)",
+            "type": "range-radio",
+            "values_count": 3
+          },
+          {
+            "id": "f[2iw]",
+            "name": "Максимальное разрешение цветной печати",
+            "type": "checkbox",
+            "values_count": 6
+          },
+          {
+            "id": "fr[2hz]",
+            "name": "Скорость цветной печати (стр/мин)",
+            "type": "range-radio",
+            "values_count": 3
+          },
+          {
+            "id": "fr[21g]",
+            "name": "Время выхода первого цветного отпечатка (сек)",
+            "type": "range-radio",
+            "values_count": 3
+          },
+          {
+            "id": "f[21o]",
+            "name": "Устройство автоподачи",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[2hj]",
+            "name": "Тип устройства автоподачи",
+            "type": "checkbox",
+            "values_count": 3
+          },
+          {
+            "id": "f[21l]",
+            "name": "Тип сканера",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[2iy]",
+            "name": "Оптическое разрешение сканера",
+            "type": "checkbox",
+            "values_count": 9
+          },
+          {
+            "id": "fr[2ho]",
+            "name": "Скорость сканирования (ч/б)",
+            "type": "range-radio",
+            "values_count": 5
+          },
+          {
+            "id": "f[2ix]",
+            "name": "Максимальный формат бумаги (сканер)",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "fr[2j0]",
+            "name": "Скорость копирования",
+            "type": "range-radio",
+            "values_count": 4
+          },
+          {
+            "id": "f[21t]",
+            "name": "Максимальное разрешение копира",
+            "type": "checkbox",
+            "values_count": 5
+          },
+          {
+            "id": "f[2j3]",
+            "name": "Максимальное количество копий за цикл",
+            "type": "checkbox",
+            "values_count": 4
+          },
+          {
+            "id": "f[224]",
+            "name": "Функция факса",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[3pe]",
+            "name": "Поддерживаемая плотность носителей",
+            "type": "checkbox",
+            "values_count": 33
+          },
+          {
+            "id": "f[2jj]",
+            "name": "Емкость выходного лотка",
+            "type": "checkbox",
+            "values_count": 14
+          },
+          {
+            "id": "f[219]",
+            "name": "Печать на",
+            "type": "checkbox",
+            "values_count": 36
+          },
+          {
+            "id": "f[5h5]",
+            "name": "Возможность установки дополнительных лотков",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[amv]",
+            "name": "Максимальное количество дополнительных лотков",
+            "type": "checkbox",
+            "values_count": 5
+          },
+          {
+            "id": "f[2iu]",
+            "name": "Модель картриджей",
+            "type": "checkbox",
+            "values_count": 433
+          },
+          {
+            "id": "fr[3rg]",
+            "name": "Ресурс черного картриджа",
+            "type": "range-radio",
+            "values_count": 4
+          },
+          {
+            "id": "f[21k]",
+            "name": "Количество картриджей (шт)",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "fr[2i5]",
+            "name": "Ресурс цветного картриджа",
+            "type": "range-radio",
+            "values_count": 2
+          },
+          {
+            "id": "f[8x]",
+            "name": "Интерфейсы",
+            "type": "checkbox",
+            "values_count": 9
+          },
+          {
+            "id": "f[b9]",
+            "name": "Устройство для чтения карт памяти",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[an]",
+            "name": "Поддержка карт памяти",
+            "type": "checkbox",
+            "values_count": 4
+          },
+          {
+            "id": "f[4ak]",
+            "name": "Мобильные технологии печати",
+            "type": "checkbox",
+            "values_count": 39
+          },
+          {
+            "id": "f[lr]",
+            "name": "Совместимость",
+            "type": "checkbox",
+            "values_count": 71
+          },
+          {
+            "id": "f[2jl]",
+            "name": "Прямая печать",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "fr[x3]",
+            "name": "Потребляемая мощность в работе (Вт)",
+            "type": "range-radio",
+            "values_count": 4
+          },
+          {
+            "id": "f[145]",
+            "name": "Отображение информации",
+            "type": "checkbox",
+            "values_count": 5
+          }
+        ]
+      },
+      "comparison_summary_keys": [
+        "leader",
+        "price_leader",
+        "soft_wish_leaders",
+        "segment_leaders",
+        "budget_defined",
+        "competitors",
+        "all_candidates_rejected",
+        "coverage",
+        "coverage_has_gap",
+        "teacher_contract",
+        "scoring"
+      ],
+      "leader": {
+        "name": "МФУ лазерное Canon i-SENSYS MF237w",
+        "match_status": "partial",
+        "matched_hard_wishes": [],
+        "missing_hard_wishes": [
+          "wifi",
+          "duplex_print"
+        ]
+      }
+    },
+    {
+      "query": "робот-пылесос с лидаром и влажной уборкой",
+      "status": "ok",
+      "resolved_url": "https://www.dns-shop.ru/search/?q=%D1%80%D0%BE%D0%B1%D0%BE%D1%82-%D0%BF%D1%8B%D0%BB%D0%B5%D1%81%D0%BE%D1%81&category=17a8face16404e77",
+      "products_count": 5,
+      "answer_preview": "Ближайшие аналоги\n\nТочного совпадения по жёстким требованиям (лидар и влажная уборка) в текущей выборке нет — ни у одного товара эти характеристики не подтверждены карточкой. Тем не менее, по совокупности цены и оснащения наиболее сбалансированным вариантом выглядит Dreame D9 Max Gen 2 за 12 199 руб. Это value-лидер выборки: при минимальном бюджете он предлагает базовый функционал робота-пылесоса, и его стоимость технически оправдана для старта.\n\nАльтернатива\n\nЕсли приоритет — максимальная экономия, целесообразно рассмотреть Xiaomi Robot Vacuum E10 за 6 999 руб. Это самый дешёвый вариант в выд",
+      "normalized_request": {
+        "product_type": "robotvacuum",
+        "query": "робот-пылесос",
+        "price_min": null,
+        "price_max": null,
+        "brand": "",
+        "source_hard_wishes_count": 2,
+        "constraints": [
+          {
+            "key": "wet_cleaning",
+            "op": "==",
+            "value": "true",
+            "unit": "",
+            "source_text": "wet_cleaning"
+          },
+          {
+            "key": "navigation",
+            "op": "==",
+            "value": "lidar",
+            "unit": "",
+            "source_text": "lidar_navigation"
+          }
+        ],
+        "wishes": [
+          "wet_cleaning",
+          "lidar_navigation"
+        ],
+        "soft_wishes": [
+          "good_navigation"
+        ]
+      },
+      "filters_map_summary": {
+        "count": 60,
+        "filters": [
+          {
+            "id": "shop-catalog",
+            "name": "Магазины",
+            "type": "shops",
+            "values_count": 9
+          },
+          {
+            "id": "stock",
+            "name": "Наличие",
+            "type": "checkbox",
+            "values_count": 5
+          },
+          {
+            "id": "price",
+            "name": "Цена",
+            "type": "range-checkbox",
+            "values_count": 6
+          },
+          {
+            "id": "action",
+            "name": "Предложения брендов",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "created-in-dns",
+            "name": "Создано в DNS",
+            "type": "toggle",
+            "values_count": 0
+          },
+          {
+            "id": "brand",
+            "name": "Бренд",
+            "type": "checkbox",
+            "values_count": 66
+          },
+          {
+            "id": "warranty",
+            "name": "Гарантия",
+            "type": "checkbox",
+            "values_count": 4
+          },
+          {
+            "id": "rating",
+            "name": "Рейтинг 4 и выше",
+            "type": "toggle",
+            "values_count": 0
+          },
+          {
+            "id": "hit",
+            "name": "Хит продаж",
+            "type": "toggle",
+            "values_count": 0
+          },
+          {
+            "id": "review",
+            "name": "Есть обзор",
+            "type": "toggle",
+            "values_count": 0
+          },
+          {
+            "id": "rely",
+            "name": "Надёжные модели",
+            "type": "toggle",
+            "values_count": 0
+          },
+          {
+            "id": "f[j]",
+            "name": "Тип",
+            "type": "checkbox",
+            "values_count": 3
+          },
+          {
+            "id": "f[7c]",
+            "name": "Основной цвет",
+            "type": "checkbox",
+            "values_count": 8
+          },
+          {
+            "id": "f[o9]",
+            "name": "Тип уборки",
+            "type": "checkbox",
+            "values_count": 3
+          },
+          {
+            "id": "f[604]",
+            "name": "Тип навигации",
+            "type": "checkbox",
+            "values_count": 5
+          },
+          {
+            "id": "f[od]",
+            "name": "Тип пылесборника",
+            "type": "checkbox",
+            "values_count": 4
+          },
+          {
+            "id": "f[9hs]",
+            "name": "Вид аксессуара для влажной уборки",
+            "type": "checkbox",
+            "values_count": 5
+          },
+          {
+            "id": "fr[amp]",
+            "name": "Максимальная мощность всасывания (Па)",
+            "type": "range-radio",
+            "values_count": 6
+          },
+          {
+            "id": "fr[3fs]",
+            "name": "Объем пылесборника (л)",
+            "type": "range-radio",
+            "values_count": 5
+          },
+          {
+            "id": "f[9hr]",
+            "name": "Тип чистящего модуля",
+            "type": "checkbox",
+            "values_count": 8
+          },
+          {
+            "id": "fr[3fr]",
+            "name": "Объем резервуара для воды/моющего средства (л)",
+            "type": "range-radio",
+            "values_count": 5
+          },
+          {
+            "id": "f[24f]",
+            "name": "Фильтр",
+            "type": "checkbox",
+            "values_count": 8
+          },
+          {
+            "id": "f[8u]",
+            "name": "Дисплей",
+            "type": "checkbox",
+            "values_count": 4
+          },
+          {
+            "id": "f[os]",
+            "name": "Индикация",
+            "type": "checkbox",
+            "values_count": 27
+          },
+          {
+            "id": "f[4tk]",
+            "name": "Управление со смартфона",
+            "type": "checkbox",
+            "values_count": 3
+          },
+          {
+            "id": "f[8ax]",
+            "name": "Экосистема умного дома",
+            "type": "checkbox",
+            "values_count": 22
+          },
+          {
+            "id": "f[3fw]",
+            "name": "Боковая щетка",
+            "type": "checkbox",
+            "values_count": 3
+          },
+          {
+            "id": "f[9hx]",
+            "name": "Автоматическое увеличение мощности на ковре",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[88g]",
+            "name": "Основная щетка",
+            "type": "checkbox",
+            "values_count": 6
+          },
+          {
+            "id": "f[6wx]",
+            "name": "Высота преодоления порога (см)",
+            "type": "checkbox",
+            "values_count": 22
+          },
+          {
+            "id": "f[9hv]",
+            "name": "Автоматическая установка на зарядку",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[9hz]",
+            "name": "Форма пылесоса",
+            "type": "checkbox",
+            "values_count": 4
+          },
+          {
+            "id": "fr[f0]",
+            "name": "Уровень шума (дБ)",
+            "type": "range-radio",
+            "values_count": 5
+          },
+          {
+            "id": "f[9hw]",
+            "name": "Продолжение уборки после дозарядки",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[3fq]",
+            "name": "Другие функции и возможности",
+            "type": "checkbox",
+            "values_count": 163
+          },
+          {
+            "id": "f[9ht]",
+            "name": "Количество основных щеток (шт)",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[9hy]",
+            "name": "Подача воды на салфетку",
+            "type": "checkbox",
+            "values_count": 16
+          },
+          {
+            "id": "f[9hu]",
+            "name": "Разборная основная щетка",
+            "type": "checkbox",
+            "values_count": 3
+          },
+          {
+            "id": "fr[528]",
+            "name": "Площадь уборки на полном заряде элементов питания (м²)",
+            "type": "range-radio",
+            "values_count": 6
+          },
+          {
+            "id": "f[ww]",
+            "name": "Режимы работы",
+            "type": "checkbox",
+            "values_count": 81
+          },
+          {
+            "id": "f[5ji]",
+            "name": "Построение карты помещения",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[37e]",
+            "name": "Голосовой помощник",
+            "type": "checkbox",
+            "values_count": 15
+          },
+          {
+            "id": "f[sj]",
+            "name": "Тип управления",
+            "type": "checkbox",
+            "values_count": 5
+          },
+          {
+            "id": "f[9i1]",
+            "name": "Зонирование помещения на комнаты",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[9i4]",
+            "name": "Построение карты в реальном времени",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[529]",
+            "name": "Уборка по расписанию",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[3fx]",
+            "name": "Ограничитель зоны уборки",
+            "type": "checkbox",
+            "values_count": 5
+          },
+          {
+            "id": "f[9i0]",
+            "name": "Сохранение карты помещения",
+            "type": "checkbox",
+            "values_count": 6
+          },
+          {
+            "id": "f[5xj]",
+            "name": "Приложение для управления",
+            "type": "checkbox",
+            "values_count": 57
+          },
+          {
+            "id": "f[9i2]",
+            "name": "Настройка силы всасывания",
+            "type": "checkbox",
+            "values_count": 5
+          },
+          {
+            "id": "f[9i5]",
+            "name": "Дополнительные настройки работы в приложении",
+            "type": "checkbox",
+            "values_count": 48
+          },
+          {
+            "id": "f[88h]",
+            "name": "Станция самоочистки",
+            "type": "checkbox",
+            "values_count": 3
+          },
+          {
+            "id": "fr[4a]",
+            "name": "Емкость аккумулятора (мА*ч)",
+            "type": "range-radio",
+            "values_count": 5
+          },
+          {
+            "id": "fr[3fv]",
+            "name": "Продолжительность автономной работы (мин)",
+            "type": "range-radio",
+            "values_count": 5
+          },
+          {
+            "id": "fr[f2]",
+            "name": "Время зарядки (мин)",
+            "type": "range-radio",
+            "values_count": 4
+          },
+          {
+            "id": "f[9i8]",
+            "name": "Особенности станции",
+            "type": "checkbox",
+            "values_count": 58
+          },
+          {
+            "id": "f[9i6]",
+            "name": "Назначение станции",
+            "type": "checkbox",
+            "values_count": 9
+          },
+          {
+            "id": "f[9ib]",
+            "name": "Уровень шума станции (дБ)",
+            "type": "checkbox",
+            "values_count": 21
+          },
+          {
+            "id": "f[3fn]",
+            "name": "Высота основного устройства (мм)",
+            "type": "checkbox",
+            "values_count": 75
+          },
+          {
+            "id": "f[3fm]",
+            "name": "Ширина основного устройства (мм)",
+            "type": "checkbox",
+            "values_count": 38
+          }
+        ]
+      },
+      "comparison_summary_keys": [
+        "leader",
+        "price_leader",
+        "soft_wish_leaders",
+        "segment_leaders",
+        "budget_defined",
+        "competitors",
+        "all_candidates_rejected",
+        "coverage",
+        "coverage_has_gap",
+        "teacher_contract",
+        "scoring"
+      ],
+      "leader": {
+        "name": "Робот-пылесос Trouver E30 Ultra белый",
+        "match_status": "partial",
+        "matched_hard_wishes": [],
+        "missing_hard_wishes": [
+          "wet_cleaning",
+          "lidar_navigation"
+        ]
+      }
+    },
+    {
+      "query": "автоматическая кофемашина с капучинатором",
+      "status": "ok",
+      "resolved_url": "https://www.dns-shop.ru/search/?q=%D0%BA%D0%BE%D1%84%D0%B5%D0%BC%D0%B0%D1%88%D0%B8%D0%BD%D0%B0&category=17a8c93a16404e77",
+      "products_count": 5,
+      "answer_preview": "Лидер анализа\n— Самый бюджетный вариант: Кофемашина автоматическая DEXP DAM-319P черный, 14 999 руб.. Совпадает по: части критериев. Не подтверждено: автоматической кофемашиной, капучинатором. Сравнительный score: 2.\n— Баланс цены и характеристик: Кофемашина автоматическая Philips EP1220/00 черный, 26 299 руб.. Совпадает по: части критериев. Не подтверждено: автоматической кофемашиной, капучинатором. Сравнительный score: 2.\n— Максимум характеристик: Кофемашина автоматическая Philips LatteGo EP5544/50 серый, 58 999 руб.. Совпадает по: части критериев. Не подтверждено: автоматической кофемашиной",
+      "normalized_request": {
+        "product_type": "coffee_machine",
+        "query": "кофемашина",
+        "price_min": null,
+        "price_max": null,
+        "brand": "",
+        "source_hard_wishes_count": 2,
+        "constraints": [
+          {
+            "key": "machine_type",
+            "op": "==",
+            "value": "automatic",
+            "unit": "",
+            "source_text": "machine_type_automatic"
+          },
+          {
+            "key": "cappuccinator",
+            "op": "==",
+            "value": "true",
+            "unit": "",
+            "source_text": "cappuccinator"
+          }
+        ],
+        "wishes": [
+          "machine_type_automatic",
+          "cappuccinator"
+        ],
+        "soft_wishes": []
+      },
+      "filters_map_summary": {
+        "count": 58,
+        "filters": [
+          {
+            "id": "shop-catalog",
+            "name": "Магазины",
+            "type": "shops",
+            "values_count": 9
+          },
+          {
+            "id": "stock",
+            "name": "Наличие",
+            "type": "checkbox",
+            "values_count": 5
+          },
+          {
+            "id": "price",
+            "name": "Цена",
+            "type": "range-checkbox",
+            "values_count": 6
+          },
+          {
+            "id": "action",
+            "name": "Предложения брендов",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "created-in-dns",
+            "name": "Создано в DNS",
+            "type": "toggle",
+            "values_count": 0
+          },
+          {
+            "id": "brand",
+            "name": "Бренд",
+            "type": "checkbox",
+            "values_count": 34
+          },
+          {
+            "id": "warranty",
+            "name": "Гарантия",
+            "type": "checkbox",
+            "values_count": 4
+          },
+          {
+            "id": "rating",
+            "name": "Рейтинг 4 и выше",
+            "type": "toggle",
+            "values_count": 0
+          },
+          {
+            "id": "hit",
+            "name": "Хит продаж",
+            "type": "toggle",
+            "values_count": 0
+          },
+          {
+            "id": "review",
+            "name": "Есть обзор",
+            "type": "toggle",
+            "values_count": 0
+          },
+          {
+            "id": "rely",
+            "name": "Надёжные модели",
+            "type": "toggle",
+            "values_count": 0
+          },
+          {
+            "id": "f[7c]",
+            "name": "Основной цвет",
+            "type": "checkbox",
+            "values_count": 9
+          },
+          {
+            "id": "f[5q6]",
+            "name": "Цвет заявленный производителем",
+            "type": "checkbox",
+            "values_count": 50
+          },
+          {
+            "id": "f[rm]",
+            "name": "Капучинатор",
+            "type": "checkbox",
+            "values_count": 3
+          },
+          {
+            "id": "f[ru]",
+            "name": "Используемый кофе",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[rt]",
+            "name": "Давление помпы (Бар)",
+            "type": "checkbox",
+            "values_count": 3
+          },
+          {
+            "id": "f[rl]",
+            "name": "Объем резервуара для воды (л)",
+            "type": "checkbox",
+            "values_count": 20
+          },
+          {
+            "id": "f[abn]",
+            "name": "Автоподача молока",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[rz]",
+            "name": "Тип нагревателя",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[38g]",
+            "name": "Емкость для молока",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[4n]",
+            "name": "Материал корпуса",
+            "type": "checkbox",
+            "values_count": 3
+          },
+          {
+            "id": "f[rr]",
+            "name": "Раздельные бойлеры",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[38h]",
+            "name": "Объем емкости для молока (мл)",
+            "type": "checkbox",
+            "values_count": 14
+          },
+          {
+            "id": "f[aal]",
+            "name": "Автоматическое приготовление напитков",
+            "type": "checkbox",
+            "values_count": 41
+          },
+          {
+            "id": "f[rv]",
+            "name": "Регулирование крепости кофе",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[ry]",
+            "name": "Автоматическая декальцинация",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[rx]",
+            "name": "Противокапельная система",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[rq]",
+            "name": "Одновременное приготовление двух чашек",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[s0]",
+            "name": "Подача горячей воды",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[2a1]",
+            "name": "Регулировка объема напитка",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[71c]",
+            "name": "Подключение к водопроводу",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[rw]",
+            "name": "Регулировка температуры кофе",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[99y]",
+            "name": "Приготовления холодных напитков",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[s1]",
+            "name": "Предварительное смачивание",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[hm]",
+            "name": "Автоматическое отключение",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[rp]",
+            "name": "Подогрев чашек",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[8zq]",
+            "name": "Регулировка диспенсера по высоте",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[1uq]",
+            "name": "Режим энергосбережения",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[4tk]",
+            "name": "Управление со смартфона",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[sj]",
+            "name": "Тип управления",
+            "type": "checkbox",
+            "values_count": 3
+          },
+          {
+            "id": "f[8u]",
+            "name": "Дисплей",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[rn]",
+            "name": "Таймер",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[4qp]",
+            "name": "Профили",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[8ax]",
+            "name": "Экосистема умного дома",
+            "type": "checkbox",
+            "values_count": 3
+          },
+          {
+            "id": "f[5xj]",
+            "name": "Приложение для управления",
+            "type": "checkbox",
+            "values_count": 9
+          },
+          {
+            "id": "f[4gk]",
+            "name": "Протокол передачи данных",
+            "type": "checkbox",
+            "values_count": 3
+          },
+          {
+            "id": "f[37e]",
+            "name": "Голосовой помощник",
+            "type": "checkbox",
+            "values_count": 3
+          },
+          {
+            "id": "f[rs]",
+            "name": "Регулировка степени помола",
+            "type": "checkbox",
+            "values_count": 1
+          },
+          {
+            "id": "f[7rl]",
+            "name": "Материал кофемолки",
+            "type": "checkbox",
+            "values_count": 5
+          },
+          {
+            "id": "f[2a0]",
+            "name": "Количество степеней помола",
+            "type": "checkbox",
+            "values_count": 14
+          },
+          {
+            "id": "f[ro]",
+            "name": "Емкость контейнера для зерен (г)",
+            "type": "checkbox",
+            "values_count": 25
+          },
+          {
+            "id": "f[8e]",
+            "name": "Мощность (Вт)",
+            "type": "checkbox",
+            "values_count": 17
+          },
+          {
+            "id": "f[s2]",
+            "name": "Контейнер для отходов",
+            "type": "checkbox",
+            "values_count": 2
+          },
+          {
+            "id": "f[5aw]",
+            "name": "Съемные элементы",
+            "type": "checkbox",
+            "values_count": 20
+          },
+          {
+            "id": "fr[d4]",
+            "name": "Глубина (см)",
+            "type": "range-radio",
+            "values_count": 4
+          },
+          {
+            "id": "fr[8i]",
+            "name": "Высота (см)",
+            "type": "range-radio",
+            "values_count": 4
+          },
+          {
+            "id": "fr[8g]",
+            "name": "Ширина (см)",
+            "type": "range-radio",
+            "values_count": 5
+          },
+          {
+            "id": "fr[8o]",
+            "name": "Вес (кг)",
+            "type": "range-radio",
+            "values_count": 4
+          }
+        ]
+      },
+      "comparison_summary_keys": [
+        "leader",
+        "price_leader",
+        "soft_wish_leaders",
+        "segment_leaders",
+        "budget_defined",
+        "competitors",
+        "all_candidates_rejected",
+        "coverage",
+        "coverage_has_gap",
+        "teacher_contract",
+        "scoring"
+      ],
+      "leader": {
+        "name": "Кофемашина автоматическая DeLonghi Magnifica S ECAM 22.110.B черный",
+        "match_status": "partial",
+        "matched_hard_wishes": [],
+        "missing_hard_wishes": [
+          "machine_type_automatic",
+          "cappuccinator"
+        ]
+      }
+    },
+    {
+      "query": "велотренажер с магнитной системой нагрузки",
+      "status": "ok",
+      "resolved_url": "https://www.dns-shop.ru/search/?q=%D0%B2%D0%B5%D0%BB%D0%BE%D1%82%D1%80%D0%B5%D0%BD%D0%B0%D0%B6%D0%B5%D1%80&category=17a8cf4816404e77",
+      "products_count": 0,
+      "answer_preview": "По заданным фильтрам товаров не найдено.\nТочного совпадения нет: одновременно не нашлось модели с магнитной системой нагрузки.\nРекомендуется ослабить одно из условий: систему нагрузки.",
+      "normalized_request": {
+        "product_type": "exercisebike",
+        "query": "велотренажер",
+        "price_min": null,
+        "price_max": null,
+        "brand": "",
+        "source_hard_wishes_count": 1,
+        "constraints": [
+          {
+            "key": "resistance_system",
+            "op": "==",
+            "value": "magnetic",
+            "unit": "",
+            "source_text": "resistance_system_magnetic"
+          }
+        ],
+        "wishes": [
+          "resistance_system_magnetic"
+        ],
+        "soft_wishes": []
+      },
+      "filters_map_summary": {
+        "count": 0,
+        "filters": []
+      },
+      "comparison_summary_keys": [
+        "coverage"
+      ],
+      "leader": {
+        "name": null,
+        "match_status": null,
+        "matched_hard_wishes": null,
+        "missing_hard_wishes": null
+      }
+    }
+  ]
+}

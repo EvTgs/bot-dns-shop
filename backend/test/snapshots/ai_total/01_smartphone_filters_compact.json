@@ -1,0 +1,6291 @@
+{
+  "product_type": "smartphone",
+  "query": "смартфон",
+  "section_url": "https://www.dns-shop.ru/search/?q=%D1%81%D0%BC%D0%B0%D1%80%D1%82%D1%84%D0%BE%D0%BD&category=17a8a01d16404e77",
+  "filters_count": 137,
+  "llm_summary": {
+    "filters_total": 137,
+    "filter_types": {
+      "checkbox": 114,
+      "range-checkbox": 1,
+      "range-radio": 16,
+      "shops": 1,
+      "toggle": 5
+    },
+    "filter_groups": {
+      "Аудио": 4,
+      "Видеосъемка (основная камера)": 6,
+      "Внешний вид": 3,
+      "Габариты и вес": 4,
+      "Дополнительная информация": 4,
+      "Коммуникации": 6,
+      "Конструкция и защита": 9,
+      "Мобильная связь": 12,
+      "Общие параметры": 2,
+      "Операционная система и процессор": 13,
+      "Основная (тыловая) камера": 15,
+      "Основные": 7,
+      "Память": 8,
+      "Питание": 12,
+      "Разъемы и датчики": 4,
+      "Рейтинг и обзоры": 4,
+      "Фронтальная камера": 12,
+      "Экран": 12
+    },
+    "compaction_rules": [
+      "null fields removed",
+      "empty selected/default removed",
+      "long values lists replaced with values_count + sample_values",
+      "only meaningful scalar fields kept"
+    ]
+  },
+  "filters": [
+    {
+      "group": "Основные",
+      "id": "shop-catalog",
+      "name": "Магазины",
+      "type": "shops",
+      "values": [
+        {
+          "id": "7311",
+          "name": "Магазин-склад ТЦ РИО"
+        },
+        {
+          "id": "7165",
+          "name": "На Маршала Конева"
+        },
+        {
+          "id": "1497",
+          "name": "ТРЦ «Мармелад»"
+        },
+        {
+          "id": "1496",
+          "name": "ТРЦ «Оазис»"
+        },
+        {
+          "id": "7308",
+          "name": "ТРЦ «РИО»"
+        },
+        {
+          "id": "3050",
+          "name": "ТЦ «Апельсин»"
+        },
+        {
+          "id": "4057",
+          "name": "ТЦ «Магистраль»"
+        },
+        {
+          "id": "7749",
+          "name": "ТЦ «Форум»"
+        },
+        {
+          "id": "3768",
+          "name": "ТЦ «Мельница»"
+        }
+      ]
+    },
+    {
+      "group": "Основные",
+      "id": "stock",
+      "name": "Наличие",
+      "type": "checkbox",
+      "default": [
+        "now",
+        "today",
+        "tomorrow",
+        "later",
+        "out_of_stock"
+      ],
+      "values": [
+        {
+          "id": "now",
+          "name": "В наличии"
+        },
+        {
+          "id": "today",
+          "name": "Под заказ: сегодня"
+        },
+        {
+          "id": "tomorrow",
+          "name": "Под заказ: завтра"
+        },
+        {
+          "id": "later",
+          "name": "Под заказ: позже"
+        },
+        {
+          "id": "out_of_stock",
+          "name": "Отсутствующие в продаже"
+        }
+      ]
+    },
+    {
+      "group": "Основные",
+      "id": "price",
+      "name": "Цена",
+      "type": "range-checkbox",
+      "values": [
+        {
+          "id": "e0c8214f7c30651337c1efd0bd230991",
+          "name": "Менее 15 000 ₽",
+          "count": 581
+        },
+        {
+          "id": "e5bae1e6d776681d7344858779656ef9",
+          "name": "15 001 - 30 000 ₽",
+          "count": 559
+        },
+        {
+          "id": "b9d7f16b11dd3984734b3b666bde4fe3",
+          "name": "30 001 - 50 000 ₽",
+          "count": 336
+        },
+        {
+          "id": "aa63d1605ccbd4489fec658139ec7465",
+          "name": "50 001 - 80 000 ₽",
+          "count": 334
+        },
+        {
+          "id": "f79f33658448ffb3af4c26cfb6eb03f1",
+          "name": "80 001 - 110 000 ₽",
+          "count": 250
+        },
+        {
+          "id": "140b1f3b383eea8ed8af82a5912d6515",
+          "name": "110 001 ₽ и более",
+          "count": 258
+        }
+      ]
+    },
+    {
+      "group": "Основные",
+      "id": "action",
+      "name": "Предложения брендов",
+      "type": "checkbox",
+      "values": [
+        {
+          "id": "vygodnyekomplekty",
+          "name": "Выгодные комплекты",
+          "count": 396
+        },
+        {
+          "id": "rassrockailivygoda",
+          "name": "Рассрочка или выгода",
+          "count": 63
+        },
+        {
+          "id": "tovarysoskidkoj",
+          "name": "Скидки и предложения",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "group": "Основные",
+      "id": "created-in-dns",
+      "name": "Создано в DNS",
+      "type": "toggle"
+    },
+    {
+      "group": "Основные",
+      "id": "brand",
+      "name": "Бренд",
+      "type": "checkbox",
+      "values_count": 44,
+      "sample_values": [
+        {
+          "id": "acer",
+          "name": "Acer",
+          "count": 1
+        },
+        {
+          "id": "apple",
+          "name": "Apple",
+          "count": 776
+        },
+        {
+          "id": "asus",
+          "name": "ASUS",
+          "count": 29
+        },
+        {
+          "id": "blackberry",
+          "name": "BLACKBERRY",
+          "count": 1
+        },
+        {
+          "id": "blackshark",
+          "name": "Black Shark",
+          "count": 1
+        },
+        {
+          "id": "blackview",
+          "name": "Blackview",
+          "count": 24
+        },
+        {
+          "id": "bq",
+          "name": "BQ",
+          "count": 2
+        },
+        {
+          "id": "cmfbynothing",
+          "name": "CMF By Nothing",
+          "count": 8
+        },
+        {
+          "id": "unihertz",
+          "name": "Unihertz",
+          "count": 13
+        },
+        {
+          "id": "vertex",
+          "name": "Vertex",
+          "count": 1
+        },
+        {
+          "id": "vivo",
+          "name": "Vivo",
+          "count": 146
+        },
+        {
+          "id": "xiaomi",
+          "name": "Xiaomi",
+          "count": 501
+        }
+      ]
+    },
+    {
+      "group": "Основные",
+      "id": "warranty",
+      "name": "Гарантия",
+      "type": "checkbox",
+      "values": [
+        {
+          "id": "12",
+          "name": "1 год",
+          "count": 3631
+        },
+        {
+          "id": "13",
+          "name": "1 год 1 мес.",
+          "count": 261
+        },
+        {
+          "id": "18",
+          "name": "1 год 6 мес.",
+          "count": 32
+        },
+        {
+          "id": "24",
+          "name": "2 года",
+          "count": 121
+        }
+      ]
+    },
+    {
+      "group": "Рейтинг и обзоры",
+      "id": "rating",
+      "name": "Рейтинг 4 и выше",
+      "type": "toggle"
+    },
+    {
+      "group": "Рейтинг и обзоры",
+      "id": "hit",
+      "name": "Хит продаж",
+      "type": "toggle"
+    },
+    {
+      "group": "Рейтинг и обзоры",
+      "id": "review",
+      "name": "Есть обзор",
+      "type": "toggle"
+    },
+    {
+      "group": "Рейтинг и обзоры",
+      "id": "rely",
+      "name": "Надёжные модели",
+      "type": "toggle"
+    },
+    {
+      "group": "Общие параметры",
+      "id": "f[48j]",
+      "name": "Год релиза",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "pecj",
+          "name": "2026",
+          "count": 291
+        },
+        {
+          "id": "llst",
+          "name": "2025",
+          "count": 1197
+        },
+        {
+          "id": "h9dq",
+          "name": "2024",
+          "count": 804
+        },
+        {
+          "id": "ben8",
+          "name": "2023",
+          "count": 448
+        },
+        {
+          "id": "97qs",
+          "name": "2022",
+          "count": 187
+        },
+        {
+          "id": "7rbv",
+          "name": "2021",
+          "count": 136
+        },
+        {
+          "id": "5c25",
+          "name": "2020",
+          "count": 94
+        },
+        {
+          "id": "43wg",
+          "name": "2019",
+          "count": 7
+        },
+        {
+          "id": "1d32",
+          "name": "2016",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "group": "Общие параметры",
+      "id": "f[6h]",
+      "name": "Модель",
+      "type": "checkbox",
+      "is_spec": true,
+      "values_count": 706,
+      "sample_values": [
+        {
+          "id": "ia6z",
+          "name": "ASUS ROG Phone 8",
+          "count": 1
+        },
+        {
+          "id": "n34z",
+          "name": "ASUS ROG Phone 9",
+          "count": 2
+        },
+        {
+          "id": "n3cl",
+          "name": "ASUS ROG Phone 9 Pro",
+          "count": 1
+        },
+        {
+          "id": "i8w3",
+          "name": "ASUS Zenfone 11 Ultra",
+          "count": 4
+        },
+        {
+          "id": "n35u",
+          "name": "ASUS Zenfone 12 Ultra",
+          "count": 2
+        },
+        {
+          "id": "5n9q",
+          "name": "Apple iPhone 11",
+          "count": 18
+        },
+        {
+          "id": "710i",
+          "name": "Apple iPhone 12",
+          "count": 25
+        },
+        {
+          "id": "710g",
+          "name": "Apple iPhone 12 Pro",
+          "count": 10
+        },
+        {
+          "id": "qhvt",
+          "name": "vivo V70",
+          "count": 4
+        },
+        {
+          "id": "qhwx",
+          "name": "vivo V70FE",
+          "count": 4
+        },
+        {
+          "id": "q761",
+          "name": "vivo X300FE",
+          "count": 6
+        },
+        {
+          "id": "qhjl",
+          "name": "vivo Y05",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "group": "Внешний вид",
+      "id": "f[223]",
+      "name": "Цвет задней панели",
+      "type": "checkbox",
+      "is_spec": true,
+      "values_count": 21,
+      "sample_values": [
+        {
+          "id": "680",
+          "name": "бежевый",
+          "count": 80
+        },
+        {
+          "id": "29q",
+          "name": "белый",
+          "count": 393
+        },
+        {
+          "id": "7if",
+          "name": "бирюзовый",
+          "count": 10
+        },
+        {
+          "id": "7id",
+          "name": "бордовый",
+          "count": 3
+        },
+        {
+          "id": "6l1",
+          "name": "голубой",
+          "count": 376
+        },
+        {
+          "id": "6ij",
+          "name": "желтый",
+          "count": 70
+        },
+        {
+          "id": "6ii",
+          "name": "зеленый",
+          "count": 455
+        },
+        {
+          "id": "6n1",
+          "name": "золотистый",
+          "count": 187
+        },
+        {
+          "id": "67y",
+          "name": "серый",
+          "count": 409
+        },
+        {
+          "id": "40j",
+          "name": "синий",
+          "count": 325
+        },
+        {
+          "id": "40i",
+          "name": "фиолетовый",
+          "count": 203
+        },
+        {
+          "id": "29p",
+          "name": "черный",
+          "count": 1125
+        }
+      ]
+    },
+    {
+      "group": "Внешний вид",
+      "id": "f[296]",
+      "name": "Цвет, заявленный производителем",
+      "type": "checkbox",
+      "is_spec": true,
+      "values_count": 661,
+      "sample_values": [
+        {
+          "id": "qhwh",
+          "name": "Alpine Gray",
+          "count": 2
+        },
+        {
+          "id": "p7xv",
+          "name": "Amazonite",
+          "count": 1
+        },
+        {
+          "id": "q4zm",
+          "name": "Aurellia Gold",
+          "count": 1
+        },
+        {
+          "id": "he8l",
+          "name": "Aurora Blue",
+          "count": 2
+        },
+        {
+          "id": "po80",
+          "name": "Aurora Gold",
+          "count": 1
+        },
+        {
+          "id": "i2xw",
+          "name": "Aurora Green",
+          "count": 1
+        },
+        {
+          "id": "h12a",
+          "name": "Aurora Purple",
+          "count": 4
+        },
+        {
+          "id": "pwi4",
+          "name": "Aurora White",
+          "count": 2
+        },
+        {
+          "id": "oaax",
+          "name": "энергичный серый",
+          "count": 2
+        },
+        {
+          "id": "mju1",
+          "name": "энергичный титановый",
+          "count": 2
+        },
+        {
+          "id": "59hb",
+          "name": "ярко-голубой",
+          "count": 1
+        },
+        {
+          "id": "65hd",
+          "name": "ярко-зеленый",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "group": "Внешний вид",
+      "id": "f[4d7]",
+      "name": "Цвет граней",
+      "type": "checkbox",
+      "is_spec": true,
+      "values_count": 18,
+      "sample_values": [
+        {
+          "id": "680",
+          "name": "бежевый",
+          "count": 49
+        },
+        {
+          "id": "29q",
+          "name": "белый",
+          "count": 313
+        },
+        {
+          "id": "7if",
+          "name": "бирюзовый",
+          "count": 7
+        },
+        {
+          "id": "7id",
+          "name": "бордовый",
+          "count": 3
+        },
+        {
+          "id": "6l1",
+          "name": "голубой",
+          "count": 351
+        },
+        {
+          "id": "6ij",
+          "name": "желтый",
+          "count": 52
+        },
+        {
+          "id": "6ii",
+          "name": "зеленый",
+          "count": 414
+        },
+        {
+          "id": "6n1",
+          "name": "золотистый",
+          "count": 264
+        },
+        {
+          "id": "67y",
+          "name": "серый",
+          "count": 441
+        },
+        {
+          "id": "40j",
+          "name": "синий",
+          "count": 304
+        },
+        {
+          "id": "40i",
+          "name": "фиолетовый",
+          "count": 187
+        },
+        {
+          "id": "29p",
+          "name": "черный",
+          "count": 1099
+        }
+      ]
+    },
+    {
+      "group": "Мобильная связь",
+      "id": "f[2dw]",
+      "name": "Формат SIM-карт",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "aq6j",
+          "name": "eSIM",
+          "count": 1183
+        },
+        {
+          "id": "f98",
+          "name": "Nano-SIM",
+          "count": 3934
+        },
+        {
+          "id": "f96",
+          "name": "Micro-SIM",
+          "count": 10
+        },
+        {
+          "id": "f97",
+          "name": "Mini-SIM",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "group": "Мобильная связь",
+      "id": "f[9b]",
+      "name": "Поддержка стандартов сотовой связи",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "f6i",
+          "name": "2G",
+          "count": 3370
+        },
+        {
+          "id": "2lf",
+          "name": "3G",
+          "count": 3380
+        },
+        {
+          "id": "4p8",
+          "name": "4G",
+          "count": 4049
+        },
+        {
+          "id": "6qga",
+          "name": "5G",
+          "count": 2214
+        }
+      ]
+    },
+    {
+      "group": "Мобильная связь",
+      "id": "f[9f1]",
+      "name": "Количество eSIM",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "26p",
+          "name": "0",
+          "count": 2031
+        },
+        {
+          "id": "bp",
+          "name": "1",
+          "count": 871
+        },
+        {
+          "id": "bm",
+          "name": "2",
+          "count": 313
+        }
+      ]
+    },
+    {
+      "group": "Мобильная связь",
+      "id": "f[4un]",
+      "name": "Количество физических SIM-карт",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "26p",
+          "name": "0",
+          "count": 86
+        },
+        {
+          "id": "bp",
+          "name": "1",
+          "count": 442
+        },
+        {
+          "id": "bm",
+          "name": "2",
+          "count": 2635
+        }
+      ]
+    },
+    {
+      "group": "Мобильная связь",
+      "id": "f[84d]",
+      "name": "Диапазоны частот 5G",
+      "type": "checkbox",
+      "is_spec": true,
+      "values_count": 29,
+      "sample_values": [
+        {
+          "id": "argp",
+          "name": "TDD-5G 4700 (B79)",
+          "count": 688
+        },
+        {
+          "id": "aren",
+          "name": "TDD-5G 3500 (B78)",
+          "count": 1941
+        },
+        {
+          "id": "arem",
+          "name": "TDD-5G 3700 (B77)",
+          "count": 1920
+        },
+        {
+          "id": "hp10",
+          "name": "SDL-5G 1500 (B76)",
+          "count": 277
+        },
+        {
+          "id": "gt24",
+          "name": "SDL-5G 1500 (B75)",
+          "count": 690
+        },
+        {
+          "id": "armx",
+          "name": "FDD-5G 600 (B71)",
+          "count": 722
+        },
+        {
+          "id": "ha1g",
+          "name": "FDD-5G 2000 (B70)",
+          "count": 458
+        },
+        {
+          "id": "arf5",
+          "name": "FDD-5G 1700/2100 (B66)",
+          "count": 1659
+        },
+        {
+          "id": "armi",
+          "name": "FDD-5G 1900 (B2)",
+          "count": 1214
+        },
+        {
+          "id": "arec",
+          "name": "FDD-5G 2100 (B1)",
+          "count": 1963
+        },
+        {
+          "id": "n1xy",
+          "name": "FDD-5G 850 (B18)",
+          "count": 27
+        },
+        {
+          "id": "j1tt",
+          "name": "TDD-5G 1900 (B39)",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "group": "Мобильная связь",
+      "id": "f[6qg]",
+      "name": "Поддержка 4G LTE-Advanced",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "21",
+          "name": "есть",
+          "count": 2781
+        },
+        {
+          "id": "cr",
+          "name": "нет",
+          "count": 158
+        }
+      ]
+    },
+    {
+      "group": "Мобильная связь",
+      "id": "f[6qf]",
+      "name": "Поддержка VoLTE",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "21",
+          "name": "есть",
+          "count": 3265
+        },
+        {
+          "id": "cr",
+          "name": "нет",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "group": "Мобильная связь",
+      "id": "f[4kj]",
+      "name": "Диапазоны частот 4G (LTE)",
+      "type": "checkbox",
+      "is_spec": true,
+      "values_count": 36,
+      "sample_values": [
+        {
+          "id": "h8o1",
+          "name": "FDD-LTE 600 (B71)",
+          "count": 653
+        },
+        {
+          "id": "ehao",
+          "name": "FDD-LTE 1700 (B66)",
+          "count": 1900
+        },
+        {
+          "id": "hln7",
+          "name": "TDD-LTE 2400 (B53)",
+          "count": 429
+        },
+        {
+          "id": "eicv",
+          "name": "TDD-LTE 3500 (B48)",
+          "count": 839
+        },
+        {
+          "id": "h5ta",
+          "name": "TDD-LTE 5200 (B46)",
+          "count": 271
+        },
+        {
+          "id": "9076",
+          "name": "TDD-LTE 3500 (B42)",
+          "count": 1029
+        },
+        {
+          "id": "18wr",
+          "name": "TDD-LTE 2500 (B41)",
+          "count": 2923
+        },
+        {
+          "id": "183v",
+          "name": "TDD-LTE 2300 (B40)",
+          "count": 2984
+        },
+        {
+          "id": "4r1b",
+          "name": "FDD-LTE 2100 (B1)",
+          "count": 3174
+        },
+        {
+          "id": "msc0",
+          "name": "FDD-LTE 800 (B6)",
+          "count": 32
+        },
+        {
+          "id": "ms8a",
+          "name": "FDD-LTE 1800 (B9)",
+          "count": 23
+        },
+        {
+          "id": "j1tn",
+          "name": "TDD-LTE 3700 (B43)",
+          "count": 43
+        }
+      ]
+    },
+    {
+      "group": "Мобильная связь",
+      "id": "f[6qh]",
+      "name": "Категории скорости LTE-Advanced",
+      "type": "checkbox",
+      "is_spec": true,
+      "values_count": 15,
+      "sample_values": [
+        {
+          "id": "i01y",
+          "name": "LTE Cat. 24",
+          "count": 43
+        },
+        {
+          "id": "hrye",
+          "name": "LTE Cat. 20",
+          "count": 241
+        },
+        {
+          "id": "7wv9",
+          "name": "LTE Cat. 19",
+          "count": 23
+        },
+        {
+          "id": "7wva",
+          "name": "LTE Cat. 18",
+          "count": 600
+        },
+        {
+          "id": "7x3g",
+          "name": "LTE Cat. 16",
+          "count": 37
+        },
+        {
+          "id": "7vbz",
+          "name": "LTE Cat. 13",
+          "count": 147
+        },
+        {
+          "id": "7wv8",
+          "name": "LTE Cat. 12",
+          "count": 73
+        },
+        {
+          "id": "8dh7",
+          "name": "LTE Cat. 7",
+          "count": 43
+        },
+        {
+          "id": "h1ab",
+          "name": "LTE Cat. 3",
+          "count": 3
+        },
+        {
+          "id": "mpyf",
+          "name": "LTE Cat. 11",
+          "count": 1
+        },
+        {
+          "id": "iet7",
+          "name": "LTE Cat. 15",
+          "count": 2
+        },
+        {
+          "id": "phg4",
+          "name": "LTE Cat. 22",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "group": "Мобильная связь",
+      "id": "f[265]",
+      "name": "Режим работы нескольких SIM-карт",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "e33",
+          "name": "активный режим",
+          "count": 94
+        },
+        {
+          "id": "52a",
+          "name": "режим ожидания",
+          "count": 2425
+        }
+      ]
+    },
+    {
+      "group": "Мобильная связь",
+      "id": "f[2he]",
+      "name": "Диапазоны частот 3G",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "gp16",
+          "name": "UMTS 800 (B19)",
+          "count": 694
+        },
+        {
+          "id": "fou",
+          "name": "UMTS 900 (B8)",
+          "count": 3359
+        },
+        {
+          "id": "godr",
+          "name": "UMTS 800 (B6)",
+          "count": 642
+        },
+        {
+          "id": "fow",
+          "name": "UMTS 850 (B5)",
+          "count": 3158
+        },
+        {
+          "id": "1oel",
+          "name": "UMTS 1700 (B4)",
+          "count": 2049
+        },
+        {
+          "id": "fox",
+          "name": "UMTS 1900 (B2)",
+          "count": 2686
+        },
+        {
+          "id": "fov",
+          "name": "UMTS 2100 (B1)",
+          "count": 3363
+        }
+      ]
+    },
+    {
+      "group": "Мобильная связь",
+      "id": "f[2hg]",
+      "name": "Диапазоны частот 2G",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "e2z",
+          "name": "GSM 900 (B8)",
+          "count": 3376
+        },
+        {
+          "id": "e32",
+          "name": "GSM 850 (B5)",
+          "count": 3291
+        },
+        {
+          "id": "e30",
+          "name": "GSM 1800 (B3)",
+          "count": 3374
+        },
+        {
+          "id": "e31",
+          "name": "GSM 1900 (B2)",
+          "count": 3208
+        }
+      ]
+    },
+    {
+      "group": "Экран",
+      "id": "fr[1q]",
+      "name": "Диагональ экрана (дюйм)",
+      "type": "range-radio",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "a69fbfa49d38d4e6cc9c624899b2104d",
+          "name": "Менее 6.09",
+          "count": 39
+        },
+        {
+          "id": "a4c4b0c433a570ab60f02ba58f3e2368",
+          "name": "6.1 - 6.29",
+          "count": 269
+        },
+        {
+          "id": "0db6843789c61d6a3adcaf00f9e6a9ab",
+          "name": "6.3 - 6.49",
+          "count": 272
+        },
+        {
+          "id": "785fc4b10b4e5b08d6f442f8b626ed16",
+          "name": "6.5 - 6.59",
+          "count": 285
+        },
+        {
+          "id": "b16e1a457c4d43554a54d3181486bb0a",
+          "name": "6.6 - 6.79",
+          "count": 1697
+        },
+        {
+          "id": "14b52e8fc12e606d723ac62efdc0cbf7",
+          "name": "6.8 и более",
+          "count": 603
+        }
+      ]
+    },
+    {
+      "group": "Экран",
+      "id": "f[2ft]",
+      "name": "Частота обновления экрана (Гц)",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "si",
+          "name": "60 Гц",
+          "count": 465
+        },
+        {
+          "id": "4ms",
+          "name": "90 Гц",
+          "count": 348
+        },
+        {
+          "id": "sf",
+          "name": "120 Гц",
+          "count": 1992
+        },
+        {
+          "id": "sp",
+          "name": "144 Гц",
+          "count": 290
+        },
+        {
+          "id": "1882",
+          "name": "165 Гц",
+          "count": 15
+        },
+        {
+          "id": "jd6u",
+          "name": "185 Гц",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "group": "Экран",
+      "id": "f[1ge]",
+      "name": "Технология изготовления матрицы",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "nvrb",
+          "name": "AMOLED / OLED",
+          "count": 2486
+        },
+        {
+          "id": "1uq",
+          "name": "IPS",
+          "count": 871
+        },
+        {
+          "id": "6nv",
+          "name": "TN",
+          "count": 18
+        }
+      ]
+    },
+    {
+      "group": "Экран",
+      "id": "f[25s]",
+      "name": "Тип матрицы (подробно)",
+      "type": "checkbox",
+      "is_spec": true,
+      "values_count": 21,
+      "sample_values": [
+        {
+          "id": "2ir",
+          "name": "AMOLED",
+          "count": 1044
+        },
+        {
+          "id": "ifen",
+          "name": "CrystalRes AMOLED",
+          "count": 15
+        },
+        {
+          "id": "50p6",
+          "name": "Dynamic AMOLED",
+          "count": 6
+        },
+        {
+          "id": "6ydt",
+          "name": "Dynamic AMOLED 2X",
+          "count": 325
+        },
+        {
+          "id": "hru7",
+          "name": "Flexible AMOLED",
+          "count": 51
+        },
+        {
+          "id": "mno4",
+          "name": "Fluid AMOLED",
+          "count": 1
+        },
+        {
+          "id": "1uq",
+          "name": "IPS",
+          "count": 749
+        },
+        {
+          "id": "ptb5",
+          "name": "LEAD AMOLED",
+          "count": 4
+        },
+        {
+          "id": "h55c",
+          "name": "Super Retina XDR",
+          "count": 543
+        },
+        {
+          "id": "ogj0",
+          "name": "Swift AMOLED",
+          "count": 4
+        },
+        {
+          "id": "41i",
+          "name": "TFT LCD",
+          "count": 38
+        },
+        {
+          "id": "6nv",
+          "name": "TN",
+          "count": 9
+        }
+      ]
+    },
+    {
+      "group": "Экран",
+      "id": "f[2d]",
+      "name": "Разрешение экрана",
+      "type": "checkbox",
+      "is_spec": true,
+      "values_count": 139,
+      "sample_values": [
+        {
+          "id": "6r",
+          "name": "800x480",
+          "count": 7
+        },
+        {
+          "id": "7a",
+          "name": "854x480",
+          "count": 19
+        },
+        {
+          "id": "3jdo",
+          "name": "960x480",
+          "count": 10
+        },
+        {
+          "id": "2dpa",
+          "name": "1136х640",
+          "count": 5
+        },
+        {
+          "id": "9zx9",
+          "name": "1200x540",
+          "count": 1
+        },
+        {
+          "id": "568e",
+          "name": "1280x600",
+          "count": 1
+        },
+        {
+          "id": "78",
+          "name": "1280x720",
+          "count": 26
+        },
+        {
+          "id": "1su0",
+          "name": "1280х720",
+          "count": 8
+        },
+        {
+          "id": "63gh",
+          "name": "3168x1440",
+          "count": 23
+        },
+        {
+          "id": "ms8b",
+          "name": "3184x2232",
+          "count": 2
+        },
+        {
+          "id": "61ia",
+          "name": "3200x1440",
+          "count": 53
+        },
+        {
+          "id": "5bmp",
+          "name": "3840x1644",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "group": "Экран",
+      "id": "fr[4jy]",
+      "name": "Плотность пикселей (ppi)",
+      "type": "range-radio",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "2d353497309ef66790a23b3cbd3b0e0c",
+          "name": "Менее 299",
+          "count": 553
+        },
+        {
+          "id": "f0741ff1bf58dea946a1c581f6833ce3",
+          "name": "300 - 349",
+          "count": 15
+        },
+        {
+          "id": "3d44ee4a9545b0366b0b0064af2fa086",
+          "name": "350 - 399",
+          "count": 990
+        },
+        {
+          "id": "a02f40f8ca08654528b68880c4546084",
+          "name": "400 - 449",
+          "count": 678
+        },
+        {
+          "id": "f2de1cbd45143b6fac5f2ead7a7a4c20",
+          "name": "450 - 499",
+          "count": 763
+        },
+        {
+          "id": "ef33b23d314d9987b6f72171802a85de",
+          "name": "500 и более",
+          "count": 152
+        }
+      ]
+    },
+    {
+      "group": "Экран",
+      "id": "f[1r]",
+      "name": "Яркость (Кд/м²)",
+      "type": "checkbox",
+      "is_spec": true,
+      "values_count": 85,
+      "sample_values": [
+        {
+          "id": "f0",
+          "name": "250 Кд/м²",
+          "count": 1
+        },
+        {
+          "id": "ez",
+          "name": "300 Кд/м²",
+          "count": 2
+        },
+        {
+          "id": "1m4h",
+          "name": "310 Кд/м²",
+          "count": 9
+        },
+        {
+          "id": "f8",
+          "name": "320 Кд/м²",
+          "count": 2
+        },
+        {
+          "id": "f5",
+          "name": "350 Кд/м²",
+          "count": 6
+        },
+        {
+          "id": "2bw",
+          "name": "380 Кд/м²",
+          "count": 7
+        },
+        {
+          "id": "f1",
+          "name": "400 Кд/м²",
+          "count": 46
+        },
+        {
+          "id": "hz18",
+          "name": "410 Кд/м²",
+          "count": 2
+        },
+        {
+          "id": "hqk7",
+          "name": "5000 Кд/м²",
+          "count": 54
+        },
+        {
+          "id": "if05",
+          "name": "6000 Кд/м²",
+          "count": 23
+        },
+        {
+          "id": "lij8",
+          "name": "6500 Кд/м²",
+          "count": 24
+        },
+        {
+          "id": "pk6a",
+          "name": "7000 Кд/м²",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "group": "Экран",
+      "id": "f[25t]",
+      "name": "Количество цветов экрана",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "cec",
+          "name": "16 млн",
+          "count": 1208
+        },
+        {
+          "id": "d4au",
+          "name": "68 млрд",
+          "count": 166
+        },
+        {
+          "id": "64ml",
+          "name": "1.07 млрд",
+          "count": 722
+        },
+        {
+          "id": "2j8",
+          "name": "16.7 млн",
+          "count": 1333
+        },
+        {
+          "id": "2j9",
+          "name": "260 тыс",
+          "count": 4
+        },
+        {
+          "id": "q06d",
+          "name": "10.7 млн",
+          "count": 8
+        },
+        {
+          "id": "hvhk",
+          "name": "68.7 млрд",
+          "count": 70
+        }
+      ]
+    },
+    {
+      "group": "Экран",
+      "id": "f[9f4]",
+      "name": "Частота дискретизации сенсора (Гц)",
+      "type": "checkbox",
+      "is_spec": true,
+      "values_count": 18,
+      "sample_values": [
+        {
+          "id": "4ms",
+          "name": "90 Гц",
+          "count": 7
+        },
+        {
+          "id": "sf",
+          "name": "120 Гц",
+          "count": 31
+        },
+        {
+          "id": "76x",
+          "name": "130 Гц",
+          "count": 14
+        },
+        {
+          "id": "sl",
+          "name": "180 Гц",
+          "count": 136
+        },
+        {
+          "id": "b3o",
+          "name": "240 Гц",
+          "count": 651
+        },
+        {
+          "id": "19xc",
+          "name": "270 Гц",
+          "count": 25
+        },
+        {
+          "id": "76v",
+          "name": "300 Гц",
+          "count": 111
+        },
+        {
+          "id": "7oj3",
+          "name": "360 Гц",
+          "count": 108
+        },
+        {
+          "id": "hbk8",
+          "name": "2160 Гц",
+          "count": 10
+        },
+        {
+          "id": "16u0",
+          "name": "2500 Гц",
+          "count": 70
+        },
+        {
+          "id": "4n5",
+          "name": "3000 Гц",
+          "count": 4
+        },
+        {
+          "id": "17mp",
+          "name": "3200 Гц",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "group": "Экран",
+      "id": "f[1x]",
+      "name": "Соотношение сторон",
+      "type": "checkbox",
+      "is_spec": true,
+      "values_count": 42,
+      "sample_values": [
+        {
+          "id": "1nt",
+          "name": "1:1",
+          "count": 1
+        },
+        {
+          "id": "1nr",
+          "name": "4:3",
+          "count": 1
+        },
+        {
+          "id": "nrzo",
+          "name": "8.4:9",
+          "count": 2
+        },
+        {
+          "id": "d8ec",
+          "name": "8:7.1",
+          "count": 1
+        },
+        {
+          "id": "hapz",
+          "name": "9.78:9",
+          "count": 3
+        },
+        {
+          "id": "k3uf",
+          "name": "10:9",
+          "count": 1
+        },
+        {
+          "id": "fw",
+          "name": "16:9",
+          "count": 16
+        },
+        {
+          "id": "ms8d",
+          "name": "16:11",
+          "count": 2
+        },
+        {
+          "id": "61li",
+          "name": "21.9:9",
+          "count": 2
+        },
+        {
+          "id": "fv",
+          "name": "21:9",
+          "count": 23
+        },
+        {
+          "id": "m6qu",
+          "name": "22.5:18",
+          "count": 2
+        },
+        {
+          "id": "9wxd",
+          "name": "22:9",
+          "count": 56
+        }
+      ]
+    },
+    {
+      "group": "Экран",
+      "id": "f[9f5]",
+      "name": "Диагональ дополнительного экрана (дюйм)",
+      "type": "checkbox",
+      "is_spec": true,
+      "values_count": 23,
+      "sample_values": [
+        {
+          "id": "107i",
+          "name": "1.1\"",
+          "count": 2
+        },
+        {
+          "id": "3o6",
+          "name": "1.3\"",
+          "count": 4
+        },
+        {
+          "id": "16fg",
+          "name": "1.32\"",
+          "count": 2
+        },
+        {
+          "id": "b8",
+          "name": "2.7\"",
+          "count": 15
+        },
+        {
+          "id": "ksx2",
+          "name": "2.9\"",
+          "count": 12
+        },
+        {
+          "id": "b7",
+          "name": "3\"",
+          "count": 1
+        },
+        {
+          "id": "60k6",
+          "name": "3.4\"",
+          "count": 31
+        },
+        {
+          "id": "44v0",
+          "name": "3.6\"",
+          "count": 6
+        },
+        {
+          "id": "m4sr",
+          "name": "6.45\"",
+          "count": 3
+        },
+        {
+          "id": "5zso",
+          "name": "6.49\"",
+          "count": 3
+        },
+        {
+          "id": "dya",
+          "name": "6.5\"",
+          "count": 15
+        },
+        {
+          "id": "afo3",
+          "name": "6.62\"",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "group": "Экран",
+      "id": "f[9f6]",
+      "name": "Разрешение дополнительного экрана",
+      "type": "checkbox",
+      "is_spec": true,
+      "values_count": 28,
+      "sample_values": [
+        {
+          "id": "e3a",
+          "name": "240x240",
+          "count": 1
+        },
+        {
+          "id": "h557",
+          "name": "300x112",
+          "count": 2
+        },
+        {
+          "id": "17hu",
+          "name": "360x360",
+          "count": 3
+        },
+        {
+          "id": "9ajx",
+          "name": "466x466",
+          "count": 2
+        },
+        {
+          "id": "gyvl",
+          "name": "512x260",
+          "count": 2
+        },
+        {
+          "id": "q8rr",
+          "name": "682x422",
+          "count": 1
+        },
+        {
+          "id": "h550",
+          "name": "748x720",
+          "count": 31
+        },
+        {
+          "id": "phvs",
+          "name": "904x572",
+          "count": 15
+        },
+        {
+          "id": "h551",
+          "name": "2504x1080",
+          "count": 2
+        },
+        {
+          "id": "51mi",
+          "name": "2520x1080",
+          "count": 15
+        },
+        {
+          "id": "h553",
+          "name": "2550x1080",
+          "count": 3
+        },
+        {
+          "id": "n6tu",
+          "name": "2616x1140",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "group": "Конструкция и защита",
+      "id": "f[2ex]",
+      "name": "Степень защиты IP",
+      "type": "checkbox",
+      "is_spec": true,
+      "values_count": 18,
+      "sample_values": [
+        {
+          "id": "7mb0",
+          "name": "IP45",
+          "count": 2
+        },
+        {
+          "id": "ix9a",
+          "name": "IP48",
+          "count": 69
+        },
+        {
+          "id": "13px",
+          "name": "IP52",
+          "count": 60
+        },
+        {
+          "id": "1e2u",
+          "name": "IP53",
+          "count": 208
+        },
+        {
+          "id": "711",
+          "name": "IP54",
+          "count": 342
+        },
+        {
+          "id": "2dp5",
+          "name": "IP58",
+          "count": 7
+        },
+        {
+          "id": "p4p4",
+          "name": "IP59",
+          "count": 7
+        },
+        {
+          "id": "sc1",
+          "name": "IP64",
+          "count": 309
+        },
+        {
+          "id": "710",
+          "name": "IPX2",
+          "count": 13
+        },
+        {
+          "id": "712",
+          "name": "IPX4",
+          "count": 10
+        },
+        {
+          "id": "1mzo",
+          "name": "IPX8",
+          "count": 58
+        },
+        {
+          "id": "n6xn",
+          "name": "IPX9",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "group": "Конструкция и защита",
+      "id": "f[262]",
+      "name": "Тип корпуса",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "75y",
+          "name": "классический",
+          "count": 3204
+        },
+        {
+          "id": "ad9",
+          "name": "складной",
+          "count": 146
+        }
+      ]
+    },
+    {
+      "group": "Конструкция и защита",
+      "id": "f[4d1]",
+      "name": "Изогнутый экран",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "21",
+          "name": "есть",
+          "count": 236
+        },
+        {
+          "id": "cr",
+          "name": "нет",
+          "count": 2956
+        }
+      ]
+    },
+    {
+      "group": "Конструкция и защита",
+      "id": "f[2ey]",
+      "name": "Укрепленный корпус",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "21",
+          "name": "есть",
+          "count": 61
+        },
+        {
+          "id": "cr",
+          "name": "нет",
+          "count": 3157
+        }
+      ]
+    },
+    {
+      "group": "Конструкция и защита",
+      "id": "f[9j4]",
+      "name": "Материал граней",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "277",
+          "name": "алюминий",
+          "count": 1038
+        },
+        {
+          "id": "16og",
+          "name": "магний",
+          "count": 15
+        },
+        {
+          "id": "1xo",
+          "name": "металл",
+          "count": 143
+        },
+        {
+          "id": "4ue",
+          "name": "нержавеющая сталь",
+          "count": 29
+        },
+        {
+          "id": "1xp",
+          "name": "пластик",
+          "count": 1714
+        },
+        {
+          "id": "55b",
+          "name": "титан",
+          "count": 213
+        }
+      ]
+    },
+    {
+      "group": "Конструкция и защита",
+      "id": "f[9j3]",
+      "name": "Материал задней панели",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "277",
+          "name": "алюминий",
+          "count": 21
+        },
+        {
+          "id": "5nq",
+          "name": "дерево",
+          "count": 2
+        },
+        {
+          "id": "4zk",
+          "name": "керамика",
+          "count": 2
+        },
+        {
+          "id": "2nt",
+          "name": "кожа",
+          "count": 176
+        },
+        {
+          "id": "1xp",
+          "name": "пластик",
+          "count": 1313
+        },
+        {
+          "id": "28r",
+          "name": "стекло",
+          "count": 1644
+        },
+        {
+          "id": "1bdl",
+          "name": "стекловолокно",
+          "count": 15
+        },
+        {
+          "id": "h5a",
+          "name": "стеклопластик",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "group": "Конструкция и защита",
+      "id": "f[5n5]",
+      "name": "Безрамочный экран",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "21",
+          "name": "есть",
+          "count": 1917
+        },
+        {
+          "id": "cr",
+          "name": "нет",
+          "count": 1295
+        }
+      ]
+    },
+    {
+      "group": "Конструкция и защита",
+      "id": "f[nt]",
+      "name": "Защитное покрытие экрана",
+      "type": "checkbox",
+      "is_spec": true,
+      "values_count": 49,
+      "sample_values": [
+        {
+          "id": "ng68",
+          "name": "AGC DT Star 2",
+          "count": 15
+        },
+        {
+          "id": "o2um",
+          "name": "AGC DT Star D+",
+          "count": 6
+        },
+        {
+          "id": "qf94",
+          "name": "AGC Dragontrail Star D+",
+          "count": 2
+        },
+        {
+          "id": "qtby",
+          "name": "Aluminosilicate glass",
+          "count": 3
+        },
+        {
+          "id": "n9fj",
+          "name": "Armor Glass",
+          "count": 8
+        },
+        {
+          "id": "16uc",
+          "name": "Asahi Glass",
+          "count": 16
+        },
+        {
+          "id": "1nkt",
+          "name": "Asahi Glass Dragontrail",
+          "count": 12
+        },
+        {
+          "id": "o97u",
+          "name": "Asahi Glass Dragontrail DT-STAR D+",
+          "count": 2
+        },
+        {
+          "id": "hnqj",
+          "name": "Xiaomi Shield Glass",
+          "count": 18
+        },
+        {
+          "id": "n0zo",
+          "name": "Xiaomi Shield Glass 2.0",
+          "count": 4
+        },
+        {
+          "id": "q7ty",
+          "name": "Xiaomi Shield Glass 3.0",
+          "count": 6
+        },
+        {
+          "id": "3vg",
+          "name": "закаленное стекло",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "group": "Конструкция и защита",
+      "id": "f[9j9]",
+      "name": "Тип выреза на экране",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "h2aa",
+          "name": "вырез-челка",
+          "count": 168
+        },
+        {
+          "id": "h1u9",
+          "name": "каплевидный/V-образный",
+          "count": 427
+        },
+        {
+          "id": "h1go",
+          "name": "круглый/овальный",
+          "count": 2489
+        },
+        {
+          "id": "h37h",
+          "name": "подэкранная камера",
+          "count": 69
+        }
+      ]
+    },
+    {
+      "group": "Операционная система и процессор",
+      "id": "f[al]",
+      "name": "Операционная система",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "3db",
+          "name": "Android",
+          "count": 3319
+        },
+        {
+          "id": "4pv",
+          "name": "iOS",
+          "count": 776
+        }
+      ]
+    },
+    {
+      "group": "Операционная система и процессор",
+      "id": "f[r]",
+      "name": "Модель процессора",
+      "type": "checkbox",
+      "is_spec": true,
+      "values_count": 204,
+      "sample_values": [
+        {
+          "id": "5n9r",
+          "name": "Apple A13 Bionic",
+          "count": 49
+        },
+        {
+          "id": "75qr",
+          "name": "Apple A14 Bionic",
+          "count": 62
+        },
+        {
+          "id": "a67t",
+          "name": "Apple A15 Bionic",
+          "count": 125
+        },
+        {
+          "id": "djx6",
+          "name": "Apple A16 Bionic",
+          "count": 74
+        },
+        {
+          "id": "gm0h",
+          "name": "Apple A17 Pro",
+          "count": 50
+        },
+        {
+          "id": "k7jd",
+          "name": "Apple A18",
+          "count": 66
+        },
+        {
+          "id": "k7rb",
+          "name": "Apple A18 Pro",
+          "count": 85
+        },
+        {
+          "id": "ouef",
+          "name": "Apple A19",
+          "count": 39
+        },
+        {
+          "id": "nkbh",
+          "name": "Unisoc T8300",
+          "count": 4
+        },
+        {
+          "id": "nfiy",
+          "name": "Unisoc T9100 (T820)",
+          "count": 3
+        },
+        {
+          "id": "ar1e",
+          "name": "Unisoc Tiger T310",
+          "count": 2
+        },
+        {
+          "id": "h2vk",
+          "name": "Unisoc Tiger T603",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "group": "Операционная система и процессор",
+      "id": "f[7bt]",
+      "name": "Игровой",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "21",
+          "name": "есть",
+          "count": 239
+        },
+        {
+          "id": "cr",
+          "name": "нет",
+          "count": 2740
+        }
+      ]
+    },
+    {
+      "group": "Операционная система и процессор",
+      "id": "f[1gg]",
+      "name": "Производитель процессора",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "3vek",
+          "name": "Apple",
+          "count": 776
+        },
+        {
+          "id": "14ti",
+          "name": "Google",
+          "count": 61
+        },
+        {
+          "id": "4qi",
+          "name": "HUAWEI",
+          "count": 6
+        },
+        {
+          "id": "tu6",
+          "name": "HiSilicon",
+          "count": 160
+        },
+        {
+          "id": "23js",
+          "name": "Huawei",
+          "count": 3
+        },
+        {
+          "id": "d99l",
+          "name": "JLQ",
+          "count": 2
+        },
+        {
+          "id": "tu4",
+          "name": "MediaTek",
+          "count": 1265
+        },
+        {
+          "id": "tu2",
+          "name": "Qualcomm",
+          "count": 1275
+        },
+        {
+          "id": "4qh",
+          "name": "Samsung",
+          "count": 330
+        },
+        {
+          "id": "11q5",
+          "name": "Unisoc (Spreadtrum)",
+          "count": 183
+        }
+      ]
+    },
+    {
+      "group": "Операционная система и процессор",
+      "id": "f[4f]",
+      "name": "Версия ОС",
+      "type": "checkbox",
+      "is_spec": true,
+      "values_count": 34,
+      "sample_values": [
+        {
+          "id": "4tc2",
+          "name": "Android 5.0 Lollipop",
+          "count": 1
+        },
+        {
+          "id": "4rkj",
+          "name": "Android 5.1 Lollipop",
+          "count": 1
+        },
+        {
+          "id": "4rkk",
+          "name": "Android 6.0 Marshmallow",
+          "count": 9
+        },
+        {
+          "id": "4qyr",
+          "name": "Android 7.0 Nougat",
+          "count": 16
+        },
+        {
+          "id": "4taz",
+          "name": "Android 7.1 Nougat",
+          "count": 12
+        },
+        {
+          "id": "4tat",
+          "name": "Android 8.0 Oreo",
+          "count": 30
+        },
+        {
+          "id": "4tau",
+          "name": "Android 8.1 Oreo",
+          "count": 40
+        },
+        {
+          "id": "4tb2",
+          "name": "Android 8.1 Oreo Go",
+          "count": 3
+        },
+        {
+          "id": "djnn",
+          "name": "iOS 16",
+          "count": 48
+        },
+        {
+          "id": "gm07",
+          "name": "iOS 17",
+          "count": 110
+        },
+        {
+          "id": "k7jc",
+          "name": "iOS 18",
+          "count": 151
+        },
+        {
+          "id": "ouev",
+          "name": "iOS 26",
+          "count": 124
+        }
+      ]
+    },
+    {
+      "group": "Операционная система и процессор",
+      "id": "f[5q]",
+      "name": "Техпроцесс (нм)",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "q9p9",
+          "name": "2 нм",
+          "count": 16
+        },
+        {
+          "id": "gk83",
+          "name": "3 нм",
+          "count": 645
+        },
+        {
+          "id": "bano",
+          "name": "4 нм",
+          "count": 960
+        },
+        {
+          "id": "75qs",
+          "name": "5 нм",
+          "count": 151
+        },
+        {
+          "id": "9ym3",
+          "name": "6 нм",
+          "count": 648
+        },
+        {
+          "id": "4ak8",
+          "name": "7 нм",
+          "count": 103
+        },
+        {
+          "id": "50ma",
+          "name": "8 нм",
+          "count": 17
+        },
+        {
+          "id": "55vo",
+          "name": "11 нм",
+          "count": 21
+        },
+        {
+          "id": "45g9",
+          "name": "12 нм",
+          "count": 518
+        },
+        {
+          "id": "1f2t",
+          "name": "14 нм",
+          "count": 21
+        },
+        {
+          "id": "3v7f",
+          "name": "22 нм",
+          "count": 3
+        },
+        {
+          "id": "3u18",
+          "name": "28 нм",
+          "count": 43
+        }
+      ]
+    },
+    {
+      "group": "Операционная система и процессор",
+      "id": "f[4h]",
+      "name": "Количество ядер",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "bn",
+          "name": "4",
+          "count": 52
+        },
+        {
+          "id": "bo",
+          "name": "6",
+          "count": 486
+        },
+        {
+          "id": "bq",
+          "name": "8",
+          "count": 2518
+        },
+        {
+          "id": "1p1",
+          "name": "9",
+          "count": 12
+        },
+        {
+          "id": "1ox",
+          "name": "10",
+          "count": 96
+        }
+      ]
+    },
+    {
+      "group": "Операционная система и процессор",
+      "id": "f[550]",
+      "name": "Поддержка Google Mobile Services",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "21",
+          "name": "есть",
+          "count": 3036
+        },
+        {
+          "id": "cr",
+          "name": "нет",
+          "count": 311
+        }
+      ]
+    },
+    {
+      "group": "Операционная система и процессор",
+      "id": "fr[260]",
+      "name": "Максимальная частота процессора (ГГц)",
+      "type": "range-radio",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "e69aa443a57dcc40bd08df48b2f36f38",
+          "name": "Менее 1.79",
+          "count": 65
+        },
+        {
+          "id": "57b9af7a93b3b82e2d2b6a0a5d19f386",
+          "name": "1.8 - 1.99",
+          "count": 118
+        },
+        {
+          "id": "f4f5a7839f16a8a11e9f75fdab8f49d6",
+          "name": "2 - 2.19",
+          "count": 378
+        },
+        {
+          "id": "4b142685953249851ba981444460617c",
+          "name": "2.2 - 2.49",
+          "count": 757
+        },
+        {
+          "id": "1228b281b388a769f40d5908c7d82345",
+          "name": "2.5 - 2.99",
+          "count": 551
+        },
+        {
+          "id": "112f8d950225d3047373415691535fbd",
+          "name": "3 и более",
+          "count": 1159
+        }
+      ]
+    },
+    {
+      "group": "Операционная система и процессор",
+      "id": "fr[9jh]",
+      "name": "Рейтинг AnTuTu",
+      "type": "range-radio",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "61d62f313bbb557eb8ec20b4a2a4a660",
+          "name": "Менее 383 406",
+          "count": 366
+        },
+        {
+          "id": "15bb7ada853324f8482ef781488fb0c8",
+          "name": "383 407 - 816 344",
+          "count": 509
+        },
+        {
+          "id": "800e98572bcae38d825aeda25456f076",
+          "name": "816 345 - 1 465 558",
+          "count": 322
+        },
+        {
+          "id": "a6b3b9bfe4c5807cf2eb7ef014fec95b",
+          "name": "1 465 559 - 2 914 061",
+          "count": 367
+        },
+        {
+          "id": "93dc7c6a8e190a5b15c59a60559a4cb0",
+          "name": "2 914 062 и более",
+          "count": 42
+        }
+      ]
+    },
+    {
+      "group": "Операционная система и процессор",
+      "id": "f[4k]",
+      "name": "Графический ускоритель",
+      "type": "checkbox",
+      "is_spec": true,
+      "values_count": 145,
+      "sample_values": [
+        {
+          "id": "228z",
+          "name": "Adreno 302",
+          "count": 1
+        },
+        {
+          "id": "1n5r",
+          "name": "Adreno 308",
+          "count": 1
+        },
+        {
+          "id": "228r",
+          "name": "Adreno 320",
+          "count": 2
+        },
+        {
+          "id": "228v",
+          "name": "Adreno 330",
+          "count": 8
+        },
+        {
+          "id": "2293",
+          "name": "Adreno 430",
+          "count": 2
+        },
+        {
+          "id": "1ux5",
+          "name": "Adreno 505",
+          "count": 8
+        },
+        {
+          "id": "1jce",
+          "name": "Adreno 506",
+          "count": 12
+        },
+        {
+          "id": "4gt9",
+          "name": "Adreno 508",
+          "count": 2
+        },
+        {
+          "id": "banp",
+          "name": "Xclipse 920",
+          "count": 12
+        },
+        {
+          "id": "hbdc",
+          "name": "Xclipse 940",
+          "count": 68
+        },
+        {
+          "id": "odlz",
+          "name": "Xclipse 950",
+          "count": 12
+        },
+        {
+          "id": "q9pa",
+          "name": "Xclipse 960",
+          "count": 16
+        }
+      ]
+    },
+    {
+      "group": "Операционная система и процессор",
+      "id": "f[93u]",
+      "name": "Оболочка ОС",
+      "type": "checkbox",
+      "is_spec": true,
+      "values_count": 131,
+      "sample_values": [
+        {
+          "id": "mlsk",
+          "name": "ColorOS 7.2",
+          "count": 2
+        },
+        {
+          "id": "h57e",
+          "name": "ColorOS 11.1",
+          "count": 2
+        },
+        {
+          "id": "gh45",
+          "name": "ColorOS 12.1",
+          "count": 4
+        },
+        {
+          "id": "h57d",
+          "name": "ColorOS 13",
+          "count": 3
+        },
+        {
+          "id": "h57h",
+          "name": "ColorOS 13.1",
+          "count": 10
+        },
+        {
+          "id": "h46r",
+          "name": "ColorOS 13.2",
+          "count": 2
+        },
+        {
+          "id": "hrzo",
+          "name": "ColorOS 14.0",
+          "count": 6
+        },
+        {
+          "id": "mue2",
+          "name": "ColorOS 14.0.1",
+          "count": 2
+        },
+        {
+          "id": "pk70",
+          "name": "realme UI 7.0",
+          "count": 19
+        },
+        {
+          "id": "h589",
+          "name": "realme UI Go Edition",
+          "count": 1
+        },
+        {
+          "id": "h58a",
+          "name": "realme UI R Edition",
+          "count": 4
+        },
+        {
+          "id": "h58c",
+          "name": "realme UI T Edition",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "group": "Операционная система и процессор",
+      "id": "f[4jr]",
+      "name": "Конфигурация процессора",
+      "type": "checkbox",
+      "is_spec": true,
+      "values_count": 377,
+      "sample_values": [
+        {
+          "id": "q9p6",
+          "name": "1x C1-Ultra 3.8 ГГц",
+          "count": 16
+        },
+        {
+          "id": "pevt",
+          "name": "1x C1-Ultra 4.21 ГГц",
+          "count": 8
+        },
+        {
+          "id": "otvc",
+          "name": "1x Cortex-A55 2 ГГц",
+          "count": 5
+        },
+        {
+          "id": "ar1f",
+          "name": "1x Cortex-A75 2 ГГц",
+          "count": 7
+        },
+        {
+          "id": "lm24",
+          "name": "1x Cortex-A76 2.7 ГГц",
+          "count": 11
+        },
+        {
+          "id": "6gcj",
+          "name": "1x Cortex-A76 2.58 ГГц",
+          "count": 4
+        },
+        {
+          "id": "nlmf",
+          "name": "1x Cortex-A77 2.4 ГГц",
+          "count": 19
+        },
+        {
+          "id": "diia",
+          "name": "1x Cortex-A78 2.4 ГГц",
+          "count": 3
+        },
+        {
+          "id": "9ttz",
+          "name": "8x Cortex-A55 2 ГГц",
+          "count": 2
+        },
+        {
+          "id": "5up9",
+          "name": "8x Kryo 2.5 ГГц",
+          "count": 3
+        },
+        {
+          "id": "5upa",
+          "name": "8x Kryo 260 1.8 ГГц",
+          "count": 2
+        },
+        {
+          "id": "48cu",
+          "name": "8x Kryo 260 2.2 ГГц",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "group": "Память",
+      "id": "f[3u]",
+      "name": "Объем встроенной памяти (ГБ)",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "cw",
+          "name": "8 ГБ",
+          "count": 4
+        },
+        {
+          "id": "cx",
+          "name": "16 ГБ",
+          "count": 11
+        },
+        {
+          "id": "1qx",
+          "name": "32 ГБ",
+          "count": 56
+        },
+        {
+          "id": "1qw",
+          "name": "64 ГБ",
+          "count": 160
+        },
+        {
+          "id": "1qz",
+          "name": "128 ГБ",
+          "count": 846
+        },
+        {
+          "id": "1qy",
+          "name": "256 ГБ",
+          "count": 1312
+        },
+        {
+          "id": "aqz",
+          "name": "512 ГБ",
+          "count": 647
+        },
+        {
+          "id": "ghg",
+          "name": "1024 ГБ",
+          "count": 122
+        },
+        {
+          "id": "135j",
+          "name": "2048 ГБ",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "group": "Память",
+      "id": "f[44]",
+      "name": "Объем оперативной памяти (ГБ)",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "ct",
+          "name": "1 ГБ",
+          "count": 16
+        },
+        {
+          "id": "cu",
+          "name": "2 ГБ",
+          "count": 39
+        },
+        {
+          "id": "1ua",
+          "name": "3 ГБ",
+          "count": 79
+        },
+        {
+          "id": "cv",
+          "name": "4 ГБ",
+          "count": 347
+        },
+        {
+          "id": "d1",
+          "name": "6 ГБ",
+          "count": 332
+        },
+        {
+          "id": "cw",
+          "name": "8 ГБ",
+          "count": 1285
+        },
+        {
+          "id": "d2",
+          "name": "12 ГБ",
+          "count": 881
+        },
+        {
+          "id": "cx",
+          "name": "16 ГБ",
+          "count": 179
+        },
+        {
+          "id": "aqo",
+          "name": "24 ГБ",
+          "count": 7
+        }
+      ]
+    },
+    {
+      "group": "Память",
+      "id": "f[4i]",
+      "name": "Слот для карты памяти",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "dyr",
+          "name": "есть (отдельный слот)",
+          "count": 815
+        },
+        {
+          "id": "1ybj",
+          "name": "есть (универсальный слот SIM + SIM / SIM + карта памяти)",
+          "count": 694
+        },
+        {
+          "id": "cr",
+          "name": "нет",
+          "count": 2459
+        }
+      ]
+    },
+    {
+      "group": "Память",
+      "id": "f[968]",
+      "name": "Тип встроенной памяти",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "osuu",
+          "name": "EMCP",
+          "count": 2
+        },
+        {
+          "id": "hubg",
+          "name": "UFS",
+          "count": 3
+        },
+        {
+          "id": "i4e9",
+          "name": "UFS 2.0",
+          "count": 2
+        },
+        {
+          "id": "hc5z",
+          "name": "UFS 2.1",
+          "count": 44
+        },
+        {
+          "id": "h42l",
+          "name": "UFS 2.2",
+          "count": 636
+        },
+        {
+          "id": "i3ql",
+          "name": "UFS 3.0",
+          "count": 6
+        },
+        {
+          "id": "h3jh",
+          "name": "UFS 3.1",
+          "count": 348
+        },
+        {
+          "id": "h46l",
+          "name": "UFS 4.0",
+          "count": 328
+        },
+        {
+          "id": "m8mq",
+          "name": "UFS 4.1",
+          "count": 155
+        },
+        {
+          "id": "mghs",
+          "name": "UFS 4.1 Pro",
+          "count": 21
+        },
+        {
+          "id": "h7w6",
+          "name": "eMMC 5.1",
+          "count": 281
+        },
+        {
+          "id": "osw9",
+          "name": "uMCP",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "group": "Память",
+      "id": "f[1gi]",
+      "name": "Тип оперативной памяти",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "aqj",
+          "name": "LPDDR3",
+          "count": 28
+        },
+        {
+          "id": "3ir7",
+          "name": "LPDDR4",
+          "count": 21
+        },
+        {
+          "id": "c8az",
+          "name": "LPDDR4X",
+          "count": 1279
+        },
+        {
+          "id": "agor",
+          "name": "LPDDR5",
+          "count": 273
+        },
+        {
+          "id": "o4dp",
+          "name": "LPDDR5T",
+          "count": 14
+        },
+        {
+          "id": "h3jg",
+          "name": "LPDDR5X",
+          "count": 686
+        },
+        {
+          "id": "m8mp",
+          "name": "LPDDR5X Ultra",
+          "count": 37
+        },
+        {
+          "id": "q5g7",
+          "name": "LPDDR5X Ultra+",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "group": "Память",
+      "id": "f[45]",
+      "name": "Типы поддерживаемых карт памяти",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "5605",
+          "name": "Nano SD",
+          "count": 46
+        },
+        {
+          "id": "1pd",
+          "name": "microSD",
+          "count": 1551
+        },
+        {
+          "id": "1pe",
+          "name": "microSDHC",
+          "count": 1355
+        },
+        {
+          "id": "1pg",
+          "name": "microSDXC",
+          "count": 1321
+        },
+        {
+          "id": "cr",
+          "name": "нет",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "group": "Память",
+      "id": "f[46]",
+      "name": "Максимальный объем карты памяти (ГБ)",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "1qx",
+          "name": "32 ГБ",
+          "count": 7
+        },
+        {
+          "id": "1qw",
+          "name": "64 ГБ",
+          "count": 8
+        },
+        {
+          "id": "1qz",
+          "name": "128 ГБ",
+          "count": 25
+        },
+        {
+          "id": "1qy",
+          "name": "256 ГБ",
+          "count": 65
+        },
+        {
+          "id": "aqz",
+          "name": "512 ГБ",
+          "count": 71
+        },
+        {
+          "id": "ghg",
+          "name": "1024 ГБ",
+          "count": 557
+        },
+        {
+          "id": "z8h",
+          "name": "1536 ГБ",
+          "count": 16
+        },
+        {
+          "id": "135j",
+          "name": "2048 ГБ",
+          "count": 261
+        }
+      ]
+    },
+    {
+      "group": "Память",
+      "id": "f[9ji]",
+      "name": "Виртуальное расширение ОЗУ (Б)",
+      "type": "checkbox",
+      "is_spec": true,
+      "values_count": 16,
+      "sample_values": [
+        {
+          "id": "1r6",
+          "name": "0 Б",
+          "count": 558
+        },
+        {
+          "id": "ct",
+          "name": "1000000000 Б",
+          "count": 2
+        },
+        {
+          "id": "cu",
+          "name": "2000000000 Б",
+          "count": 2
+        },
+        {
+          "id": "1ua",
+          "name": "3000000000 Б",
+          "count": 25
+        },
+        {
+          "id": "cv",
+          "name": "4000000000 Б",
+          "count": 131
+        },
+        {
+          "id": "9gw",
+          "name": "5000000000 Б",
+          "count": 24
+        },
+        {
+          "id": "d1",
+          "name": "6000000000 Б",
+          "count": 32
+        },
+        {
+          "id": "be5",
+          "name": "7000000000 Б",
+          "count": 4
+        },
+        {
+          "id": "be3",
+          "name": "14000000000 Б",
+          "count": 16
+        },
+        {
+          "id": "cx",
+          "name": "16000000000 Б",
+          "count": 23
+        },
+        {
+          "id": "be1",
+          "name": "20000000000 Б",
+          "count": 4
+        },
+        {
+          "id": "aqo",
+          "name": "24000000000 Б",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "group": "Основная (тыловая) камера",
+      "id": "f[5x1]",
+      "name": "Оптическая стабилизация",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "21",
+          "name": "есть",
+          "count": 2384
+        },
+        {
+          "id": "cr",
+          "name": "нет",
+          "count": 1311
+        }
+      ]
+    },
+    {
+      "group": "Основная (тыловая) камера",
+      "id": "f[26h]",
+      "name": "Количество мегапикселей основной камеры (Мп)",
+      "type": "checkbox",
+      "is_spec": true,
+      "values_count": 18,
+      "sample_values": [
+        {
+          "id": "1va",
+          "name": "2 Мп",
+          "count": 8
+        },
+        {
+          "id": "1mb",
+          "name": "3 Мп",
+          "count": 8
+        },
+        {
+          "id": "al",
+          "name": "5 Мп",
+          "count": 11
+        },
+        {
+          "id": "ak",
+          "name": "8 Мп",
+          "count": 51
+        },
+        {
+          "id": "ah",
+          "name": "12 Мп",
+          "count": 116
+        },
+        {
+          "id": "46od",
+          "name": "13 Мп",
+          "count": 177
+        },
+        {
+          "id": "aj",
+          "name": "16 Мп",
+          "count": 13
+        },
+        {
+          "id": "aq",
+          "name": "20 Мп",
+          "count": 1
+        },
+        {
+          "id": "7iqa",
+          "name": "64 Мп",
+          "count": 160
+        },
+        {
+          "id": "h3pd",
+          "name": "100 Мп",
+          "count": 14
+        },
+        {
+          "id": "h3pl",
+          "name": "108 Мп",
+          "count": 275
+        },
+        {
+          "id": "h3pt",
+          "name": "200 Мп",
+          "count": 232
+        }
+      ]
+    },
+    {
+      "group": "Основная (тыловая) камера",
+      "id": "fr[7x0]",
+      "name": "Рейтинг DxOMark (основная камера)",
+      "type": "range-radio",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "32d7e9747db6dab8112ef3e54e4f50f8",
+          "name": "Менее 99",
+          "count": 17
+        },
+        {
+          "id": "f5b88c758c3232cc12ae55e3e821994a",
+          "name": "100 - 114",
+          "count": 34
+        },
+        {
+          "id": "6da65be1b4f161023b8d506fb33170b7",
+          "name": "115 - 129",
+          "count": 110
+        },
+        {
+          "id": "0c490092be31026512af18bba739a222",
+          "name": "130 - 144",
+          "count": 171
+        },
+        {
+          "id": "68897e37059954ddf34de4eac4d8cbd4",
+          "name": "145 и более",
+          "count": 134
+        }
+      ]
+    },
+    {
+      "group": "Основная (тыловая) камера",
+      "id": "f[57w]",
+      "name": "Количество основных (тыловых) камер",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "bn",
+          "name": "4",
+          "count": 175
+        },
+        {
+          "id": "24f",
+          "name": "3",
+          "count": 1509
+        },
+        {
+          "id": "bm",
+          "name": "2",
+          "count": 1257
+        },
+        {
+          "id": "bp",
+          "name": "1",
+          "count": 223
+        }
+      ]
+    },
+    {
+      "group": "Основная (тыловая) камера",
+      "id": "f[9js]",
+      "name": "Оптический зум (фото) (x)",
+      "type": "checkbox",
+      "is_spec": true,
+      "values_count": 21,
+      "sample_values": [
+        {
+          "id": "jatv",
+          "name": "1 x",
+          "count": 69
+        },
+        {
+          "id": "hsd",
+          "name": "2 x",
+          "count": 279
+        },
+        {
+          "id": "h3rw",
+          "name": "2.5 x",
+          "count": 15
+        },
+        {
+          "id": "pqv8",
+          "name": "2.6 x",
+          "count": 7
+        },
+        {
+          "id": "mqin",
+          "name": "2.7 x",
+          "count": 4
+        },
+        {
+          "id": "b3",
+          "name": "3 x",
+          "count": 390
+        },
+        {
+          "id": "hko0",
+          "name": "3.2 x",
+          "count": 8
+        },
+        {
+          "id": "phgc",
+          "name": "3.3 x",
+          "count": 6
+        },
+        {
+          "id": "nigh",
+          "name": "7.1 x",
+          "count": 1
+        },
+        {
+          "id": "pm15",
+          "name": "9.4 x",
+          "count": 2
+        },
+        {
+          "id": "aw",
+          "name": "10 x",
+          "count": 20
+        },
+        {
+          "id": "az",
+          "name": "20 x",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "group": "Основная (тыловая) камера",
+      "id": "f[9jr]",
+      "name": "Тип модулей камеры",
+      "type": "checkbox",
+      "is_spec": true,
+      "values_count": 15,
+      "sample_values": [
+        {
+          "id": "azt1",
+          "name": "AI камера",
+          "count": 42
+        },
+        {
+          "id": "nig3",
+          "name": "ToF-камера",
+          "count": 1
+        },
+        {
+          "id": "npo8",
+          "name": "инфракрасная камера",
+          "count": 1
+        },
+        {
+          "id": "h41c",
+          "name": "камера ночной съемки",
+          "count": 24
+        },
+        {
+          "id": "h41a",
+          "name": "камера с датчиком глубины резкости",
+          "count": 467
+        },
+        {
+          "id": "h41d",
+          "name": "макрокамера",
+          "count": 723
+        },
+        {
+          "id": "hbes",
+          "name": "монохромная камера",
+          "count": 38
+        },
+        {
+          "id": "h41e",
+          "name": "основная камера",
+          "count": 2273
+        },
+        {
+          "id": "h41b",
+          "name": "телефотокамера",
+          "count": 813
+        },
+        {
+          "id": "omam",
+          "name": "ультракамера",
+          "count": 3
+        },
+        {
+          "id": "oman",
+          "name": "ультраширокоугольная",
+          "count": 40
+        },
+        {
+          "id": "h419",
+          "name": "широкоугольная камера",
+          "count": 487
+        }
+      ]
+    },
+    {
+      "group": "Основная (тыловая) камера",
+      "id": "f[25x]",
+      "name": "Автофокусировка основной камеры",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "21",
+          "name": "есть",
+          "count": 3955
+        },
+        {
+          "id": "cr",
+          "name": "нет",
+          "count": 21
+        }
+      ]
+    },
+    {
+      "group": "Основная (тыловая) камера",
+      "id": "f[7wz]",
+      "name": "Модель сенсора основной камеры",
+      "type": "checkbox",
+      "is_spec": true,
+      "values_count": 225,
+      "sample_values": [
+        {
+          "id": "aff0",
+          "name": "GC032A",
+          "count": 3
+        },
+        {
+          "id": "gqvh",
+          "name": "GalaxyCore GC02",
+          "count": 4
+        },
+        {
+          "id": "auey",
+          "name": "GalaxyCore GC02K0",
+          "count": 1
+        },
+        {
+          "id": "mgpt",
+          "name": "GalaxyCore GC02M",
+          "count": 1
+        },
+        {
+          "id": "afip",
+          "name": "GalaxyCore GC02M1",
+          "count": 115
+        },
+        {
+          "id": "af91",
+          "name": "GalaxyCore GC02M1B",
+          "count": 44
+        },
+        {
+          "id": "apt5",
+          "name": "GalaxyCore GC02M2",
+          "count": 10
+        },
+        {
+          "id": "mgpk",
+          "name": "GalaxyCore GC02M3",
+          "count": 20
+        },
+        {
+          "id": "n9ff",
+          "name": "Sony LYT-818",
+          "count": 15
+        },
+        {
+          "id": "pexe",
+          "name": "Sony LYT-828",
+          "count": 2
+        },
+        {
+          "id": "hnqk",
+          "name": "Sony LYT-900",
+          "count": 2
+        },
+        {
+          "id": "llij",
+          "name": "Sony LYTIA-600",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "group": "Основная (тыловая) камера",
+      "id": "fr[4p7]",
+      "name": "Апертура основной камеры",
+      "type": "range-radio",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "f7b630fd078c01caa230d02c25465c54",
+          "name": "Менее 1.59",
+          "count": 184
+        },
+        {
+          "id": "71f9080131c9dc0b182d1c48e6fb4954",
+          "name": "1.6 - 1.79",
+          "count": 1255
+        },
+        {
+          "id": "57b9af7a93b3b82e2d2b6a0a5d19f386",
+          "name": "1.8 - 1.99",
+          "count": 1488
+        },
+        {
+          "id": "f4f5a7839f16a8a11e9f75fdab8f49d6",
+          "name": "2 - 2.19",
+          "count": 277
+        },
+        {
+          "id": "09dd061ad2f9f48d8cee539f9faee0fb",
+          "name": "2.2 - 2.39",
+          "count": 1471
+        },
+        {
+          "id": "0eaacf3201558b17434c82cc026cceb2",
+          "name": "2.4 и более",
+          "count": 1763
+        }
+      ]
+    },
+    {
+      "group": "Основная (тыловая) камера",
+      "id": "f[5x2]",
+      "name": "Цифровой зум (фото) (x)",
+      "type": "checkbox",
+      "is_spec": true,
+      "values_count": 20,
+      "sample_values": [
+        {
+          "id": "hsd",
+          "name": "2 x",
+          "count": 8
+        },
+        {
+          "id": "b3",
+          "name": "3 x",
+          "count": 5
+        },
+        {
+          "id": "as",
+          "name": "4 x",
+          "count": 54
+        },
+        {
+          "id": "at",
+          "name": "5 x",
+          "count": 80
+        },
+        {
+          "id": "av",
+          "name": "8 x",
+          "count": 78
+        },
+        {
+          "id": "aw",
+          "name": "10 x",
+          "count": 865
+        },
+        {
+          "id": "hs6",
+          "name": "15 x",
+          "count": 120
+        },
+        {
+          "id": "b2",
+          "name": "16 x",
+          "count": 1
+        },
+        {
+          "id": "15rt",
+          "name": "100 x",
+          "count": 136
+        },
+        {
+          "id": "on5p",
+          "name": "105 x",
+          "count": 6
+        },
+        {
+          "id": "1u3l",
+          "name": "120 x",
+          "count": 34
+        },
+        {
+          "id": "jgp8",
+          "name": "140 x",
+          "count": 9
+        }
+      ]
+    },
+    {
+      "group": "Основная (тыловая) камера",
+      "id": "f[2hc]",
+      "name": "Особенности и технологии тыловой оптики",
+      "type": "checkbox",
+      "is_spec": true,
+      "values_count": 168,
+      "sample_values": [
+        {
+          "id": "mjxi",
+          "name": "2-кратный внутрисенсорный зум",
+          "count": 5
+        },
+        {
+          "id": "mhyb",
+          "name": "2-кратный гибридный зум",
+          "count": 10
+        },
+        {
+          "id": "db7z",
+          "name": "2-кратный оптический зум на уменьшение",
+          "count": 272
+        },
+        {
+          "id": "mjxn",
+          "name": "2-х кратный внутрисенсорный зум",
+          "count": 4
+        },
+        {
+          "id": "m1f3",
+          "name": "2x зум оптического качества",
+          "count": 81
+        },
+        {
+          "id": "iqox",
+          "name": "3-кратный внутрисенсорный зум",
+          "count": 3
+        },
+        {
+          "id": "lz7x",
+          "name": "3-кратный гибридный зум",
+          "count": 9
+        },
+        {
+          "id": "4ibs",
+          "name": "3-элементная линза",
+          "count": 77
+        },
+        {
+          "id": "c7i1",
+          "name": "широкоугольный объектив 123°",
+          "count": 10
+        },
+        {
+          "id": "691b",
+          "name": "широкоугольный объектив Sony G Lens",
+          "count": 4
+        },
+        {
+          "id": "3sq2",
+          "name": "электронная стабилизация",
+          "count": 3
+        },
+        {
+          "id": "dp7t",
+          "name": "электронная стабилизация изображения (EIS)",
+          "count": 163
+        }
+      ]
+    },
+    {
+      "group": "Основная (тыловая) камера",
+      "id": "f[2hd]",
+      "name": "Режимы и функции фотосъемки",
+      "type": "checkbox",
+      "is_spec": true,
+      "values_count": 339,
+      "sample_values": [
+        {
+          "id": "2ecv",
+          "name": "3D съемка",
+          "count": 6
+        },
+        {
+          "id": "egbn",
+          "name": "6 режимов съемки с длинной выдержкой",
+          "count": 31
+        },
+        {
+          "id": "4x35",
+          "name": "8 различных фильтров",
+          "count": 1
+        },
+        {
+          "id": "58t5",
+          "name": "19 категорий съемки",
+          "count": 3
+        },
+        {
+          "id": "6136",
+          "name": "22 категории объектов",
+          "count": 4
+        },
+        {
+          "id": "6d56",
+          "name": "AI-бьютификация",
+          "count": 393
+        },
+        {
+          "id": "qhfe",
+          "name": "AI-выделение цвета",
+          "count": 6
+        },
+        {
+          "id": "q52g",
+          "name": "AI-фильтры",
+          "count": 4
+        },
+        {
+          "id": "43t5",
+          "name": "эффект боке",
+          "count": 758
+        },
+        {
+          "id": "4fbh",
+          "name": "эффекты",
+          "count": 2
+        },
+        {
+          "id": "4b94",
+          "name": "эффекты дополненной реальности",
+          "count": 11
+        },
+        {
+          "id": "6f9k",
+          "name": "эффекты освещения",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "group": "Основная (тыловая) камера",
+      "id": "f[25w]",
+      "name": "Разрешение снимков основной камеры",
+      "type": "checkbox",
+      "is_spec": true,
+      "values_count": 133,
+      "sample_values": [
+        {
+          "id": "6s",
+          "name": "640x480",
+          "count": 1
+        },
+        {
+          "id": "lviz",
+          "name": "960х720",
+          "count": 9
+        },
+        {
+          "id": "7u34",
+          "name": "1072x1072",
+          "count": 3
+        },
+        {
+          "id": "78",
+          "name": "1280x720",
+          "count": 12
+        },
+        {
+          "id": "7u31",
+          "name": "1550x698",
+          "count": 3
+        },
+        {
+          "id": "5o4m",
+          "name": "1600x720",
+          "count": 7
+        },
+        {
+          "id": "74",
+          "name": "1600x1200",
+          "count": 12
+        },
+        {
+          "id": "71",
+          "name": "1920x1080",
+          "count": 8
+        },
+        {
+          "id": "g5mo",
+          "name": "16256x12192",
+          "count": 6
+        },
+        {
+          "id": "ivcc",
+          "name": "16320x12240",
+          "count": 71
+        },
+        {
+          "id": "px88",
+          "name": "16320x12288",
+          "count": 3
+        },
+        {
+          "id": "du1k",
+          "name": "16384x12288",
+          "count": 22
+        }
+      ]
+    },
+    {
+      "group": "Основная (тыловая) камера",
+      "id": "f[4mu]",
+      "name": "Угол обзора объектива (градус)",
+      "type": "checkbox",
+      "is_spec": true,
+      "values_count": 62,
+      "sample_values": [
+        {
+          "id": "fh",
+          "name": "65°",
+          "count": 1
+        },
+        {
+          "id": "hhm2",
+          "name": "65.7°",
+          "count": 1
+        },
+        {
+          "id": "c1mz",
+          "name": "66°",
+          "count": 3
+        },
+        {
+          "id": "l683",
+          "name": "73.6°",
+          "count": 2
+        },
+        {
+          "id": "osv9",
+          "name": "74.2°",
+          "count": 1
+        },
+        {
+          "id": "62g",
+          "name": "75°",
+          "count": 7
+        },
+        {
+          "id": "mi8f",
+          "name": "75.5°",
+          "count": 14
+        },
+        {
+          "id": "ao85",
+          "name": "76°",
+          "count": 17
+        },
+        {
+          "id": "1aba",
+          "name": "125°",
+          "count": 2
+        },
+        {
+          "id": "ha28",
+          "name": "125.5°",
+          "count": 2
+        },
+        {
+          "id": "ha1k",
+          "name": "125.8°",
+          "count": 5
+        },
+        {
+          "id": "ltqv",
+          "name": "127°",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "group": "Основная (тыловая) камера",
+      "id": "f[gv]",
+      "name": "Тип вспышки",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "3fln",
+          "name": "двойная светодиодная",
+          "count": 960
+        },
+        {
+          "id": "43vs",
+          "name": "кольцевая светодиодная",
+          "count": 210
+        },
+        {
+          "id": "77sm",
+          "name": "одинарная светодиодная",
+          "count": 1913
+        },
+        {
+          "id": "ar20",
+          "name": "тройная светодиодная",
+          "count": 51
+        },
+        {
+          "id": "4cn0",
+          "name": "четверная светодиодная",
+          "count": 85
+        }
+      ]
+    },
+    {
+      "group": "Видеосъемка (основная камера)",
+      "id": "f[25y]",
+      "name": "Разрешение видео и частота кадров",
+      "type": "checkbox",
+      "is_spec": true,
+      "values_count": 29,
+      "sample_values": [
+        {
+          "id": "qlgr",
+          "name": "1080x2520",
+          "count": 3
+        },
+        {
+          "id": "48zs",
+          "name": "1280x720 (30 кадр./сек.)",
+          "count": 2206
+        },
+        {
+          "id": "4gff",
+          "name": "1280x720 (60 кадр./сек.)",
+          "count": 201
+        },
+        {
+          "id": "6f7t",
+          "name": "1280x720 (90 кадр./сек.)",
+          "count": 5
+        },
+        {
+          "id": "4bs3",
+          "name": "1280x720 (120 кадр./сек.)",
+          "count": 484
+        },
+        {
+          "id": "4goc",
+          "name": "1280x720 (240 кадр./сек.)",
+          "count": 400
+        },
+        {
+          "id": "6905",
+          "name": "1280x720 (480 кадр./сек.)",
+          "count": 85
+        },
+        {
+          "id": "4dyc",
+          "name": "1280x720 (960 кадр./сек.)",
+          "count": 199
+        },
+        {
+          "id": "k7rf",
+          "name": "3840x2160 (100 кадр./сек.)",
+          "count": 134
+        },
+        {
+          "id": "cu2h",
+          "name": "3840x2160 (120 кадр./сек.)",
+          "count": 405
+        },
+        {
+          "id": "679z",
+          "name": "7680x4320 (24 кадр./сек.)",
+          "count": 193
+        },
+        {
+          "id": "68u0",
+          "name": "7680x4320 (30 кадр./сек.)",
+          "count": 376
+        }
+      ]
+    },
+    {
+      "group": "Видеосъемка (основная камера)",
+      "id": "f[4m4]",
+      "name": "Формат видеосъемки",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "1926",
+          "name": "Ultra HD 4K",
+          "count": 2472
+        },
+        {
+          "id": "679y",
+          "name": "Ultra HD 8K",
+          "count": 536
+        },
+        {
+          "id": "3z",
+          "name": "Full HD",
+          "count": 3546
+        },
+        {
+          "id": "eed",
+          "name": "HD",
+          "count": 2482
+        },
+        {
+          "id": "4xcl",
+          "name": "Quad HD",
+          "count": 277
+        }
+      ]
+    },
+    {
+      "group": "Видеосъемка (основная камера)",
+      "id": "f[5wy]",
+      "name": "Замедленная видеосъемка",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "21",
+          "name": "есть",
+          "count": 2422
+        },
+        {
+          "id": "cr",
+          "name": "нет",
+          "count": 178
+        }
+      ]
+    },
+    {
+      "group": "Видеосъемка (основная камера)",
+      "id": "f[5x0]",
+      "name": "Особенности и функции видеосъемки",
+      "type": "checkbox",
+      "is_spec": true,
+      "values_count": 120,
+      "sample_values": [
+        {
+          "id": "db7z",
+          "name": "2-кратный оптический зум на уменьшение",
+          "count": 165
+        },
+        {
+          "id": "4f36",
+          "name": "3-осная электронная стабилизация",
+          "count": 2
+        },
+        {
+          "id": "k7rh",
+          "name": "3D-стабилизация оптического изображения со сдвигом датчика",
+          "count": 85
+        },
+        {
+          "id": "d4aw",
+          "name": "19 режимов видеоблога",
+          "count": 3
+        },
+        {
+          "id": "6d56",
+          "name": "AI-бьютификация",
+          "count": 65
+        },
+        {
+          "id": "k3v0",
+          "name": "AI режим",
+          "count": 19
+        },
+        {
+          "id": "4ey7",
+          "name": "HDR Boost",
+          "count": 1
+        },
+        {
+          "id": "qhc7",
+          "name": "HDR Vivid",
+          "count": 14
+        },
+        {
+          "id": "2qn",
+          "name": "шумоподавление",
+          "count": 7
+        },
+        {
+          "id": "ltri",
+          "name": "шумоподавление ветра",
+          "count": 88
+        },
+        {
+          "id": "49fm",
+          "name": "электронная стабилизация видео",
+          "count": 141
+        },
+        {
+          "id": "43t5",
+          "name": "эффект боке",
+          "count": 50
+        }
+      ]
+    },
+    {
+      "group": "Видеосъемка (основная камера)",
+      "id": "f[5wz]",
+      "name": "Зум (видео)",
+      "type": "checkbox",
+      "is_spec": true,
+      "values_count": 22,
+      "sample_values": [
+        {
+          "id": "4di0",
+          "name": "2-кратный оптический зум",
+          "count": 99
+        },
+        {
+          "id": "db7z",
+          "name": "2-кратный оптический зум на уменьшение",
+          "count": 25
+        },
+        {
+          "id": "4m4u",
+          "name": "2-кратный цифровой зум",
+          "count": 15
+        },
+        {
+          "id": "7heo",
+          "name": "2.5-кратный оптический зум",
+          "count": 9
+        },
+        {
+          "id": "4ews",
+          "name": "3-кратный оптический зум",
+          "count": 84
+        },
+        {
+          "id": "49ah",
+          "name": "3-кратный цифровой зум",
+          "count": 164
+        },
+        {
+          "id": "phxu",
+          "name": "3.5-кратный оптический зум",
+          "count": 8
+        },
+        {
+          "id": "15n5",
+          "name": "4-кратный цифровой зум",
+          "count": 65
+        },
+        {
+          "id": "862c",
+          "name": "20-кратный цифровой зум",
+          "count": 69
+        },
+        {
+          "id": "k7rg",
+          "name": "25-кратный цифровой зум",
+          "count": 85
+        },
+        {
+          "id": "7yly",
+          "name": "30-кратный цифровой зум",
+          "count": 5
+        },
+        {
+          "id": "1v8",
+          "name": "цифровой зум",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "group": "Видеосъемка (основная камера)",
+      "id": "f[6qe]",
+      "name": "Форматы воспроизведения видео",
+      "type": "checkbox",
+      "is_spec": true,
+      "values_count": 46,
+      "sample_values": [
+        {
+          "id": "e3m",
+          "name": "3G2",
+          "count": 683
+        },
+        {
+          "id": "uf",
+          "name": "3GP",
+          "count": 1594
+        },
+        {
+          "id": "k6v7",
+          "name": "3GP",
+          "count": 225
+        },
+        {
+          "id": "2je",
+          "name": "AAC",
+          "count": 1
+        },
+        {
+          "id": "1sk",
+          "name": "AAX",
+          "count": 1
+        },
+        {
+          "id": "7u4j",
+          "name": "AAX+",
+          "count": 1
+        },
+        {
+          "id": "2ji",
+          "name": "AC3",
+          "count": 1
+        },
+        {
+          "id": "uc",
+          "name": "ASF",
+          "count": 380
+        },
+        {
+          "id": "u5",
+          "name": "WMV",
+          "count": 309
+        },
+        {
+          "id": "dc5m",
+          "name": "WebM",
+          "count": 3
+        },
+        {
+          "id": "25gu",
+          "name": "XVID",
+          "count": 19
+        },
+        {
+          "id": "phye",
+          "name": "​​VP8",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "group": "Фронтальная камера",
+      "id": "f[3yi]",
+      "name": "Количество мегапикселей фронтальной камеры",
+      "type": "checkbox",
+      "is_spec": true,
+      "values_count": 27,
+      "sample_values": [
+        {
+          "id": "31f",
+          "name": "0.3 Мп",
+          "count": 22
+        },
+        {
+          "id": "31e",
+          "name": "2 Мп",
+          "count": 33
+        },
+        {
+          "id": "31b",
+          "name": "5 Мп",
+          "count": 269
+        },
+        {
+          "id": "1kcl",
+          "name": "7 Мп",
+          "count": 93
+        },
+        {
+          "id": "31n",
+          "name": "8 Мп",
+          "count": 586
+        },
+        {
+          "id": "df9n",
+          "name": "9.5 Мп",
+          "count": 2
+        },
+        {
+          "id": "1zs",
+          "name": "10",
+          "count": 20
+        },
+        {
+          "id": "31k",
+          "name": "10 Мп",
+          "count": 165
+        },
+        {
+          "id": "qhhj",
+          "name": "50+1.5 Мп",
+          "count": 8
+        },
+        {
+          "id": "dm1p",
+          "name": "50+2 Мп",
+          "count": 3
+        },
+        {
+          "id": "cevw",
+          "name": "60 Мп",
+          "count": 12
+        },
+        {
+          "id": "dqsm",
+          "name": "60+8 Мп",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "group": "Фронтальная камера",
+      "id": "f[5bi]",
+      "name": "Автофокусировка",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "21",
+          "name": "есть",
+          "count": 1143
+        },
+        {
+          "id": "cr",
+          "name": "нет",
+          "count": 2290
+        }
+      ]
+    },
+    {
+      "group": "Фронтальная камера",
+      "id": "f[5wv]",
+      "name": "Разрешение видеосъемки",
+      "type": "checkbox",
+      "is_spec": true,
+      "values_count": 18,
+      "sample_values": [
+        {
+          "id": "48zs",
+          "name": "1280x720 (30 кадр./сек.)",
+          "count": 1205
+        },
+        {
+          "id": "4gff",
+          "name": "1280x720 (60 кадр./сек.)",
+          "count": 59
+        },
+        {
+          "id": "4bs3",
+          "name": "1280x720 (120 кадр./сек.)",
+          "count": 70
+        },
+        {
+          "id": "4goc",
+          "name": "1280x720 (240 кадр./сек.)",
+          "count": 13
+        },
+        {
+          "id": "71",
+          "name": "1920x1080",
+          "count": 3
+        },
+        {
+          "id": "n9fp",
+          "name": "1920x1080 (20 кадр./сек.)",
+          "count": 2
+        },
+        {
+          "id": "h6rg",
+          "name": "1920x1080 (25 кадр./сек.)",
+          "count": 528
+        },
+        {
+          "id": "48zp",
+          "name": "1920x1080 (30 кадр./сек.)",
+          "count": 2693
+        },
+        {
+          "id": "4fom",
+          "name": "3840x2160 (24 кадр./сек.)",
+          "count": 542
+        },
+        {
+          "id": "djnh",
+          "name": "3840x2160 (25 кадр./сек.)",
+          "count": 526
+        },
+        {
+          "id": "49lp",
+          "name": "3840x2160 (30 кадр./сек.)",
+          "count": 1290
+        },
+        {
+          "id": "4aka",
+          "name": "3840x2160 (60 кадр./сек.)",
+          "count": 1053
+        }
+      ]
+    },
+    {
+      "group": "Фронтальная камера",
+      "id": "f[2z]",
+      "name": "Встроенная вспышка",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "21",
+          "name": "есть",
+          "count": 491
+        },
+        {
+          "id": "cr",
+          "name": "нет",
+          "count": 2927
+        }
+      ]
+    },
+    {
+      "group": "Фронтальная камера",
+      "id": "f[5wt]",
+      "name": "Апертура фронтальной камеры",
+      "type": "checkbox",
+      "is_spec": true,
+      "values_count": 17,
+      "sample_values": [
+        {
+          "id": "4eyk",
+          "name": "1.75",
+          "count": 3
+        },
+        {
+          "id": "1c22",
+          "name": "1.8",
+          "count": 13
+        },
+        {
+          "id": "1c23",
+          "name": "1.9",
+          "count": 434
+        },
+        {
+          "id": "bm",
+          "name": "2",
+          "count": 691
+        },
+        {
+          "id": "6ib2",
+          "name": "2.05",
+          "count": 14
+        },
+        {
+          "id": "ni47",
+          "name": "2.09",
+          "count": 4
+        },
+        {
+          "id": "1cih",
+          "name": "2.1",
+          "count": 33
+        },
+        {
+          "id": "1bgd",
+          "name": "2.2",
+          "count": 1084
+        },
+        {
+          "id": "6stz",
+          "name": "2.45",
+          "count": 281
+        },
+        {
+          "id": "pu77",
+          "name": "2.46",
+          "count": 3
+        },
+        {
+          "id": "16ll",
+          "name": "2.5",
+          "count": 31
+        },
+        {
+          "id": "1bge",
+          "name": "2.8",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "group": "Фронтальная камера",
+      "id": "f[5ww]",
+      "name": "Особенности и технологии фронтальной оптики",
+      "type": "checkbox",
+      "is_spec": true,
+      "values_count": 66,
+      "sample_values": [
+        {
+          "id": "4di0",
+          "name": "2-кратный оптический зум",
+          "count": 5
+        },
+        {
+          "id": "4m4u",
+          "name": "2-кратный цифровой зум",
+          "count": 2
+        },
+        {
+          "id": "hzcq",
+          "name": "2D-технология распознавания лиц",
+          "count": 1
+        },
+        {
+          "id": "4ibs",
+          "name": "3-элементная линза",
+          "count": 68
+        },
+        {
+          "id": "1p05",
+          "name": "4-элементная линза",
+          "count": 101
+        },
+        {
+          "id": "46gj",
+          "name": "5-кратный цифровой зум",
+          "count": 5
+        },
+        {
+          "id": "169m",
+          "name": "5-элементная линза",
+          "count": 243
+        },
+        {
+          "id": "1nlc",
+          "name": "6-элементная линза",
+          "count": 26
+        },
+        {
+          "id": "4ds3",
+          "name": "широкоугольный объектив 84°",
+          "count": 1
+        },
+        {
+          "id": "4fpf",
+          "name": "экранная вспышка",
+          "count": 55
+        },
+        {
+          "id": "3sq2",
+          "name": "электронная стабилизация",
+          "count": 38
+        },
+        {
+          "id": "ekp1",
+          "name": "электронная стабилизация видео (EIS)",
+          "count": 28
+        }
+      ]
+    },
+    {
+      "group": "Фронтальная камера",
+      "id": "f[5wx]",
+      "name": "Режимы и функции съемки",
+      "type": "checkbox",
+      "is_spec": true,
+      "values_count": 190,
+      "sample_values": [
+        {
+          "id": "icmz",
+          "name": "2-х кратное увеличение при съемке селфи",
+          "count": 4
+        },
+        {
+          "id": "8ro4",
+          "name": "3D-моделирование лиц",
+          "count": 3
+        },
+        {
+          "id": "5hmn",
+          "name": "3D Beautify",
+          "count": 3
+        },
+        {
+          "id": "4x35",
+          "name": "8 различных фильтров",
+          "count": 1
+        },
+        {
+          "id": "58t5",
+          "name": "19 категорий съемки",
+          "count": 3
+        },
+        {
+          "id": "6d56",
+          "name": "AI-бьютификация",
+          "count": 86
+        },
+        {
+          "id": "o8ln",
+          "name": "AI Cam",
+          "count": 6
+        },
+        {
+          "id": "kgw1",
+          "name": "AR съемка",
+          "count": 85
+        },
+        {
+          "id": "39cc",
+          "name": "широкоформатное селфи",
+          "count": 77
+        },
+        {
+          "id": "49aa",
+          "name": "эффект Боке",
+          "count": 105
+        },
+        {
+          "id": "43t5",
+          "name": "эффект боке",
+          "count": 577
+        },
+        {
+          "id": "4b94",
+          "name": "эффекты дополненной реальности",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "group": "Фронтальная камера",
+      "id": "f[7x1]",
+      "name": "Модель сенсора фронтальной камеры",
+      "type": "checkbox",
+      "is_spec": true,
+      "values_count": 97,
+      "sample_values": [
+        {
+          "id": "laxh",
+          "name": "GalaxyCore GC05A2",
+          "count": 9
+        },
+        {
+          "id": "da0j",
+          "name": "GalaxyCore GC08A3",
+          "count": 1
+        },
+        {
+          "id": "kjun",
+          "name": "GalaxyCore GC08A8",
+          "count": 60
+        },
+        {
+          "id": "kgvz",
+          "name": "GalaxyCore GC13A0",
+          "count": 53
+        },
+        {
+          "id": "je4v",
+          "name": "GalaxyCore GC16B3",
+          "count": 5
+        },
+        {
+          "id": "kn10",
+          "name": "GalaxyCore GC16B3C",
+          "count": 1
+        },
+        {
+          "id": "hua2",
+          "name": "GalaxyCore GC32E1",
+          "count": 43
+        },
+        {
+          "id": "afgn",
+          "name": "GalaxyCore GC2385",
+          "count": 1
+        },
+        {
+          "id": "e55x",
+          "name": "Sony IMX714",
+          "count": 14
+        },
+        {
+          "id": "m8nq",
+          "name": "Sony IMX816",
+          "count": 3
+        },
+        {
+          "id": "flki",
+          "name": "Sony IMX858",
+          "count": 15
+        },
+        {
+          "id": "e9f5",
+          "name": "Vivo JNV",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "group": "Фронтальная камера",
+      "id": "f[5p1]",
+      "name": "Двойная фронтальная камера",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "21",
+          "name": "есть",
+          "count": 53
+        },
+        {
+          "id": "cr",
+          "name": "нет",
+          "count": 3951
+        }
+      ]
+    },
+    {
+      "group": "Фронтальная камера",
+      "id": "f[9k2]",
+      "name": "Угол обзора фронтальной камеры (градус)",
+      "type": "checkbox",
+      "is_spec": true,
+      "values_count": 53,
+      "sample_values": [
+        {
+          "id": "ite6",
+          "name": "42°",
+          "count": 6
+        },
+        {
+          "id": "6j8",
+          "name": "56°",
+          "count": 3
+        },
+        {
+          "id": "ms14",
+          "name": "71.5°",
+          "count": 3
+        },
+        {
+          "id": "kht7",
+          "name": "72°",
+          "count": 19
+        },
+        {
+          "id": "1xfj",
+          "name": "73°",
+          "count": 3
+        },
+        {
+          "id": "iihw",
+          "name": "74°",
+          "count": 4
+        },
+        {
+          "id": "62g",
+          "name": "75°",
+          "count": 1
+        },
+        {
+          "id": "ao85",
+          "name": "76°",
+          "count": 3
+        },
+        {
+          "id": "oeqt",
+          "name": "96.1°",
+          "count": 6
+        },
+        {
+          "id": "kga4",
+          "name": "96.5°",
+          "count": 2
+        },
+        {
+          "id": "zoz",
+          "name": "100°",
+          "count": 61
+        },
+        {
+          "id": "bexh",
+          "name": "103°",
+          "count": 22
+        }
+      ]
+    },
+    {
+      "group": "Фронтальная камера",
+      "id": "f[5wu]",
+      "name": "Разрешение снимков фронтальной камеры",
+      "type": "checkbox",
+      "is_spec": true,
+      "values_count": 119,
+      "sample_values": [
+        {
+          "id": "6s",
+          "name": "640x480",
+          "count": 1
+        },
+        {
+          "id": "lviz",
+          "name": "960х720",
+          "count": 8
+        },
+        {
+          "id": "jyuh",
+          "name": "1166x2592",
+          "count": 6
+        },
+        {
+          "id": "78",
+          "name": "1280x720",
+          "count": 8
+        },
+        {
+          "id": "jyug",
+          "name": "1458x2592",
+          "count": 6
+        },
+        {
+          "id": "5o4m",
+          "name": "1600x720",
+          "count": 1
+        },
+        {
+          "id": "k6v8",
+          "name": "1784x4024",
+          "count": 6
+        },
+        {
+          "id": "j77u",
+          "name": "1800х4000",
+          "count": 1
+        },
+        {
+          "id": "680a",
+          "name": "8192x6144",
+          "count": 75
+        },
+        {
+          "id": "np9d",
+          "name": "8802х6120",
+          "count": 14
+        },
+        {
+          "id": "dnuo",
+          "name": "8960x6720",
+          "count": 17
+        },
+        {
+          "id": "mlsr",
+          "name": "24624x2600",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "group": "Фронтальная камера",
+      "id": "f[7x2]",
+      "name": "Рейтинг DxOMark (селфи-камера)",
+      "type": "checkbox",
+      "is_spec": true,
+      "values_count": 21,
+      "sample_values": [
+        {
+          "id": "7aj",
+          "name": "83",
+          "count": 2
+        },
+        {
+          "id": "7aa",
+          "name": "111",
+          "count": 2
+        },
+        {
+          "id": "7ap",
+          "name": "115",
+          "count": 1
+        },
+        {
+          "id": "79y",
+          "name": "116",
+          "count": 2
+        },
+        {
+          "id": "70d",
+          "name": "121",
+          "count": 2
+        },
+        {
+          "id": "5rj1",
+          "name": "122",
+          "count": 2
+        },
+        {
+          "id": "23c",
+          "name": "128",
+          "count": 2
+        },
+        {
+          "id": "e6k4",
+          "name": "129",
+          "count": 1
+        },
+        {
+          "id": "pl8a",
+          "name": "148",
+          "count": 6
+        },
+        {
+          "id": "13fk",
+          "name": "149",
+          "count": 46
+        },
+        {
+          "id": "hqkf",
+          "name": "151",
+          "count": 39
+        },
+        {
+          "id": "3esu",
+          "name": "154",
+          "count": 24
+        }
+      ]
+    },
+    {
+      "group": "Аудио",
+      "id": "f[6qb]",
+      "name": "Стереодинамики",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "21",
+          "name": "есть",
+          "count": 2740
+        },
+        {
+          "id": "cr",
+          "name": "нет",
+          "count": 781
+        }
+      ]
+    },
+    {
+      "group": "Аудио",
+      "id": "f[25z]",
+      "name": "FM радио",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "21",
+          "name": "есть",
+          "count": 999
+        },
+        {
+          "id": "cr",
+          "name": "нет",
+          "count": 1767
+        }
+      ]
+    },
+    {
+      "group": "Аудио",
+      "id": "f[6qc]",
+      "name": "Поддержка кодеков Bluetooth",
+      "type": "checkbox",
+      "is_spec": true,
+      "values_count": 18,
+      "sample_values": [
+        {
+          "id": "oq0",
+          "name": "A2DP",
+          "count": 137
+        },
+        {
+          "id": "2je",
+          "name": "AAC",
+          "count": 1141
+        },
+        {
+          "id": "7uwl",
+          "name": "AptX",
+          "count": 740
+        },
+        {
+          "id": "7uwm",
+          "name": "AptX Adaptive",
+          "count": 226
+        },
+        {
+          "id": "7uwa",
+          "name": "AptX HD",
+          "count": 573
+        },
+        {
+          "id": "4tas",
+          "name": "BLE",
+          "count": 47
+        },
+        {
+          "id": "7tr6",
+          "name": "L2HC",
+          "count": 68
+        },
+        {
+          "id": "fg5o",
+          "name": "LC3",
+          "count": 186
+        },
+        {
+          "id": "3fi1",
+          "name": "SBC",
+          "count": 1062
+        },
+        {
+          "id": "dkk2",
+          "name": "SSC",
+          "count": 169
+        },
+        {
+          "id": "khrl",
+          "name": "UHQ",
+          "count": 140
+        },
+        {
+          "id": "jjv0",
+          "name": "aptX Lossless",
+          "count": 16
+        }
+      ]
+    },
+    {
+      "group": "Аудио",
+      "id": "f[42]",
+      "name": "Форматы аудиофайлов",
+      "type": "checkbox",
+      "is_spec": true,
+      "values_count": 59,
+      "sample_values": [
+        {
+          "id": "7u2v",
+          "name": "3GA",
+          "count": 614
+        },
+        {
+          "id": "uf",
+          "name": "3GP",
+          "count": 19
+        },
+        {
+          "id": "2je",
+          "name": "AAC",
+          "count": 2339
+        },
+        {
+          "id": "25gt",
+          "name": "AAC+",
+          "count": 96
+        },
+        {
+          "id": "a684",
+          "name": "AAC‑LC",
+          "count": 304
+        },
+        {
+          "id": "1sk",
+          "name": "AAX",
+          "count": 383
+        },
+        {
+          "id": "7u4j",
+          "name": "AAX+",
+          "count": 383
+        },
+        {
+          "id": "2ji",
+          "name": "AC3",
+          "count": 453
+        },
+        {
+          "id": "1sf",
+          "name": "WMA",
+          "count": 314
+        },
+        {
+          "id": "kjup",
+          "name": "WMA  FLAC",
+          "count": 8
+        },
+        {
+          "id": "25gq",
+          "name": "XMF",
+          "count": 603
+        },
+        {
+          "id": "5bcp",
+          "name": "eAAC+",
+          "count": 40
+        }
+      ]
+    },
+    {
+      "group": "Коммуникации",
+      "id": "f[2dx]",
+      "name": "NFC",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "21",
+          "name": "есть",
+          "count": 3675
+        },
+        {
+          "id": "cr",
+          "name": "нет",
+          "count": 363
+        }
+      ]
+    },
+    {
+      "group": "Коммуникации",
+      "id": "f[4jx]",
+      "name": "ИК-порт",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "21",
+          "name": "есть",
+          "count": 1264
+        },
+        {
+          "id": "cr",
+          "name": "нет",
+          "count": 2002
+        }
+      ]
+    },
+    {
+      "group": "Коммуникации",
+      "id": "f[9]",
+      "name": "Стандарт Wi-Fi",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "2lc",
+          "name": "4 (802.11n)",
+          "count": 3766
+        },
+        {
+          "id": "dye",
+          "name": "5 (802.11ac)",
+          "count": 3606
+        },
+        {
+          "id": "5an0",
+          "name": "6 (802.11ax)",
+          "count": 2095
+        },
+        {
+          "id": "eyqd",
+          "name": "7 (802.11be)",
+          "count": 760
+        }
+      ]
+    },
+    {
+      "group": "Коммуникации",
+      "id": "f[9a]",
+      "name": "Версия Bluetooth",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "2ld",
+          "name": "4.0",
+          "count": 90
+        },
+        {
+          "id": "bdkj",
+          "name": "5.4",
+          "count": 735
+        },
+        {
+          "id": "20e4",
+          "name": "5.3",
+          "count": 986
+        },
+        {
+          "id": "ga6",
+          "name": "5.2",
+          "count": 443
+        },
+        {
+          "id": "7",
+          "name": "5.1",
+          "count": 243
+        },
+        {
+          "id": "6",
+          "name": "5.0",
+          "count": 959
+        },
+        {
+          "id": "15b5",
+          "name": "4.2",
+          "count": 205
+        },
+        {
+          "id": "233",
+          "name": "4.1",
+          "count": 36
+        },
+        {
+          "id": "4",
+          "name": "2.1",
+          "count": 10
+        },
+        {
+          "id": "1zy",
+          "name": "3.0",
+          "count": 1
+        },
+        {
+          "id": "3bzi",
+          "name": "6.0",
+          "count": 312
+        }
+      ]
+    },
+    {
+      "group": "Коммуникации",
+      "id": "f[26c]",
+      "name": "Системы навигации",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "1crn",
+          "name": "A-GPS",
+          "count": 3698
+        },
+        {
+          "id": "2e3b",
+          "name": "BeiDou",
+          "count": 3526
+        },
+        {
+          "id": "e3e",
+          "name": "GPS",
+          "count": 3808
+        },
+        {
+          "id": "4zei",
+          "name": "Galileo",
+          "count": 3458
+        },
+        {
+          "id": "fr4j",
+          "name": "NAVIC",
+          "count": 466
+        },
+        {
+          "id": "4zel",
+          "name": "QZSS",
+          "count": 2065
+        },
+        {
+          "id": "14bi",
+          "name": "ГЛОНАСС",
+          "count": 3795
+        },
+        {
+          "id": "cr",
+          "name": "нет",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "group": "Коммуникации",
+      "id": "f[6qd]",
+      "name": "Прочие технологии передачи данных",
+      "type": "checkbox",
+      "is_spec": true,
+      "values_count": 17,
+      "sample_values": [
+        {
+          "id": "qdmt",
+          "name": "2x2 MIMO",
+          "count": 39
+        },
+        {
+          "id": "qipx",
+          "name": "4x4 MIMO",
+          "count": 3
+        },
+        {
+          "id": "qf8c",
+          "name": "8x8 MU-MIMO",
+          "count": 15
+        },
+        {
+          "id": "oa9l",
+          "name": "1024-QAM",
+          "count": 1
+        },
+        {
+          "id": "3mc",
+          "name": "DLNA",
+          "count": 56
+        },
+        {
+          "id": "cwkw",
+          "name": "HE160",
+          "count": 4
+        },
+        {
+          "id": "55t0",
+          "name": "MU-MIMO",
+          "count": 110
+        },
+        {
+          "id": "b9m3",
+          "name": "OFDMA",
+          "count": 21
+        },
+        {
+          "id": "2dzs",
+          "name": "Wi-Fi Display",
+          "count": 775
+        },
+        {
+          "id": "b41l",
+          "name": "Wi-Fi Hotspot",
+          "count": 1592
+        },
+        {
+          "id": "fim7",
+          "name": "Wi-Fi MiMO",
+          "count": 1079
+        },
+        {
+          "id": "7wvb",
+          "name": "Wi-Fi Miracast",
+          "count": 148
+        }
+      ]
+    },
+    {
+      "group": "Разъемы и датчики",
+      "id": "f[9c]",
+      "name": "Разъем для наушников",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "7ko",
+          "name": "Lightning 8-pin",
+          "count": 338
+        },
+        {
+          "id": "18b0",
+          "name": "USB Type-C",
+          "count": 2180
+        },
+        {
+          "id": "40a",
+          "name": "jack 3.5 мм",
+          "count": 1000
+        }
+      ]
+    },
+    {
+      "group": "Разъемы и датчики",
+      "id": "f[25u]",
+      "name": "Интерфейс для зарядки",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "7ko",
+          "name": "Lightning 8-pin",
+          "count": 169
+        },
+        {
+          "id": "18b0",
+          "name": "USB Type-C",
+          "count": 3070
+        },
+        {
+          "id": "1ny",
+          "name": "micro USB",
+          "count": 100
+        }
+      ]
+    },
+    {
+      "group": "Разъемы и датчики",
+      "id": "f[4m]",
+      "name": "Поддержка OTG",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "21",
+          "name": "есть",
+          "count": 3530
+        },
+        {
+          "id": "cr",
+          "name": "нет",
+          "count": 135
+        }
+      ]
+    },
+    {
+      "group": "Разъемы и датчики",
+      "id": "f[4l]",
+      "name": "Датчики",
+      "type": "checkbox",
+      "is_spec": true,
+      "values_count": 17,
+      "sample_values": [
+        {
+          "id": "2xjv",
+          "name": "ИК-датчик",
+          "count": 17
+        },
+        {
+          "id": "3dv",
+          "name": "акселерометр",
+          "count": 3872
+        },
+        {
+          "id": "1vh",
+          "name": "барометр",
+          "count": 1334
+        },
+        {
+          "id": "1ozq",
+          "name": "геомагнитный датчик",
+          "count": 399
+        },
+        {
+          "id": "7gt",
+          "name": "гироскоп",
+          "count": 3122
+        },
+        {
+          "id": "omau",
+          "name": "гравитации",
+          "count": 41
+        },
+        {
+          "id": "1p3e",
+          "name": "датчик RGB",
+          "count": 147
+        },
+        {
+          "id": "1vg",
+          "name": "датчик Холла",
+          "count": 630
+        },
+        {
+          "id": "ovao",
+          "name": "магнитного поля",
+          "count": 12
+        },
+        {
+          "id": "omaw",
+          "name": "распознавания жестов",
+          "count": 21
+        },
+        {
+          "id": "65s0",
+          "name": "сканер LiDAR",
+          "count": 261
+        },
+        {
+          "id": "omav",
+          "name": "цветовой температуры",
+          "count": 84
+        }
+      ]
+    },
+    {
+      "group": "Питание",
+      "id": "fr[4a]",
+      "name": "Емкость аккумулятора (мА*ч)",
+      "type": "range-radio",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "e171a177be023f397bc65eb179fa5ca3",
+          "name": "Менее 2 499",
+          "count": 11
+        },
+        {
+          "id": "88c0f3486b3739b8ba342401d6301892",
+          "name": "2 500 - 3 999",
+          "count": 255
+        },
+        {
+          "id": "e7bea4e0cb677f114c33c286339f5d9d",
+          "name": "4 000 - 4 499",
+          "count": 265
+        },
+        {
+          "id": "3253b120091bda45ad079596754ddd4f",
+          "name": "4 500 - 4 999",
+          "count": 265
+        },
+        {
+          "id": "65e6d259224c9605e571fda5574d31ec",
+          "name": "5 000 - 5 999",
+          "count": 1510
+        },
+        {
+          "id": "c25d2328985c82de9fb67ed2403eb8fe",
+          "name": "6 000 и более",
+          "count": 698
+        }
+      ]
+    },
+    {
+      "group": "Питание",
+      "id": "f[4tj]",
+      "name": "Поддержка беспроводной зарядки",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "21",
+          "name": "есть",
+          "count": 1568
+        },
+        {
+          "id": "cr",
+          "name": "нет",
+          "count": 2179
+        }
+      ]
+    },
+    {
+      "group": "Питание",
+      "id": "f[pz]",
+      "name": "Быстрая зарядка",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "21",
+          "name": "есть",
+          "count": 3054
+        },
+        {
+          "id": "cr",
+          "name": "нет",
+          "count": 231
+        }
+      ]
+    },
+    {
+      "group": "Питание",
+      "id": "f[bo]",
+      "name": "Тип аккумулятора",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "34j",
+          "name": "Li-Ion",
+          "count": 1574
+        },
+        {
+          "id": "34k",
+          "name": "Li-Pol",
+          "count": 1753
+        },
+        {
+          "id": "luhl",
+          "name": "Si-C",
+          "count": 368
+        }
+      ]
+    },
+    {
+      "group": "Питание",
+      "id": "f[9k3]",
+      "name": "Поддержка беспроводной реверсивной зарядки",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "21",
+          "name": "есть",
+          "count": 556
+        },
+        {
+          "id": "cr",
+          "name": "нет",
+          "count": 2117
+        }
+      ]
+    },
+    {
+      "group": "Питание",
+      "id": "fr[6u1]",
+      "name": "Выходная мощность ЗУ (Вт)",
+      "type": "range-radio",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "f45b5947ab3bbc4bf7e9333f207c4a80",
+          "name": "Менее 9.9",
+          "count": 1064
+        },
+        {
+          "id": "40b37c43cd694ecc5104452654903f92",
+          "name": "10 - 19.9",
+          "count": 395
+        },
+        {
+          "id": "658274e3e9d3590994244bb8c819e5c5",
+          "name": "20 - 29.9",
+          "count": 71
+        },
+        {
+          "id": "b8aa76968efdbc6c3a6e9c4269fa9666",
+          "name": "30 - 49.9",
+          "count": 634
+        },
+        {
+          "id": "1c5895d3520483adeeb5db71ee3a53bc",
+          "name": "50 и более",
+          "count": 813
+        }
+      ]
+    },
+    {
+      "group": "Питание",
+      "id": "f[4ry]",
+      "name": "Стандарты быстрой зарядки",
+      "type": "checkbox",
+      "is_spec": true,
+      "values_count": 82,
+      "sample_values": [
+        {
+          "id": "4r2j",
+          "name": "Adaptive Fast Charging",
+          "count": 194
+        },
+        {
+          "id": "hry8",
+          "name": "AirVOOC 50W",
+          "count": 14
+        },
+        {
+          "id": "asv9",
+          "name": "Dart Charge 30W",
+          "count": 2
+        },
+        {
+          "id": "bmph",
+          "name": "Dart Charge 33W",
+          "count": 4
+        },
+        {
+          "id": "hhm3",
+          "name": "Flash Charge 18W",
+          "count": 11
+        },
+        {
+          "id": "hc63",
+          "name": "Flash Charge 33W",
+          "count": 2
+        },
+        {
+          "id": "hdws",
+          "name": "Flash Charge 44W",
+          "count": 23
+        },
+        {
+          "id": "hi80",
+          "name": "Flash Charge 66W",
+          "count": 8
+        },
+        {
+          "id": "pobu",
+          "name": "Wireless PowerShare",
+          "count": 1
+        },
+        {
+          "id": "hqkk",
+          "name": "Wireless SuperCharge 66W",
+          "count": 2
+        },
+        {
+          "id": "pjzq",
+          "name": "Xiaomi HyperCharge 90W",
+          "count": 6
+        },
+        {
+          "id": "hvhl",
+          "name": "Xiaomi HyperCharge 120W",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "group": "Питание",
+      "id": "f[6s4]",
+      "name": "Напряжение питания ЗУ",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "7u3b",
+          "name": "100-240 В/50-60 Гц",
+          "count": 2197
+        },
+        {
+          "id": "833w",
+          "name": "110-220 В/50-60 Гц",
+          "count": 15
+        },
+        {
+          "id": "7x7v",
+          "name": "110-240 В/50-60 Гц",
+          "count": 7
+        },
+        {
+          "id": "82bo",
+          "name": "нет ЗУ в комплекте",
+          "count": 1269
+        }
+      ]
+    },
+    {
+      "group": "Питание",
+      "id": "fr[anw]",
+      "name": "Макс. время работы при воспроизведении видео (ч)",
+      "type": "range-radio",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "f45b5947ab3bbc4bf7e9333f207c4a80",
+          "name": "Менее 9.9",
+          "count": 46
+        },
+        {
+          "id": "08ad42790b8050ac79078caf1af36999",
+          "name": "9.91 - 14.9",
+          "count": 207
+        },
+        {
+          "id": "d9cbc79d751a2de33c9fb3b9248b957e",
+          "name": "14.91 - 19.9",
+          "count": 374
+        },
+        {
+          "id": "89d0788e7cb8f19ed64429ca8e0f3608",
+          "name": "19.91 - 24.9",
+          "count": 524
+        },
+        {
+          "id": "38c672f9c0755bee148d708043df9e47",
+          "name": "24.91 - 29.9",
+          "count": 396
+        },
+        {
+          "id": "18968f3def5e7f741b5c32a351bef4d7",
+          "name": "29.91 и более",
+          "count": 236
+        }
+      ]
+    },
+    {
+      "group": "Питание",
+      "id": "fr[anu]",
+      "name": "Макс. время работы в режиме ожидания (ч)",
+      "type": "range-radio",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "97d41fb26c8679ebcd08fb4b89ba72cd",
+          "name": "Менее 239",
+          "count": 44
+        },
+        {
+          "id": "1f2b88765afcf280374ff8c02bd18cb5",
+          "name": "239.1 - 359",
+          "count": 47
+        },
+        {
+          "id": "20769ff75e2702191f8ab00175a890e2",
+          "name": "359.1 - 479",
+          "count": 106
+        },
+        {
+          "id": "b069ca4a2041902cd562b26217539567",
+          "name": "479.1 - 623",
+          "count": 171
+        },
+        {
+          "id": "68df22c835cb8dc74e64ec747dc4bd37",
+          "name": "623.1 - 863",
+          "count": 205
+        },
+        {
+          "id": "b9b9ae70bc768b8c4e897db6013ce4ee",
+          "name": "863.1 и более",
+          "count": 84
+        }
+      ]
+    },
+    {
+      "group": "Питание",
+      "id": "fr[anv]",
+      "name": "Макс. время работы в режиме разговора (ч)",
+      "type": "range-radio",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "f45b5947ab3bbc4bf7e9333f207c4a80",
+          "name": "Менее 9.9",
+          "count": 6
+        },
+        {
+          "id": "40b37c43cd694ecc5104452654903f92",
+          "name": "10 - 19.9",
+          "count": 42
+        },
+        {
+          "id": "658274e3e9d3590994244bb8c819e5c5",
+          "name": "20 - 29.9",
+          "count": 236
+        },
+        {
+          "id": "6907a14b884d3b244aee00c406328b4d",
+          "name": "30 - 39.9",
+          "count": 303
+        },
+        {
+          "id": "3f6048a0a8e7dad174e89e75955fb168",
+          "name": "40 - 49.9",
+          "count": 235
+        },
+        {
+          "id": "1c5895d3520483adeeb5db71ee3a53bc",
+          "name": "50 и более",
+          "count": 96
+        }
+      ]
+    },
+    {
+      "group": "Питание",
+      "id": "fr[anx]",
+      "name": "Макс. время работы при прослушивании музыки (ч)",
+      "type": "range-radio",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "38ed65a2b334f28deed1dd4f792250b5",
+          "name": "Менее 49.9",
+          "count": 210
+        },
+        {
+          "id": "744904e3918f759b2dc7218461f6072d",
+          "name": "49.91 - 99.9",
+          "count": 657
+        },
+        {
+          "id": "3bfa4dbb855a6b1631803a8b1d2edae8",
+          "name": "99.91 - 149.9",
+          "count": 312
+        },
+        {
+          "id": "06f2eb660b8509656c22a9dea891c1c6",
+          "name": "149.91 и более",
+          "count": 55
+        }
+      ]
+    },
+    {
+      "group": "Дополнительная информация",
+      "id": "f[59w]",
+      "name": "Биометрическая защита",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "cr",
+          "name": "нет",
+          "count": 17
+        },
+        {
+          "id": "2kj6",
+          "name": "распознавание голоса",
+          "count": 13
+        },
+        {
+          "id": "2qb",
+          "name": "распознавание лица",
+          "count": 3523
+        },
+        {
+          "id": "7u5s",
+          "name": "сканер отпечатков пальцев (в экране)",
+          "count": 1660
+        },
+        {
+          "id": "7u5u",
+          "name": "сканер отпечатков пальцев (сбоку корпуса)",
+          "count": 1172
+        },
+        {
+          "id": "7u5i",
+          "name": "сканер отпечатков пальцев (сзади корпуса)",
+          "count": 157
+        },
+        {
+          "id": "7ukt",
+          "name": "сканер отпечатков пальцев (спереди корпуса)",
+          "count": 35
+        }
+      ]
+    },
+    {
+      "group": "Дополнительная информация",
+      "id": "f[4c]",
+      "name": "Особенности, дополнительно",
+      "type": "checkbox",
+      "is_spec": true,
+      "values_count": 224,
+      "sample_values": [
+        {
+          "id": "nh8t",
+          "name": "2 фонарика",
+          "count": 1
+        },
+        {
+          "id": "21t8",
+          "name": "3 микрофона",
+          "count": 55
+        },
+        {
+          "id": "npdv",
+          "name": "3D распознавание лица",
+          "count": 3
+        },
+        {
+          "id": "5zir",
+          "name": "4 микрофона",
+          "count": 85
+        },
+        {
+          "id": "o4dr",
+          "name": "10-слойная система охлаждения ICE-X",
+          "count": 8
+        },
+        {
+          "id": "7qur",
+          "name": "100% DCI-P3",
+          "count": 3
+        },
+        {
+          "id": "ietx",
+          "name": "DCI P3",
+          "count": 5
+        },
+        {
+          "id": "qdmv",
+          "name": "Glyph-интерфейс",
+          "count": 12
+        },
+        {
+          "id": "dqno",
+          "name": "чип Ultra Wideband для определения положения в пространстве",
+          "count": 45
+        },
+        {
+          "id": "m7nn",
+          "name": "шарнирный механизм Flex",
+          "count": 10
+        },
+        {
+          "id": "g76k",
+          "name": "шарнирный механизм Flex Hinge",
+          "count": 40
+        },
+        {
+          "id": "2qn",
+          "name": "шумоподавление",
+          "count": 13
+        }
+      ]
+    },
+    {
+      "group": "Дополнительная информация",
+      "id": "f[4o]",
+      "name": "Комплектация",
+      "type": "checkbox",
+      "is_spec": true,
+      "values_count": 22,
+      "sample_values": [
+        {
+          "id": "e0d",
+          "name": "OTG-кабель",
+          "count": 6
+        },
+        {
+          "id": "o1dd",
+          "name": "VIP-карта CarlCar",
+          "count": 3
+        },
+        {
+          "id": "46pa",
+          "name": "беспроводное зарядное устройство",
+          "count": 14
+        },
+        {
+          "id": "orwn",
+          "name": "беспроводное зарядное устройство кулера",
+          "count": 1
+        },
+        {
+          "id": "1xq",
+          "name": "документация",
+          "count": 3999
+        },
+        {
+          "id": "1xr",
+          "name": "зарядное устройство",
+          "count": 2565
+        },
+        {
+          "id": "ar7y",
+          "name": "защитная пленка (наклеена на экран)",
+          "count": 689
+        },
+        {
+          "id": "e0c",
+          "name": "защитная пленка для экрана",
+          "count": 100
+        },
+        {
+          "id": "1xx",
+          "name": "скрепка для извлечения слота SIM-карты / карты памяти",
+          "count": 3298
+        },
+        {
+          "id": "1xs",
+          "name": "стилус",
+          "count": 74
+        },
+        {
+          "id": "1xt",
+          "name": "чехол",
+          "count": 1854
+        },
+        {
+          "id": "a7t",
+          "name": "шнурок",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "group": "Дополнительная информация",
+      "id": "f[5dk]",
+      "name": "Зарядное устройство в комплекте",
+      "type": "checkbox",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "21",
+          "name": "есть",
+          "count": 2330
+        },
+        {
+          "id": "cr",
+          "name": "нет",
+          "count": 1383
+        }
+      ]
+    },
+    {
+      "group": "Габариты и вес",
+      "id": "fr[8i]",
+      "name": "Высота (мм)",
+      "type": "range-radio",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "d6fce91f72b99b4e17298837e2ed68ce",
+          "name": "Менее 134",
+          "count": 8
+        },
+        {
+          "id": "b9aeacf09c3296e8ceaa77f772a26b8d",
+          "name": "134.01 - 144",
+          "count": 7
+        },
+        {
+          "id": "8eaffea3492641ecae642ff9e5f1ef9c",
+          "name": "144.01 - 154",
+          "count": 481
+        },
+        {
+          "id": "f702961d64ed7280d43dc34d3a30b900",
+          "name": "154.01 - 164",
+          "count": 1743
+        },
+        {
+          "id": "d2eeed4aa0dc600b1e9ddc9b8eb77b65",
+          "name": "164.01 - 174",
+          "count": 885
+        },
+        {
+          "id": "678900023960a4b432722d00ffc5b81c",
+          "name": "174.01 и более",
+          "count": 32
+        }
+      ]
+    },
+    {
+      "group": "Габариты и вес",
+      "id": "fr[261]",
+      "name": "Вес смартфона (г)",
+      "type": "range-radio",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "62f24639bb0ce3131cdae296a1fd0658",
+          "name": "Менее 159",
+          "count": 29
+        },
+        {
+          "id": "fef1c7355d31e22bf522469a7cf4c2e6",
+          "name": "159.1 - 189",
+          "count": 1080
+        },
+        {
+          "id": "38dbc71cfdb1a772f763b793b2c223d0",
+          "name": "189.1 - 199",
+          "count": 857
+        },
+        {
+          "id": "bb526b04a9d9702de789d568a1273880",
+          "name": "199.1 - 219",
+          "count": 785
+        },
+        {
+          "id": "49cc1f82bab9b58f5c3e58a1c3316c93",
+          "name": "219.1 - 249",
+          "count": 278
+        },
+        {
+          "id": "457a2b4439a51044c1584a52f8ed5a32",
+          "name": "249.1 и более",
+          "count": 76
+        }
+      ]
+    },
+    {
+      "group": "Габариты и вес",
+      "id": "fr[8g]",
+      "name": "Ширина (мм)",
+      "type": "range-radio",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "07aad39292e40e65a73988694ca697c2",
+          "name": "Менее 64.99",
+          "count": 8
+        },
+        {
+          "id": "a3963e5edc02ec77d65de19033dac1a5",
+          "name": "65 - 69.99",
+          "count": 21
+        },
+        {
+          "id": "ae961c775a76d852d6ce2eac9a7da3e3",
+          "name": "70 - 74.99",
+          "count": 920
+        },
+        {
+          "id": "d8f15ff9d407570db059f3aa80337416",
+          "name": "75 - 79.99",
+          "count": 2069
+        },
+        {
+          "id": "01d48e4ffc74e056a6bf20b9dc903fbc",
+          "name": "80 - 89.99",
+          "count": 59
+        },
+        {
+          "id": "5fcf1f160825ef34da3cf2a8ede551b4",
+          "name": "90 и более",
+          "count": 78
+        }
+      ]
+    },
+    {
+      "group": "Габариты и вес",
+      "id": "fr[14d]",
+      "name": "Толщина (мм)",
+      "type": "range-radio",
+      "is_spec": true,
+      "values": [
+        {
+          "id": "f28b5e41e08cb231385ffa8fde5bfd84",
+          "name": "Менее 6.9",
+          "count": 220
+        },
+        {
+          "id": "b566f9dd24bfb6020f1611e286e3a4a8",
+          "name": "6.91 - 7.9",
+          "count": 1165
+        },
+        {
+          "id": "507090be4b0cce279a337c98c78356d4",
+          "name": "7.91 - 8.9",
+          "count": 1575
+        },
+        {
+          "id": "26f4d8ab12a89268c65d3d73d320be5a",
+          "name": "8.91 - 12.9",
+          "count": 151
+        },
+        {
+          "id": "6e60653c1b0801f62bda43750bcedd4e",
+          "name": "12.91 - 14.9",
+          "count": 9
+        },
+        {
+          "id": "116cebecefd9afe3fdd3dfe6c6c4bc95",
+          "name": "14.91 и более",
+          "count": 41
+        }
+      ]
+    }
+  ]
+}
