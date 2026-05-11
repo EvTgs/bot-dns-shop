@@ -31,6 +31,12 @@
 - `*_shortlist_input.json`  
   уже суженный набор кандидатов для LLM
 
+Отдельно держать compare-канвас:
+
+- shortlist и final analysis остаются в основном pipeline;
+- compare-link живет отдельным техническим узлом;
+- LLM не строит compare_url сама.
+
 ## Что убрать из LLM-слоя
 
 Из `devices_llm` убрать:
@@ -65,6 +71,7 @@
 Правило:
 - URL хранится только в сыром snapshot или техническом слое;
 - в LLM payload URL запрещён.
+- compare-link собирается отдельно по `code`, а не через LLM.
 
 ## Почему `raw_additional` обязателен
 

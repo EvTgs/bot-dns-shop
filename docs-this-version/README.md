@@ -94,7 +94,15 @@ Runtime-переключатель без правки `.env`:
 - готовый DNS URL
 - shortlist
 - характеристики shortlist
+- compare-link из `code`
 - финальный AI-ответ
+
+## Отдельный compare-контур
+
+Сравнение товаров живет в отдельном канвасе и не смешивается с shortlist:
+
+- [`docs-this-version/compare_link.canvas`](compare_link.canvas) - мост от shortlist к compare-link и финальному ответу;
+- [`DNS_compare_link_research/docs-this-version/compare_link.canvas`](../../DNS_compare_link_research/docs-this-version/compare_link.canvas) - отдельный исследовательский канвас по сборке и проверке compare-ссылки.
 
 ## Где смотреть файлы
 

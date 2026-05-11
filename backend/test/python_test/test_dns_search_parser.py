@@ -528,6 +528,17 @@ def test_fetch_compare_characteristics_for_products_uses_compare_link_once() -> 
     ]
 
 
+def test_fetch_compare_characteristics_respects_no_browser_mode() -> None:
+    products = [Product("Phone A", 10000, "https://www.dns-shop.ru/product/111/phone-a/", "111")]
+
+    try:
+        fetch_compare_characteristics_for_products(products, allow_browser=False)
+    except RuntimeError as exc:
+        assert "require browser mode" in str(exc)
+    else:
+        raise AssertionError("Expected compare characteristics to refuse browser-disabled mode")
+
+
 def test_parse_characteristics_urls_accepts_lines_and_commas() -> None:
     raw = "https://example/a/, https://example/b/\nhttps://example/c/"
 

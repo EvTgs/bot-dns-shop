@@ -180,3 +180,88 @@ def test_deepseek_client_chat_uses_fallback_model_after_primary_api_error() -> N
         httpx.AsyncClient = original
 
     assert requested_models == ["deepseek-reasoner", "deepseek-chat"]
+
+
+def test_deepseek_client_chat_wraps_malformed_json_response() -> None:
+    class FakeResponse:
+        status_code = 200
+        text = "<html>proxy error</html>"
+
+        def json(self):
+            raise ValueError("not json")
+
+    class FakeAsyncClient:
+        def __init__(self, *args, **kwargs) -> None:
+            pass
+
+        async def post(self, *args, **kwargs):
+            return FakeResponse()
+
+        async def aclose(self) -> None:
+            return None
+
+    original = httpx.AsyncClient
+    httpx.AsyncClient = FakeAsyncClient
+    try:
+        client = DeepSeekClient(api_key="test-key")
+        try:
+            asyncio.run(client.chat([{"role": "user", "content": "bad json"}]))
+        except DeepSeekApiError as exc:
+            assert exc.status_code == 200
+            assert "Malformed JSON" in str(exc)
+        else:
+            raise AssertionError("Expected malformed API JSON to raise DeepSeekApiError")
+        asyncio.run(client.aclose())
+    finally:
+        httpx.AsyncClient = original
+
+
+def test_deepseek_client_stream_does_not_retry_after_partial_content() -> None:
+    calls = {"stream": 0}
+
+    class FakeStreamResponse:
+        status_code = 200
+
+        async def __aenter__(self):
+            return self
+
+        async def __aexit__(self, exc_type, exc, tb):
+            return False
+
+        async def aiter_lines(self):
+            yield 'data: {"choices":[{"delta":{"content":"часть "}}]}'
+            raise httpx.ReadTimeout("stream interrupted")
+
+    class FakeAsyncClient:
+        def __init__(self, *args, **kwargs) -> None:
+            pass
+
+        def stream(self, *args, **kwargs):
+            calls["stream"] += 1
+            return FakeStreamResponse()
+
+        async def aclose(self) -> None:
+            return None
+
+    async def collect() -> list[str]:
+        client = DeepSeekClient(api_key="test-key", retry_attempts=3)
+        chunks: list[str] = []
+        try:
+            async for chunk in client.stream_chat([{"role": "user", "content": "stream"}]):
+                chunks.append(chunk)
+        except DeepSeekApiError as exc:
+            assert exc.status_code == 599
+        else:
+            raise AssertionError("Expected interrupted stream to raise DeepSeekApiError")
+        await client.aclose()
+        return chunks
+
+    original = httpx.AsyncClient
+    httpx.AsyncClient = FakeAsyncClient
+    try:
+        chunks = asyncio.run(collect())
+    finally:
+        httpx.AsyncClient = original
+
+    assert chunks == ["часть "]
+    assert calls["stream"] == 1

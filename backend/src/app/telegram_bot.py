@@ -17,6 +17,7 @@ from .telegram_lock import acquire_bot_lock as acquire_runtime_bot_lock
 from .telegram_lock import pid_is_running
 from .telegram_lock import release_bot_lock as release_runtime_bot_lock
 from .telegram_stages import TelegramStageReporter, looks_like_raw_json_chunk, render_stage_message
+from .telegram.tech_answer import build_tech_answer as build_telegram_tech_answer
 from .telegram_text import (
     build_live_message,
     escape_markdown_v2,
@@ -115,7 +116,6 @@ class TelegramBotRuntime:
         sent = await update.message.reply_text(
             render_markdown_v2(initial_text),
             parse_mode=TELEGRAM_PARSE_MODE,
-            reply_markup=self.build_command_keyboard(),
         )
         state: dict[str, object] = {"last_text": initial_text}
         buffer: list[str] = []
@@ -234,82 +234,7 @@ class TelegramBotRuntime:
 
     @staticmethod
     def build_tech_answer(result, user_text: str | None = None) -> str:
-        payload = result.context_payload if isinstance(getattr(result, "context_payload", None), dict) else {}
-        comparison = payload.get("comparison_summary", {}) if isinstance(payload.get("comparison_summary"), dict) else {}
-        products = payload.get("products", [])
-
-        def extract_codes(items) -> list[str]:
-            codes: list[str] = []
-            if not isinstance(items, list):
-                return codes
-            for item in items:
-                if not isinstance(item, dict):
-                    continue
-                code = str(item.get("code", "")).strip()
-                if code and code not in codes:
-                    codes.append(code)
-            return codes
-
-        def compare_url_from_codes(codes: list[str]) -> str:
-            normalized = [code for code in codes if code]
-            if len(normalized) < 2:
-                return ""
-            joined = "%2C".join(normalized[:5])
-            return f"https://www.dns-shop.ru/compare/?cityId=128&ids={joined}"
-
-        def first_product_url(items) -> str:
-            if not isinstance(items, list):
-                return ""
-            for item in items:
-                if not isinstance(item, dict):
-                    continue
-                url = str(item.get("url", "")).strip()
-                if url:
-                    return url
-            return ""
-
-        def format_final_answer(text: str) -> str:
-            cleaned = str(text or "").strip()
-            return cleaned if cleaned else "Ответ пуст."
-
-        codes = extract_codes(products)
-        if not codes:
-            codes = extract_codes(comparison.get("other_candidates", []))
-        if not codes:
-            top_pick = comparison.get("top_pick", comparison.get("leader", {}))
-            price_pick = comparison.get("price_pick", comparison.get("price_leader", {}))
-            for item in (top_pick, price_pick):
-                if isinstance(item, dict):
-                    code = str(item.get("code", "")).strip()
-                    if code and code not in codes:
-                        codes.append(code)
-        compare_url = compare_url_from_codes(codes)
-        lines = [format_final_answer(getattr(result, "answer", ""))]
-        if compare_url:
-            lines.extend(
-                [
-                    "",
-                    "Таблица сравнения DNS",
-                    compare_url,
-                ]
-            )
-        elif direct_url := first_product_url(products):
-            lines.extend(
-                [
-                    "",
-                    "Ссылка на товар DNS",
-                    direct_url,
-                ]
-            )
-        elif user_text:
-            lines.extend(
-                [
-                    "",
-                    "Таблица сравнения DNS",
-                    "Не удалось собрать compare-ссылку по текущему набору товаров.",
-                ]
-            )
-        return trim_telegram_text("\n".join(lines))
+        return build_telegram_tech_answer(result, user_text)
 
     def load_context(self, chat_id: int) -> dict[str, object]:
         return load_chat_context(chat_id, path=self.memory_path) or {}

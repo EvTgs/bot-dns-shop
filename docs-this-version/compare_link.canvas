@@ -1,0 +1,212 @@
+{
+  "nodes": [
+    {
+      "id": "docs_group",
+      "type": "group",
+      "x": -640,
+      "y": -260,
+      "width": 560,
+      "height": 620,
+      "label": "Docs / contract",
+      "color": 6
+    },
+    {
+      "id": "runtime_group",
+      "type": "group",
+      "x": -40,
+      "y": -260,
+      "width": 760,
+      "height": 620,
+      "label": "Runtime compare-link",
+      "color": 4
+    },
+    {
+      "id": "research_group",
+      "type": "group",
+      "x": 780,
+      "y": -260,
+      "width": 560,
+      "height": 620,
+      "label": "Separate research",
+      "color": 5
+    },
+    {
+      "id": "docs_readme",
+      "type": "file",
+      "file": "DNSpars_v1_tgbot/docs-this-version/README.md",
+      "x": -580,
+      "y": -180,
+      "width": 440,
+      "height": 86,
+      "color": 6
+    },
+    {
+      "id": "docs_contract",
+      "type": "file",
+      "file": "DNSpars_v1_tgbot/docs-this-version/2026-05-01_devices_llm_contract.md",
+      "x": -580,
+      "y": -70,
+      "width": 440,
+      "height": 96,
+      "color": 6
+    },
+    {
+      "id": "docs_plan",
+      "type": "file",
+      "file": "DNSpars_v1_tgbot/docs-this-version/2026-05-01_devices_llm_plan.md",
+      "x": -580,
+      "y": 50,
+      "width": 440,
+      "height": 96,
+      "color": 6
+    },
+    {
+      "id": "docs_note",
+      "type": "text",
+      "text": "Separate canvas rule:\n\n- LLM does not build compare-link.\n- Internal layer builds `compare_url` from `code`.\n- The compare branch stays separate from shortlist and final analysis.",
+      "x": -580,
+      "y": 170,
+      "width": 440,
+      "height": 190,
+      "color": 6
+    },
+    {
+      "id": "tg_bot",
+      "type": "file",
+      "file": "DNSpars_v1_tgbot/backend/src/app/telegram_bot.py",
+      "x": 20,
+      "y": -180,
+      "width": 340,
+      "height": 90,
+      "color": 4
+    },
+    {
+      "id": "runtime_flow",
+      "type": "text",
+      "text": "Compare-link runtime:\n\n1. Collect `code` from shortlist.\n2. Build `https://www.dns-shop.ru/compare/?cityId=128&ids=...`.\n3. Put the link into the final Telegram answer.",
+      "x": 20,
+      "y": -60,
+      "width": 340,
+      "height": 182,
+      "color": 4
+    },
+    {
+      "id": "parser_code",
+      "type": "file",
+      "file": "DNSpars_v1_tgbot/backend/src/app/dns_search_parser.py",
+      "x": 390,
+      "y": -180,
+      "width": 340,
+      "height": 90,
+      "color": 4
+    },
+    {
+      "id": "parser_note",
+      "type": "text",
+      "text": "Core helpers:\n\n- `build_compare_url()`\n- `fetch_compare_characteristics_for_products()`\n- `parse_compare_table()`\n\nThis is the technical source of truth for the compare branch.",
+      "x": 390,
+      "y": -60,
+      "width": 340,
+      "height": 182,
+      "color": 4
+    },
+    {
+      "id": "research_readme",
+      "type": "file",
+      "file": "DNS_compare_link_research/docs-this-version/README.md",
+      "x": 840,
+      "y": -180,
+      "width": 430,
+      "height": 90,
+      "color": 5
+    },
+    {
+      "id": "research_speed",
+      "type": "file",
+      "file": "DNS_compare_link_research/docs-this-version/speed_research.md",
+      "x": 840,
+      "y": -60,
+      "width": 430,
+      "height": 90,
+      "color": 5
+    },
+    {
+      "id": "research_table",
+      "type": "file",
+      "file": "DNS_compare_link_research/docs-this-version/compare_table.md",
+      "x": 840,
+      "y": 60,
+      "width": 430,
+      "height": 90,
+      "color": 5
+    },
+    {
+      "id": "research_compact",
+      "type": "file",
+      "file": "DNS_compare_link_research/docs-this-version/llm_compare_compact.md",
+      "x": 840,
+      "y": 180,
+      "width": 430,
+      "height": 90,
+      "color": 5
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge_docs_readme_contract",
+      "fromNode": "docs_readme",
+      "fromSide": "right",
+      "toNode": "docs_contract",
+      "toSide": "left",
+      "color": 6
+    },
+    {
+      "id": "edge_contract_tg",
+      "fromNode": "docs_contract",
+      "fromSide": "right",
+      "toNode": "tg_bot",
+      "toSide": "left",
+      "color": 6
+    },
+    {
+      "id": "edge_tg_parser",
+      "fromNode": "tg_bot",
+      "fromSide": "right",
+      "toNode": "parser_code",
+      "toSide": "left",
+      "color": 4
+    },
+    {
+      "id": "edge_parser_research",
+      "fromNode": "parser_code",
+      "fromSide": "right",
+      "toNode": "research_readme",
+      "toSide": "left",
+      "color": 4
+    },
+    {
+      "id": "edge_research_speed",
+      "fromNode": "research_readme",
+      "fromSide": "right",
+      "toNode": "research_speed",
+      "toSide": "left",
+      "color": 5
+    },
+    {
+      "id": "edge_research_table",
+      "fromNode": "research_readme",
+      "fromSide": "right",
+      "toNode": "research_table",
+      "toSide": "left",
+      "color": 5
+    },
+    {
+      "id": "edge_research_compact",
+      "fromNode": "research_table",
+      "fromSide": "bottom",
+      "toNode": "research_compact",
+      "toSide": "top",
+      "color": 5
+    }
+  ]
+}

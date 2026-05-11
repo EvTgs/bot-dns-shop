@@ -110,6 +110,7 @@ class DeepSeekClient:
         for model_index, model_name in enumerate(self.iter_models()):
             switched_to_fallback = False
             for attempt in range(1, self.retry_attempts + 1):
+                emitted_chunk = False
                 logger.info(
                     "deepseek_request_start messages=%s model=%s endpoint=%s attempt=%s",
                     len(messages),
@@ -133,6 +134,7 @@ class DeepSeekClient:
                                 logger.info("deepseek_request_done")
                                 return
                             if chunk:
+                                emitted_chunk = True
                                 yield chunk
                         logger.info("deepseek_request_done")
                         return
@@ -145,6 +147,8 @@ class DeepSeekClient:
                         raise
                 except httpx.TransportError as exc:
                     logger.warning("deepseek_transport_error model=%s attempt=%s error=%s", model_name, attempt, sanitize_secret(str(exc)))
+                    if emitted_chunk:
+                        raise DeepSeekApiError(599, "stream interrupted after partial content") from exc
                     if attempt >= self.retry_attempts:
                         if self.can_switch_to_fallback(model_index):
                             switched_to_fallback = True
@@ -177,8 +181,14 @@ class DeepSeekClient:
                     if response.status_code >= 400:
                         raise DeepSeekApiError(response.status_code, response.text)
                     logger.info("deepseek_request_done")
-                    payload = response.json()
-                    return extract_chat_content(payload)
+                    try:
+                        payload = response.json()
+                    except ValueError as exc:
+                        raise DeepSeekApiError(200, "Malformed JSON response from DeepSeek API") from exc
+                    content = extract_chat_content(payload)
+                    if not content.strip():
+                        raise DeepSeekApiError(200, "Empty chat content in DeepSeek API response")
+                    return content
                 except DeepSeekApiError as exc:
                     last_error = exc
                     logger.error("deepseek_request_error status=%s model=%s attempt=%s", exc.status_code, model_name, attempt)

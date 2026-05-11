@@ -17,7 +17,7 @@ def load_prompt_text(filename: str, fallback: str) -> str:
 
 NORMALIZE_QUERY_SYSTEM_PROMPT = load_prompt_text(
     "normalize_query_system.txt",
-    "Нормализуй товарный запрос в массив [ {query_rus}, {price}, {brand_en}, {hard_wishes}, {subjective_wishes} ].",
+    "Нормализуй товарный запрос в один JSON-объект: product_type, query, price_min, price_max, brand, ranking_policy, price_band_hint, constraints, soft_wishes.",
 )
 ROUTER_SYSTEM_PROMPT = load_prompt_text(
     "router_system.txt",
@@ -41,5 +41,5 @@ FILTER_SELECTION_SYSTEM_PROMPT = load_prompt_text(
 )
 FINAL_ANALYSIS_SYSTEM_PROMPT = load_prompt_text(
     "final_analysis_system.txt",
-    "Сформируй итоговый аналитический ответ по переданным данным.",
+    "Сформируй итоговый аналитический ответ по переданным данным в четырёх блоках: Лучший вариант, Почему он подходит, Что сильнее у альтернатив, Компромиссы и проверки.",
 )

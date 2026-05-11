@@ -24,10 +24,10 @@ def test_manual_stage_order_matches_expected_pipeline() -> None:
 def test_build_manual_response_template_for_normalize_contains_required_format() -> None:
     template = build_manual_response_template("normalize")
 
-    assert "{query_rus}" in template
-    assert "{price_min:price_max}" in template
-    assert "{hard_wishes_json_object}" in template
-    assert "{subjective_wishes_comma_list}" in template
+    assert '"product_type"' in template
+    assert '"ranking_policy"' in template
+    assert '"price_band_hint"' in template
+    assert '"soft_wishes"' in template
 
 
 def test_build_manual_response_template_for_filters_select_contains_json_shape() -> None:
@@ -46,9 +46,10 @@ def test_build_manual_response_template_for_shortlist_contains_selected_urls_sha
 def test_build_manual_response_template_for_final_analysis_contains_three_blocks() -> None:
     template = build_manual_response_template("final_analysis")
 
-    assert "Лидер анализа" in template
-    assert "Альтернатива" in template
-    assert "Критическое резюме" in template
+    assert "Лучший вариант" in template
+    assert "Почему он подходит" in template
+    assert "Что сильнее у альтернатив" in template
+    assert "Компромиссы и проверки" in template
 
 
 def test_build_manual_filters_payload_sends_only_patch_context_for_problematic_constraints() -> None:

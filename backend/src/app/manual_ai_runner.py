@@ -88,11 +88,35 @@ class ManualSessionState:
 def build_manual_response_template(step_name: str) -> str:
     if step_name == "normalize":
         return (
-            "Верни только одну строку.\n"
+            "Верни только один JSON-объект.\n"
             "Формат:\n"
-            '[ {query_rus}, {price_min:price_max}, {brand_en}, {hard_wishes_json_object}, {subjective_wishes_comma_list} ]\n'
+            '{\n'
+            '  "product_type": "",\n'
+            '  "query": "",\n'
+            '  "price_min": null,\n'
+            '  "price_max": null,\n'
+            '  "brand": "",\n'
+            '  "ranking_policy": "",\n'
+            '  "price_band_hint": "",\n'
+            '  "constraints": [],\n'
+            '  "soft_wishes": []\n'
+            '}\n'
             "Пример:\n"
-            '[ {ноутбук}, {125000:262500}, {}, {"gpu":"rtx 4080","ram":"32 gb","screen_hz":"240 hz"}, {lightweight,good_battery} ]'
+            '{\n'
+            '  "product_type": "laptop",\n'
+            '  "query": "ноутбук",\n'
+            '  "price_min": 125000,\n'
+            '  "price_max": 262500,\n'
+            '  "brand": "",\n'
+            '  "ranking_policy": "performance",\n'
+            '  "price_band_hint": "top",\n'
+            '  "constraints": [\n'
+            '    {"key":"gpu","op":"==","value":"rtx 4080","unit":"","source_text":"RTX 4080"},\n'
+            '    {"key":"ram","op":"==","value":32,"unit":"gb","source_text":"32 ГБ ОЗУ"},\n'
+            '    {"key":"refresh_rate","op":"==","value":240,"unit":"hz","source_text":"240 Гц"}\n'
+            '  ],\n'
+            '  "soft_wishes": ["lightweight", "good_battery"]\n'
+            '}'
         )
     if step_name == "filters_select":
         return (
@@ -108,9 +132,10 @@ def build_manual_response_template(step_name: str) -> str:
         return (
             "Верни только финальный текст.\n"
             "Структура:\n"
-            "Лидер анализа\n<текст>\n\n"
-            "Альтернатива\n<текст>\n\n"
-            "Критическое резюме\n<текст>"
+            "Лучший вариант\n<текст>\n\n"
+            "Почему он подходит\n<текст>\n\n"
+            "Что сильнее у альтернатив\n<текст>\n\n"
+            "Компромиссы и проверки\n<текст>"
         )
     return "Для этого шага ручной ответ не нужен."
 

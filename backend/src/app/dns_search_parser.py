@@ -9,7 +9,7 @@ import re
 import sys
 import threading
 import time
-from dataclasses import asdict, dataclass
+from dataclasses import asdict
 from pathlib import Path
 from typing import Iterable
 from urllib.parse import parse_qsl, quote, urljoin, urlparse, urlunparse
@@ -31,6 +31,7 @@ from .dns_parser_url import (
     upsert_param,
 )
 from .project_paths import COOKIES_FILE, ARTIFACTS_DIR, PROJECT_ROOT, artifact_path, ensure_runtime_directories, resolve_project_path
+from .parser.models import DnsFilterSelectionError, ParsedCard, Product
 
 
 BASE_URL = "https://www.dns-shop.ru"
@@ -57,30 +58,6 @@ CHROME_PATHS = (
     r"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe",
 )
 logger = logging.getLogger("dns_bot.parser")
-
-
-@dataclass(frozen=True)
-class Product:
-    name: str
-    price: int | None
-    url: str
-    code: str
-    specs: list[dict[str, str]] | None = None
-
-
-@dataclass(frozen=True)
-class ParsedCard:
-    name: str
-    url: str
-    code: str
-    buy_container_id: str
-    specs: list[dict[str, str]]
-
-
-class DnsFilterSelectionError(ValueError):
-    def __init__(self, details: dict[str, object]) -> None:
-        self.details = details
-        super().__init__(json.dumps(details, ensure_ascii=False))
 
 
 def browser_headers() -> dict[str, str]:
@@ -230,6 +207,12 @@ def build_dns_url_from_section_filters(
     missing_value_ids: list[str] = []
     for selected_filter in selected_filters:
         if not isinstance(selected_filter, dict):
+            continue
+        selected_id = str(selected_filter.get("id", "")).strip()
+        if selected_id == "price":
+            range_value = build_selected_price_value(selected_filter)
+            if range_value:
+                price_value = range_value
             continue
         filter_block = find_filter_block(available_filters, selected_filter)
         if filter_block is None:
@@ -1328,7 +1311,7 @@ def fetch_compare_characteristics_for_products(
     if allow_browser:
         html = (browser_loader or load_compare_page_html_with_browser)(compare_url)
     else:
-        html = load_compare_page_html_with_browser(compare_url)
+        raise RuntimeError("Compare characteristics require browser mode.")
     parsed = parse_compare_table(html)
     specs_by_index = compare_specs_from_table(parsed, len(source_urls))
     items: list[dict[str, object]] = []
@@ -1507,19 +1490,21 @@ def load_url_in_browser(url: str, wait_for_category: bool) -> tuple[httpx.Cookie
                 headless=False,
                 args=["--disable-blink-features=AutomationControlled"],
             )
-            context = browser.new_context(locale="ru-RU", viewport={"width": 1365, "height": 900})
-            page = context.new_page()
-            block_heavy_resources(page)
-            page.goto(url, wait_until="domcontentloaded", timeout=45000)
-            if wait_for_category:
-                try:
-                    page.wait_for_url("**category=**", timeout=15000)
-                except PlaywrightTimeoutError:
-                    pass
-            page.wait_for_selector("body", timeout=45000)
-            cookies = to_httpx_cookies(context.cookies(BASE_URL))
-            resolved_url = page.url
-            browser.close()
+            try:
+                context = browser.new_context(locale="ru-RU", viewport={"width": 1365, "height": 900})
+                page = context.new_page()
+                block_heavy_resources(page)
+                page.goto(url, wait_until="domcontentloaded", timeout=45000)
+                if wait_for_category:
+                    try:
+                        page.wait_for_url("**category=**", timeout=15000)
+                    except PlaywrightTimeoutError:
+                        pass
+                page.wait_for_selector("body", timeout=45000)
+                cookies = to_httpx_cookies(context.cookies(BASE_URL))
+                resolved_url = page.url
+            finally:
+                browser.close()
     return cookies, resolved_url
 
 
@@ -1538,14 +1523,16 @@ def load_page_html_with_browser(url: str) -> str:
             headless=False,
             args=["--disable-blink-features=AutomationControlled"],
         )
-        context = browser.new_context(locale="ru-RU", viewport={"width": 1365, "height": 900})
-        page = context.new_page()
-        block_heavy_resources(page)
-        page.goto(url, wait_until="domcontentloaded", timeout=45000)
-        page.wait_for_selector("body", timeout=45000)
-        expand_all_characteristics(page)
-        html = page.content()
-        browser.close()
+        try:
+            context = browser.new_context(locale="ru-RU", viewport={"width": 1365, "height": 900})
+            page = context.new_page()
+            block_heavy_resources(page)
+            page.goto(url, wait_until="domcontentloaded", timeout=45000)
+            page.wait_for_selector("body", timeout=45000)
+            expand_all_characteristics(page)
+            html = page.content()
+        finally:
+            browser.close()
     return html
 
 

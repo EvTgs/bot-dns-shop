@@ -295,6 +295,7 @@ async def run_tech_command_edits_one_message_by_stages_and_streams_final_only(tm
 
     sent = update.message.sent_messages[0]
     assert update.message.replies[0] == render_markdown_v2(render_stage_message("start"))
+    assert update.message.reply_markups[0] is None
     assert len(update.message.sent_messages) == 1
     assert any("Начинаю парс DNS" in edit for edit in sent.edits)
     assert all("raw\\-json\\-before\\-final" not in edit for edit in sent.edits)
@@ -342,6 +343,7 @@ async def run_message_streams_answer_batches_without_media_delivery(tmp_path) ->
     await runtime.handle_message(update, None)
 
     assert update.message.replies[0] == render_markdown_v2("Обработка данных...")
+    assert update.message.reply_markups[0] is None
     assert update.message.documents == []
     assert update.message.photos == []
     saved_context = runtime.load_context(1)

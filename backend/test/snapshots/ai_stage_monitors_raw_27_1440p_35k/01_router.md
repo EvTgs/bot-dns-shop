@@ -1,0 +1,24 @@
+# 01_router
+
+```text
+{
+  "technical_prompt_and_input": [
+    {
+      "role": "system",
+      "content": "Ты маршрутизируешь входящее сообщение Telegram-бота DNS. Верни только JSON с полями mode, response_style, reason. mode может быть только general_chat, product_followup или product_search. response_style может быть только direct или structured. general_chat используй для обычного разговора, вопроса о боте или сообщения без запроса на подбор техники. product_followup используй только если вопрос относится к уже сохраненному shortlist товаров. product_search используй только если нужен новый поиск или новый DNS URL. Для узкого уточнения по текущим товарам используй product_followup и direct. Для нового подбора, итогового сравнения или общего вывода используй structured. Не пиши ничего кроме JSON."
+    },
+    {
+      "role": "user",
+      "content": "{\"task\": \"intent_route\", \"question\": \"Найди монитор 27 дюймов, 2K, 144 Гц, IPS, с хорошей цветопередачей и регулировкой по высоте, бюджет до 35000 рублей\", \"history\": [], \"has_memory_context\": false, \"memory_summary\": []}"
+    }
+  ],
+  "output": {
+    "raw": "{\n  \"mode\": \"product_search\",\n  \"response_style\": \"structured\",\n  \"reason\": \"Запрос содержит конкретные критерии для нового поиска монитора (диагональ, разрешение, частота, тип матрицы, бюджет), что требует выполнения нового поиска по DNS.\"\n}",
+    "parsed": {
+      "mode": "product_search",
+      "response_style": "structured",
+      "reason": "Запрос содержит конкретные критерии для нового поиска монитора (диагональ, разрешение, частота, тип матрицы, бюджет), что требует выполнения нового поиска по DNS."
+    }
+  }
+}
+```

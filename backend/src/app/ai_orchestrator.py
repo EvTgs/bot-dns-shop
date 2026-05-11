@@ -48,6 +48,14 @@ from .orchestrator_prompts import (
     NORMALIZE_QUERY_SYSTEM_PROMPT,
     ROUTER_SYSTEM_PROMPT,
 )
+from .normalization.price import (
+    CYRILLIC_RE,
+    PRICE_BUCKET_TEXT_RE,
+    PRICE_RANGE_RE,
+    PRICE_SINGLE_RE,
+    extract_price_hint,
+    normalize_price_pair,
+)
 
 
 DEFAULT_PRODUCT_LIMIT = None
@@ -66,16 +74,6 @@ AI_CHAIN_SHORTLIST_AI = "shortlist_ai"
 AI_CHAIN_DETAILS = "details"
 AI_CHAIN_FINAL_AI = "final_ai"
 AI_CHAIN_OUTPUT = "output"
-PRICE_RANGE_RE = re.compile(
-    r"(?:(?P<approx>около|примерно|приблизительно)\s+)?(?:от\s+|между\s+)?(?P<first>\d{1,3}(?:\s\d{3})+|\d+(?:[.,]\d+)?)\s*(?P<first_suffix>к|k|тыс(?:\.|яч(?:а|и|)?)?)?\s*(?:-|–|—|до|и)\s*(?P<second>\d{1,3}(?:\s\d{3})+|\d+(?:[.,]\d+)?)\s*(?P<second_suffix>к|k|тыс(?:\.|яч(?:а|и|)?)?)?",
-    re.IGNORECASE,
-)
-PRICE_SINGLE_RE = re.compile(
-    r"\b(?P<kind>не\s+дороже|не\s+выше|не\s+дешевле|не\s+ниже|чуть\s+дешевле|чуть\s+дороже|сильно\s+дешевле|сильно\s+дороже|до|от|около|примерно|приблизительно|за|>=|<=)\s+(?:за\s+)?(?P<value>\d{1,3}(?:\s\d{3})+|\d+(?:[.,]\d+)?)\s*(?P<suffix>к|k|тыс(?:\.|яч(?:а|и|)?)?)?\b",
-    re.IGNORECASE,
-)
-PRICE_CURRENCY_HINT_RE = re.compile(r"(руб|р\b|₽|тыс|тысяч|тысячи|к\b|k\b)", re.IGNORECASE)
-PRICE_FORBIDDEN_SUFFIX_RE = re.compile(r"^\s*(?:%|процент\w*|кг|г|гр|гц|hz|дюйм|дюйма|дюймов|inch|in|см|мм|mah|мah|tb|gb|гб)\b", re.IGNORECASE)
 SEARCH_INTENT_RE = re.compile(r"\b(найди|подбери|покажи|выбери|посоветуй|нужен|нужна|нужно|хочу)\b", re.IGNORECASE)
 BOT_META_RE = re.compile(r"\b(бот|умеет|умеешь|можешь|возможност)\b", re.IGNORECASE)
 FOLLOWUP_RE = re.compile(r"\b(какой|какая|какое|какие|лучше|хуже|почему|отличается|разница)\b", re.IGNORECASE)
@@ -1049,6 +1047,7 @@ class ProductAnalysisOrchestrator:
             )
         selected_filters = merge_selected_filters(preselected_filters, selected_filters)
         selected_filters = sanitize_selected_filters(selected_filters, normalized_request, preselected_filters)
+        selected_filters = ensure_request_price_filter(selected_filters, normalized_request)
         try:
             stage_callback("create_link_start")
             query_input = build_dns_url_from_section_filters(
@@ -4300,7 +4299,7 @@ def sanitize_selected_filters(
         if not normalized_request.brand and (filter_id == "brand" or "бренд" in filter_name):
             continue
         if filter_id == "price":
-            if normalized_request.price_min is not None and normalized_request.price_max is not None:
+            if normalized_request.price_min is not None or normalized_request.price_max is not None:
                 result.append(item)
             continue
         if normalized_request.brand and (filter_id == "brand" or "бренд" in filter_name):
@@ -4310,6 +4309,23 @@ def sanitize_selected_filters(
             result.append(item)
             continue
     return deduplicate_filter_list(result)
+
+
+def ensure_request_price_filter(
+    selected_filters: list[dict[str, object]],
+    normalized_request: NormalizedSearchRequest,
+) -> list[dict[str, object]]:
+    """Keep explicit budget as a hard DNS URL constraint even when DNS map omits price."""
+
+    if normalized_request.price_min is None and normalized_request.price_max is None:
+        return selected_filters
+    price_filter = {
+        "id": "price",
+        "min": normalized_request.price_min if normalized_request.price_min is not None else 0,
+        "max": normalized_request.price_max,
+    }
+    without_price = [item for item in selected_filters if str(item.get("id", "")).casefold() != "price"]
+    return [*without_price, price_filter]
 
 
 def unresolved_request_wishes(
@@ -4717,6 +4733,12 @@ def extract_hard_wishes_from_text(text: str) -> tuple[str, ...]:
     if re.search(r"\b144\s*гц\b|\b144\s*hz\b", normalized, re.IGNORECASE):
         wishes.append("144hz_display")
     if re.search(r"\b1440p\b|\bqhd\b|\b2560\s*[xх]\s*1440\b", normalized, re.IGNORECASE):
+        wishes.append("1440p")
+    if re.search(r"\b(?:монитор|monitor|экран|display)\b", normalized, re.IGNORECASE) and re.search(
+        r"\b(?:2\s*[кk]|2k)\b",
+        normalized,
+        re.IGNORECASE,
+    ):
         wishes.append("1440p")
     if re.search(r"\b4k\b|\b3840\s*[xх]\s*2160\b", normalized, re.IGNORECASE):
         wishes.append("4k")
@@ -5647,83 +5669,12 @@ def normalize_search_query_value(value: str) -> str:
     return normalized
 
 
-CYRILLIC_RE = re.compile(r"[А-Яа-яЁё]")
-PRICE_BUCKET_TEXT_RE = re.compile(
-    r"\b(?:средней цены|средняя цена|средней стоимости|средняя стоимость|среднего ценового сегмента|средний ценовой сегмент|"
-    r"среднего бюджета|средний бюджет|дешев(?:ый|ая|ое|ые)?|недорог(?:ой|ая|ое|ие)?|бюджетн(?:ый|ая|ое|ые)?)\b",
-    re.IGNORECASE,
-)
-
-DEFAULT_PRICE_BUCKET_RANGES: dict[str, tuple[int, int]] = {
-    "budget": (8000, 20000),
-    "mid": (15000, 30000),
-    "premium": (30000, 60000),
-}
-
-
 def product_exceeds_price_max(product: Product, normalized_request: NormalizedSearchRequest) -> bool:
     return (
         isinstance(product.price, int)
         and isinstance(normalized_request.price_max, int)
         and product.price > normalized_request.price_max
     )
-
-PRICE_BUCKET_RANGES_BY_PRODUCT_TYPE: dict[str, dict[str, tuple[int, int]]] = {
-    "gamingchair": {
-        "budget": (7000, 14000),
-        "mid": (14000, 28000),
-        "premium": (28000, 60000),
-    },
-    "monitor": {
-        "budget": (12000, 20000),
-        "mid": (20000, 35000),
-        "premium": (35000, 60000),
-    },
-    "smartphone": {
-        "budget": (10000, 20000),
-        "mid": (20000, 40000),
-        "premium": (40000, 80000),
-    },
-    "laptop": {
-        "budget": (35000, 55000),
-        "mid": (55000, 90000),
-        "premium": (90000, 160000),
-    },
-    "refrigerator": {
-        "budget": (25000, 40000),
-        "mid": (40000, 65000),
-        "premium": (65000, 120000),
-    },
-    "washingmachine": {
-        "budget": (20000, 35000),
-        "mid": (35000, 60000),
-        "premium": (60000, 100000),
-    },
-    "tablet": {
-        "budget": (10000, 20000),
-        "mid": (20000, 35000),
-        "premium": (35000, 70000),
-    },
-}
-
-PRICE_BUCKET_HINT_PATTERNS: dict[str, re.Pattern[str]] = {
-    "budget": re.compile(r"\b(?:дешев(?:ый|ая|ое|ые)?|недорог(?:ой|ая|ое|ие)?|бюджетн(?:ый|ая|ое|ые)?)\b", re.IGNORECASE),
-    "mid": re.compile(r"\b(?:средней цены|средняя цена|средней стоимости|средняя стоимость|среднего ценового сегмента|средний ценовой сегмент|среднего бюджета|средний бюджет)\b", re.IGNORECASE),
-    "premium": re.compile(r"\b(?:дорог(?:ой|ая|ое|ие)?|премиум|топов(?:ый|ая|ое|ые)?)\b", re.IGNORECASE),
-}
-
-
-def extract_price_bucket_hint(text: str) -> str | None:
-    lowered = text.casefold()
-    for bucket, pattern in PRICE_BUCKET_HINT_PATTERNS.items():
-        if pattern.search(lowered):
-            return bucket
-    return None
-
-
-def resolve_price_bucket_range(product_type: str, bucket: str) -> tuple[int, int]:
-    ranges = PRICE_BUCKET_RANGES_BY_PRODUCT_TYPE.get(normalize_token(product_type), DEFAULT_PRICE_BUCKET_RANGES)
-    return ranges.get(bucket, DEFAULT_PRICE_BUCKET_RANGES["mid"])
 
 
 def choose_dns_search_query(primary_query: str, fallback_query: str, product_type_hint: str = "") -> str:
@@ -5782,103 +5733,8 @@ def is_format_followup_for_chat(
     return True
 
 
-def extract_price_hint(text: str, product_type: str | None = None) -> tuple[int, int] | None:
-    best_match: tuple[int, int] | None = None
-    best_end = -1
-    range_spans: list[tuple[int, int]] = []
-    for match in PRICE_RANGE_RE.finditer(text):
-        first_suffix = match.group("first_suffix") or match.group("second_suffix")
-        second_suffix = match.group("second_suffix") or match.group("first_suffix")
-        if not is_valid_price_match(text, match.start(), match.end(), match.group("first"), first_suffix):
-            continue
-        if not is_valid_price_match(text, match.start(), match.end(), match.group("second"), second_suffix):
-            continue
-        first = parse_price_value(match.group("first"), first_suffix)
-        second = parse_price_value(match.group("second"), second_suffix)
-        low = min(first, second)
-        high = max(first, second)
-        if match.group("approx"):
-            best_match = (int(round(low * 0.9)), int(round(high * 1.1)))
-        else:
-            best_match = (low, high)
-        best_end = match.end()
-        range_spans.append((match.start(), match.end()))
-    for match in PRICE_SINGLE_RE.finditer(text):
-        if any(match.start() >= start and match.end() <= end for start, end in range_spans):
-            continue
-        if not is_valid_price_match(text, match.start(), match.end(), match.group("value"), match.group("suffix")):
-            continue
-        target = parse_price_value(match.group("value"), match.group("suffix"))
-        kind = str(match.group("kind") or "").casefold()
-        if kind in {"до", "не дороже", "не выше", "<="}:
-            candidate = (0, target)
-        elif kind in {"от", "не дешевле", "не ниже", ">="}:
-            candidate = (target, 999999)
-        elif kind == "чуть дешевле":
-            candidate = (int(round(target * 0.8)), target)
-        elif kind == "чуть дороже":
-            candidate = (target, int(round(target * 1.2)))
-        elif kind == "сильно дешевле":
-            candidate = (0, int(round(target * 0.7)))
-        elif kind == "сильно дороже":
-            candidate = (int(round(target * 1.3)), 999999)
-        elif kind in {"около", "примерно", "приблизительно"}:
-            candidate = (int(round(target * 0.8)), int(round(target * 1.2)))
-        else:
-            delta = max(1, int(round(target * 0.05)))
-            candidate = (max(0, target - delta), target + delta)
-        if match.end() >= best_end:
-            best_match = candidate
-            best_end = match.end()
-    if best_match is not None:
-        return best_match
-    bucket_hint = extract_price_bucket_hint(text)
-    if bucket_hint is None:
-        return None
-    return resolve_price_bucket_range(product_type or "", bucket_hint)
-
-
-def is_valid_price_match(text: str, start: int, end: int, value: str, suffix: str | None) -> bool:
-    cleaned_value = value.replace(" ", "")
-    if ("," in cleaned_value or "." in cleaned_value) and not suffix:
-        return False
-    trailing = text[end : end + 12]
-    if PRICE_FORBIDDEN_SUFFIX_RE.search(trailing):
-        return False
-    if suffix:
-        return True
-    if PRICE_CURRENCY_HINT_RE.search(text[max(0, start - 8) : min(len(text), end + 12)]):
-        return True
-    try:
-        numeric_value = parse_price_value(value, suffix)
-    except ValueError:
-        return False
-    return numeric_value >= 1000
-
-
-def parse_price_value(value: str, suffix: str | None) -> int:
-    amount = float(value.replace(" ", "").replace(",", "."))
-    if suffix:
-        normalized_suffix = normalize_token(suffix)
-        if normalized_suffix.startswith("к") or normalized_suffix.startswith("k") or normalized_suffix.startswith("тыс"):
-            return int(amount * 1000)
-    return int(amount)
-
-
 def parse_optional_int(value: object) -> int | None:
     return value if isinstance(value, int) else None
-
-
-def normalize_price_pair(price_min: int | None, price_max: int | None) -> str:
-    if price_min is None and price_max is None:
-        return ""
-    if price_min is None:
-        price_min = 0
-    if price_max is None:
-        return ""
-    if price_min == 0 and price_max == 0:
-        return ""
-    return f"{price_min}-{price_max}"
 
 
 def product_payload(product: Product) -> dict[str, object]:
