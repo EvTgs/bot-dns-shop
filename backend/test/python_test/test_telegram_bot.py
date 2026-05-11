@@ -18,6 +18,7 @@ from app.telegram_bot import (
     render_markdown_v2,
     sanitize_telegram_answer,
 )
+from app.telegram_stages import render_stage_message
 
 
 class FakeMessage:
@@ -221,12 +222,60 @@ async def run_tech_command_returns_structured_dump_without_images(tmp_path) -> N
 
     assert update.message.photos == []
     tech_text = update.message.sent_messages[0].edits[-1]
-    assert "Финализация" in tech_text
     assert "Лидер анализа" in tech_text
     assert "Таблица сравнения DNS" in tech_text
     assert "https://www\\.dns\\-shop\\.ru/compare/?cityId\\=128&ids\\=5660709%2C5620468" in tech_text
     assert "normalized_request" not in tech_text
     assert "filters_llm" not in tech_text
+
+
+def test_tech_command_edits_one_message_by_stages_and_streams_final_only(tmp_path) -> None:
+    asyncio.run(run_tech_command_edits_one_message_by_stages_and_streams_final_only(tmp_path))
+
+
+async def run_tech_command_edits_one_message_by_stages_and_streams_final_only(tmp_path) -> None:
+    class FakeOrchestrator:
+        async def handle_message(self, text, history, on_text_chunk, on_stage=None, memory_context=None):
+            if on_text_chunk is not None:
+                on_text_chunk('{"selected_codes":["raw-json-before-final"]}')
+            if on_stage:
+                on_stage("parser_start")
+                on_stage("analysis_start")
+            if on_text_chunk is not None:
+                on_text_chunk("Финальный поток. ")
+                on_text_chunk('{"filters":["hidden-json-during-final"]}')
+                on_text_chunk("Человеческий текст.")
+            if on_stage:
+                on_stage("render_done")
+            return type(
+                "Result",
+                (),
+                {
+                    "answer": "Финальный поток. Человеческий текст.",
+                    "image_paths": [],
+                    "products_count": 1,
+                    "context_payload": {
+                        "products": [
+                            {"name": "Товар A", "code": "111"},
+                            {"name": "Товар B", "code": "222"},
+                        ],
+                    },
+                },
+            )()
+
+    runtime = TelegramBotRuntime(orchestrator=FakeOrchestrator(), memory_path=tmp_path / "memory.json")
+    update = FakeUpdate("/tech ноутбук", chat_id=91)
+
+    await runtime.tech(update, None)
+
+    sent = update.message.sent_messages[0]
+    assert update.message.replies[0] == render_markdown_v2(render_stage_message("start"))
+    assert len(update.message.sent_messages) == 1
+    assert any("Начинаю парс DNS" in edit for edit in sent.edits)
+    assert all("raw\\-json\\-before\\-final" not in edit for edit in sent.edits)
+    assert all("hidden\\-json\\-during\\-final" not in edit for edit in sent.edits)
+    assert "Финальный поток" in sent.edits[-1]
+    assert "Таблица сравнения DNS" in sent.edits[-1]
 
 
 def test_message_streams_answer_batches_without_media_delivery(tmp_path) -> None:

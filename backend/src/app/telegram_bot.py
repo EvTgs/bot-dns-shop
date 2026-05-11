@@ -16,6 +16,7 @@ from .project_paths import MEMORY_FILE, TELEGRAM_BOT_LOCK_FILE, ensure_runtime_d
 from .telegram_lock import acquire_bot_lock as acquire_runtime_bot_lock
 from .telegram_lock import pid_is_running
 from .telegram_lock import release_bot_lock as release_runtime_bot_lock
+from .telegram_stages import TelegramStageReporter, looks_like_raw_json_chunk, render_stage_message
 from .telegram_text import (
     build_live_message,
     escape_markdown_v2,
@@ -98,7 +99,7 @@ class TelegramBotRuntime:
 
     async def run_query_update(self, update, user_text: str, tech_mode: bool) -> None:
         chat_id = update.effective_chat.id
-        stream_partial_answer = False
+        stream_partial_answer = tech_mode
         if await self.handle_board_command(update, user_text):
             return
         if not str(user_text).strip():
@@ -110,20 +111,30 @@ class TelegramBotRuntime:
             )
             return
         logger.info("telegram_message chat_id=%s text=%s", chat_id, trim_telegram_text(user_text))
+        initial_text = render_stage_message("start") if tech_mode else "Обработка данных..."
         sent = await update.message.reply_text(
-            render_markdown_v2("Обработка данных..."),
+            render_markdown_v2(initial_text),
             parse_mode=TELEGRAM_PARSE_MODE,
             reply_markup=self.build_command_keyboard(),
         )
-        state: dict[str, object] = {"last_text": "Обработка данных..."}
+        state: dict[str, object] = {"last_text": initial_text}
         buffer: list[str] = []
         stop_event: asyncio.Event | None = None
         flush_task = None
+        stage_reporter = TelegramStageReporter(
+            sent,
+            state,
+            self.safe_edit_text,
+        ) if tech_mode else None
         if stream_partial_answer:
             stop_event = asyncio.Event()
             flush_task = asyncio.create_task(self.flush_stream_updates(sent, buffer, stop_event, state))
 
         def on_chunk(chunk: str) -> None:
+            if stage_reporter is not None and not stage_reporter.finalization_started:
+                return
+            if looks_like_raw_json_chunk(chunk):
+                return
             buffer.append(chunk)
 
         try:
@@ -131,10 +142,12 @@ class TelegramBotRuntime:
                 user_text,
                 history=load_chat_memory(chat_id, path=self.memory_path),
                 on_text_chunk=on_chunk if stream_partial_answer else None,
-                on_stage=lambda _stage: None,
+                on_stage=stage_reporter.on_stage if stage_reporter is not None else None,
                 memory_context=load_chat_context(chat_id, path=self.memory_path),
             )
         except Exception as exc:
+            if stage_reporter is not None:
+                await stage_reporter.flush()
             if stop_event is not None:
                 stop_event.set()
             if flush_task is not None:
@@ -147,6 +160,8 @@ class TelegramBotRuntime:
                 logger.exception("telegram_message_error chat_id=%s", chat_id)
             return
 
+        if stage_reporter is not None:
+            await stage_reporter.flush()
         if stop_event is not None:
             stop_event.set()
         if flush_task is not None:
@@ -258,10 +273,7 @@ class TelegramBotRuntime:
                     if code and code not in codes:
                         codes.append(code)
         compare_url = compare_url_from_codes(codes)
-        lines = [
-            "Финализация",
-            format_final_answer(getattr(result, "answer", "")),
-        ]
+        lines = [format_final_answer(getattr(result, "answer", ""))]
         if compare_url:
             lines.extend(
                 [

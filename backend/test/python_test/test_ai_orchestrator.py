@@ -759,16 +759,21 @@ async def run_orchestrator_uses_dns_url_and_keeps_unknown_params(tmp_path: Path)
     assert calls["limit"] is None
     assert calls["specs_urls"] == ["https://example/a"]
     assert stages == [
+        "remember_mode",
+        "find_x",
+        "cycle_code_1_start",
         "category_resolve_start",
         "category_resolve_done",
         "parser_start",
         "parser_done",
         "shortlist_start",
         "shortlist_done",
+        "bot3_characteristics",
         "details_start",
         "details_done",
         "analysis_start",
         "analysis_done",
+        "compare_link_start",
         "render_done",
     ]
     assert result.answer.startswith("Лучший вариант")
@@ -784,6 +789,7 @@ def test_orchestrator_uses_text_query_when_no_url(tmp_path: Path) -> None:
 
 async def run_orchestrator_uses_text_query_when_no_url(tmp_path: Path) -> None:
     calls = {}
+    stages: list[str] = []
 
     def parser(input_value: str, limit: int | None):
         calls["input"] = input_value
@@ -866,7 +872,7 @@ async def run_orchestrator_uses_text_query_when_no_url(tmp_path: Path) -> None:
         "найди клавиатуру до 2000",
         history=[],
         on_text_chunk=lambda chunk: None,
-        on_stage=lambda stage: None,
+        on_stage=stages.append,
     )
 
     assert calls["input"] == (
@@ -876,6 +882,35 @@ async def run_orchestrator_uses_text_query_when_no_url(tmp_path: Path) -> None:
     assert calls["limit"] is None
     assert calls["specs_urls"] == ["https://example/b"]
     assert calls["section_url"] == "https://www.dns-shop.ru/search/?q=%D0%BA%D0%BB%D0%B0%D0%B2%D0%B8%D0%B0%D1%82%D1%83%D1%80%D0%B0&category=17a8950d16404e77"
+    assert stages == [
+        "remember_mode",
+        "find_x",
+        "cycle_code_1_start",
+        "bot1_category_brand",
+        "bot2_price",
+        "bot4_wishes",
+        "wait_bot3_notimeout",
+        "json_build_start",
+        "category_resolve_start",
+        "category_resolve_done",
+        "filters_map_start",
+        "filters_map_done",
+        "filters_ai_start",
+        "filters_ai_done",
+        "create_link_start",
+        "built_url_done",
+        "parser_start",
+        "parser_done",
+        "shortlist_start",
+        "shortlist_done",
+        "bot3_characteristics",
+        "details_start",
+        "details_done",
+        "analysis_start",
+        "analysis_done",
+        "compare_link_start",
+        "render_done",
+    ]
 
 
 def test_orchestrator_falls_back_to_analog_search_when_exact_search_is_empty(tmp_path: Path) -> None:
@@ -2117,6 +2152,76 @@ def test_extract_price_hint_uses_budget_semantics_for_do() -> None:
     assert extract_price_hint("Найди монитор до 35000 рублей") == (0, 35000)
 
 
+def test_extract_price_hint_ignores_keyboard_percent_layout() -> None:
+    assert extract_price_hint("магнитная клавиатура до 3к лучше 75-80 процентов") == (0, 3000)
+
+
+def test_keyboard_request_builds_price_magnetic_and_format_filters() -> None:
+    request = build_normalized_search_request_from_fallback("магнитная клавиатура до 3к лучше 75-80 процентов")
+    filters_map = {
+        "filters": [
+            {"id": "price", "name": "Цена", "type": "range-checkbox", "values": []},
+            {
+                "id": "f[1bm]",
+                "name": "Тип клавиатуры",
+                "type": "checkbox",
+                "values": [{"id": "cn9", "name": "магнитная", "count": 171}],
+            },
+            {
+                "id": "f[7rj]",
+                "name": "Формат клавиатуры",
+                "type": "checkbox",
+                "values": [
+                    {"id": "699q", "name": "75%", "count": 443},
+                    {"id": "atlu", "name": "TKL (80%)", "count": 399},
+                ],
+            },
+        ]
+    }
+
+    selected, coverage = build_preselected_filters_and_coverage(request, filters_map)
+    url = build_dns_url_from_section_filters(
+        "https://www.dns-shop.ru/search/?q=клавиатура&category=17a8950d16404e77",
+        selected,
+        filters_map["filters"],
+    )
+
+    assert request.price_max == 3000
+    assert "keyboard_type_magnetic" in request.wishes
+    assert "keyboard_format_75_80" in request.wishes
+    assert {"constraint_key": "keyboard_type", "status": "covered", "confidence": 0.96, "selected_filter_ids": ["f[1bm]"], "selected_values": ["магнитная"], "reason": ""} in coverage
+    assert {"constraint_key": "keyboard_format", "status": "covered", "confidence": 0.96, "selected_filter_ids": ["f[7rj]"], "selected_values": ["75%", "TKL (80%)"], "reason": ""} in coverage
+    assert "price=0-3000" in url
+    assert "f%5B1bm%5D=cn9" in url
+    assert "f%5B7rj%5D=699q-atlu" in url
+
+
+def test_keyboard_ranking_prefers_needed_match_inside_budget_not_cheapest() -> None:
+    request = build_normalized_search_request_from_fallback("магнитная клавиатура до 3к лучше 75-80 процентов")
+    cheap = Product(
+        "Клавиатура проводная Basic 75 Magnetic",
+        99,
+        "https://example/cheap",
+        "1",
+        specs=[
+            {"name": "Тип клавиатуры", "value": "магнитная"},
+            {"name": "Формат клавиатуры", "value": "75%"},
+        ],
+    )
+    better = Product(
+        "Клавиатура проводная VGN A75",
+        2999,
+        "https://example/better",
+        "2",
+        specs=[
+            {"name": "Тип клавиатуры", "value": "магнитная"},
+            {"name": "Формат клавиатуры", "value": "75%"},
+        ],
+    )
+
+    assert rank_products_for_request([cheap, better], request)[0] == better
+
+
 def test_extract_price_hint_ignores_weight_and_keeps_real_budget() -> None:
     assert extract_price_hint("Подбери лёгкий ноутбук до 1.5 кг для работы, до 80 000 рублей") == (0, 80000)
 
@@ -2371,6 +2476,7 @@ async def run_orchestrator_uses_non_stream_chat_for_structured_steps(tmp_path: P
     assert result.products_count == 1
     assert any("normalize_query" in payload for payload in calls["chat_payloads"])
     assert any("shortlist" in payload for payload in calls["chat_payloads"])
+    assert calls["stream_payloads"]
     assert not any("normalize_query" in payload for payload in calls["stream_payloads"])
     assert not any("shortlist" in payload for payload in calls["stream_payloads"])
 

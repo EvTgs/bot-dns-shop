@@ -33,6 +33,17 @@ def test_default_deepseek_model_is_chat() -> None:
     assert DEFAULT_DEEPSEEK_MODEL == "deepseek-chat"
 
 
+def test_deepseek_payload_stream_flag_is_explicit() -> None:
+    client = DeepSeekClient(api_key="test-key")
+    messages = [{"role": "user", "content": "test"}]
+
+    structured_payload = client.build_payload(messages, stream=False)
+    finalization_payload = client.build_payload(messages, stream=True)
+
+    assert structured_payload["stream"] is False
+    assert finalization_payload["stream"] is True
+
+
 def test_deepseek_client_chat_reuses_persistent_async_client() -> None:
     calls = {"created": 0, "closed": 0}
 

@@ -75,7 +75,7 @@ PRICE_SINGLE_RE = re.compile(
     re.IGNORECASE,
 )
 PRICE_CURRENCY_HINT_RE = re.compile(r"(руб|р\b|₽|тыс|тысяч|тысячи|к\b|k\b)", re.IGNORECASE)
-PRICE_FORBIDDEN_SUFFIX_RE = re.compile(r"^\s*(?:кг|г|гр|гц|hz|дюйм|дюйма|дюймов|inch|in|см|мм|mah|мah|tb|gb|гб)\b", re.IGNORECASE)
+PRICE_FORBIDDEN_SUFFIX_RE = re.compile(r"^\s*(?:%|процент\w*|кг|г|гр|гц|hz|дюйм|дюйма|дюймов|inch|in|см|мм|mah|мah|tb|gb|гб)\b", re.IGNORECASE)
 SEARCH_INTENT_RE = re.compile(r"\b(найди|подбери|покажи|выбери|посоветуй|нужен|нужна|нужно|хочу)\b", re.IGNORECASE)
 BOT_META_RE = re.compile(r"\b(бот|умеет|умеешь|можешь|возможност)\b", re.IGNORECASE)
 FOLLOWUP_RE = re.compile(r"\b(какой|какая|какое|какие|лучше|хуже|почему|отличается|разница)\b", re.IGNORECASE)
@@ -347,6 +347,9 @@ WISH_CANONICAL_MAP = {
     "year_from_2024": "year_from_2024",
     "ssd": "ssd",
     "mechanical_keyboard": "mechanical_keyboard",
+    "keyboard_type_magnetic": "keyboard_type_magnetic",
+    "magnetic_keyboard": "keyboard_type_magnetic",
+    "keyboard_format_75_80": "keyboard_format_75_80",
     "matrix_type": "matrix_type_amoled",
     "matrix_type_amoled": "matrix_type_amoled",
     "matrix_type_oled": "matrix_type_oled",
@@ -424,6 +427,8 @@ STRICT_SPEC_WISHES = {
     "width_up_to_60_cm",
     "volume_from_300_l",
     "energy_class_not_lower_than_a",
+    "keyboard_type_magnetic",
+    "keyboard_format_75_80",
 }
 WISH_DISPLAY_NAMES = {
     "27_inch": "27 дюймов",
@@ -501,6 +506,8 @@ WISH_DISPLAY_NAMES = {
     "pulse_measurement": "измерением пульса",
     "resistance_levels_from_8": "не меньше 8 уровней нагрузки",
     "stable_construction": "устойчивой конструкцией",
+    "keyboard_type_magnetic": "магнитная клавиатура",
+    "keyboard_format_75_80": "формат 75-80%",
     "machine_type_automatic": "автоматической кофемашиной",
     "cappuccinator": "капучинатором",
     "pressure_from_15_bar": "давлением от 15 бар",
@@ -608,6 +615,8 @@ CONSTRAINT_KEY_SYNONYMS: dict[str, tuple[str, ...]] = {
     "self_cleaning": ("самоочистка", "self cleaning"),
     "easy_maintenance": ("простое обслуживание", "maintenance", "easy maintenance"),
     "reliable": ("надежная сборка", "reliable", "reliability"),
+    "keyboard_type": ("тип клавиатуры", "клавиатура", "переключатели", "switch"),
+    "keyboard_format": ("формат клавиатуры", "форм фактор", "layout", "75%", "80%"),
 }
 CONSTRAINT_UNITS: dict[str, tuple[str, ...]] = {
     "refresh_rate": ("hz", "гц"),
@@ -677,6 +686,12 @@ ENUM_EQUIVALENTS: dict[str, dict[str, tuple[str, ...]]] = {
     },
     "machine_type": {
         "automatic": ("automatic", "автомат"),
+    },
+    "keyboard_type": {
+        "magnetic": ("магнитная", "магнит", "magnetic", "hall effect", "he"),
+    },
+    "keyboard_format": {
+        "75_80": ("75%", "tkl", "80%"),
     },
 }
 BOOLEAN_CONSTRAINT_KEYS = {"nfc", "fast_charge", "wireless_charge", "height_adjustment", "dryer", "wet_cleaning", "mapping", "inverter_compressor", "speed_control", "work_area_light", "removable_panels", "nonstick_coating", "temperature_control", "grease_tray", "opens_180", "smartphone_control", "auto_return_to_base", "wifi", "duplex_print", "scanner", "seat_adjustment", "display", "pulse_measurement", "cappuccinator", "built_in_grinder", "strength_adjustment", "portion_volume_adjustment", "self_cleaning"}
@@ -1035,6 +1050,7 @@ class ProductAnalysisOrchestrator:
         selected_filters = merge_selected_filters(preselected_filters, selected_filters)
         selected_filters = sanitize_selected_filters(selected_filters, normalized_request, preselected_filters)
         try:
+            stage_callback("create_link_start")
             query_input = build_dns_url_from_section_filters(
                 section_url,
                 selected_filters,
@@ -1069,6 +1085,11 @@ class ProductAnalysisOrchestrator:
             section_url = await self.resolve_section_url(query_input, stage_callback)
             return build_normalized_search_request_from_fallback(text), section_url, {}, query_input, []
         local_request_hint = build_normalized_search_request_from_fallback(text)
+        stage_callback("bot1_category_brand")
+        stage_callback("bot2_price")
+        stage_callback("bot4_wishes")
+        stage_callback("wait_bot3_notimeout")
+        stage_callback("json_build_start")
         requested_url_hint = normalize_dns_url(
             local_request_hint.query,
             price=normalize_price_pair(local_request_hint.price_min, local_request_hint.price_max),
@@ -1107,6 +1128,7 @@ class ProductAnalysisOrchestrator:
             self.product_limit,
         )
         if not products and not url:
+            stage_callback("relax_start")
             analog_request = build_normalized_search_request_from_fallback(text)
             analog_query_input = normalize_dns_url(
                 analog_request.query,
@@ -1120,6 +1142,7 @@ class ProductAnalysisOrchestrator:
                     trim_log_value(analog_query_input),
                 )
                 stage_callback("analog_search_start")
+                stage_callback("relax_retry")
                 try:
                     products, _mode, _requested_url, resolved_url = await asyncio.wait_for(
                         asyncio.to_thread(
@@ -1137,9 +1160,12 @@ class ProductAnalysisOrchestrator:
                         self.analog_search_timeout_seconds,
                     )
                     stage_callback("analog_search_timeout")
+                    stage_callback("relax_limit")
                     products = []
                 logger.info("analog_search_done total_products=%s resolved_url=%s", len(products), trim_log_value(resolved_url))
                 stage_callback("analog_search_done")
+            if not products:
+                stage_callback("relax_limit")
         logger.info("parser_done total_products=%s resolved_url=%s", len(products), trim_log_value(resolved_url))
         log_ai_chain_step(AI_CHAIN_LIST, products=len(products), resolved_url=resolved_url)
         stage_callback("parser_done")
@@ -1160,6 +1186,7 @@ class ProductAnalysisOrchestrator:
             stats["no_match_reason"] = reason
             logger.info("shortlist_no_match reason=%s", trim_log_value(reason))
             return [], resolved_url, stats
+        stage_callback("bot3_characteristics")
         stage_callback("details_start")
         enriched = await asyncio.to_thread(self.attach_characteristics, processed, shortlisted)
         logger.info("details_done products=%s with_specs=%s", len(enriched), count_products_with_specs(enriched))
@@ -1212,6 +1239,7 @@ class ProductAnalysisOrchestrator:
         logger.info("analysis_done chars=%s", len(answer))
         stage_callback("analysis_done")
         log_ai_chain_step(AI_CHAIN_OUTPUT, images=0, products=len(enriched))
+        stage_callback("compare_link_start")
         stage_callback("render_done")
         final_answer = ensure_teacher_checked_analysis_answer(answer.strip(), enriched, comparison_summary)
         return BotAnalysisResult(
@@ -1241,6 +1269,9 @@ class ProductAnalysisOrchestrator:
         memory_context: dict[str, object] | None = None,
     ) -> BotAnalysisResult:
         stage_callback = on_stage or (lambda _stage: None)
+        stage_callback("remember_mode")
+        stage_callback("find_x")
+        stage_callback("cycle_code_1_start")
         url = extract_dns_url(text)
         route = await self.route_message_intent(text, history, memory_context, url)
         logger.info("intent_route mode=%s style=%s reason=%s", route.mode, route.response_style, trim_log_value(route.reason))
@@ -1915,7 +1946,7 @@ def normalized_search_request_from_text(raw_value: str, fallback: str) -> Normal
         cleaned_query = choose_dns_search_query(parsed.query, fallback_request.query or fallback, resolved_product_type)
         price_hint = extract_price_hint(fallback, product_type=resolved_product_type)
         if strict_structured_json:
-            recovered_constraints = fallback_request.constraints if use_fallback_defaults and not parsed.constraints else ()
+            recovered_constraints = fallback_request.constraints
             constraints = normalize_constraints_for_product_type(
                 fallback,
                 resolved_product_type,
@@ -2645,6 +2676,10 @@ def constraints_from_payload(payload: dict[str, object]) -> tuple[NormalizedCons
             constraints.append(build_constraint("inverter_compressor", "==", compressor_value, "", str(raw_key)))
         elif key == "navigation":
             constraints.append(build_constraint("navigation", "==", raw_value, "", str(raw_key)))
+        elif key in {"keyboard_type", "keyboard_switch_type"}:
+            constraints.append(build_constraint("keyboard_type", "==", raw_value, "", str(raw_key)))
+        elif key in {"keyboard_format", "keyboard_layout", "form_factor"}:
+            constraints.append(build_constraint("keyboard_format", "==", raw_value, "", str(raw_key)))
         elif key == "layout":
             constraints.append(build_constraint("layout", "==", raw_value, "", str(raw_key)))
         elif key == "dryer" and value in {"yes", "true", "есть", "1"}:
@@ -2817,6 +2852,10 @@ def constraints_to_wishes(constraints: tuple[NormalizedConstraint, ...]) -> tupl
             wishes.append("cheap_maintenance")
         elif key == "resistance_system" and "magnetic" in value:
             wishes.append("resistance_system_magnetic")
+        elif key == "keyboard_type" and ("magnetic" in value or "магнит" in value):
+            wishes.append("keyboard_type_magnetic")
+        elif key == "keyboard_format" and ("75" in value or "80" in value or "tkl" in value):
+            wishes.append("keyboard_format_75_80")
         elif key == "max_user_weight" and op == ">=" and numeric is not None and numeric >= 120:
             wishes.append("max_user_weight_from_120_kg")
         elif key == "seat_adjustment" and value == "true":
@@ -3003,6 +3042,10 @@ def constraints_from_legacy_wishes(wishes: tuple[str, ...]) -> tuple[NormalizedC
             constraints.append(build_constraint("cheap_maintenance", "==", "true", "", wish))
         elif wish == "resistance_system_magnetic":
             constraints.append(build_constraint("resistance_system", "==", "magnetic", "", wish))
+        elif wish == "keyboard_type_magnetic":
+            constraints.append(build_constraint("keyboard_type", "==", "magnetic", "", wish))
+        elif wish == "keyboard_format_75_80":
+            constraints.append(build_constraint("keyboard_format", "==", "75_80", "", wish))
         elif wish == "max_user_weight_from_120_kg":
             constraints.append(build_constraint("max_user_weight", ">=", "120", "kg", wish))
         elif wish == "seat_adjustment":
@@ -3175,9 +3218,9 @@ def build_preselected_filters_and_coverage(
         return [], []
     selections: list[dict[str, object]] = []
     coverage: list[dict[str, object]] = []
-    if normalized_request.price_min is not None and normalized_request.price_max is not None:
+    if normalized_request.price_min is not None or normalized_request.price_max is not None:
         if any(str(item.get("id", "")) == "price" for item in available_filters if isinstance(item, dict)):
-            selections.append({"id": "price", "min": normalized_request.price_min, "max": normalized_request.price_max})
+            selections.append({"id": "price", "min": normalized_request.price_min or 0, "max": normalized_request.price_max})
     if normalized_request.brand:
         brand_selection = match_brand_filter(available_filters, normalized_request.brand)
         if brand_selection is not None:
@@ -3495,7 +3538,7 @@ def compact_constraint_values(constraint: NormalizedConstraint, values: list[obj
             for value in values
             if isinstance(value, dict) and is_positive_filter_value_name(str(value.get("name", "")))
         ][:3]
-    if key in {"matrix_type", "network", "protection", "cooling_system", "screen_finish", "layout", "resolution", "navigation", "buttonhole", "shuttle_type"}:
+    if key in {"matrix_type", "network", "protection", "cooling_system", "screen_finish", "layout", "keyboard_type", "keyboard_format", "resolution", "navigation", "buttonhole", "shuttle_type"}:
         selected_values = select_enum_values_for_constraint(constraint, values)
         selected_ids = {str(item.get("id", "")) for item in selected_values if isinstance(item, dict)}
         matched = [
@@ -3706,7 +3749,7 @@ def deterministic_filter_selection(constraint: NormalizedConstraint, filter_bloc
             return None
         matched = [value_pick(value) for value in values if isinstance(value, dict) and is_positive_filter_value_name(str(value.get("name", "")))]
         return {"id": block_id, "name": block_name, "values": matched[:1]} if matched else None
-    if constraint.key in {"matrix_type", "network", "protection", "cooling_system", "screen_finish", "energy_class", "gpu", "layout", "resolution", "navigation", "freezer_position", "inverter_compressor", "buttonhole", "shuttle_type"}:
+    if constraint.key in {"matrix_type", "network", "protection", "cooling_system", "screen_finish", "energy_class", "gpu", "layout", "keyboard_type", "keyboard_format", "resolution", "navigation", "freezer_position", "inverter_compressor", "buttonhole", "shuttle_type"}:
         matched = select_enum_values_for_constraint(constraint, values)
         return {"id": block_id, "name": block_name, "values": matched} if matched else None
     numeric_target = constraint_numeric_value(constraint)
@@ -3768,7 +3811,7 @@ def select_enum_values_for_constraint(constraint: NormalizedConstraint, values: 
 
 
 def selection_wrong_for_constraint(constraint: NormalizedConstraint, selected_filter: dict[str, object]) -> bool:
-    if normalize_token(constraint.key) == "resolution":
+    if normalize_token(constraint.key) in {"resolution", "keyboard_format", "keyboard_type"}:
         return False
     values = selected_filter.get("values", [])
     if not isinstance(values, list) or not values:
@@ -4742,6 +4785,10 @@ def extract_hard_wishes_from_text(text: str) -> tuple[str, ...]:
         wishes.append("cheap_maintenance")
     if re.search(r"(магнитн\w*\s+систем\w*\s+нагруз|magnetic\s+system|resistance\s+system)", normalized, re.IGNORECASE):
         wishes.append("resistance_system_magnetic")
+    if re.search(r"(магнитн\w*\s+клавиатур|клавиатур\w*.{0,40}магнитн|magnetic\s+keyboard|hall\s+effect)", normalized, re.IGNORECASE):
+        wishes.append("keyboard_type_magnetic")
+    if re.search(r"(?:75\s*[-–—]\s*80|75\s*/\s*80|75\s*(?:%|процент)|80\s*(?:%|процент)|tkl)", normalized, re.IGNORECASE) and re.search(r"(клавиатур|keyboard|раскладк|формат|форм[-\s]*фактор|процент)", normalized, re.IGNORECASE):
+        wishes.append("keyboard_format_75_80")
     if re.search(r"(?:не\s+меньше|не\s+ниже|от)\s*120\s*(?:кг|kg)\b", normalized, re.IGNORECASE):
         wishes.append("max_user_weight_from_120_kg")
     if re.search(r"(регулировк\w*\s+сидень|seat\s+adjustment)", normalized, re.IGNORECASE):
@@ -4814,6 +4861,7 @@ def rank_products_for_request(
     numeric_prices = [product.price for product in products if isinstance(product.price, int)]
     median_price = statistics.median(numeric_prices) if numeric_prices and normalized_request.price_max is None else None
     price_floor = preferred_price_floor(normalized_request, products)
+    price_target = preferred_price_target(normalized_request)
     ranked = sorted(
         enumerate(products),
         key=lambda item: (
@@ -4823,9 +4871,7 @@ def rank_products_for_request(
             and not product_exceeds_price_max(item[1], normalized_request)
             and (price_floor is None or not isinstance(item[1].price, int) or item[1].price >= price_floor)
             else 1,
-            abs(item[1].price - int(median_price)) if median_price is not None and isinstance(item[1].price, int) else 0
-            if median_price is not None
-            else item[1].price if isinstance(item[1].price, int) else 999999999,
+            price_distance_for_ranking(item[1], median_price, price_target),
             item[0],
         ),
     )
@@ -4928,6 +4974,32 @@ def preferred_price_floor(
     if hint == "top":
         return int(prices[max(0, len(prices) - max(1, len(prices) // 3))])
     return None
+
+
+def preferred_price_target(normalized_request: NormalizedSearchRequest) -> int | None:
+    """Return target price for quality-oriented ranking inside a fixed budget."""
+
+    if not isinstance(normalized_request.price_max, int):
+        return None
+    if normalize_token(normalized_request.price_band_hint) == "budget":
+        return None
+    return max(1, int(normalized_request.price_max * 0.7))
+
+
+def price_distance_for_ranking(
+    product: Product,
+    median_price: float | int | None,
+    price_target: int | None,
+) -> int:
+    """Prefer relevant products near the intended budget segment, not the cheapest item."""
+
+    if not isinstance(product.price, int):
+        return 999999999
+    if price_target is not None:
+        return abs(product.price - price_target)
+    if median_price is not None:
+        return abs(product.price - int(median_price))
+    return product.price
 
 
 def ranking_policy_bonus(
@@ -5162,6 +5234,18 @@ def product_matches_wish_by_specs(product: Product, wish: str) -> bool:
             and (is_positive_spec_value(value) or "led" in value or "светодиод" in value)
             for name, value in spec_pairs
         )
+    if wish == "keyboard_type_magnetic":
+        return any(
+            ("тип_клавиатуры" in name or "переключател" in name or "switch" in name)
+            and ("магнит" in value or "magnetic" in value or "hall" in value)
+            for name, value in spec_pairs
+        )
+    if wish == "keyboard_format_75_80":
+        return any(
+            ("формат" in name or "раскладк" in name or "количество_клавиш" in name)
+            and ("75" in value or "80" in value or "tkl" in value)
+            for name, value in spec_pairs
+        )
     return False
 
 
@@ -5253,6 +5337,10 @@ def product_contradicts_wish(product: Product, wish: str, text: str | None = Non
         return any(("скорост" in name or "регулиров" in name) and is_negative_spec_value(value) for name, value in spec_pairs)
     if canonical_wish == "work_area_light":
         return any(("подсвет" in name or "light" in name or "illumination" in name) and is_negative_spec_value(value) for name, value in spec_pairs)
+    if canonical_wish == "keyboard_type_magnetic":
+        return any(("тип_клавиатуры" in name or "переключател" in name or "switch" in name) and value and "магнит" not in value and "magnetic" not in value and "hall" not in value for name, value in spec_pairs)
+    if canonical_wish == "keyboard_format_75_80":
+        return any(("формат" in name or "раскладк" in name) and value and "75" not in value and "80" not in value and "tkl" not in value for name, value in spec_pairs)
     if canonical_wish == "rtx_4080":
         return any(("видеокарт" in name or "gpu" in name) and value and "rtx_4080" not in value and "geforce_rtx_4080" not in value for name, value in spec_pairs)
     if canonical_wish == "rtx_4070":
@@ -5782,7 +5870,11 @@ def parse_optional_int(value: object) -> int | None:
 
 
 def normalize_price_pair(price_min: int | None, price_max: int | None) -> str:
-    if price_min is None or price_max is None:
+    if price_min is None and price_max is None:
+        return ""
+    if price_min is None:
+        price_min = 0
+    if price_max is None:
         return ""
     if price_min == 0 and price_max == 0:
         return ""
