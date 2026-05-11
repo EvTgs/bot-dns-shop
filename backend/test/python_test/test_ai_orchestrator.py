@@ -34,6 +34,7 @@ from app.ai_orchestrator import (
     parse_analysis_sections,
     extract_soft_wishes_from_text,
     rank_products_for_request,
+    request_intent_signals,
     score_product_for_request,
     extract_hard_wishes_from_text,
     infer_product_type_and_query,
@@ -130,6 +131,53 @@ def test_select_shortlist_candidates_covers_price_segments_without_budget() -> N
     assert any(name.startswith("Budget") for name in selected_names)
     assert any(name.startswith("Mid") for name in selected_names)
     assert any(name.startswith("Premium") for name in selected_names)
+
+
+def test_rank_products_balanced_policy_does_not_prefer_cheapest_by_default() -> None:
+    request = NormalizedSearchRequest(
+        product_type="smartphone",
+        query="смартфон",
+        price_max=30000,
+        ranking_policy="balanced",
+    )
+    products = [
+        Product("Смартфон Cheap Balance 256 ГБ черный", 12999, "https://example/cheap", "1", specs=[]),
+        Product("Смартфон Mid Balance 256 ГБ черный", 22999, "https://example/mid", "2", specs=[]),
+    ]
+
+    ranked = rank_products_for_request(products, request)
+
+    assert ranked[0].url == "https://example/mid"
+
+
+def test_rank_products_deduplicates_color_variants_to_one_model() -> None:
+    request = NormalizedSearchRequest(product_type="smartphone", query="смартфон", price_max=30000)
+    products = [
+        Product("Смартфон Samsung Galaxy A26 256 ГБ черный", 24999, "https://example/black", "1", specs=[]),
+        Product("Смартфон Samsung Galaxy A26 256 ГБ зеленый", 24999, "https://example/green", "2", specs=[]),
+        Product("Смартфон Xiaomi Redmi Note 256 ГБ черный", 23999, "https://example/redmi", "3", specs=[]),
+    ]
+
+    ranked = rank_products_for_request(products, request)
+
+    ranked_urls = [product.url for product in ranked]
+    assert len(ranked_urls) == 2
+    assert "https://example/redmi" in ranked_urls
+    assert len({"https://example/black", "https://example/green"} & set(ranked_urls)) == 1
+
+
+def test_laptop_lightweight_and_good_battery_become_dns_filterable_signals() -> None:
+    request = NormalizedSearchRequest(
+        product_type="laptop",
+        query="ноутбук",
+        soft_wishes=("lightweight", "good_battery"),
+    )
+
+    signals = request_intent_signals(request)
+    signal_pairs = {(signal.key, signal.op, signal.value, signal.unit) for signal in signals}
+
+    assert ("weight", "<=", "2.3", "kg") in signal_pairs
+    assert ("battery_life", ">=", "8", "h") in signal_pairs
 
 
 def test_build_filter_selection_messages_uses_json_payload() -> None:

@@ -24,16 +24,18 @@ from app.ai_orchestrator import (
     build_filter_selection_messages,
     build_normalize_query_messages,
     build_normalized_search_request_from_fallback,
-    build_preselected_filters,
+    build_preselected_filters_and_coverage,
+    build_constraint_candidate_packets,
     build_router_messages,
     build_shortlist_messages,
+    coverage_requires_patch,
+    ensure_request_price_filter,
     ensure_complete_analysis_answer,
     filter_selection_to_filters,
     merge_selected_filters,
     normalized_search_request_from_text,
     normalize_price_pair,
     parse_intent_route,
-    preselected_filters_cover_request,
     rank_products_for_request,
     sanitize_selected_filters,
     shortlist_to_urls,
@@ -144,26 +146,50 @@ async def main() -> int:
         write_json(TRACE_DIR / "04_filters_map.json", filters_stage)
         stages.append(filters_stage)
 
-        preselected_filters = build_preselected_filters(normalized_request, filters_map)
-        if preselected_filters_cover_request(normalized_request, preselected_filters, filters_map):
+        preselected_filters, coverage = build_preselected_filters_and_coverage(normalized_request, filters_map)
+        candidate_packets = build_constraint_candidate_packets(normalized_request, filters_map)
+        if not coverage_requires_patch(coverage):
             selected_filters = []
             filters_ai_stage = stage_payload(
                 "filters_ai",
-                {"skipped": True, "reason_detail": "preselected_hard_wishes_covered", "preselected_filters": preselected_filters},
+                {
+                    "skipped": True,
+                    "reason_detail": "preselected_hard_wishes_covered",
+                    "preselected_filters": preselected_filters,
+                    "coverage": coverage,
+                    "candidate_packets": candidate_packets,
+                },
             )
         else:
-            filter_messages = build_filter_selection_messages(QUESTION, [], section_url, filters_map, normalized_request, preselected_filters)
+            filter_messages = build_filter_selection_messages(
+                QUESTION,
+                [],
+                section_url,
+                normalized_request,
+                preselected_filters,
+                coverage,
+                candidate_packets,
+            )
             filter_answer = await client.chat(filter_messages)
             selected_filters = filter_selection_to_filters(filter_answer)
             filters_ai_stage = stage_payload(
                 "filters_ai",
-                {"skipped": False, "ai_input": {"messages": filter_messages}, "ai_output_raw": filter_answer, "preselected_filters": preselected_filters, "selected_filters": selected_filters},
+                {
+                    "skipped": False,
+                    "ai_input": {"messages": filter_messages},
+                    "ai_output_raw": filter_answer,
+                    "preselected_filters": preselected_filters,
+                    "coverage": coverage,
+                    "candidate_packets": candidate_packets,
+                    "selected_filters": selected_filters,
+                },
             )
         write_json(TRACE_DIR / "05_filters_ai.json", filters_ai_stage)
         stages.append(filters_ai_stage)
 
         selected_filters = merge_selected_filters(preselected_filters, selected_filters)
         selected_filters = sanitize_selected_filters(selected_filters, normalized_request, preselected_filters)
+        selected_filters = ensure_request_price_filter(selected_filters, normalized_request)
         built_url = build_dns_url_from_section_filters(section_url, selected_filters, filters_map.get("filters", []))
         built_stage = stage_payload(
             "built_url",

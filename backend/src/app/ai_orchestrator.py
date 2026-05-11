@@ -187,6 +187,7 @@ WISH_ALIASES = {
     "qualcom_processor": ("qualcomm", "snapdragon"),
     "good_camera": ("camera", "камера", "mp", "мп"),
     "good_battery": ("battery", "аккумулятор", "акб", "мач", "mah"),
+    "battery_life_from_8h": ("8", "час", "автоном", "battery life"),
     "bright_screen": ("яркий экран", "яркость", "brightness", "нит", "nits", "кд/м", "cd/m"),
     "1440p": ("2560x1440", "qhd", "1440p"),
     "27_inch": ("27", "27.0"),
@@ -262,6 +263,7 @@ WISH_CANONICAL_MAP = {
     "opens_180": "opens_180",
     "smartphone_control": "smartphone_control",
     "battery_capacity_from_4000_mah": "battery_capacity_from_4000_mah",
+    "battery_life_from_8h": "battery_life_from_8h",
     "auto_return_to_base": "auto_return_to_base",
     "dustbin_easy_cleaning": "dustbin_easy_cleaning",
     "good_navigation": "good_navigation",
@@ -485,6 +487,7 @@ WISH_DISPLAY_NAMES = {
     "opens_180": "раскрытием на 180 градусов",
     "smartphone_control": "управлением со смартфона",
     "battery_capacity_from_4000_mah": "аккумулятором от 4000 мА·ч",
+    "battery_life_from_8h": "автономностью от 8 часов",
     "auto_return_to_base": "автоматическим возвращением на базу",
     "dustbin_easy_cleaning": "простой очисткой контейнера",
     "good_navigation": "хорошей навигацией",
@@ -585,6 +588,7 @@ CONSTRAINT_KEY_SYNONYMS: dict[str, tuple[str, ...]] = {
     "opens_180": ("раскрытие на 180 градусов", "раскрывается на 180", "opens 180"),
     "smartphone_control": ("управление со смартфона", "управление со смартфоном", "app control", "смартфон"),
     "battery_capacity": ("аккумулятор", "емкость аккумулятора", "ёмкость аккумулятора", "battery capacity", "mah"),
+    "battery_life": ("время автономной работы", "автономная работа", "автономность", "battery life"),
     "auto_return_to_base": ("автоматическое возвращение на базу", "return to base", "автовозврат"),
     "dustbin_easy_cleaning": ("простая очистка контейнера", "очистка контейнера", "easy cleaning"),
     "good_navigation": ("хорошая навигация", "навигация", "navigation"),
@@ -630,6 +634,7 @@ CONSTRAINT_UNITS: dict[str, tuple[str, ...]] = {
     "year": ("year", "год"),
     "power": ("w", "ватт", "вт"),
     "battery_capacity": ("mah", "мач"),
+    "battery_life": ("h", "ч", "час"),
     "print_speed": ("ppm", "стр/мин"),
     "pressure": ("bar",),
     "resistance_levels": ("levels", "уровн"),
@@ -693,7 +698,7 @@ ENUM_EQUIVALENTS: dict[str, dict[str, tuple[str, ...]]] = {
     },
 }
 BOOLEAN_CONSTRAINT_KEYS = {"nfc", "fast_charge", "wireless_charge", "height_adjustment", "dryer", "wet_cleaning", "mapping", "inverter_compressor", "speed_control", "work_area_light", "removable_panels", "nonstick_coating", "temperature_control", "grease_tray", "opens_180", "smartphone_control", "auto_return_to_base", "wifi", "duplex_print", "scanner", "seat_adjustment", "display", "pulse_measurement", "cappuccinator", "built_in_grinder", "strength_adjustment", "portion_volume_adjustment", "self_cleaning"}
-NUMERIC_CONSTRAINT_KEYS = {"ram", "storage", "refresh_rate", "year", "width", "height", "depth", "weight", "volume", "screen_size", "brightness", "sewing_operations", "power", "battery_capacity", "print_speed", "pressure", "resistance_levels", "max_user_weight"}
+NUMERIC_CONSTRAINT_KEYS = {"ram", "storage", "refresh_rate", "year", "width", "height", "depth", "weight", "volume", "screen_size", "brightness", "sewing_operations", "power", "battery_capacity", "battery_life", "print_speed", "pressure", "resistance_levels", "max_user_weight"}
 MODEL_FILTER_TOKENS = ("модель", "model")
 BOOLEAN_FILTER_NAME_ALLOWLISTS: dict[str, tuple[str, ...]] = {
     "wifi": ("wi-fi", "wifi", "wlan", "беспровод"),
@@ -1836,7 +1841,25 @@ def build_shortlist_payload(
 
 
 def request_intent_signals(request: NormalizedSearchRequest) -> tuple[NormalizedConstraint, ...]:
-    return request.intent_signals or request.constraints or constraints_from_legacy_wishes(request.wishes)
+    base_signals = request.intent_signals or request.constraints or constraints_from_legacy_wishes(request.wishes)
+    return merge_constraints_tuples((*base_signals, *filterable_soft_wish_constraints(request, base_signals)))
+
+
+def filterable_soft_wish_constraints(
+    request: NormalizedSearchRequest,
+    existing_signals: tuple[NormalizedConstraint, ...],
+) -> tuple[NormalizedConstraint, ...]:
+    """Promote safe laptop soft wishes into DNS constraints when DNS has exact filters."""
+
+    product_type = normalize_token(request.product_type)
+    soft_wishes = {canonicalize_wish(item) for item in request.soft_wishes}
+    existing_keys = {normalize_token(signal.key) for signal in existing_signals}
+    constraints: list[NormalizedConstraint] = []
+    if product_type == "laptop" and "lightweight" in soft_wishes and "weight" not in existing_keys:
+        constraints.append(build_constraint("weight", "<=", "2.3", "kg", "lightweight"))
+    if product_type == "laptop" and "good_battery" in soft_wishes and "battery_life" not in existing_keys and "battery_capacity" not in existing_keys:
+        constraints.append(build_constraint("battery_life", ">=", "8", "h", "good_battery"))
+    return tuple(constraints)
 
 
 def request_retrieval_tokens(request: NormalizedSearchRequest) -> tuple[str, ...]:
@@ -2740,16 +2763,20 @@ def constraints_to_wishes(constraints: tuple[NormalizedConstraint, ...]) -> tupl
         if key == "ram":
             if op == ">=" and numeric is not None and numeric >= 32:
                 wishes.append("32gb_ram")
-            elif op == ">=" and numeric is not None and numeric >= 12:
-                wishes.append("12gb_ram")
-            elif op == "==" and numeric == 16:
+            elif op == ">=" and numeric is not None and numeric >= 16:
                 wishes.append("16gb_ram")
             elif op == "==" and numeric == 32:
                 wishes.append("32gb_ram")
+            elif op == "==" and numeric == 16:
+                wishes.append("16gb_ram")
+            elif op == ">=" and numeric is not None and numeric >= 12:
+                wishes.append("12gb_ram")
         elif key == "storage":
             if numeric is not None:
                 storage_floor = max(storage_floor or 0.0, numeric)
-            if op == ">=" and numeric is not None and numeric >= 256:
+            if op == ">=" and numeric is not None and numeric >= 512 and canonicalize_wish(normalize_token(constraint.source_text)) == "ssd_from_512_gb":
+                wishes.append("ssd_from_512_gb")
+            elif op == ">=" and numeric is not None and numeric >= 256:
                 wishes.append("storage_from_256_gb")
             elif op == "==" and numeric == 256:
                 wishes.append("256gb_storage")
@@ -2825,6 +2852,8 @@ def constraints_to_wishes(constraints: tuple[NormalizedConstraint, ...]) -> tupl
             wishes.append("smartphone_control")
         elif key == "battery_capacity" and op == ">=" and numeric is not None and numeric >= 4000:
             wishes.append("battery_capacity_from_4000_mah")
+        elif key == "battery_life" and op == ">=" and numeric is not None and numeric >= 8:
+            wishes.append("battery_life_from_8h")
         elif key == "auto_return_to_base" and value == "true":
             wishes.append("auto_return_to_base")
         elif key == "dustbin_easy_cleaning" and value == "true":
@@ -2950,7 +2979,6 @@ def constraints_from_legacy_wishes(wishes: tuple[str, ...]) -> tuple[NormalizedC
             constraints.append(build_constraint("storage", "==", "256", "gb", wish))
         elif wish == "ssd_from_512_gb":
             constraints.append(build_constraint("storage", ">=", "512", "gb", wish))
-            constraints.append(build_constraint("storage_type", "==", "ssd", "", wish))
         elif wish == "27_inch":
             constraints.append(build_constraint("screen_size", "==", "27", "inch", wish))
         elif wish == "1440p":
@@ -3015,6 +3043,8 @@ def constraints_from_legacy_wishes(wishes: tuple[str, ...]) -> tuple[NormalizedC
             constraints.append(build_constraint("smartphone_control", "==", "true", "", wish))
         elif wish == "battery_capacity_from_4000_mah":
             constraints.append(build_constraint("battery_capacity", ">=", "4000", "mah", wish))
+        elif wish == "battery_life_from_8h":
+            constraints.append(build_constraint("battery_life", ">=", "8", "h", wish))
         elif wish == "auto_return_to_base":
             constraints.append(build_constraint("auto_return_to_base", "==", "true", "", wish))
         elif wish == "dustbin_easy_cleaning":
@@ -3839,7 +3869,9 @@ def is_positive_filter_value_name(value_name: str) -> bool:
 
 def detect_unit_from_text(value_name: str) -> str:
     normalized = normalize_token(value_name)
-    for unit in ("гц", "hz", "гб", "gb", "тб", "tb", "кг", "kg", "см", "cm", "мм", "mm", "л", "l", "мах", "mah", "ватт", "w", "вт", "bar", "ppm", "ops"):
+    if re.search(r"(?:^|_)\d+(?:[.,]\d+)?_(?:ч|час|часа|часов|h)(?:_|$)", normalized):
+        return "h"
+    for unit in ("гц", "hz", "гб", "gb", "тб", "tb", "кг", "kg", "см", "cm", "мм", "mm", "л", "l", "мах", "mah", "ватт", "w", "вт", "час", "h", "bar", "ppm", "ops"):
         if unit in normalized:
             return unit
     return ""
@@ -3971,6 +4003,8 @@ def match_structured_wish_filter(available_filters: list[dict[str, object]], wis
         return match_min_numeric_filter_values(available_filters, "частота_обновления_экрана", 120)
     if wish == "refresh_rate_from_165hz":
         return match_min_numeric_filter_values(available_filters, "частота_обновления_экрана", 165)
+    if wish == "battery_life_from_8h":
+        return match_min_numeric_filter_values(available_filters, "автоном", 8)
     if wish == "weight_up_to_2.3_kg":
         return match_max_numeric_range_filter(available_filters, "вес", 2.3)
     if wish == "weight_up_to_2.5_kg":
@@ -4897,7 +4931,7 @@ def rank_products_for_request(
             item[0],
         ),
     )
-    return deduplicate_products_by_model([product for _, product in ranked], max_per_model=2)
+    return deduplicate_products_by_model([product for _, product in ranked], max_per_model=1)
 
 
 def select_shortlist_candidates(
@@ -4905,7 +4939,7 @@ def select_shortlist_candidates(
     normalized_request: NormalizedSearchRequest,
     limit: int = SHORTLIST_CANDIDATE_LIMIT,
 ) -> list[Product]:
-    ranked = deduplicate_products_by_model(products, max_per_model=2)
+    ranked = deduplicate_products_by_model(products, max_per_model=1)
     if len(ranked) <= limit:
         return ranked
     if normalized_request.price_max is not None:
@@ -4995,6 +5029,9 @@ def preferred_price_floor(
         return int(statistics.median(prices))
     if hint == "top":
         return int(prices[max(0, len(prices) - max(1, len(prices) // 3))])
+    policy = normalize_token(normalized_request.ranking_policy)
+    if policy in {"balanced", "value"} and isinstance(normalized_request.price_max, int):
+        return max(1, int(normalized_request.price_max * 0.5))
     return None
 
 
@@ -5005,7 +5042,9 @@ def preferred_price_target(normalized_request: NormalizedSearchRequest) -> int |
         return None
     if normalize_token(normalized_request.price_band_hint) == "budget":
         return None
-    return max(1, int(normalized_request.price_max * 0.7))
+    policy = normalize_token(normalized_request.ranking_policy)
+    multiplier = 0.75 if policy in {"balanced", "value"} else 0.7
+    return max(1, int(normalized_request.price_max * multiplier))
 
 
 def price_distance_for_ranking(
@@ -5045,6 +5084,10 @@ def ranking_policy_bonus(
         band_floor = max(1, int(normalized_request.price_max * 0.7))
         if price < band_floor:
             bonus -= 5000
+    elif policy in {"balanced", "value"} and isinstance(normalized_request.price_max, int):
+        band_floor = max(1, int(normalized_request.price_max * 0.5))
+        if price < band_floor:
+            bonus -= 3500
     antutu_score = extract_product_metric(product_text, r"(?:antutu|антуту)")
     brightness_score = extract_product_metric(product_text, r"(?:яркость|brightness)")
     screen_size_score = extract_product_metric(product_text, r"(?:диагональ(?:_экрана)?|размер_экрана|screen_size)")
@@ -5161,6 +5204,8 @@ def product_matches_wish_by_specs(product: Product, wish: str) -> bool:
         )
     if wish == "ssd_from_512_gb":
         return any(("ssd" in name or "твердотель" in name) and (parse_first_number(value) or 0) >= 512 for name, value in spec_pairs)
+    if wish == "battery_life_from_8h":
+        return any(("автоном" in name or "battery" in name) and parse_first_number(value) is not None and parse_first_number(value) >= 8 for name, value in spec_pairs)
     if wish == "weight_up_to_1.5_kg":
         return any("вес" in name and parse_first_number(value) is not None and parse_first_number(value) <= 1.5 for name, value in spec_pairs)
     if wish == "weight_up_to_2.5_kg":
