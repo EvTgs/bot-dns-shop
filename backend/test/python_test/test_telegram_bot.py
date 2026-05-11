@@ -233,6 +233,31 @@ def test_tech_command_edits_one_message_by_stages_and_streams_final_only(tmp_pat
     asyncio.run(run_tech_command_edits_one_message_by_stages_and_streams_final_only(tmp_path))
 
 
+def test_build_tech_answer_uses_direct_product_link_when_compare_has_one_item() -> None:
+    result = type(
+        "Result",
+        (),
+        {
+            "answer": "Лучший вариант\nVGN A75",
+            "context_payload": {
+                "products": [
+                    {
+                        "name": "Клавиатура проводная VGN A75 Gradient Pink",
+                        "code": "5617581",
+                        "url": "https://www.dns-shop.ru/product/1d0007bdedb2d0a4/klaviatura-provodnaa-vgn-a75-gradient-pink/",
+                    }
+                ]
+            },
+        },
+    )()
+
+    text = TelegramBotRuntime.build_tech_answer(result, "магнитная клавиатура до 3к")
+
+    assert "Таблица сравнения DNS" not in text
+    assert "Ссылка на товар DNS" in text
+    assert "https://www.dns-shop.ru/product/1d0007bdedb2d0a4/klaviatura-provodnaa-vgn-a75-gradient-pink/" in text
+
+
 async def run_tech_command_edits_one_message_by_stages_and_streams_final_only(tmp_path) -> None:
     class FakeOrchestrator:
         async def handle_message(self, text, history, on_text_chunk, on_stage=None, memory_context=None):

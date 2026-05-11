@@ -257,6 +257,17 @@ class TelegramBotRuntime:
             joined = "%2C".join(normalized[:5])
             return f"https://www.dns-shop.ru/compare/?cityId=128&ids={joined}"
 
+        def first_product_url(items) -> str:
+            if not isinstance(items, list):
+                return ""
+            for item in items:
+                if not isinstance(item, dict):
+                    continue
+                url = str(item.get("url", "")).strip()
+                if url:
+                    return url
+            return ""
+
         def format_final_answer(text: str) -> str:
             cleaned = str(text or "").strip()
             return cleaned if cleaned else "Ответ пуст."
@@ -280,6 +291,14 @@ class TelegramBotRuntime:
                     "",
                     "Таблица сравнения DNS",
                     compare_url,
+                ]
+            )
+        elif direct_url := first_product_url(products):
+            lines.extend(
+                [
+                    "",
+                    "Ссылка на товар DNS",
+                    direct_url,
                 ]
             )
         elif user_text:
